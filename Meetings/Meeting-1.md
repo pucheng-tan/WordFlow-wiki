@@ -4,10 +4,13 @@ Time:
 
 Date: 2020/09/22
 
-Attendees:
+Attendees: (outline the chair and secretary)
+
+## Agenda
+-add an agenda
 
 ## Meeting Notes
--short introductions and expectations
+-summary
 
-## Outcomes
+## Action Items
 -none
