@@ -1,11 +1,16 @@
-## **Meeting 2**
+## **Meeting 1**
 
 Time:
 
-Date:
+Date: 2020/09/22
+
+Attendees: (outline the chair and secretary)
+
+## Agenda
+-add an agenda
 
 ## Meeting Notes
--summarize the meeting
+-summary
 
-## Outcomes
--the take away
+## Action Items
+-none
