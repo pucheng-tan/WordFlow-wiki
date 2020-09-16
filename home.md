@@ -10,6 +10,6 @@ Possible Features:
 5. etc
 - pretty GUI
 - command-line tool
--user performance metrics, with a way to benchmark themselves vs others
+- user performance metrics, with a way to benchmark themselves vs others
 (some of these metrics could be the ones included in the document)
--a way to store the user's performance metrics from previous tests and check their performance over time; the user can keap track of their improvement
+- a way to store the user's performance metrics from previous tests and check their performance over time; the user can keap track of their improvement
