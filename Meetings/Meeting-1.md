@@ -1,8 +1,10 @@
 ## **Meeting 1**
 
-Time: 3:30 - 3:45 (15 min)
+Time:
 
-Date: 2020/09/04
+Date: 2020/09/22
+
+Attendees:
 
 ## Meeting Notes
 -short introductions and expectations
