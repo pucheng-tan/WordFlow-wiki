@@ -1,35 +1,51 @@
-Our wiki homepage!
-
 ## Group Members
 
 - Cameron Mcleod - cvm791@mail.usask.ca
 - Abdul Salawu
 - Pucheng Tan
 - Sarah Chen
-- Tara Epp
+- Tara Epp - tme017@mail.usask.ca
 
 ## Project Description
 
-Summary of the project goes here. High level explanation + the target users of our software.
+This is a typing tool that helps users improve their typing speed. The target users are any computer users that wish to improve their speed. The user is given text to type, and metrics are recorded and displayed at the end of the test. 
 
 ### Must Have
 
+1. GUI interface
+2. Gets text from a 3rd party API (text excerpt), displays to user
+3. Record key presses from the user and compare to the given text
+4. Calculate the user's accuracy (%) and speed (wpm: 5 characters/word including spaces, punctuation), present to the user
+5. Display a timer (elapsed time)
+
 ### Should have
+
+1. Record data calculated by user's accuracy and speed locally on the device
+2. Different typing settings available:
+a. Programmer mode with more brackets, special characters.
+b. Select text source (such as novels, song lyrics)
+c. Change length of text excerpt
+3. Locally stored leaderboard with name entered after completing the test
+4. Give user a specific amount of time to type as much content as possible
 
 ### Could Have
 
+1. User selects specific characters to focus on. ($ for PHP, etc)
+2. User creates a user account that can be accessed from multiple devices
+3. Change keyboard layout: like from QWERTY to Dvorak
+a. Display virtual keyboard on screen, keys being pressed
+b. If in mode of specific key rows, character set would change
+4. Typing from audio (ie: learn new language, or stenographers)
+5. Track user strengths and weaknesses (between certain letters/combinations)
+6. Challenge users based on their weaknesses.
+a. On their weak letter combinations
+7. GUI enhancement: display as a 2D chasing game, with you "running" from the police by typing faster than them. 
+a. Police speed is your previous speed
+b. Manually set police speed
+c. Start slow, go faster
 
-Possible Features:
-- Different modules that you can select to adjust the typing test for different types of users:
-1. text excerpts from books, songs
-2. words containing certain letter combinations
-3. specific characters for programmers to train programming typing speed
-4. interpret text from audio and type it out (could possibly be good for people learning English)
-5. etc
-- pretty GUI
-- command-line tool
-- user performance metrics, with a way to benchmark themselves vs others
-(some of these metrics could be the ones included in the document)
-- a way to store the user's performance metrics from previous tests and check their performance over time; the user can keap track of their improvement
 
 # Technology(s)
+
+1. Python
+2. API(s) to source text (TBD)
