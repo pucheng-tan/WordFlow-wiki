@@ -1,14 +1,14 @@
 Our wiki homepage!
 
-# Project Description
+## Project Description
 
 Summary of project goes here.
 
-## Must Have
+### Must Have
 
-## Should have
+### Should have
 
-## Could Have
+### Could Have
 
 
 Possible Features:
