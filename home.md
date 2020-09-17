@@ -8,7 +8,7 @@
 
 ## Project Description
 
-This is a typing tool that helps users improve their typing speed. The target users are any computer users that wish to improve their speed. The user is given text to type, and metrics are recorded and displayed at the end of the test. 
+This is a typing tool that helps users improve their typing speed. The target users are any computer users that wish to improve their speed. We want to make tests that fit different types of users, including programmers, songwriters, TBD. The user is given text to type, and metrics are recorded and displayed at the end of the test. We hope to develop different types of metrics that can help users track their improvement! 
 
 ### Must Have
 
