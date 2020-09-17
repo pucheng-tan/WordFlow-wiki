@@ -1,18 +1,19 @@
-## **Meeting 1**
+# **Meeting 1**
 
 Time:
 
 Date: 2020/09/22
 
-Attendees: (outline the chair and secretary)
-* Arlin Schaffel (Instructor)
-* Kawser Wazed Nafi (Teaching Assistant)
-Group 2: 
+## Attendees:
+### Group 2
 * Cameron Mcleod (Secretary)
 * Abdul Salawu (Chairperson)
 * Pucheng Tan
 * Sarah Chen
 * Tara Epp
+### Instructors
+* Arlin Schaffel (Instructor)
+* Kawser Wazed Nafi (Teaching Assistant)
 
 ## Agenda
 -add an agenda
