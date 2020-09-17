@@ -1,7 +1,7 @@
 ## Group Members
 
 - Cameron Mcleod - cvm791@mail.usask.ca
-- Abdul Salawu
+- Abdul Salawu - aas171@mail.usask.ca
 - Pucheng Tan
 - Sarah Chen
 - Tara Epp - tme017@mail.usask.ca
