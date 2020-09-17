@@ -2,7 +2,7 @@
 
 - Cameron Mcleod - cvm791@mail.usask.ca
 - Abdul Salawu - aas171@mail.usask.ca
-- Pucheng Tan
+- Pucheng Tan - put178@mail.usask.ca
 - Sarah Chen
 - Tara Epp - tme017@mail.usask.ca
 
