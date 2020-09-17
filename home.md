@@ -27,6 +27,7 @@ b. Select text source (such as novels, song lyrics)
 c. Change length of text excerpt
 3. Locally stored leaderboard with name entered after completing the test
 4. Give user a specific amount of time to type as much content as possible
+5. Highlight the text excerpt according to the user's typing progress
 
 ### Could Have
 
@@ -39,10 +40,11 @@ b. If in mode of specific key rows, character set would change
 5. Track user strengths and weaknesses (between certain letters/combinations)
 6. Challenge users based on their weaknesses.
 a. On their weak letter combinations
-7. GUI enhancement: display as a 2D chasing game, with you "running" from the police by typing faster than them. 
+7. GUI enhancement: display as a 2D chasing game, with you "running" from the police by typing faster than them
 a. Police speed is your previous speed
 b. Manually set police speed
 c. Start slow, go faster
+8. Change user language from English to a different language
 
 
 # Technology(s)
