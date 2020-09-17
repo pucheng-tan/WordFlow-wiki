@@ -1,8 +1,16 @@
 Our wiki homepage!
 
+## Group Members
+
+- Cameron Mcleod - cvm791@mail.usask.ca
+- Abdul Salawu
+- Pucheng Tan
+- Sarah Chen
+- Tara Epp
+
 ## Project Description
 
-Summary of project goes here.
+Summary of the project goes here. High level explanation + the target users of our software.
 
 ### Must Have
 
@@ -24,4 +32,4 @@ Possible Features:
 (some of these metrics could be the ones included in the document)
 - a way to store the user's performance metrics from previous tests and check their performance over time; the user can keap track of their improvement
 
-# Technology
+# Technology(s)
