@@ -17,17 +17,19 @@ This is a typing tool that helps users improve their typing speed. The target us
 3. Record key presses from the user and compare to the given text
 4. Calculate the user's accuracy (%) and speed (wpm: 5 characters/word including spaces, punctuation), present to the user
 5. Display a timer (elapsed time)
+6. Record data calculated by user's accuracy and speed locally on the device
+
 
 ### Should have
 
-1. Record data calculated by user's accuracy and speed locally on the device
-2. Different typing settings available:
+1. Different typing settings available:
 a. Programmer mode with more brackets, special characters.
 b. Select text source (such as novels, song lyrics)
 c. Change length of text excerpt
-3. Locally stored leaderboard with name entered after completing the test
-4. Give user a specific amount of time to type as much content as possible
-5. Highlight the text excerpt according to the user's typing progress
+2. Locally stored leaderboard with name entered after completing the test
+3. Give user a specific amount of time to type as much content as possible
+4. Highlight the text excerpt according to the user's typing progress
+
 
 ### Could Have
 
