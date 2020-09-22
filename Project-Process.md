@@ -11,7 +11,7 @@ Process:
 
 Communication: 
 - every day: 
-- every person 
+- every person:
 1. "this is what I did"
 2. "this is what I am going to do"
 3. "this is what is getting in my way"
