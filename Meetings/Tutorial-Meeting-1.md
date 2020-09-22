@@ -28,6 +28,9 @@ Date: 2020/09/22
 1. Everyone: Brainstorm ideas for Actors and Use Cases
 
 ## Next Meeting
-Next meeting set for
+
+Time: 4.00p.m. via Discord
+
+Date: 2020/09/29
 
 ## Meeting Adjourned @ 4:15pm
