@@ -15,22 +15,42 @@ Date: 2020/09/04
 
 ## **Meeting 2**
 
-Time: 3:30p.m. - 4:00p.m. (30 minutes)
+Time: 3:30p.m. - 4:00p.m. (30 minutes) via Discord
 
-Date: 09/22/2020
+Date: 2020/09/22
 
 ## Meeting Notes
 -short introductions
 
 -explained what we're making
 
--python requests, can import it, use to take in code snippets from the API 
+-python module: requests, can import it, use to take in code snippets from the API 
 
 ## Outcomes
 -Try to find APIs with song lyrics or book excerpts
 
-- Weekly meetings on Thursday @ 11:00a.m. or 12:00p.m. (tentative time)
+-Weekly meetings on Thursday @ 11:00a.m. or 12:00p.m. (tentative time)
 
-- action meetings due by next one, so set on Tuesday, due on Thursday (general rule)
+-Action items due by next one, so set on Tuesday, due on Thursday (general rule)
+
+## **Meeting 3**
+
+Time: 4:15p.m. - 4:30p.m. (15 minutes) via Discord
+
+Date: 2020/09/22
+
+## Meeting Notes
+
+-Meeting after tutorial meeting
+
+## Outcomes
+-Look for APIs -Everbody
+
+-Next chairperson: Tara Epp
+
+-Next secretary: Pucheng Tan
+
+## Next Meeting 
+-Thursday, September 24, 2020 @ 11:00p.m. or 12:00p.m.
 
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
