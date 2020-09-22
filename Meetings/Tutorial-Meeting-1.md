@@ -29,7 +29,7 @@ Date: 2020/09/22
 
 ## Next Meeting
 
-Time: 4.00p.m. via Discord
+Time: 4:00p.m. via Discord
 
 Date: 2020/09/29
 
