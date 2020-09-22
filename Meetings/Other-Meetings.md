@@ -17,32 +17,7 @@ Date: 2020/09/04
 
 Time: 3:30p.m.
 
-Date:
-
-## Meeting Notes
--summarize the meeting
-
-## Outcomes
--the take away
-
-
-## **Meeting 3** (Official Meeting 1)
-
-Time:
-
-Date:
-
-## Meeting Notes
--summarize the meeting
-
-## Outcomes
--the take away
-
-## **Meeting 4**
-
-Time:
-
-Date:
+Date: 09/22/2020
 
 ## Meeting Notes
 -summarize the meeting
