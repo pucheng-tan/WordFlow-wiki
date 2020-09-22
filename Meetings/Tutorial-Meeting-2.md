@@ -1,4 +1,4 @@
-# **Tutorial Meeting 2**
+# **General**
 
 Time: 4:00p.m.-4:15p.m.
 
