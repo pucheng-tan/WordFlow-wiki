@@ -1,10 +1,12 @@
 ## General
 
-September 22, 2020 @ 4:00pm via Discord
+Time: 4:00pm via Discord
+
+Data: 2020/09/22
 
 ## Attendees
-* Abdul Salawu - Chair
-* Cameron Mcleod (Secretary)
+* Abdul Salawu- Chair
+* Cameron Mcleod- Secretary
 * Pucheng Tan
 * Sarah Chen
 * Tara Epp
