@@ -7,7 +7,7 @@ Process:
 - Everyone research? 
 - Manager reviews? 
 - assign 2 people to a task 
-2. - parallel tasks: easy
+2. parallel tasks: easy
 
 Communication: 
 - every day: 
