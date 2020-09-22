@@ -15,7 +15,7 @@ Date: 2020/09/04
 
 ## **Meeting 2**
 
-Time:
+Time: 3:30p.m.
 
 Date:
 
