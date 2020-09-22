@@ -3,12 +3,12 @@
 September 22, 2020 @ 4:00pm via Discord
 
 ## Attendees
-Abdul Salawu - Chair
-Cameron Mcleod (Secretary)
-Pucheng Tan
-Sarah Chen
-Tara Epp
-Yuta Ogawa
+* Abdul Salawu - Chair
+* Cameron Mcleod (Secretary)
+* Pucheng Tan
+* Sarah Chen
+* Tara Epp
+* Yuta Ogawa
 
 ## Agenda
 1. Revisit features & scope after feedback and new member
