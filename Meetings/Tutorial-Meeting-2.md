@@ -1,8 +1,7 @@
 ## General
 
-Time: 4:00p.m.-4:15p.m.
-
-Date: 2020/09/29
+Time: 4:00p.m.- 4:15p.m.
+Date: 09/29/20
 
 ## Attendees:
 ### Group 2
