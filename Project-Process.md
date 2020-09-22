@@ -11,10 +11,10 @@ Process:
 
 Communication: 
 - every day: 
-       1. every person 
-            - "this is what I did"
-            - "this is what I am going to do"
-            - "this is what is getting in my way"
+- every person 
+1. "this is what I did"
+2. "this is what I am going to do"
+3. "this is what is getting in my way"
 
 To do:
 - issues on Gitlab
