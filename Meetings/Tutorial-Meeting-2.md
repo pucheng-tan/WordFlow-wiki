@@ -10,7 +10,7 @@ Date: 09/29/20
 * Abdul Salawu 
 * Pucheng Tan
 * Sarah Chen
-* Tara Epps
+* Tara Epp
 * Yuta Ogawa
 
 ### Instructors and TAs
