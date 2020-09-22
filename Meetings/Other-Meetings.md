@@ -20,9 +20,11 @@ Time: 3:30p.m.
 Date: 09/22/2020
 
 ## Meeting Notes
--summarize the meeting
+-short introductions
+-explained what we're making
+-python requests, can import it, use to take in code snippets from the API 
 
 ## Outcomes
--the take away
+-Try to find APIs with song lyrics or book excerpts
 
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
