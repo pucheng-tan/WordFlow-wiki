@@ -1,6 +1,7 @@
 ## General
 
-Time: 4:00p.m.- 4:15p.m.
+Time: 4:00p.m.-4:15p.m.
+
 Date: 09/29/20
 
 ## Attendees:
