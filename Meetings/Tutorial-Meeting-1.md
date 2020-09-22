@@ -33,4 +33,4 @@ Time: 4:00p.m. via Discord
 
 Date: 2020/09/29
 
-## Meeting Adjourned @ 4:15pm
+## Meeting Adjourned @ 4:15p.m.
