@@ -25,4 +25,10 @@ Date: 2020/09/29
 ## Action Items
 -none
 
+## Next Meeting
+
+Time: 4:00p.m. via Discord
+
+Date: 2020/10/06
+
 ## Meeting Adjourned @ 4:15p.m.
