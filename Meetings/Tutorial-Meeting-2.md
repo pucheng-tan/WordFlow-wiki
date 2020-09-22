@@ -2,7 +2,7 @@
 
 Time: 4:00p.m. via Discord
 
-Date: 09/29/20
+Date: 2020/09/29
 
 ## Attendees
 ### Group 2
