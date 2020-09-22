@@ -4,7 +4,7 @@ Time: 4:00p.m. via Discord
 
 Date: 09/29/20
 
-## Attendees:
+## Attendees
 ### Group 2
 * Cameron Mcleod
 * Abdul Salawu 
