@@ -2,7 +2,7 @@
 
 ## **Meeting 1**
 
-Time: 3:30p.m.- 3:45p.m. (15 min)
+Time: 3:30p.m.- 3:45p.m. (15 min) via Discord
 
 Date: 2020/09/04
 
