@@ -1,6 +1,6 @@
 Cam: likes V-Model 
 
-Pucheng: like Kanban
+Pucheng: likes Kanban
 
 Process: 
 - Group tasks 
@@ -11,23 +11,23 @@ Process:
 - parallel tasks: easy
 
 Communication: 
-- every day: 
+- Every day: 
 
-      - every person:
+      - Every person:
 
-            1. "this is what I did"
+            1. "This is what I did"
 
-            2. "this is what I am going to do"
+            2. "This is what I am going to do"
 
-            3. "this is what is getting in my way"
+            3. "This is what is getting in my way"
 
 To do:
-- issues on Gitlab
-- how to review thins by the whole group?
+- Issues on Gitlab
+- How to review thins by the whole group?
 - 
 
 Agenda:
-- features and scope
+- Features and scope
 - APIs
 -Application name:
 1. Fast fingers
