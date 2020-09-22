@@ -6,7 +6,7 @@ Date: 2020/09/29
 
 ## Attendees
 ### Group 2
-* Tara Epp- Chairperson
+* Tara Epp- Chair
 * Pucheng Tan- Secretary
 * Cameron Mcleod
 * Abdul Salawu 
