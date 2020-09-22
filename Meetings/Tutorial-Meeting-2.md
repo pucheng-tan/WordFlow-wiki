@@ -6,15 +6,14 @@ Date: 09/29/20
 
 ## Attendees
 ### Group 2
+* Tara Epp- Chairperson
+* Pucheng Tan- Secretary
 * Cameron Mcleod
 * Abdul Salawu 
-* Pucheng Tan
 * Sarah Chen
-* Tara Epp
 * Yuta Ogawa
 
 ### Instructors and TAs
-* Arlin Schaffel
 * Kawser Nafi
 
 ## Agenda 
