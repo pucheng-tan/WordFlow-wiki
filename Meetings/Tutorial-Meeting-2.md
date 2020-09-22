@@ -13,6 +13,10 @@ Date: 09/29/20
 * Tara Epps
 * Yuta Ogawa
 
+### Instructors and TAs
+* Arlin Schaffel
+* Kawser Nafi
+
 ## Agenda 
 -none
 
