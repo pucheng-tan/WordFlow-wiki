@@ -1,4 +1,5 @@
 Cam: likes V-Model 
+
 Pucheng: like Kanban
 
 Process: 
@@ -11,10 +12,14 @@ Process:
 
 Communication: 
 - every day: 
-- every person:
-1. "this is what I did"
-2. "this is what I am going to do"
-3. "this is what is getting in my way"
+
+      - every person:
+
+            1. "this is what I did"
+
+            2. "this is what I am going to do"
+
+            3. "this is what is getting in my way"
 
 To do:
 - issues on Gitlab
