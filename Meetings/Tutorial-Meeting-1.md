@@ -1,6 +1,6 @@
 ## General
 
-Time: 4:00pm via Discord
+Time: 4:00p.m. via Discord
 
 Data: 2020/09/22
 
