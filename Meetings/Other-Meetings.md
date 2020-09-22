@@ -2,7 +2,7 @@
 
 ## **Meeting 1**
 
-Time: 3:30p.m.- 3:45p.m. (15 minutes) via Discord
+Time: 3:30p.m.-3:45p.m. (15 minutes) via Discord
 
 Date: 2020/09/04
 
@@ -15,7 +15,7 @@ Date: 2020/09/04
 
 ## **Meeting 2**
 
-Time: 3:30p.m. - 4:00p.m. (30 minutes) via Discord
+Time: 3:30p.m.-4:00p.m. (30 minutes) via Discord
 
 Date: 2020/09/22
 
@@ -35,7 +35,7 @@ Date: 2020/09/22
 
 ## **Meeting 3**
 
-Time: 4:15p.m. - 4:30p.m. (15 minutes) via Discord
+Time: 4:15p.m.-4:30p.m. (15 minutes) via Discord
 
 Date: 2020/09/22
 
@@ -50,7 +50,6 @@ Date: 2020/09/22
 
 -Next secretary: Pucheng Tan
 
-## Next Meeting 
--Thursday, September 24, 2020 @ 11:00p.m. or 12:00p.m.
+-Next Meeting: 2020/09/24 @ 11:00p.m. or 12:00p.m. via Discord
 
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
