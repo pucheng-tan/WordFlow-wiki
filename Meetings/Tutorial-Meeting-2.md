@@ -1,4 +1,4 @@
-# **General**
+# General
 
 Time: 4:00p.m.-4:15p.m.
 
@@ -14,7 +14,7 @@ Date: 2020/09/29
 * Yuta Ogawa
 
 ## Agenda 
-- none
+-none
 
 ## Meeting Notes
 -none
