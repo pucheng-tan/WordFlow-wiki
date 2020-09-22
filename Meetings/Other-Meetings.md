@@ -7,10 +7,10 @@ Time: 3:30p.m.- 3:45p.m. (15 min) via Discord
 Date: 2020/09/04
 
 ## Meeting Notes
--short introductions and expectations
+-Short introductions and expectations
 
 ## Outcomes
--none
+-None
 
 
 ## **Meeting 2**
@@ -20,11 +20,11 @@ Time: 3:30p.m. - 4:00p.m. (30 minutes) via Discord
 Date: 2020/09/22
 
 ## Meeting Notes
--short introductions
+-Short introductions
 
--explained what we're making
+-Explained what we're making
 
--python module: requests, can import it, use to take in code snippets from the API 
+-Python module: requests, can import it, use to take in code snippets from the API 
 
 ## Outcomes
 -Try to find APIs with song lyrics or book excerpts
