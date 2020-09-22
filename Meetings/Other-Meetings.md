@@ -46,7 +46,7 @@ Date: 2020/09/22
 ## Outcomes
 -Look for APIs -Everbody
 
--Next chairperson: Tara Epp
+-Next chair: Tara Epp
 
 -Next secretary: Pucheng Tan
 
