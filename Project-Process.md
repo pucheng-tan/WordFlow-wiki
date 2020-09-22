@@ -2,14 +2,28 @@ Cam: likes V-Model
 Pucheng: like Kanban
 
 Process: 
-1. Group tasks 
-- Have a manager? 
-- Everyone research? 
-- Manager reviews? 
-- assign 2 people to a task 
-2. parallel tasks: easy
+- Group tasks 
+1. Have a manager? 
+2. Everyone research? 
+3. Manager reviews? 
+4. assign 2 people to a task 
+- parallel tasks: easy
 
 Communication: 
 - every day: 
-      - every person 
+       1. every person 
             - "this is what I did"
+            - "this is what I am going to do"
+            - "this is what is getting in my way"
+
+To do:
+- issues on Gitlab
+- how to review thins by the whole group?
+- 
+
+Agenda:
+- features and scope
+- APIs
+-Application name:
+1. Fast fingers
+2. Typers
