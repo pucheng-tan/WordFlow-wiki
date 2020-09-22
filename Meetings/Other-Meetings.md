@@ -21,7 +21,9 @@ Date: 09/22/2020
 
 ## Meeting Notes
 -short introductions
+
 -explained what we're making
+
 -python requests, can import it, use to take in code snippets from the API 
 
 ## Outcomes
