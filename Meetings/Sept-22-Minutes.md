@@ -1,6 +1,6 @@
 ## General
 
-Time: 4:00pm - 4:15pm via Discord
+September 22, 2020 @ 4:00pm via Discord
 
 ## Attendees
 Abdul Salawu - Chair
@@ -17,3 +17,8 @@ Abdul Salawu - Chair
 
 ## Action Items
 1. Everyone: Brainstorm ideas for Actors and Use Cases
+
+## Next Meeting
+Next meeting set for
+
+## Meeting Adjourned @ 4:15pm
