@@ -5,6 +5,7 @@
 - Pucheng Tan - put178@mail.usask.ca
 - Sarah Chen - sbc806@mail.usask.ca
 - Tara Epp - tme017@mail.usask.ca
+- Yuta Ogawa - y.ogawa_sils@ruri.waseda.jp
 
 ## Project Description
 
