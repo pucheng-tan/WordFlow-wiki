@@ -4,6 +4,8 @@ This is a page for brainstorming:
 
 ○ Including proper supporting descriptions for each
 
+from the Milestone 1 requirements document.
+
 ## Actors
 
 ## Scenarios
