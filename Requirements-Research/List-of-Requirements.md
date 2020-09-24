@@ -44,6 +44,7 @@ User shall be able to:
 - choose different programming languages in the programmer mode: Python, Java, PHP, HTML, C (TBD?)
 - if dictation mode is selected, play the typing challenge through their device's speakers
    - dictation mode cannot include special characters or punctuation
+   - speed up or slow down the speed of dictation mode to adjust the difficulty 
 - replay a dictation typing challenge's audio content
    - the replay will begin from the first word that is not completely typed (excluding spaces)
 - see how much of the given typing challenge they have typed highlighted
