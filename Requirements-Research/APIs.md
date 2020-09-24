@@ -20,6 +20,7 @@ https://developer.wordnik.com/ -also provides audio pronunciations (not yet test
 
 ### Other:
 Rapid API:
+
 Numbers: API
 
 We could do a numbers mode maybe? Where the user just types numbers. (Tested using Python module requests)
