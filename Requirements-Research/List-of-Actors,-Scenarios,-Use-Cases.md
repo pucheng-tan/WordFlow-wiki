@@ -27,6 +27,7 @@ from the Milestone 1 requirements document.
 ### 13. User views the leaderboard
 ### 14. User decides to quit in the middle of the typing test
 ### 15. User wants to pause the typing test and resume, restart or quit later
+### 16. Turn off the background music (??)
 
 ## Use Cases
 
