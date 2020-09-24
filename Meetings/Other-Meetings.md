@@ -50,6 +50,34 @@ Date: 2020/09/22
 
 -Next secretary: Pucheng Tan
 
--Next Meeting: 2020/09/24 @ 11:00p.m. or 12:00p.m. via Discord
+-Next Meeting: 2020/09/24 @ 4:30p.m. via Discord
+
+## **Meeting 4**
+
+Time: 4:30p.m.-4:45p.m. (15 minutes) via Discord
+
+Date: 2020/09/24
+
+## Agenda
+1. Go over instructor feedback on project scope
+   1. Talk about user management in the system
+   2. Talk about typing from audio
+2. Adjust features in must/should/could haves
+3. Go over API research
+4. Talk about actors and use cases
+5. Talk about other requirements (performance, permissions
+
+## Meeting Notes
+
+
+
+## Outcomes
+
+
+-Next chair: Tara Epp
+
+-Next secretary: Pucheng Tan
+
+-Next Meeting: 2020/09/29 @ 4:00p.m. via Discord
 
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
