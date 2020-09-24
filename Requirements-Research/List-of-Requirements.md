@@ -33,6 +33,16 @@ User shall be able to:
 ### APIs
 //TODO
 
+## Functional Requirements (URPS)
+
+### Usability
+
+### Reliability
+- shouldn't crash while the user is typing
+
 ### Performance
+- should read keystrokes in at the same time user types them
+
+### Supportability
 
 ### Other stuff?
