@@ -69,10 +69,24 @@ Date: 2020/09/24
 
 ## Meeting Notes
 
-
+Action Items:
+- Tara and Cameron test PoC for Firebase/Python
+- Use cases (Abdul)
+   - descriptions need to be updated
+   - everything needs fleshing out
+   - turned into a diagram
+- troubleshoot Abdul's google access //DONE
+- non-functional requirements (Sarah)
+- look for API things (Yuta)
+- product description (day before handing in)
+- mock-ups (Pucheng)
+- review language at end to make sure everything is consistent
 
 ## Outcomes
-
+- maybe just use firebase API for API requirement?
+   - dictionary of words for standard mode
+   - text-to-speech for dictation?
+- fetch text from twitter API?
 
 -Next chair: Tara Epp
 
