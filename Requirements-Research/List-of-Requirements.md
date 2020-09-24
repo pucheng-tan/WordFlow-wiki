@@ -40,38 +40,40 @@ from the Milestone 1 requirements document.
 //user tasks that the system needs to support
 
 User shall be able to:
-- choose between a "programmer" mode to type code, "standard" to type words in English from written text, or "dictation" to type English words given in audio format
-- choose different programming languages in the programmer mode: Python, Java, PHP, HTML, C (TBD?)
-- if dictation mode is selected, play the typing challenge through their device's speakers
+- M choose between a "programmer" mode to type code, "standard" to type words in English from written text, or "dictation" to type English words given in audio format
+- (C) Numbers mode to work on numpad
+- M choose different programming languages in the programmer mode: Python, Java, PHP, HTML, C
+- (S1) if dictation mode is selected, play the typing challenge through their device's speakers
    - dictation mode cannot include special characters or punctuation
-   - speed up or slow down the speed of dictation mode to adjust the difficulty 
+   - (S) speed up or slow down the speed of dictation mode to adjust the difficulty 
 - replay a dictation typing challenge's audio content
-   - the replay will begin from the first word that is not completely typed (excluding spaces)
-- see how much of the given typing challenge they have typed highlighted
-- see any errors in their typing highlighted on the typing challenge
-- see how much time has elapsed since they have started the typing challenge ("stopwatch")
-- see their a: total time, b: average wpm, c: accuracy, d: place on the leaderboard (if applicable) upon completing the typing challenge
-- copy an image with the above information for sharing purposes upon completing a challenge
-- view a leaderboard of best (by wpm) typing challenges completed on their local device. The leaderboard will show a name, speed, time, and the type of challenge completed (max number of entries?)
-- view an analysis of which 2-letter character combinations they are weakest at (??)
-- complete basic typing challenges without an internet connection available
-- quit the typing test (e.g. they want to start a new one, or don't want to do it anymore)
+   - (TBD) the replay will begin from the first word that is not completely typed (excluding spaces)
+- (M) see how much of the given typing challenge they have typed highlighted
+- (M) see any errors in their typing highlighted on the typing challenge
+- (M) see how much time has elapsed since they have started the typing challenge ("stopwatch")
+- see their a: total time, b: average wpm, c: accuracy, (S: admin can toggle leaderboard) d: place on the leaderboard (if applicable) upon completing the typing challenge
+- (C) copy an image with the above information for sharing purposes upon completing a challenge
+- (S) view a leaderboard of best (by wpm) typing challenges completed in their user group. The leaderboard will show a name, speed, time, and the type of challenge completed (max number of entries?)
+- (C) view an analysis of which 2-letter character combinations they are weakest at (??)
+- (S) complete basic typing challenges without an internet connection available
+- (M) quit the typing test (e.g. they want to start a new one, or don't want to do it anymore)
+- (C) select the language that they are typing in
 
 Administrator users shall be able to:
-- create a new standard user
-- edit the name of a standard user
-- delete the standard user
-- create a new user group
-- edit the name of a user group
-- delete the user group
-- assign a standard user to a user group
-- remove a standard user from a user group
-- view a standard user's typing history (date, time elapsed, type of challenge, wpm, accuracy)
-- view a report of a standard user's typing history (showing change of wpm and accuracy over time)
-- view a report of a user group's typing history
+- (M) create a new standard user
+- (M) edit the name of a standard user
+- (M) delete the standard user
+- (S) create a new user group
+- (S) edit the name of a user group
+- (S) delete the user group
+- (S) assign a standard user to a user group
+- (S) remove a standard user from a user group
+- (M) view a standard user's typing history (date, time elapsed, type of challenge, wpm, accuracy)
+- (S) view a report of a standard user's typing history (showing change of wpm and accuracy over time)
+- (C) view a report of a user group's typing history
    - view a comparison of all users' average accuracy and wpm over a specified period of time
    - view a comparison of all users' rate of change of accuracy and wpm over a specified period of time (ex: user x has improved accuracy by 5% from September 1 to September 24)
-- assign typing challenges to standard users or user group
+- (S/C) assign typing challenges to standard users or user group
    - determine the type of typing challenge
    - optionally set a date and time that the challenge must be completed by
 
