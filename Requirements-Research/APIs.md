@@ -27,7 +27,17 @@ URL: https://rapidapi.com/martin.svoboda/api/quotes15
 It provides random quotes.
 
 It also provides them in various languages such as German, Italian and French.
- 
+
+
+Random Quotes API: http://api.quotable.io/random
+https://github.com/lukePeavey/quotable
+-Good if we want to deal with real sentences
+
+
+https://random-word-api.herokuapp.com/home
+-here is a random word api (good if we dont want jibberish
+
+here is an eexample: https://random-word-api.herokuapp.com/word?number=50
 
 ### Other:
 
