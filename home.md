@@ -30,6 +30,8 @@ c. Change length of text excerpt
 2. Locally stored leaderboard with name entered after completing the test
 3. Give user a specific amount of time to type as much content as possible
 4. Highlight the text excerpt according to the user's typing progress
+5. A share button which can automatically generate a screenshot of the player's score
+6. Play background music
 
 
 ### Could Have
