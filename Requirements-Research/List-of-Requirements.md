@@ -23,6 +23,7 @@ User shall be able to:
 - view a leaderboard of best (by wpm) typing challenges completed on their local device. The leaderboard will show a name, speed, time, and the type of challenge completed (max number of entries?)
 - view an analysis of which 2-letter character combinations they are weakest at (??)
 - complete basic typing challenges without an internet connection available
+- quit the typing test (e.g. they want to start a new one, or don't want to do it anymore)
 
 ## Non-functional Requirements
 //properties of the system or domain
