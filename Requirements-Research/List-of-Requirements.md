@@ -27,7 +27,7 @@ User shall be able to:
 ## Non-functional Requirements
 //properties of the system or domain
 ### Python
-- what version guys. Anything else? I think Python 3, so maybe version 3?
+- what version guys. Anything else? (I think Python 3, so maybe version 3? -Sarah)
 
 ### APIs
 //TODO
