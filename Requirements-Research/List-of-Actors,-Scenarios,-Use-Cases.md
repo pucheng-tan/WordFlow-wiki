@@ -26,6 +26,7 @@ from the Milestone 1 requirements document.
 ### 12. User selects character combinations to focus on (??)
 ### 13. User views the leaderboard
 ### 14. User decides to quit in the middle of the typing test
+### 15. User wants to pause the typing test and resume, restart or quit later
 
 ## Use Cases
 
