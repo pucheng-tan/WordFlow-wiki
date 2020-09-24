@@ -25,7 +25,7 @@ from the Milestone 1 requirements document.
 ### 11. API takes longer than 10 seconds (??) to respond to request for data
 ### 12. User selects character combinations to focus on (??)
 ### 13. User views the leaderboard
-### 14. User decides to quite in the middle of the typing test
+### 14. User decides to quit in the middle of the typing test
 
 ## Use Cases
 
