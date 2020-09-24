@@ -28,6 +28,8 @@ We could do a numbers mode maybe? Where the user just types numbers. (Tested usi
 Chuck Norris API
 It's not specifically just letters, but it provides jokes that the user could potentially type. (Tested using Python module requests)
 
+We could also remove punctuation before giving it to the user to just get the letters.
+
 
 
 
