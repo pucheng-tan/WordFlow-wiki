@@ -21,10 +21,12 @@ https://developer.wordnik.com/ -also provides audio pronunciations (not yet test
 ### Other:
 Rapid API:
 Numbers: API
-We could do a numbers mode maybe? Where the user just types numbers.
+
+We could do a numbers mode maybe? Where the user just types numbers. (Tested using Python module requests)
 
 Chuck Norris API
-It's not specifically just letters, but it provides jokes that the user could potentially type.
+It's not specifically just letters, but it provides jokes that the user could potentially type. (Tested using Python module requests)
+
 
 
 
