@@ -54,7 +54,3 @@ c. Start slow, go faster
 
 1. Python
 2. API(s) to source text (TBD)
-
-potential technology:
-
-mySQL
