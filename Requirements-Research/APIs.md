@@ -21,14 +21,18 @@ https://developer.wordnik.com/ -also provides audio pronunciations (not yet test
 ### Other:
 Rapid API:
 
-Numbers: API
+Numbers API
 
 We could do a numbers mode maybe? Where the user just types numbers. (Tested using Python module requests)
 
 Chuck Norris API
 It's not specifically just letters, but it provides jokes that the user could potentially type. (Tested using Python module requests)
 
-We could also remove punctuation before giving it to the user to just get the letters.
+Jokes API
+
+Can give users the option of picking a category of joke to type or just randomly select the category for them. (Tested using Python module requests)
+
+For the Chuck Norris API and the Jokes API, we could also remove punctuation before giving it to the user to just get the letters and words.
 
 
 
