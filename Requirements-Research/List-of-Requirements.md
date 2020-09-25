@@ -77,25 +77,63 @@ Administrator users shall be able to:
    - determine the type of typing challenge
    - optionally set a date and time that the challenge must be completed by
 
-## Non-functional Requirements
+## Non-functional Requirements (URPS)
 //properties of the system or domain
 ### Python
 - what version guys. Anything else? (I think Python 3, so maybe version 3? -Sarah; I've got 3.8.5 - Tara)
 
 ### APIs
-//TODO
-
-## Non-Functional Requirements (URPS)
 
 ### Usability
+Must Haves
+
+- Standard User
+  - Standard users will be able to access some level of documentation on the different modes of the typing test
+
+  - There will be an easy method to change the mode of the typing test (e.g. from regular mode to programmer mode)
+
+  - The typing test will have a clear direction on how to start the typing test whether it involved the use of a start button or instead starts automatically when the user starts typing
+
+  - There will be a conspicuous button on quitting the test if the user wishes to
+
+- Administrative User
+
+  - Administrator users will be provided with some level of documentation to be able to understand how to create, edit, and delete users
+
+  - Administrator users will have a clear mechanism on selecting a standard user to view
+
+  - Administrative users will easily be able to view and understand the information provided in the report for a standard user
+
+- Super-administrative User
+
+Should Haves
+
+Could Haves
 
 ### Reliability
-- shouldn't crash while the user is typing
+Must Haves
+
+- As long as the user is connected to WiFi, they will be able to use the typing tool.
+
+- While the user is typing, the system will not crash on the user.
+
+Should Haves
+
+- If the user is not connected to WiFi, they will still be able to use the typing tool but with limitations as to what they can type.
 
 ### Performance
-- should read keystrokes in at the same time user types them
+
+Must Haves
+
+- Standard User
+
+ - As the user types, the display will move synchronously with the user's keystrokes.
+
+ - If the user makes a typing error, the display will accurately detect and depict the error.
 
 ### Supportability
+Must Haves
+
 - Functions and classes should be commented
    - description of all parameters
    - description of the purpose of the function/class
