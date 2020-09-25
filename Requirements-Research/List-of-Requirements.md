@@ -85,55 +85,63 @@ Administrator users shall be able to:
 ### APIs
 
 ### Usability
-Must Haves
 
-- Standard User
-  - Standard users will be able to access some level of documentation on the different modes of the typing test
+Standard User
 
-  - There will be an easy method to change the mode of the typing test (e.g. from regular mode to programmer mode)
+- Must Have
+  - Standard users must be able to access some level of documentation explaining the different modes of the typing test
+  - There must be an easy method for standard users to change the mode of the typing test (e.g. from "standard" mode to "programmer" mode)
+   - The typing test must have clear direction on how the standard user is to start the typing test whether it involves the use of a start button or instead starts automatically when the user starts typing
+   - There must be a conspicuous button on quitting the test if the standard user wishes to
+ 
+- Should Have
+  -  Standard users should clearly be able to identify themselves on the leaderboard and gauge their standing relative to others, assuming it is available
 
-  - The typing test will have a clear direction on how to start the typing test whether it involved the use of a start button or instead starts automatically when the user starts typing
+- Could Have
+  - Standard users would be able to view the different languages available for typing and easily select one via a drop down menu or by entering one in
+  - There would be documentation on typing foreign languages when the characters have accents or umlauts
 
-  - There will be a conspicuous button on quitting the test if the user wishes to
+Administrative User
 
-- Administrative User
+- Must Have
+   - Administrator users must be provided with some level of documentation of the specifics on how to create, edit, and delete standard users
+   - Administrator users must have a clear mechanism on selecting a standard user to view
 
-  - Administrator users will be provided with some level of documentation to be able to understand how to create, edit, and delete users
+- Should Have
+  - Administrative users should easily be able to view and understand the information provided in the report for a standard user
+  - Administrative users should be able to make the leaderboard visible by the check of a box or something as simple
 
-  - Administrator users will have a clear mechanism on selecting a standard user to view
-
-  - Administrative users will easily be able to view and understand the information provided in the report for a standard user
-
-- Super-administrative User
-
-Should Haves
-
-Could Haves
+- Could Have
+  - Administrative users could bring up a group report, in which case, the typing test would make the information easy to view and understand
 
 ### Reliability
-Must Haves
 
-- As long as the user is connected to WiFi, they will be able to use the typing tool.
+Standard User
 
-- While the user is typing, the system will not crash on the user.
+- Must Have
+ - The typing tool must be available 24/7
+ - As long as the user is connected to WiFi, they must be able to use the typing tool
+ - While the user is typing, the system must not crash on the user
+ - If the system does crash on the user, the user's past metrics must be saved
+ - The standard's user metrics must be reported accurately
+ - When the user switches to a different mode, the typing tool will not make the user wait too long (might want to discuss exact time, maybe 5 seconds?)
+ - The user's data must be securely protected (looking at Google Firebase)
+ - The typing tool must correctly generate text segments for the mode selected, so if "programmer" mode is selected, they consistently receive code to type 
 
-Should Haves
-
-- If the user is not connected to WiFi, they will still be able to use the typing tool but with limitations as to what they can type.
+- Should Have
+  - If the user is not connected to WiFi, they should still be able to use the typing tool but with limitations as to what they can type
 
 ### Performance
 
-Must Haves
+Standard User
 
-- Standard User
-
+- Must Have
  - As the user types, the display will move synchronously with the user's keystrokes.
-
  - If the user makes a typing error, the display will accurately detect and depict the error.
 
 ### Supportability
-Must Haves
 
+- Must Have
 - Functions and classes should be commented
    - description of all parameters
    - description of the purpose of the function/class
