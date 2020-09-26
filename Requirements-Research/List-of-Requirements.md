@@ -100,6 +100,7 @@ Standard User
 - Could Have
   - Standard users would be able to view the different languages available for typing and easily select one via a drop down menu or by entering one in
   - There would be documentation on typing foreign languages when the characters have accents or umlauts
+  - If audio mode is selected, it must be loud enough to hear and clear enough to undestand
 
 Administrative User
 
@@ -124,7 +125,6 @@ Standard User
   - While the user is typing, the system must not crash on the user
   - If the system does crash on the user, the user's past metrics must be saved
   - The standard's user metrics must be reported accurately, specifically, it will use the standard method of calculating metrics such as wpm and accuracy
-  - When the user switches to a different mode, the typing tool will not make the user wait too long (might want to discuss exact time, maybe 5 seconds?) (move to performance)
   - The user's data must be securely protected (looking at Google Firebase)
   - The typing tool must correctly generate text segments for the mode selected, so if "programmer" mode is selected, they consistently receive code to type 
 
@@ -155,8 +155,17 @@ Administrative User
 Standard User
 
 - Must Have
-  - As the user types, the display will move synchronously with the user's keystrokes.
-  - If the user makes a typing error, the display will accurately detect and depict the error.
+  - As soon as the standard user starts the test, the timer must take no more than a second to begin (not sure of exact time yet)
+  - As the standard user types, the display must move synchronously with the standard user's keystrokes including if they hit the backspace button
+  - If the standard user makes a typing error, the display mus accurately detect and depict the error and appear almost immediately after the error
+  - When the standard user switches to a different mode, the typing tool must not make the user wait too long (might want to discuss exact time, maybe 5 seconds?)
+
+- Should Have
+  - If the standard user has no WiFi, the response times should continue to be the same but with a limited database of things to type
+  - If the standard user gets a score that improves their place on the leaderboard, the change will immediately be visible (maybe take no more than 5 seconds to appear)
+
+- Could Have
+  If dictation mode is selected, the audio should start playing as soon as the player starts
 
 ### Supportability
 
