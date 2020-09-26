@@ -119,25 +119,44 @@ Administrative User
 Standard User
 
 - Must Have
- - The typing tool must be available 24/7
- - As long as the user is connected to WiFi, they must be able to use the typing tool
- - While the user is typing, the system must not crash on the user
- - If the system does crash on the user, the user's past metrics must be saved
- - The standard's user metrics must be reported accurately
- - When the user switches to a different mode, the typing tool will not make the user wait too long (might want to discuss exact time, maybe 5 seconds?)
- - The user's data must be securely protected (looking at Google Firebase)
- - The typing tool must correctly generate text segments for the mode selected, so if "programmer" mode is selected, they consistently receive code to type 
+  - The typing tool must be available 24/7
+  - As long as the user is connected to WiFi, they must be able to use the typing tool
+  - While the user is typing, the system must not crash on the user
+  - If the system does crash on the user, the user's past metrics must be saved
+  - The standard's user metrics must be reported accurately, specifically, it will use the standard method of calculating metrics such as wpm and accuracy
+  - When the user switches to a different mode, the typing tool will not make the user wait too long (might want to discuss exact time, maybe 5 seconds?) (move to performance)
+  - The user's data must be securely protected (looking at Google Firebase)
+  - The typing tool must correctly generate text segments for the mode selected, so if "programmer" mode is selected, they consistently receive code to type 
 
 - Should Have
-  - If the user is not connected to WiFi, they should still be able to use the typing tool but with limitations as to what they can type
+   - If the user is not connected to WiFi, they should still be able to use the typing tool but with limitations as to what they can type
+
+Administrative User
+
+- Must Have
+  - If an administrative user creates a new user, it must be created
+  - If an administrative user changes the name of the user, the name must be changed both for the administrative user and the standard user
+  - If an administrative user deletes a user, the user must be deleted and must no longer be able to access their account
+  - If an administrative user views a standard's user typing history, it the most recent history and accurately depict the user's history
+
+- Should Have
+  - If a new user group is created, it should be created
+  - If the user group's name is edited, the name should be changed both the administrative user and the standard user
+  - If the user group is deleted, the user group should be deleted and it should not appear for either the administrative user or standard user
+  - If the user is added to a group, the user should appear in the group
+  - If a user is removed from a group, the user no should no longer appear in the group
+
+- Could Have
+  - If a group progress report is implemented, if a standard user is added to the group, the administrative user would be able to see their progress whilst in the group
+  - If a group progress report is implemented, if a standard user is deleted from the group, the administrative user will not see their progress going forward
 
 ### Performance
 
 Standard User
 
 - Must Have
- - As the user types, the display will move synchronously with the user's keystrokes.
- - If the user makes a typing error, the display will accurately detect and depict the error.
+  - As the user types, the display will move synchronously with the user's keystrokes.
+  - If the user makes a typing error, the display will accurately detect and depict the error.
 
 ### Supportability
 
