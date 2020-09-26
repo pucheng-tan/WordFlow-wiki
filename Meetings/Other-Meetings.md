@@ -74,7 +74,7 @@ Action Items:
 - Use cases (Abdul)
    - descriptions need to be updated
    - everything needs fleshing out
-   - turned into a diagram
+   - turned into a diagram (Pucheng)
 - troubleshoot Abdul's google access //DONE
 - non-functional requirements (Sarah)
 - look for API things (Yuta)
