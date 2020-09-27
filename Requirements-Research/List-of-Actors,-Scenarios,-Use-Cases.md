@@ -138,6 +138,7 @@ from the Milestone 1 requirements document.
    - c1) user given notice to connect to internet
 7. a) firebase doesnt respond in time
 
+---
 
 ### Use Case
 - user starts a typing test
@@ -146,6 +147,7 @@ from the Milestone 1 requirements document.
 ### Basic Flow
 ### Alternative Flow
 
+---
 
 ### Use Case
 - user checks their typing stats
@@ -154,12 +156,16 @@ from the Milestone 1 requirements document.
 ### Basic Flow
 ### Alternative Flow
 
+---
+
 ### Use Case
 - admin adds user to group
 ### Primary Actor(s)
 ### Preconditions
 ### Basic Flow
 ### Alternative Flow
+
+---
 
 ### Use Case
 ### Primary Actor(s)
