@@ -128,11 +128,11 @@ from the Milestone 1 requirements document.
    - a1) User is notified to reenter
    - a2) User is given option to pick new username
    - a3) back to step 6.
-6. b) user entered in wrong password
+   b) user entered in wrong password
    - b1) user is notified to reenter password
    - b2) user is given option to reset password
    - b3) back to step 6.
-6. c) user does not have internet connection
+   c) user does not have internet connection
    - c1) user given notice to connect to internet
 7. a) firebase doesnt respond in time
 
