@@ -77,10 +77,10 @@ from the Milestone 1 requirements document.
 ### Administrator assigns typing challenges and tasks to a group.
 
 
-###Super-Administrator assigns a user to be an Administrator
+### Super-Administrator assigns a user to be an Administrator
 - One standard user will me moved to the group of administrators
-###Super-Administrator assigns a group to an Administrator
-###Super-Administrator deletes an Administrator
+### Super-Administrator assigns a group to an Administrator
+### Super-Administrator deletes an Administrator
 - This will remove the administrator's special permissions, essentially moving them to a standard user
 
 ## Use Cases
