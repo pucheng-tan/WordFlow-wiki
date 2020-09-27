@@ -64,13 +64,12 @@ from the Milestone 1 requirements document.
 ### User wants to pause the typing test and resume, restart or quit later
 - Pause Restart and Quit buttons all available on screen as the test is active
 ### Turn off the background music (??)
-### Admins Can add different Users into Groups
-### Thy can edit details of any group
-
 
 ### Administrator creates a group
 - initialize a group with a name and extra parameters TBD
+- Each group has a unique identifier (maybe?)
 ### Administrator deletes a group
+- Administrator specifies name of group to be deleted
 ### Administrator adds a standard user to a group
 - admin will specify the name of group and the standard user's identifier
 ### Administrator views a standard user's typing history
