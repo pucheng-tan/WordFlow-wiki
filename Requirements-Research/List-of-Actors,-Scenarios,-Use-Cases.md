@@ -14,6 +14,9 @@ from the Milestone 1 requirements document.
 
 ## Scenarios
 //TODO: Flesh out with actual steps, add more scenarios
+
+### (Special Note: Every permission given to an Administrator will also be given to a Super-Administrator)
+
 ### Users can Login
 - The intro screen for the game needs a Login button and a play as Guest button
 - Clicking the login button takes you to another screen where you can enter your information
@@ -63,6 +66,23 @@ from the Milestone 1 requirements document.
 ### Turn off the background music (??)
 ### Admins Can add different Users into Groups
 ### Thy can edit details of any group
+
+
+### Administrator creates a group
+- initialize a group with a name and extra parameters TBD
+### Administrator deletes a group
+### Administrator adds a standard user to a group
+- admin will specify the name of group and the standard user's identifier
+### Administrator views a standard user's typing history
+### Administrator views a report of a group's typing history
+### Administrator assigns typing challenges and tasks to a group.
+
+
+###Super-Administrator assigns a user to be an Administrator
+- One standard user will me moved to the group of administrators
+###Super-Administrator assigns a group to an Administrator
+###Super-Administrator deletes an Administrator
+- This will remove the administrator's special permissions, essentially moving them to a standard user
 
 ## Use Cases
 (must have features all need use cases, should have features maybe a couple of use cases)
