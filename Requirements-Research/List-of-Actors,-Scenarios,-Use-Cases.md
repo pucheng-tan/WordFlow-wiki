@@ -140,6 +140,7 @@ from the Milestone 1 requirements document.
 
 ---
 
+### Use Case ID: 1
 ### Use Case
 - user starts a typing test in programmer mode
 ### Primary Actor(s)
@@ -149,6 +150,7 @@ from the Milestone 1 requirements document.
 
 ---
 
+### Use Case ID: 2
 ### Use Case
 - user starts a typing test in normal mode
 ### Primary Actor(s)
@@ -158,6 +160,7 @@ from the Milestone 1 requirements document.
 
 ---
 
+### Use Case ID: 3
 ### Use Case
 - user checks their typing stats
 ### Primary Actor(s)
@@ -167,6 +170,7 @@ from the Milestone 1 requirements document.
 
 ---
 
+### Use Case ID: 4
 ### Use Case
 - admin adds user to group
 ### Primary Actor(s)
@@ -176,6 +180,7 @@ from the Milestone 1 requirements document.
 
 ---
 
+### Use Case ID: 5
 ### Use Case
 ### Primary Actor(s)
 ### Preconditions
