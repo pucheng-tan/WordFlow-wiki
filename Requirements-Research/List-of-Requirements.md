@@ -8,7 +8,6 @@ This is a page for brainstorming:
 
 from the Milestone 1 requirements document.
 
-# Definitions
 ## User Definitions
 ### Standard User
 - a user who is able to complete typing challenges
@@ -24,18 +23,7 @@ from the Milestone 1 requirements document.
 - may perform all of the tasks of an administrative user
 - may assign standard users or user groups to one or more administrative users for them to manage
 
-## Typing Definitions
-### Words Per Minute (wpm)
-- The average number of words per minute that a user is able to type.
-- Given s = total time of typing challenge (seconds) and c = total number of correct characters typed (including spaces and punctuation):
-   - wpm = (c / 5) / (s / 60)
 
-### Accuracy
-- The ratio of correct characters typed vs the total number of characters in the challenge:
-- Given t = total characters in challenge, and c = total number of correct characters typed
-   - accuracy = c / t
-
-# Requirements
 ## Functional Requirements
 //user tasks that the system needs to support
 
@@ -190,3 +178,15 @@ Standard User
    - links to documentation for external libraries
 - Package management
    - external libraries should be included in the pip dependency list
+
+
+## Typing Definitions
+### Words Per Minute (wpm)
+- The average number of words per minute that a user is able to type.
+- Given s = total time of typing challenge (seconds) and c = total number of correct characters typed (including spaces and punctuation):
+   - wpm = (c / 5) / (s / 60)
+
+### Accuracy
+- The ratio of correct characters typed vs the total number of characters in the challenge:
+- Given t = total characters in challenge, and c = total number of correct characters typed
+   - accuracy = c / t
