@@ -7,27 +7,54 @@ This is a page for brainstorming:
 from the Milestone 1 requirements document.
 
 ## Actors
-- user (different types of users exist, but I THINK they're the same actor? Find out for sure)
+- Standard User (different types of users exist, but I THINK they're the same actor? Find out for sure)
+- Administrative User
+- Super Administrative User
 - APIs are actors (more specific! Nail down APIs!)
 
 ## Scenarios
 //TODO: Flesh out with actual steps, add more scenarios
-### 01. User selects a programming typing test
-### 02. User selects a general typing test
-### 03. User completes a typing test
-### 04. User selects a typing test without an internet connection available
-### 05. User selects a typing test requiring data from an unavailable API
-### 06. User loses connection to API in the middle of a typing test
-### 07. User views their typing test results
-### 08. User views their typing analytics
-### 09. User shares their typing test results
-### 10. User takes longer than 10 minutes (Pick an arbitrary limit) to complete their typing test
-### 11. API takes longer than 10 seconds (??) to respond to request for data
-### 12. User selects character combinations to focus on (??)
-### 13. User views the leaderboard
-### 14. User decides to quit in the middle of the typing test
-### 15. User wants to pause the typing test and resume, restart or quit later
-### 16. Turn off the background music (??)
+### Users can Login
+- The intro screen for the game needs a Login button and a play as Guest button
+- Clicking the login button takes you to another screen where you can enter your information
+- Clicking the play as guest button takes you to the "Select Mode" screen
+- Playing as a guest does not require an Internet connection and some modes may not be available
+
+### Users can selects the Mode
+- A screen where the user can select one of the three buttons for the different modes, Standard, Programmer, and Dictation mode
+- Clicking any mode starts a typing test
+
+### After the User completes a typing test
+- After Completing a typing test, an information screen is displayed with all the relevant information, wpm speed, accuracy, etc
+- Buttons to try again, quit and main menu are also displayed
+- Try Again button restarts the test and saves the User data if the user is logged in
+- Quit button closses the application
+- Main Menu button takes the User to the Main Menu Screen where they can select a new mode
+### User selects a typing test without an internet connection available
+// We probably need internet connection to verify the login information
+### User selects a typing test requiring data from an unavailable API
+- If the API is unavailable, A PopUp window informs the User that the mode is unavalable
+- It can then take then back to the main menu
+### User loses connection to API in the middle of a typing test
+
+### User views their typing test results
+- If User is logged in, there could also be a button in the main Menu for there "Profile", showing thier history, past results and other statistics
+### User views their typing analytics
+
+### User shares their typing test results
+
+### User runs out of time for a timmed test
+- The test ends and thier stats are displayed on a new screen with options to Try Again, Quit, and Main Menu
+### API takes longer than 10 seconds (??) to respond to request for data
+### User selects character combinations to focus on (??)
+### User views the leaderboard
+- A Leaderboard Button should be available on the main menu for the User
+### User decides to quit in the middle of the typing test
+- Stop Test button on screen while the test is active
+- Clicking the button takes the User back to the main menu or exits the application
+### User wants to pause the typing test and resume, restart or quit later
+- Pause Restart and Quit buttons all available on screen as the test is active
+### Turn off the background music (??)
 
 ## Use Cases
 
