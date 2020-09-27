@@ -23,6 +23,16 @@ from the Milestone 1 requirements document.
 - may perform all of the tasks of an administrative user
 - may assign standard users or user groups to one or more administrative users for them to manage
 
+## Typing Definitions
+### Words Per Minute (wpm)
+- The average number of words per minute that a user is able to type.
+- Given s = total time of typing challenge (seconds) and c = total number of correct characters typed (including spaces and punctuation):
+   - wpm = (c / 5) / (s / 60)
+
+### Accuracy
+- The ratio of correct characters typed vs the total number of characters in the challenge:
+- Given t = total characters in challenge, and c = total number of correct characters typed
+   - accuracy = c / t
 
 ## Functional Requirements
 //user tasks that the system needs to support
@@ -166,27 +176,31 @@ Standard User
   - If the standard user gets a score that improves their place on the leaderboard, the change will immediately be visible (maybe take no more than 5 seconds to appear)
 
 - Could Have
-  If dictation mode is selected, the audio should start playing as soon as the player starts
+  - If dictation mode is selected, the audio should start playing as soon as the player starts
+
+Administrative User
+
+- Must Have
+  - It should take no more than an insignificant delay for a user to be created or deleted
+  - Changing the name should take no more than an insignificant delay
+
+- Should Have
+  - It should take no more than an insignificant delay to create and delete user groups
+  - It should take no more than an insignificant delay to add and remove users from a group
+  - It should take no more than an insignificant delay to change the name of the group
+  - The standard user's report should be up to date within 5 seconds of the standard user's progress and should always be available (?)
+
+- Could Have
+  - The group reports should be up to date within 5 seconds (?) of the standard user's progress and should always be available (?)
 
 ### Supportability
 
 - Must Have
-- Functions and classes should be commented
-   - description of all parameters
-   - description of the purpose of the function/class
-   - description of any function return values (type/structure, units if applicable)
-   - links to documentation for external libraries
-- Package management
-   - external libraries should be included in the pip dependency list
-
-
-## Typing Definitions
-### Words Per Minute (wpm)
-- The average number of words per minute that a user is able to type.
-- Given s = total time of typing challenge (seconds) and c = total number of correct characters typed (including spaces and punctuation):
-   - wpm = (c / 5) / (s / 60)
-
-### Accuracy
-- The ratio of correct characters typed vs the total number of characters in the challenge:
-- Given t = total characters in challenge, and c = total number of correct characters typed
-   - accuracy = c / t
+  - Anyone should be able to install it
+  - Functions and classes should be commented
+    - description of all parameters
+    - description of the purpose of the function/class
+    - description of any function return values (type/structure, units if applicable)
+    - links to documentation for external libraries
+  - Package management
+    - external libraries should be included in the pip dependency list
