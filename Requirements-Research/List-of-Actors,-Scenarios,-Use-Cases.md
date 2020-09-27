@@ -141,7 +141,16 @@ from the Milestone 1 requirements document.
 ---
 
 ### Use Case
-- user starts a typing test
+- user starts a typing test in programmer mode
+### Primary Actor(s)
+### Preconditions
+### Basic Flow
+### Alternative Flow
+
+---
+
+### Use Case
+- user starts a typing test in normal mode
 ### Primary Actor(s)
 ### Preconditions
 ### Basic Flow
