@@ -39,25 +39,31 @@ from the Milestone 1 requirements document.
 ## Functional Requirements
 //user tasks that the system needs to support
 
-User shall be able to:
-- M choose between a "programmer" mode to type code, "standard" to type words in English from written text, or "dictation" to type English words given in audio format
-- (C) Numbers mode to work on numpad
-- M choose different programming languages in the programmer mode: Python, Java, PHP, HTML, C
-- (S1) if dictation mode is selected, play the typing challenge through their device's speakers
-   - dictation mode cannot include special characters or punctuation
-   - (S) speed up or slow down the speed of dictation mode to adjust the difficulty 
-- replay a dictation typing challenge's audio content
-   - (TBD) the replay will begin from the first word that is not completely typed (excluding spaces)
-- (M) see how much of the given typing challenge they have typed highlighted
-- (M) see any errors in their typing highlighted on the typing challenge
-- (M) see how much time has elapsed since they have started the typing challenge ("stopwatch")
-- see their a: total time, b: average wpm, c: accuracy, (S: admin can toggle leaderboard) d: place on the leaderboard (if applicable) upon completing the typing challenge
-- (C) copy an image with the above information for sharing purposes upon completing a challenge
-- (S) view a leaderboard of best (by wpm) typing challenges completed in their user group. The leaderboard will show a name, speed, time, and the type of challenge completed (max number of entries?)
-- (C) view an analysis of which 2-letter character combinations they are weakest at (??)
-- (S) complete basic typing challenges without an internet connection available
-- (M) quit the typing test (e.g. they want to start a new one, or don't want to do it anymore)
-- (C) select the language that they are typing in
+### Standard User
+- Must Haves
+   - Choose between a "programmer" mode to type code, "standard" to type words in English from written text, or "dictation" to type English words given in though audio
+   - Choose different programming languages in the programmer mode: Python, Java, PHP, HTML, C
+   - Progress displayed highlighted on the screen
+   - Errors should be clearly visible(The word is highlighted Red instead of Green)
+   - Time visible on the screen in the form of a stopwatch
+   - Show information like a: total time, b: average wpm, c: accuracy, d: leaderboard(Can be toggled by Admin) upon completing the typing challenge
+   - The leaderboard will show a name, speed, time, and the type of challenge completed (max number of entries?)
+   - Ability to complete basic typing challenges without an internet connection available
+   - Ability to quit the typing test (e.g. they want to start a new one, or don't want to do it anymore)
+
+- Should Haves
+   - Audio for dictation mode must be played through their device's speakers
+      - Dictation mode doesn't work for programmer mode
+      - Speed up or slow down the speed of dictation mode to adjust the difficulty 
+      - Pause and Play for dictation mode
+
+
+- Could Haves
+   - Numbers mode using only the numpad
+   - A way to copy user data for sharing 
+   - View an analysis of which 2-letter character combinations they are weakest at(To help them improve)
+   - Multiple languages support
+
 
 Administrator users shall be able to:
 - (M) create a new standard user
