@@ -92,6 +92,7 @@ from the Milestone 1 requirements document.
 //properties of the system or domain
 ### Python
 - what version guys. Anything else? (I think Python 3, so maybe version 3? -Sarah; I've got 3.8.5 - Tara)
+-firebase requires python version <3.7
 
 ### APIs
 
