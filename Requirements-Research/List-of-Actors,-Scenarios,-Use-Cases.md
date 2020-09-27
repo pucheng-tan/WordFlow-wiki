@@ -124,23 +124,27 @@ from the Milestone 1 requirements document.
 6. user presses enter
 7. firebase authentication responds
 ### Alternative Flow
-6a. User entered in wrong username
-   6a1. User is notified to reenter
-   6a2. User is given option to pick new username
-   6a3. back to step 6.
-6b. user entered in wrong password
-   6b1. user is notified to reenter password
-   6b2. user is given option to reset password
-   6b3. back to step 6.
-6c. user does not have internet connection
-   6c1. user given notice to connect to internet
-7a. firebase doesnt respond in time
+6. a) User entered in wrong username
+   - a1) User is notified to reenter
+   - a2) User is given option to pick new username
+   - a3) back to step 6.
+6. b) user entered in wrong password
+   - b1) user is notified to reenter password
+   - b2) user is given option to reset password
+   - b3) back to step 6.
+6. c) user does not have internet connection
+   - c1) user given notice to connect to internet
+7. a) firebase doesnt respond in time
 
 ### Use Case
+- user starts a typing test
 ### Primary Actor(s)
 ### Preconditions
 ### Basic Flow
 ### Alternative Flow
+
+
+
 
 
 
