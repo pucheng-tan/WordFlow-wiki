@@ -7,10 +7,33 @@ This is a page for brainstorming:
 from the Milestone 1 requirements document.
 
 ## Actors
-- Standard User (different types of users exist, but I THINK they're the same actor? Find out for sure)
-- Administrative User
-- Super Administrative User
-- APIs are actors (more specific! Nail down APIs!)
+
+### Standard User
+- a user who is able to complete typing challenges
+- may view their own typing progress through stored user metrics
+- interact with user group(s)
+- interacts with Firebase SDK (user will create a username and password for authentication)
+
+### Administrative User
+- a user who can manage other users and view their typing progress
+- manage user groups
+- may assign typing challenges to standard users or user groups
+- also can do everything that a standard user is able to do
+
+### Super Administrative User
+- manage Administrators
+   - create groups and assign an administrator to manage the group
+   - add and remove super administrators
+- also can do everything that a standard user and administrator can do
+
+
+### Firebase SDK
+- interacts with our software through API calls
+- manages user authentication, user permissions/user groups, store user data in cloud database, store user data
+
+### Other APIs possibly!
+//TODO: decide on the format for our tests (this will narrow down our choice in text fetching APIs)
+
 
 ## Scenarios
 //TODO: Flesh out with actual steps, add more scenarios
