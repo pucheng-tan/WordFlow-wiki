@@ -51,6 +51,7 @@ from the Milestone 1 requirements document.
    - Ability to complete basic typing challenges without an internet connection available
    - Ability to quit the typing test (e.g. they want to start a new one, or don't want to do it anymore)
 
+
 - Should Haves
    - Audio for dictation mode must be played through their device's speakers
       - Dictation mode doesn't work for programmer mode
@@ -65,23 +66,29 @@ from the Milestone 1 requirements document.
    - Multiple languages support
 
 
-Administrator users shall be able to:
-- (M) create a new standard user
-- (M) edit the name of a standard user
-- (M) delete the standard user
-- (S) create a new user group
-- (S) edit the name of a user group
-- (S) delete the user group
-- (S) assign a standard user to a user group
-- (S) remove a standard user from a user group
-- (M) view a standard user's typing history (date, time elapsed, type of challenge, wpm, accuracy)
-- (S) view a report of a standard user's typing history (showing change of wpm and accuracy over time)
-- (C) view a report of a user group's typing history
-   - view a comparison of all users' average accuracy and wpm over a specified period of time
-   - view a comparison of all users' rate of change of accuracy and wpm over a specified period of time (ex: user x has improved accuracy by 5% from September 1 to September 24)
-- (S/C) assign typing challenges to standard users or user group
-   - determine the type of typing challenge
-   - optionally set a date and time that the challenge must be completed by
+### Administrator Users
+- Must Haves
+   - Create a new standard user
+   - Edit the name of a standard user
+   - Delete the standard user
+   - View a standard user's typing history (date, time elapsed, type of challenge, wpm, accuracy)
+
+
+- Should haves
+   - Create a new user group
+   - Edit the name of a user group
+   - Delete the user group
+   - Assign a standard user to a user group
+   - Remove a standard user from a user group
+   - View a report of a standard user's typing history (showing change of wpm and accuracy over time)
+   - Assign typing challenges to standard users or user group
+      - determine the type of typing challenge
+      - optionally set a date and time that the challenge must be completed by
+
+- Could Haves
+   - View a report of a user group's typing history
+      - View a comparison of all users' average accuracy and wpm over a specified period of time
+      - View a comparison of all users' rate of change of accuracy and wpm over a specified period of time (ex: user x has improved accuracy by 5% from September 1 to September 24)
 
 ## Non-functional Requirements (URPS)
 //properties of the system or domain
