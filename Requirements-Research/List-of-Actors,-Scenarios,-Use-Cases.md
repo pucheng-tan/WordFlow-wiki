@@ -23,7 +23,7 @@ from the Milestone 1 requirements document.
 ### Super Administrative User
 - manage Administrators
    - create groups and assign an administrator to manage the group
-   - add and remove super administrators
+   - add and remove administrators
 - also can do everything that a standard user and administrator can do
 
 
@@ -107,5 +107,40 @@ from the Milestone 1 requirements document.
 - This will remove the administrator's special permissions, essentially moving them to a standard user
 
 ## Use Cases
-(must have features all need use cases, should have features maybe a couple of use cases)
+
+### Use Case
+- User logs in
+### Primary Actor(s)
+- Every type of user (Standard, Admin, Super-Admin)
+- Firebase (authentication)
+### Preconditions
+- User has a user account
+### Basic Flow
+1. user starts software and arrives at login screen
+2. user click on username input box
+3. user enters in username
+4. user clicks on password box
+5. user enters in password
+6. user presses enter
+7. firebase authentication responds
+### Alternative Flow
+6a. User entered in wrong username
+   6a1. User is notified to reenter
+   6a2. User is given option to pick new username
+   6a3. back to step 6.
+6b. user entered in wrong password
+   6b1. user is notified to reenter password
+   6b2. user is given option to reset password
+   6b3. back to step 6.
+6c. user does not have internet connection
+   6c1. user given notice to connect to internet
+7a. firebase doesnt respond in time
+
+### Use Case
+### Primary Actor(s)
+### Preconditions
+### Basic Flow
+### Alternative Flow
+
+
 
