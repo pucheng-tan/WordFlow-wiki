@@ -178,7 +178,7 @@ Standard User
 - Must Have
   - As soon as the standard user starts the test, the timer must take no more than a second to begin (not sure of exact time yet)
   - As the standard user types, the display must move synchronously with the standard user's keystrokes including if they hit the backspace button
-  - If the standard user makes a typing error, the display mus accurately detect and depict the error and appear almost immediately after the error
+  - If the standard user makes a typing error, the display must accurately detect and depict the error and appear almost immediately after the error
   - When the standard user switches to a different mode, the typing tool must not make the user wait too long (might want to discuss exact time, maybe 5 seconds?)
 
 - Should Have
@@ -206,7 +206,7 @@ Administrative User
 ### Supportability
 
 - Must Have
-  - Anyone should be able to install it
+  - Anyone should be able to install the typing tool
   - Functions and classes should be commented
     - description of all parameters
     - description of the purpose of the function/class
