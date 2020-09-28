@@ -8,6 +8,8 @@ This page is for the APIs we've found as well as the APIs we're looking for.
 
 -Code
 
+-Audio
+
 ## Potential APIs:
 ### Random Excerpts:
 
@@ -72,6 +74,12 @@ https://random-word-api.herokuapp.com/home
 -here is a random word api (good if we dont want jibberish
 
 here is an eexample: https://random-word-api.herokuapp.com/word?number=50
+
+Audio:
+
+- WordnikAPI
+
+It's possible to play the audio, but it must be written to a file. Maybe we could let users input words and generating an mp3 file to their computer and then they can play it and type to type it?
 
 ### Other:
 
