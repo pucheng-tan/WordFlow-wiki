@@ -95,6 +95,15 @@ from the Milestone 1 requirements document.
 -firebase requires python version <3.7
 
 ### APIs
+- Usability
+  - Users should easily be able to make a request with the API through the system
+- Reliable
+  - API should always be available
+  - API should consistently give what asked for e.g. ask for random words, receive random words
+- Performance
+  - API should respond within a certain amount of time (one problem with Wordnik API is sometimes gives too many requests error)
+-  Supportability
+   - Should be easy to use on different versions of Python
 
 ### Usability
 
