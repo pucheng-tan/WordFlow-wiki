@@ -109,6 +109,8 @@ Can give users the option of picking a category of joke to type or just randomly
 
 (For the Chuck Norris API and the Jokes API, we could also remove punctuation before giving it to the user to just get the letters and words.)
 
+https://firebase.google.com/docs/reference/rest/auth#section-sign-in-email-password
+
 
 
 
