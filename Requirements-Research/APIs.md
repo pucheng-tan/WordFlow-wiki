@@ -16,7 +16,7 @@ This page is for the APIs we've found as well as the APIs we're looking for.
 ### Random Words:
 https://developer.wordnik.com/ -also provides audio pronunciations (not yet tested)
 
-Not an API, but a Python module
+-Not an API, but a Python module
 
 URL: https://pypi.org/project/RandomWords/
 
@@ -29,7 +29,7 @@ rw = RandomWords()
 word = rw.random_word()
 print(word) # e.g. "asterisk" or "maintainability"
 
-Not an API, but a Python module
+-Not an API, but a Python module
 
 URL: https://pypi.org/project/Random-Word-Generator/
 
@@ -75,9 +75,9 @@ https://random-word-api.herokuapp.com/home
 
 here is an eexample: https://random-word-api.herokuapp.com/word?number=50
 
-Audio:
+### Audio:
 
-- WordnikAPI
+-WordnikAPI
 
 It's possible to play the audio, but it must be written to a file. Maybe we could let users input words and generating an mp3 file to their computer and then they can play it and type to type it?
 
