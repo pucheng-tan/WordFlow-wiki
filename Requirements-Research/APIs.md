@@ -24,9 +24,13 @@ To download:
 pip install RandomWords
 
 To use:
+
 from random_words import RandomWords
+
 rw = RandomWords()
+
 word = rw.random_word()
+
 print(word) # e.g. "asterisk" or "maintainability"
 
 -Not an API, but a Python module
@@ -37,9 +41,11 @@ To download:
 pip install Random-Word-Generator
 
 To use:
+
 from RandomWordGenerator import RandomWord
 
-# Creating a random word object
+(#) Creating a random word object
+
 rw = RandomWord(max_word_size=10,
                 constant_word_size=True,
                 include_digits=False,
@@ -48,7 +54,7 @@ rw = RandomWord(max_word_size=10,
 
 print(rw.generate()) # doesn't generate actual words but letter combinations
 
-Could be used when helping users type certain letter combinations that they're weak at
+Maybe could be used when helping users type certain letter combinations that they're weak at
 
 ### Song Lyrics:
 
