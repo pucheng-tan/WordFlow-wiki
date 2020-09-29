@@ -209,7 +209,7 @@ Administrative User
 ### Supportability
 
 - Must Have
-  - Anyone should be able to install the typing tool <-- what does this mean? Operating system? Technical skill level?
+  - Anyone should be able to install the typing tool <-- what does this mean? Operating system? Technical skill level? (I was thinking like if anyone wanted to download the code off of GitHub, they'd be able to do so, do you think this is better: "- Anyone wishing to install and run the code for the typing tool must be able to do so)
   - Functions and classes should be commented
     - description of all parameters
     - description of the purpose of the function/class
