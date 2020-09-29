@@ -24,7 +24,7 @@ For example, Wordnik API returned: To illustrate, consider a sentence like ˜A d
 There's a trademark symbol, which a user could not really type
 
 ### Random Words:
-https://developer.wordnik.com/ -also provides audio pronunciations (not yet tested)
+https://developer.wordnik.com/ -also provides audio pronunciations (currently testing)
 
 -Not an API, but a Python module
 
