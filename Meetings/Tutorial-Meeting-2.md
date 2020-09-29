@@ -17,7 +17,11 @@ Date: 2020/09/29
 * Kawser Nafi
 
 ## Agenda 
--none
+1. Review PoC work completed: Tara and Cameron
+2. Review Use Case Diagram(s): Pucheng
+3. Review Functional Requirements: Abdul, Everyone
+4. Review Non-Functional Requirements: Sarah
+5. Review APIs: Yuta
 
 ## Meeting Notes
 -none
