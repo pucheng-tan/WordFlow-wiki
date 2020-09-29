@@ -24,10 +24,18 @@ Date: 2020/09/29
 5. Review APIs: Yuta
 
 ## Meeting Notes
--none
+- A status meeting: everyone reported the progress of the tasks who is working on
+- Tara: created a use case id card format
+- Tara and Cameron: proved the feasibility of google firebase and figured out how to play with accounts
+- Cameron: found an audio api which can be used by sending a key word and get a piece of audio returned
+- Sarah: found an dictation api on wordnik
+- Pucheng: drew an inital version of the user case diagram and working on transferring it to googledoc
+- Abdul: worked on updating the description, use cases, functional and non-functional requirements
+- Yuta: worked on reviewing and finding more APIs
 
 ## Action Items
--none
+- needs to clarify the difference between use cases, use case diagrams, and scenarios
+- get everything needed for milestone1 done by Thursday
 
 ## Next Meeting
 
