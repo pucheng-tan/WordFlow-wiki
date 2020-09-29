@@ -29,7 +29,7 @@ A status meeting: everyone reported the progress of the tasks who is working on
 - Tara and Cameron: proved the feasibility of google firebase and figured out how to play with accounts
 - Cameron: found an audio api which can be used by sending a key word and get a piece of audio returned
 - Sarah: found an dictation api on wordnik
-- Pucheng: drew an inital version of the user case diagram and working on transferring it to googledoc
+- Pucheng: drew an inital version of the user case diagram and worked on transferring it to googledoc
 - Abdul: worked on updating the description, use cases, functional and non-functional requirements
 - Yuta: worked on reviewing and finding more APIs
 
