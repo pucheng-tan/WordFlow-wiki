@@ -91,11 +91,14 @@ from the Milestone 1 requirements document.
 ## Non-functional Requirements (URPS)
 //properties of the system or domain
 ### Python
-- what version guys. Anything else? (I think Python 3, so maybe version 3? -Sarah; I've got 3.8.5 - Tara)
+- what version guys. Anything else? (I think Python 3, so maybe version 3? -Sarah; I now have version 3.6.8 - Tara)
 -firebase requires python version <3.7
 
 ### APIs
+- use the Google Firebase REST API for authentication and database interfacing
+
 - Usability
+  - DOCUMENTATION.
   - Users should easily be able to make a request with the API through the system
 - Reliable
   - API should always be available
@@ -121,7 +124,7 @@ Standard User
 - Could Have
   - Standard users would be able to view the different languages available for typing and easily select one via a drop down menu or by entering one in
   - There would be documentation on typing foreign languages when the characters have accents or umlauts
-  - If audio mode is selected, it must be loud enough to hear and clear enough to undestand
+  - If audio mode is selected, it must be loud enough to hear and clear enough to understand
 
 Administrative User
 
@@ -206,7 +209,7 @@ Administrative User
 ### Supportability
 
 - Must Have
-  - Anyone should be able to install the typing tool
+  - Anyone should be able to install the typing tool <-- what does this mean? Operating system? Technical skill level?
   - Functions and classes should be commented
     - description of all parameters
     - description of the purpose of the function/class
