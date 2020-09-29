@@ -117,16 +117,19 @@ Standard User
   - There must be an easy method for standard users to change the mode of the typing test (e.g. from "standard" mode to "programmer" mode)
    - The typing test must have clear direction on how the standard user is to start the typing test whether it involves the use of a start button or instead starts automatically when the user starts typing
    - There must be a conspicuous button on quitting the test if the standard user wishes to
-   - Users must be able to understand the units of the metrics, and (probably) how they were calculated 
-
-- Should Have
+   - Users must be able to understand the units of the metrics, and (probably) how they were calculated
   -  Standard users should clearly be able to identify themselves on the leaderboard and gauge their standing relative to others, assuming it is available
   - Users should be able to see clearly what each number represents e.g. There should be a title with the units
+
+- Should Have
+  - If audio mode is selected, it must be loud enough to hear and clear enough to understand
+  - The standard user should easily be able to see the play and pause button
+  - To adjust the speed of dictation mode, there should be a method to easily slow it down such as by dragging a slider to the left and vice versa or pressing on a speed button
+
 
 - Could Have
   - Standard users would be able to view the different languages available for typing and easily select one via a drop down menu or by entering one in
   - There would be documentation on typing foreign languages when the characters have accents or umlauts
-  - If audio mode is selected, it must be loud enough to hear and clear enough to understand
 
 Administrative User
 
