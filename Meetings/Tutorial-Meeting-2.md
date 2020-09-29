@@ -24,7 +24,7 @@ Date: 2020/09/29
 5. Review APIs: Yuta
 
 ## Meeting Notes
-- A status meeting: everyone reported the progress of the tasks who is working on
+A status meeting: everyone reported the progress of the tasks who is working on
 - Tara: created a use case id card format
 - Tara and Cameron: proved the feasibility of google firebase and figured out how to play with accounts
 - Cameron: found an audio api which can be used by sending a key word and get a piece of audio returned
