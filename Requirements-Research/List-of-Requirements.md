@@ -117,9 +117,11 @@ Standard User
   - There must be an easy method for standard users to change the mode of the typing test (e.g. from "standard" mode to "programmer" mode)
    - The typing test must have clear direction on how the standard user is to start the typing test whether it involves the use of a start button or instead starts automatically when the user starts typing
    - There must be a conspicuous button on quitting the test if the standard user wishes to
- 
+   - Users must be able to understand the units of the metrics, and (probably) how they were calculated 
+
 - Should Have
   -  Standard users should clearly be able to identify themselves on the leaderboard and gauge their standing relative to others, assuming it is available
+  - Users should be able to see clearly what each number represents e.g. There should be a title with the units
 
 - Could Have
   - Standard users would be able to view the different languages available for typing and easily select one via a drop down menu or by entering one in
