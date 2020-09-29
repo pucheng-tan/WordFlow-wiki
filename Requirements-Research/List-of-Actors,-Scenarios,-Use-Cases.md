@@ -108,6 +108,7 @@ from the Milestone 1 requirements document.
 
 ## Use Cases
 
+### Use Case ID: 0
 ### Use Case
 - User logs in
 ### Primary Actor(s)
@@ -124,19 +125,20 @@ from the Milestone 1 requirements document.
 6. user presses enter
 7. firebase authentication responds
 ### Alternative Flow
-6. a) User entered in wrong username
+6a) User entered in wrong username
    - a1) User is notified to reenter
    - a2) User is given option to pick new username
    - a3) back to step 6.
 
-6. b) user entered in wrong password
+6b) user entered in wrong password
    - b1) user is notified to reenter password
    - b2) user is given option to reset password
    - b3) back to step 6.
 
-6. c) user does not have internet connection
+6c) user does not have internet connection
    - c1) user given notice to connect to internet
-7. a) firebase doesnt respond in time
+
+7a) firebase doesnt respond in time
 
 ---
 
@@ -144,9 +146,20 @@ from the Milestone 1 requirements document.
 ### Use Case
 - user starts a typing test in programmer mode
 ### Primary Actor(s)
+- every type of user
+- firebase
 ### Preconditions
+- user is logged in and authenticated
+- user has internet connection
 ### Basic Flow
+1. after the user has logged in, a dashboard will be displayed
+2. the user clicks on the programming tab.
+3. next the user will be able to select the programming language and the duration of the test
+4. once the user is ready, they press the start button
+5. the test will begin with the duration and programming language of the users choice
+6. the users stats from the test will be uploaded to the firebase db
 ### Alternative Flow
+2a) the ui and design stage will influence the order of these steps
 
 ---
 
@@ -154,9 +167,20 @@ from the Milestone 1 requirements document.
 ### Use Case
 - user starts a typing test in normal mode
 ### Primary Actor(s)
+- any type of user
+- firebase
 ### Preconditions
+-user is logged in and authenticated
+-user has an internet connection
 ### Basic Flow
+1. after the user has logged in, a dashboard will be displayed
+2. user clicks on normal typing mode
+3. user will be able to adjust the typing test (TBD), and the duration of the typing test.
+4. once the user is ready, they press the start button
+5. the test will begin with adjustments the user made in step 3
+6. the users stats from the test will be uploaded to the firebase db
 ### Alternative Flow
+2a) the dashboard will be designed in stage 2
 
 ---
 
@@ -164,9 +188,17 @@ from the Milestone 1 requirements document.
 ### Use Case
 - user checks their typing stats
 ### Primary Actor(s)
+- every type of user
+- firebase
 ### Preconditions
+- user is logged in and authenticated
+- has an internet connection
 ### Basic Flow
+1. After logging in, the user will be displayed a dashboard
+2. Somewhere on the dashboard (TBD) the users stats will be displayed, with a button
+to pull up more stats on page just for stats
 ### Alternative Flow
+2a) the dashboard will be designed in stage 2
 
 ---
 
@@ -182,10 +214,61 @@ from the Milestone 1 requirements document.
 
 ### Use Case ID: 5
 ### Use Case
+- user begins an audio to text test (name TBD)
+### Primary Actor(s)
+- every time of user
+### Preconditions
+- user is logged in and authenticated
+### Basic Flow
+### Alternative Flow
+
+---
+
+### Use Case ID: 6
+### Use Case
 ### Primary Actor(s)
 ### Preconditions
 ### Basic Flow
 ### Alternative Flow
+
+---
+
+### Use Case ID: 7
+### Use Case
+### Primary Actor(s)
+### Preconditions
+### Basic Flow
+### Alternative Flow
+
+---
+
+### Use Case ID: 8
+### Use Case
+### Primary Actor(s)
+### Preconditions
+### Basic Flow
+### Alternative Flow
+
+---
+
+### Use Case ID: 9
+### Use Case
+### Primary Actor(s)
+### Preconditions
+### Basic Flow
+### Alternative Flow
+
+---
+
+### Use Case ID: 10
+### Use Case
+### Primary Actor(s)
+### Preconditions
+### Basic Flow
+### Alternative Flow
+
+---
+
 
 
 
