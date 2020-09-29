@@ -28,4 +28,6 @@ The application is designed for desktop environments and created in the Python p
 # Diagrams
 ## Use Case Diagram
 ## Domain Model
+This diagram is mainly to help visualize the relationship between different user types.
+![Domain_Model.svg](uploads/07b429d6a137448c5c04ca0a7ff50bca/Domain_Model.svg)
 ## Interface Sketching
