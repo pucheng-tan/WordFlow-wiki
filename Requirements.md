@@ -8,7 +8,7 @@ The typing challenges will range from standard English words, to specific progra
 The application is designed for desktop environments and created in the Python programming language. It utilizes the Firebase API for user and database management so that users can access their account information from different devices. Audio content for dictation mode will be received from an external API and played over device speakers. 
 
 ## Definitions
-[Actors](/Requirements/Definitions)
+[Definitions](/Requirements/Definitions)
 
 # Requirements
 [Functional Requirements](/Requirements/Functional-Requirements)
@@ -19,7 +19,6 @@ The application is designed for desktop environments and created in the Python p
 
 # Actors
 [Actors](/Requirements/Actors)
-<< Supporting Descriptions for each
 
 # Scenarios
 [Scenarios](/Requirements/Scenarios)
