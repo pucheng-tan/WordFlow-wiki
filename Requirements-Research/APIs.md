@@ -13,6 +13,16 @@ This page is for the APIs we've found as well as the APIs we're looking for.
 ## Potential APIs:
 ### Random Excerpts:
 
+Wordnik API, possibly
+
+It can give examples sentences using the inputted word e.g. "dog"
+
+One problem, however, is that some examples seems to have special characters
+
+For example, Wordnik API returned: To illustrate, consider a sentence like ˜A dog barked™, and suppose that ˜dog™ denotes the set X,
+
+There's a trademark symbol, which a user could not really type
+
 ### Random Words:
 https://developer.wordnik.com/ -also provides audio pronunciations (not yet tested)
 
