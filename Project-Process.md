@@ -19,10 +19,11 @@ Goal: Any work completed outside of the GitLab repository should be easily acces
 - All team members should be able to edit the work.
 
 # Testing
-Goal: Testing should be consistent, reliable, and cover everything important
-- Tests should be independent from each other
-- Test results should not change depending on which machine it is running on
-- Tests should avoid hitting our APIs too much and eating all of the bandwidth
+Goal: Testing should be consistent, reliable, and cover everything important.
+- Tests should be independent from each other.
+- Test results should not change depending on which machine it is running on.
+- Tests should avoid hitting our APIs too much and eating all of the bandwidth.
+- Tests that must modify any database values should revert all changes regardless of whether the test passes or fails. These tests should be avoided in general.
 - Specific directions should be written for manual tests that can be followed by a lay person, outlining every action and expected result for the test.
  
 # Development Environment
@@ -39,7 +40,7 @@ Goal: Meetings should be organized and documented. All team members should be en
 - A meeting Chair and a meeting Secretary will be appointed for each meeting. 
 - These roles will be the same for the Thursday meeting and the following Tuesday meeting.
 - The Chair is responsible for creating a meeting Agenda, and distributing the agenda in the Discord channel no less than 6 hours before the start of the meeting
-- The Chair is responsible for keeping the meeting on-track (following the agenda) and encouraging input from all attendees.
+- The Chair is responsible for keeping the meeting on-track (following the agenda, ending the meeting on time) and encouraging input from all attendees.
 - The Secretary is responsible for tracking any new Action Items that need to be completed, creating Issues in GitLab for them, and assigning a person responsible and due date whenever possible
 - The Secretary is responsible for recording any decisions that have been made, any changes to the agenda that occurred, and editing the appropriate meeting page on the  GitLab Wiki with these details.
 - All team members are responsible for making sure that they have a task assigned to them such that they are able to contribute to the project.
