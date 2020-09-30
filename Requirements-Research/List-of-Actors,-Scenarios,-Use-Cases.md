@@ -125,15 +125,10 @@ from the Milestone 1 requirements document.
 6. user presses enter
 7. firebase authentication responds
 ### Alternative Flow
-6a) User entered in wrong username
-   - a1) User is notified to reenter
-   - a2) User is given option to pick new username
+6a) User enters in wrong username or password
+   - a1) User is notified that something is wrong and they need to reenter
+   - a2) User is given the option to pick a new username or password (with the correct verification)
    - a3) back to step 6.
-
-6b) user entered in wrong password
-   - b1) user is notified to reenter password
-   - b2) user is given option to reset password
-   - b3) back to step 6.
 
 6c) user does not have internet connection
    - c1) user given notice to connect to internet
