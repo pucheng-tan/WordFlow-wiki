@@ -40,7 +40,17 @@
 | 8. | The software opens on NSE's device. NSE enters a complex password in the password and verify password fields, and clicks "Create Account" |
 | 9. | A success message is displayed, indicating that NSE's account has been created and they have joined the school as a Super-Admin |
 
-
+| ID: | 00.3 |
+| ------: | ------ |
+| **Use Case** | standard user creates an account for the first time |
+| **Primary Actors** | standard user, firebase |
+| **Preconditions** |  |
+| **Basic Flow** |  |
+| 1. | user chooses a username and password |
+| 2. | user types in email |
+| 3. | user presses submit |
+| 4. | firebase reponds |
+| 4. | if the email is not taken, the account will be created |
 
 
 # 01: Users can Login
