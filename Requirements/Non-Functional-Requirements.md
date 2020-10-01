@@ -124,7 +124,7 @@
 - Must Have
   - It should take administrative users no more than an insignificant delay to create and delete Classrooms and to add and remove users from a Classroom
 
--Should Have
+- Should Have
   - The Classroom's report should be up to date within 5 seconds of the standard user's progress and should always be available (?) to the administrative user
 
 ## Super-Administrative User
