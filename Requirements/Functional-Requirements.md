@@ -1,4 +1,11 @@
 [[_TOC_]]
+# Privacy (Must have)
+0. Users cannot be viewed by other users, with the following exceptions. 
+   1. Super-Admins can view all of the users inside of their school.
+   2. Admins can view all of the users assigned to their management by a Super-Admin.
+   3. Standard Users can view other users who are in the same Classroom.
+   4. Standard Users can see the display names of the Admins and Super-Admins in their school.
+
 # Standard User
 ## Must Haves
 1. User must be able to take a typing challenge. The typing challenge will consist of content that they will have to type, and a space for the user to enter the content.
