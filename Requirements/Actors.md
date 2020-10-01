@@ -6,7 +6,10 @@ A description of important tasks that an actor is able to complete is followed b
 - may view their own typing progress through stored user metrics
 - interact with user group(s)
 - interacts with Firebase SDK (user will create a username and password for authentication)
+- standard users can belong to a domain
+
 *Tom is a high school student with an interest in programming. He would like to be faster and make fewer errors when he is writing Java code.*
+
 *Mary is a college student with plans to become a court stenographer. She would like to be able to type things as she hears them.*
 
 ## Administrative User
@@ -14,12 +17,18 @@ A description of important tasks that an actor is able to complete is followed b
 - manage user groups
 - may assign typing challenges to standard users or user groups
 - also can do everything that a standard user is able to do
+- admins are created by super administrators and belong to their creator's domain
+
 *Naomi is a middle school teacher tasked with teaching students touch-typing. She wants to give typing assignments to the entire class and find out who needs additional instruction. To demonstrate, she completes a typing challenge herself. When a new student is added to the class, Naomi needs to add them herself instead because the Principal is too busy*
 
 ## Super Administrative User
 - manage Administrators
    - create groups and assign an administrator to manage the group
    - add and remove administrators
+- manage their domain
+   - each super admin has one domain that they control
+   - super admins can invite users to a domain, remove users from a domain
+   - admins that they assign are also a part of their domain
 - also can do everything that a standard user and administrator can do
 
 *Sam is the dean of technology at a post-secondary institution. Sam needs to be able to create administrator accounts for instructors and pull reports to track student progress. Sam also wants to improve their typing skills.*
