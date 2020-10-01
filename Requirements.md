@@ -1,5 +1,5 @@
 # Project Description
-Word Flow is an application to train users to type faster and with greater accuracy. The focus is on unique uses not covered by other typing tools- special characters used by programming languages, and typing from audio content. It is designed with typing classes in mind:
+Word Flow is an application to train users to type faster and with greater accuracy. The focus is on unique uses not covered by other typing tools- special characters used by programming languages, and typing from audio content. It is designed with typing classes in a school environment in mind:
 - Users can complete a variety of typing challenges and view their speed and accuracy for each challenge and see how they have improved over time.
 - Admin users can create Groups of users, assign them challenges to complete, and view reports for these users.
 - Super Admin users can create a School, invite users to join, and assign users to be managed to Admins.
