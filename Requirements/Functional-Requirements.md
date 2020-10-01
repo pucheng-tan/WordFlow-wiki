@@ -64,10 +64,10 @@
     2. Admin users must be able to add users to Classrooms.
     3. Admin users must be able to remove users from Classrooms.
     3. Admin users must be able to delete Classrooms.
-## Should Haves
 16. Admin users should be able to assign typing challenges to be completed by Classrooms or specific users.
     1. The assigned challenge should be able to have a due date.
     2. The assigned challenge should be able to have a mode selected.
+## Should Haves
 17. Admin users should be able to view reports on specific users that they manage.
     1. The reports should be filter-able to only show assigned challenges.
     2. A report should show the user's WPM or accuracy over a given period of time.
