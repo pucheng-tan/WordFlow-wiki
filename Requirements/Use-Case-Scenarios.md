@@ -61,9 +61,6 @@
 | 7. | firebase authentication responds |
 
 
-
-
-
 # 02: Users can selects the Mode
 - The user can choose between Standard, Programmer, and Dictation mode
 
@@ -160,13 +157,10 @@ to pull up more stats on page just for stats |
 | 3. | user selects the delete button on the group they wish to delete |
 | 4. | admin will be given a popup menu to double-check if the admin wants to delete the group |
 | 5. | if the admin clicks yes, the group will be deleted |
-| 6. |  |
-
-
 
 
 # 05: Administrator can assign typing challenges and look at the results
--
+- admins can use these challenges to gage their group's performance and improvement
 
 | ID: | 05.1 |
 | ------: | ------ |
@@ -181,12 +175,24 @@ to pull up more stats on page just for stats |
 | 5. | the admin will click the submit button and the task will be sent to the group |
 
 
-
-
-# 06: Users can take assigned tests
-- 
+# 06: Admins can view a group report
+- the group report will show statistics pulled from the assigned typing challenges 
 
 | ID: | 06.1 |
+| ------: | ------ |
+| **Use Case** | admin views a group report |
+| **Primary Actors** | admin user |
+| **Preconditions** |  |
+| **Basic Flow** |  |
+| 1. | from the dashboard, admin clicks on the groups tab |
+| 2. | when the admin selects the group that they manage, a list of the members will appear, and next to the list, the groups stats will show |
+| 3. | the admin can then click on group report to see a report of the groups stats, or click on a single user to view there stats |
+
+
+# 07: Users can take assigned tests
+- the user can take tests that an admin assigned for the user's group
+
+| ID: | 07.1 |
 | ------: | ------ |
 | **Use Case** | user attempts a certain group's assigned typing challenge |
 | **Primary Actors** | user of a certain group (ex: group A) |
@@ -200,10 +206,10 @@ to pull up more stats on page just for stats |
 
 
 
-# 07: Super-Administrator can create and manage Administrators
+# 08: Super-Administrator can create and manage Administrators
 - A super Admin can make a standard user an Admin User
 
-| ID: | 07.1 |
+| ID: | 08.1 |
 | ------: | ------ |
 | **Use Case** | super admin creates a new admin |
 | **Primary Actors** | super admin |
@@ -213,11 +219,10 @@ to pull up more stats on page just for stats |
 | 2. | if the super admins clicks it, a list of users that the super admin had previously assigned to be admin will be shown |
 | 3. | the super admin will be able to click on the add new button |
 | 4. | after pressing the add new button, the super admin can type the unique identifier of the user they want to assign admin permissions |
-| 5. | after the super admin presses submit, the user that was assigned to be an admin will be notified
-### Alternative Flow |
+| 5. | after the super admin presses submit, the user that was assigned to be an admin will be notified|
 
 
-| ID: | 07.2 |
+| ID: | 08.2 |
 | ------: | ------ |
 | **Use Case** | super admin removes an admins permissions |
 | **Primary Actors** | super admin |
@@ -228,16 +233,12 @@ to pull up more stats on page just for stats |
 | 3. | the super admin selects the admin that they want to remove |
 | 4. | after select the user and press remove, the super admin will be given an extra popup to make sure that the super admin chose the correct admin |
 | 5. | after the super admin presses submit, the admin that was removed will be notified |
-| 6. |  |
-| 7. |  |
-| 8. |  |
-| 9. |  |
-| 10. |  |
 
-# 8: Super-Administrator can promote am admin to super-admin
+
+# 9: Super-Administrator can promote am admin to super-admin
 - A super Admin can make a standard user an Admin User
 
-| ID: | 08.1 |
+| ID: | 09.1 |
 | ------: | ------ |
 | **Use Case** | super admin adds a user to their domain |
 | **Primary Actors** | super admin |
@@ -250,7 +251,7 @@ to pull up more stats on page just for stats |
 | 5. | the user will be added to the the domain |
 
 
-| ID: | 08.2 |
+| ID: | 09.2 |
 | ------: | ------ |
 | **Use Case** | the super admin removes a user from their domain |
 | **Primary Actors** | super admin |
