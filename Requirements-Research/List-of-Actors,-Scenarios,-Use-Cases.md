@@ -149,7 +149,7 @@ from the Milestone 1 requirements document.
 ### Basic Flow
 1. after the user has logged in, a dashboard will be displayed
 2. the user clicks on the programming tab.
-3. next the user will be able to select the programming language and the duration of the test
+3. next the user will be able to select the programming language and the duration of the test (the test's options are TBD)
 4. once the user is ready, they press the start button
 5. the test will begin with the duration and programming language of the users choice
 6. the users stats from the test will be uploaded to the firebase db
@@ -204,13 +204,14 @@ to pull up more stats on page just for stats
 - admin user
 ### Preconditions
 - admin has control of the group
+- the user the admin wants to add to the group must exist
 ### Basic Flow
 1. Once the admin logs in, they will be directed to the main dashboard.
 2. When a user gets to the main dashboard, if they have admin persmissions, a manage groups page will be present
 3. Admin clicks on manage groups page
 4. admin selects the group the want to manage
 5. admin clicks add new member
-6. admin types the users name and clicks the submit button
+6. admin types the user's specific unique ID and clicks the submit button
 ### Alternative Flow
 
 ---
@@ -239,17 +240,17 @@ to pull up more stats on page just for stats
 
 ### Use Case ID: 6
 ### Use Case
-- admin assigns task to group
+- admin assigns typing challenges to group
 ### Primary Actor(s)
 - admin user
 ### Preconditions
-- the admin is assigning a task to a group that they created or were given permissions to
+- the admin is assigning a typing challenge to a group that they created or were given permissions to
 ### Basic Flow
 1. from the dashboard, the admin will click on the manage groups tab
 2. next, admin clicks on the group they want to manage
-3. the admin will be able to pick a task, and edit the task with options such as duration and difficulty
-4. the admin clicks a date/time which the task is to be completed by
-5. the admin will click the submit task button and the task will be sent to the group
+3. the admin will be able to pick a typing challenge, and edit the typing challenge with options such as duration and difficulty
+4. the admin clicks a date/time which the typing challenge is to be completed by
+5. the admin will click the submit button and the task will be sent to the group
 ### Alternative Flow
 
 ---
