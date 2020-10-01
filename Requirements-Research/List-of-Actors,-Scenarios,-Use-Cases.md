@@ -163,14 +163,15 @@ to pull up more stats on page just for stats
 - admin user (super admin in the same domain)
 ### Preconditions
 - admin has control of the group
-- the user the admin wants to add to the group must exist
+- the user the admin wants to add to the group must exist and be in the domain
 ### Basic Flow
 1. Once the admin logs in, they will be directed to the main dashboard.
 2. When a user gets to the main dashboard, if they have admin persmissions, a manage groups page will be present
 3. Admin clicks on manage groups page
 4. admin selects the group the want to manage
 5. admin clicks add new member
-6. admin types the user's specific unique ID and clicks the submit button
+6. a list of users in the domain will appear
+7. the admin clicks on the user they want to add and presses add
 ### Alternative Flow
 
 ---
@@ -297,12 +298,38 @@ permissions
 5. after the super admin presses submit, the admin that was removed will be notified
 ### Alternative Flow
 
+---
+
+### Use Case ID: 12
+### Use Case
+- super admin adds a user to their domain
+### Primary Actor(s)
+- super admin
+### Preconditions
+-the user that the super admin wants to add must exist
+### Basic Flow
+1. somewhere on the dashboard, the super admin will have a special tab or menu that is only given to users with super admin
+permissions
+2. after clicking on the special tab, there will be a place to manage their domain
+3. the super admin presses 'add new user'
+4. the super admin types the user's unique id and presses submit
+5. the user will be added to the the domain
+### Alternative Flow
 
 ---
 
-
-
-
-
-
-
+### Use Case ID: 13
+### Use Case
+- the super admin removes a user from their domain
+### Primary Actor(s)
+- super admin
+### Preconditions
+-the user that the super admin wants to add must exist
+### Basic Flow
+1. somewhere on the dashboard, the super admin will have a special tab or menu that is only given to users with super admin
+permissions
+2. after clicking on the special tab, there will be a place to manage their domain, with a list of users in the domain
+3. the user clicks on the user they want to delete and presses delete 
+4. the super admin will get an extra popup assuring that they chose the correct user
+5. if the super admin presses yes, the user will be deleted from the domain
+### Alternative Flow
