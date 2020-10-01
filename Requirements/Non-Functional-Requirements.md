@@ -33,13 +33,10 @@
 ## Administrative User
 
 - Must Have
-   - Administrator users must be provided with some level of documentation (e.g. creating and deleting standard users)
-   - Administrator users must have a clear mechanism on selecting a standard user to view
+   - Administrator users must be provided with some level of documentation (e.g. creating and deleting Classrooms)
 
 - Should Have
-  - Administrative users should easily be able to view and understand the information provided in the report for a standard user
-  - Administrative users should be able to make the leaderboard visible by the check of a box or something as simple
-  - Administrative users could bring up a Classroom report, in which case, the information would be formatted to be readable and understandable
+  - Administrative users should easily be able to view and understand the information provided in the report for a Classroom
 
 ## Super-Administrative User
 
