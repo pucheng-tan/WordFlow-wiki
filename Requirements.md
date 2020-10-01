@@ -20,8 +20,8 @@ The application is designed for desktop environments and created in the Python p
 # Actors
 [Actors](/Requirements/Actors)
 
-# Scenarios and Use Cases
-[Scenarios and Use Cases](/Requirements/Use-Case-Scenarios)
+# Use Case Scenarios
+[Use Cases Scenarios](/Requirements/Use-Case-Scenarios)
 
 # Diagrams
 ## Use Case Diagram
