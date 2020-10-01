@@ -1,14 +1,7 @@
-## Non-functional Requirements (URPS)
-//properties of the system or domain
-### Python
-- what version guys. Anything else? (I think Python 3, so maybe version 3? -Sarah; I now have version 3.6.8 - Tara)
--firebase requires python version <3.7
-
 ### APIs
-- use the Google Firebase REST API for authentication and database interfacing
 
 - Usability
-  - DOCUMENTATION.
+  - Must have documentation on what API does and how to use it
   - Users should easily be able to make a request with the API through the system
 - Reliable
   - API should always be available
@@ -26,16 +19,16 @@ Standard User
   - Standard users must be able to access some level of documentation explaining the different modes of the typing test
   - There must be an easy method for standard users to change the mode of the typing test (e.g. from "standard" mode to "programmer" mode)
    - The typing test must have clear direction on how the standard user is to start the typing test whether it involves the use of a start button or instead starts automatically when the user starts typing
+   - In order to understand progress, users must be able to differentiate between an indicator that they are on the letter and it is correct and an indicator that they have made a mistake
    - There must be a conspicuous button on quitting the test if the standard user wishes to
    - Users must be able to understand the units of the metrics, and (probably) how they were calculated
-  -  Standard users should clearly be able to identify themselves on the leaderboard and gauge their standing relative to others, assuming it is available
-  - Users should be able to see clearly what each number represents e.g. There should be a title with the units
 
 - Should Have
   - If audio mode is selected, it must be loud enough to hear and clear enough to understand
   - The standard user should easily be able to see the play and pause button
   - To adjust the speed of dictation mode, there should be a method to easily slow it down such as by dragging a slider to the left and vice versa or pressing on a speed button
-
+  -  Standard users should clearly be able to identify themselves on the leaderboard and gauge their standing relative to others, assuming it is available
+  - Users should be able to see clearly what each number represents e.g. There should be a title with the units
 
 - Could Have
   - Standard users would be able to view the different languages available for typing and easily select one via a drop down menu or by entering one in
@@ -61,14 +54,15 @@ Standard User
 - Must Have
   - The typing tool must be available 24/7
   - As long as the user is connected to WiFi, they must be able to use the typing tool
+  - The typing tool must correctly generate text segments for the mode selected, so if "programmer" mode is selected, they consistently receive code to type
   - While the user is typing, the system must not crash on the user
   - If the system does crash on the user, the user's past metrics must be saved
+  - If the standard user makes a typing error, the display must accurately detect and depict the error
   - The standard's user metrics must be reported accurately, specifically, it will use the standard method of calculating metrics such as wpm and accuracy
-  - The user's data must be securely protected (looking at Google Firebase)
-  - The typing tool must correctly generate text segments for the mode selected, so if "programmer" mode is selected, they consistently receive code to type 
+  - The standard user's data must be securely protected (looking at Google Firebase)
 
 - Should Have
-   - If the user is not connected to WiFi, they should still be able to use the typing tool but with limitations as to what they can type
+   - If the standard user is not connected to WiFi, they should still be able to use the typing tool but with limitations as to what they can type
 
 Administrative User
 
@@ -94,17 +88,18 @@ Administrative User
 Standard User
 
 - Must Have
+  - When the standard user switches to a different mode, the typing tool must not make the user wait too long (might want to discuss exact time, maybe 5 seconds?)
   - As soon as the standard user starts the test, the timer must take no more than a second to begin (not sure of exact time yet)
   - As the standard user types, the display must move synchronously with the standard user's keystrokes including if they hit the backspace button
-  - If the standard user makes a typing error, the display must accurately detect and depict the error and appear almost immediately after the error
-  - When the standard user switches to a different mode, the typing tool must not make the user wait too long (might want to discuss exact time, maybe 5 seconds?)
+  - If the standard user makes a typing error, the display must display the error almost immediately after it occurred
 
 - Should Have
   - If the standard user has no WiFi, the response times should continue to be the same but with a limited database of things to type
+  - If dictation mode is selected, the audio should start playing as soon as the standard user starts
   - If the standard user gets a score that improves their place on the leaderboard, the change will immediately be visible (maybe take no more than 5 seconds to appear)
 
 - Could Have
-  - If dictation mode is selected, the audio should start playing as soon as the player starts
+  - If the standard user is in numbers mode, it should also detect the numbers synchronously
 
 Administrative User
 
@@ -119,12 +114,12 @@ Administrative User
   - The standard user's report should be up to date within 5 seconds of the standard user's progress and should always be available (?)
 
 - Could Have
-  - The group reports should be up to date within 5 seconds (?) of the standard user's progress and should always be available (?)
+  - The group reports should be up to date within 5 seconds (?) of the standard user's progress and should always be available
 
 ### Supportability
 
 - Must Have
-  - Anyone should be able to install the typing tool <-- what does this mean? Operating system? Technical skill level? (I was thinking like if anyone wanted to download the code off of GitHub, they'd be able to do so, do you think this is better: "- Anyone wishing to install and run the code for the typing tool must be able to do so)
+  - Anyone wishing to install and run the code for the typing tool must be able to do so
   - Functions and classes should be commented
     - description of all parameters
     - description of the purpose of the function/class
