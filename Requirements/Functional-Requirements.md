@@ -1,4 +1,7 @@
 [[_TOC_]]
+# Legend
+
+
 # Standard User
 The functionality of the standard user is also available to the Admin user and the Super-Admin user.
 ## Must Haves
@@ -19,46 +22,67 @@ The functionality of the standard user is also available to the Admin user and t
    1. The total time must be displayed
    2. The average WPM must be displayed
    3. The accuracy must be displayed as a percentage
-   4. If the user has placed on the leaderboard, 
-   - Show information like a: total time, b: average wpm, c: accuracy, d: leaderboard(Can be toggled by Admin) upon completing the typing challenge
-   - The leaderboard will show a name, speed, time, and the type of challenge completed (max number of entries?)
-   - Ability to quit the typing test (e.g. they want to start a new one, or don't want to do it anymore)
+   4. If the user has placed on the leaderboard, their new place on the leaderboard should be displayed.
+4. The user should be able to view the leaderboard, if the Admin user has made that option available.
+   1. The leaderboard should have a different section for each challenge mode available, listing the top 20 entries for that challenge mode completed by the Classroom.
+   2. Places on the leaderboard will be calculated by multiplying a challenge's WPM by the accuracy
+   3. The information displayed on the leaderboard will be the user's Display Name, the WPM, and the Accuracy
+5. The user must be able to manage their user account.
+   1. They must be able to log into their account using a valid email and password combination
+   2. They must be able to create an account
+   3. They must be able to log out of their account
+   4. They should be able to change their Display Name
+   5. They must be able to join a School when invited by a Super-Admin
+   6. They should be able to change their account password.
+6. They should be able to view a report of their typing history
+   1. They should be able to view a list of completed challenges
+   2. For each completed challenge, they should be able to view the date/time it was completed, and their WPM, accuracy, total time, and challenge mode.
+   3. They should be able to view a report of their WPM and accuracy over time.
+7. They should be able to view Typing challenges which are assigned to them by an Admin user.
+   1. They should be able to view the date it was assigned, the date it is due, and the challenge mode.
+   2. They should be able to take the challenge to complete the assignment.
 
+## Should Haves
+## Could Haves
+   1. A Numbers challenge mode could be selected, using the numerical and mathematical keys on the numpad.
+   2. An image could be generated when a user completes a challenge, to share with others.
+   3. Reports could display which 2-letter character combinations the user is weakest at.
+   4. Multiple languages (ie: English, Spanish, French) could be supported.
 
-- Should Haves
-   - Audio for dictation mode must be played through their device's speakers
-      - Dictation mode doesn't work for programmer mode
-      - Speed up or slow down the speed of dictation mode to adjust the difficulty 
-      - Pause and Play for dictation mode
+# Admin Users
+1. Admin users must be able to perform all of the same actions that a standard user can.
+2. Admin users should be able to manage Classrooms
+   1. Admin users should be able to create Classrooms.
+   2. Admin users should be able to add and remove users from Classrooms.
+   3. Admin users should be able to delete Classrooms.
+3. Admin users should be able to assign typing challenges to be completed by Classrooms or specific users.
+   1. The assigned challenge should be able to have a due date.
+   2. The assigned challenge should be able to have a mode selected.
+4. Admin users should be able to view reports on specific users that they manage.
+   1. The reports should be filter-able to only show assigned challenges.
+   2. A report should show the user's WPM or accuracy over a given period of time.
+   3. A report should show a list of the user's completed typing challenges. For each item on the list, the report should show: 
+      1. Accuracy
+      2. WPM
+      3. Date/time completed.
+      4. Challenge mode.
+      5. Total time.
+5. Admin users should be able to view reports on Classrooms that they manage.
+   1. A report should show the Classroom's average WPM over a given period of time.
+   2. A report should show the Classroom's average accuracy over a given period of time.
+   3. A report should show the users in the Classroom's comparative WPM.
+   4. A report should show the users in the Classroom's comparative Accuracy.
+6. Admin users should be able choose to show or hide a leaderboard for Classrooms that they manage. 
 
-
-- Could Haves
-   - Numbers mode using only the numpad
-   - A way to copy user data for sharing 
-   - View an analysis of which 2-letter character combinations they are weakest at(To help them improve)
-   - Multiple languages support
-
-
-# Administrator Users
-- Must Haves
-   - Create a new standard user
-   - Edit the name of a standard user
-   - Delete the standard user
-   - View a standard user's typing history (date, time elapsed, type of challenge, wpm, accuracy)
-
-
-- Should haves
-   - Create a new user group
-   - Edit the name of a user group
-   - Delete the user group
-   - Assign a standard user to a user group
-   - Remove a standard user from a user group
-   - View a report of a standard user's typing history (showing change of wpm and accuracy over time)
-   - Assign typing challenges to standard users or user group
-      - determine the type of typing challenge
-      - optionally set a date and time that the challenge must be completed by
-
-- Could Haves
-   - View a report of a user group's typing history
-      - View a comparison of all users' average accuracy and wpm over a specified period of time
-      - View a comparison of all users' rate of change of accuracy and wpm over a specified period of time (ex: user x has improved accuracy by 5% from September 1 to September 24)
+# Super-Admin (SA) Users
+1. Super-Admin users must be able to perform all of the same actions that an Admin user can.
+2. SA users must be able to manage users.
+   1. They must be able to create users of all types, including Super-Admin.
+   2. They must be able to change privilege levels of Admin and Standard Users.
+3. SA users must be able to manage Schools.
+   1. They must be able to create a School.
+   2. They must be able to invite users to the School.
+   3. They should be able to assign and unassign standard users to be managed by Admin users.
+   4. They should be able to assign and unassign Classrooms to be managed by Admin users.
+   5. They could be able to remove Admin or Standard users from a School.
+   6. They could be able to remove their own account from a School.
