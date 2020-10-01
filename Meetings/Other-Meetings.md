@@ -94,4 +94,38 @@ Action Items:
 
 -Next Meeting: 2020/09/29 @ 4:00p.m. via Discord
 
+## **Meeting 5**
+
+Time: 4:00p.m.-4:43p.m. (43 minutes) via Discord
+
+Date: 2020/10/01
+
+## Agenda
+None 
+
+## Meeting Notes
+Q: Will the content be on the server side or are we storing the text? 
+
+A: A mix of API and files.
+
+Q: How to roll out updates on text files?
+
+A: Could store text content on Firebase or store text on actual computer and update application to update text.
+
+If you want to add a use case, there is a template at the bottom of Use Case Scenarios.
+
+## Outcomes
+Actors
+1. The only API we are using is Firebase API.
+
+Functional Requirements
+1. The leaderboard is confirmed to be a should have for administrative users.
+2. The assign standard users typing challenges is now a must have for administrative users.
+
+Use Case Scenarios
+1. We are removing no use cases. We changed “look at results” in use case 05 to “look at reports”.
+
+## Action Items
+- Think about design for next meeting
+
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
