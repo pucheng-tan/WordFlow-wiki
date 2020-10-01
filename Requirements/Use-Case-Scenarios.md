@@ -122,15 +122,6 @@
 to pull up more stats on page just for stats |
 
 
-//I don't think we need use cases for these since they are not in our must haves
-# 04: User shares their typing test results
-- The User can share there challenge results with other users
-
-
-# 05: User can view leaderboards
-- The User can access a leaderboard with other users for an assigned challenge 
-
-
 # 04: Administrator can create and manage groups
 - The administrator can create groups and invite or delete users from a group
 
