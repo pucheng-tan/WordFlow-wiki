@@ -40,15 +40,10 @@ from the Milestone 1 requirements document.
 
 ### (Special Note: Every permission given to an Administrator will also be given to a Super-Administrator)
 
-### Users can Login
-- The intro screen for the game needs a Login button and a play as Guest button
-- Clicking the login button takes you to another screen where you can enter your information
-- Clicking the play as guest button takes you to the "Select Mode" screen
-- Playing as a guest does not require an Internet connection and some modes may not be available
-
-### Users can selects the Mode
-- A screen where the user can select one of the three buttons for the different modes, Standard, Programmer, and Dictation mode
-- Clicking any mode starts a typing test
+### 01: Users can Login
+- The User can login through the firebase API
+### 02: Users can selects the Mode
+- The user can choose between Standard, Programmer, and Dictation mode
 
 ### Change Programing Language
 - After selecting Programing mode, the User can select between different programming languages
