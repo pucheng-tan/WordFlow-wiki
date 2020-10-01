@@ -1,6 +1,6 @@
 # 01: Users can Login
 - The User can login through the firebase API
-## Use Case ID: 0
+### Use Case ID: 0
 ### Use Case
 - User logs in
 ### Primary Actor(s)
@@ -30,7 +30,7 @@
 
 # 02: Users can selects the Mode
 - The user can choose between Standard, Programmer, and Dictation mode
-## Use Case ID: 1
+### Use Case ID: 1
 ### Use Case
 - user starts a typing challenge in programmer mode
 ### Primary Actor(s)
@@ -49,7 +49,7 @@
 ### Alternative Flow
 2a) the ui and design stage will influence the order of these steps
 
-## Use Case ID: 2
+### Use Case ID: 2
 ### Use Case
 - user starts a typing challenge in normal mode
 ### Primary Actor(s)
@@ -68,7 +68,7 @@
 ### Alternative Flow
 2a) the dashboard will be designed in stage 2
 
-## Use Case ID: 5
+### Use Case ID: 5
 ### Use Case
 - user begins an audio to text test (name TBD)
 ### Primary Actor(s)
@@ -90,7 +90,7 @@
 
 # 03: User can view their typing test results
 - The user can see all of their information from prior test and other metrics like wpm etc...
-## Use Case ID: 3
+### Use Case ID: 3
 ### Use Case
 - user checks their typing stats
 ### Primary Actor(s)
@@ -117,7 +117,7 @@ to pull up more stats on page just for stats
 
 # 06: Administrator can create and manage groups
 - The administrator can create groups and invite or delete users from a group
-## Use Case ID: 4
+### Use Case ID: 4
 ### Use Case
 - admin adds user to their group
 ### Primary Actor(s)
@@ -135,7 +135,7 @@ to pull up more stats on page just for stats
 7. the admin clicks on the user they want to add and presses add
 ### Alternative Flow
 
-## Use Case ID: 7
+### Use Case ID: 7
 ### Use Case
 - admin creates a new group
 ### Primary Actor(s)
@@ -147,7 +147,7 @@ to pull up more stats on page just for stats
 3. the admin will first give the group a name, then press submit
 ### Alternative Flow
 
-## Use Case ID: 8
+### Use Case ID: 8
 ### Use Case
 - admin deletes a group
 ### Primary Actor(s)
@@ -164,7 +164,7 @@ to pull up more stats on page just for stats
 
 # 07: Administrator can assign typing challenges and look at the results
 -
-## Use Case ID: 6
+### Use Case ID: 6
 ### Use Case
 - admin assigns typing challenges to group
 ### Primary Actor(s)
@@ -182,7 +182,7 @@ to pull up more stats on page just for stats
 
 # 08: Users can take assigned tests
 - 
-## Use Case ID: 9
+### Use Case ID: 9
 ### Use Case
 - user attempts a certain group's assigned typing challenge
 ### Primary Actor(s)
@@ -201,7 +201,7 @@ to pull up more stats on page just for stats
 
 # 09: Super-Administrator can create and manage Administrators
 - A super Admin can make a standard user an Admin User
-## Use Case ID: 10
+### Use Case ID: 10
 ### Use Case
 - super admin creates a new admin
 ### Primary Actor(s)
@@ -217,7 +217,7 @@ permissions
 5. after the super admin presses submit, the user that was assigned to be an admin will be notified
 ### Alternative Flow
 
-## Use Case ID: 11
+### Use Case ID: 11
 ### Use Case
 - super admin removes an admins permissions
 ### Primary Actor(s)
@@ -236,7 +236,7 @@ permissions
 
 # 10: Super-Administrator can promote am admin to super-admin
 - A super Admin can make a standard user an Admin User
-## Use Case ID: 12
+### Use Case ID: 12
 ### Use Case
 - super admin adds a user to their domain
 ### Primary Actor(s)
@@ -252,7 +252,7 @@ permissions
 5. the user will be added to the the domain
 ### Alternative Flow
 
-## Use Case ID: 13
+### Use Case ID: 13
 ### Use Case
 - the super admin removes a user from their domain
 ### Primary Actor(s)
