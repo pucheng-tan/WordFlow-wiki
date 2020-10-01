@@ -60,10 +60,10 @@ from the Milestone 1 requirements document.
 - A super Admin can make a standard user an Admin User
 
 
-### API takes longer than 10 seconds (??) to respond to request for data
-### User selects character combinations to focus on (??)
-### User wants to pause the typing test and resume, restart or quit later
-### Turn off the background music (??)
+### ? API takes longer than 10 seconds (??) to respond to request for data
+### ? User selects character combinations to focus on (??)
+### ? User wants to pause the typing test and resume, restart or quit later
+### ? Turn off the background music (??)
 
 ## Use Cases
 
