@@ -21,7 +21,9 @@ A description of important tasks that an actor is able to complete is followed b
    - create groups and assign an administrator to manage the group
    - add and remove administrators
 - also can do everything that a standard user and administrator can do
+
 *Sam is the dean of technology at a post-secondary institution. Sam needs to be able to create administrator accounts for instructors and pull reports to track student progress. Sam also wants to improve their typing skills.*
+
 *Anja is a high school principal. She wants to create accounts for instructors and leave the rest up to them.*
 
 ## Firebase SDK
