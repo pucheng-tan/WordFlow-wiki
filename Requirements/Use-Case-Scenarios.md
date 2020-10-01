@@ -125,8 +125,7 @@
 | **Preconditions** |  |
 | **Basic Flow** |  |
 | 1. | After logging in, the user will be displayed a dashboard |
-| 2. | Somewhere on the dashboard (TBD) the users stats will be displayed, with a button
-to pull up more stats on page just for stats |
+| 2. | Somewhere on the dashboard (TBD) the users stats will be displayed, with a button to pull up more stats on page just for stats |
 
 
 # 04: Administrator can create and manage groups
