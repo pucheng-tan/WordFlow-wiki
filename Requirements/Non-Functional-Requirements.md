@@ -23,10 +23,11 @@
   - The standard user should easily be able to see the play and pause button
   - To adjust the speed of dictation mode, there should be a method to easily slow it down such as by dragging a slider to the left and vice versa or pressing on a speed button
   -  Standard users should clearly be able to identify themselves on the leaderboard and gauge their standing relative to others, assuming it is available
-  - Users should be able to see clearly what each number represents (e.g. There should be a title with the units)
+  - Users should be able to see clearly what each number represents (e.g. there should be a title with the units)
 
 - Could Have
   - Standard users would be able to view the different languages available for typing and easily select one via a drop down menu or by entering one in
+  - There would be documentation on understanding their weak letter combinations
   - There would be documentation on typing foreign languages when the characters have accents or umlauts
 
 ## Administrative User
@@ -41,6 +42,11 @@
 
 - Could Have
   - Administrative users could bring up a group report, in which case, the typing test would format the information to be readable and understandable
+
+## Super-Administrative Users
+
+- Must Have
+  - There must be documentation (e.g. on how to create each user of a different type and how to manage Schools and invite Schools)
 
 # Reliability
 
@@ -84,6 +90,11 @@
   - If a group progress report is implemented, if a standard user is added to the group, the administrative user would be able to see their progress whilst in the group
   - If a group progress report is implemented, if a standard user is deleted from the group, the administrative user will not see their progress going forward
 
+## Super-Administrative Users
+- Must Have
+  - When a super-administrative user creates a user, it should always be of the type specified
+  - When a super-administrative user sends an invite to a School, it must be sent out
+
 # Performance
 
 ## APIs
@@ -120,6 +131,11 @@
 
 - Could Have
   - The group reports should be up to date within 5 seconds (?) of the standard user's progress and should always be available to the administrative user
+
+## Super-Administrative User
+- Must Have
+  - Creating users must take no more than an insignificant delay to appear to the super-administrative user
+  - Invites sent out by the super-administrative user must be sent out promptly
 
 # Supportability
 
