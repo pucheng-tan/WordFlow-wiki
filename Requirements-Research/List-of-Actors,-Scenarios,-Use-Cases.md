@@ -139,7 +139,7 @@ from the Milestone 1 requirements document.
 
 ### Use Case ID: 1
 ### Use Case
-- user starts a typing test in programmer mode
+- user starts a typing challenge in programmer mode
 ### Primary Actor(s)
 - every type of user
 - firebase
@@ -149,10 +149,10 @@ from the Milestone 1 requirements document.
 ### Basic Flow
 1. after the user has logged in, a dashboard will be displayed
 2. the user clicks on the programming tab.
-3. next the user will be able to select the programming language and the duration of the test (the test's options are TBD)
+3. next the user will be able to select the programming language and the duration of the challenge (the challenge's options are TBD)
 4. once the user is ready, they press the start button
-5. the test will begin with the duration and programming language of the users choice
-6. the users stats from the test will be uploaded to the firebase db
+5. the challenge will begin with the duration and programming language of the users choice
+6. the users stats from the challenge will be uploaded to the firebase db
 ### Alternative Flow
 2a) the ui and design stage will influence the order of these steps
 
@@ -160,7 +160,7 @@ from the Milestone 1 requirements document.
 
 ### Use Case ID: 2
 ### Use Case
-- user starts a typing test in normal mode
+- user starts a typing challenge in normal mode
 ### Primary Actor(s)
 - any type of user
 - firebase
@@ -170,10 +170,10 @@ from the Milestone 1 requirements document.
 ### Basic Flow
 1. after the user has logged in, a dashboard will be displayed
 2. user clicks on normal typing mode
-3. user will be able to adjust the typing test (TBD), and the duration of the typing test.
+3. user will be able to adjust the typing challenge (TBD), and the duration of the typing challenge.
 4. once the user is ready, they press the start button
-5. the test will begin with adjustments the user made in step 3
-6. the users stats from the test will be uploaded to the firebase db
+5. the challenge will begin with adjustments the user made in step 3
+6. the users stats from the challenge will be uploaded to the firebase db
 ### Alternative Flow
 2a) the dashboard will be designed in stage 2
 
@@ -199,9 +199,9 @@ to pull up more stats on page just for stats
 
 ### Use Case ID: 4
 ### Use Case
-- admin adds user to group
+- admin adds user to their group
 ### Primary Actor(s)
-- admin user
+- admin user (super admin in the same domain)
 ### Preconditions
 - admin has control of the group
 - the user the admin wants to add to the group must exist
