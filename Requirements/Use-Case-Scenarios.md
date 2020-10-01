@@ -27,6 +27,7 @@
 
 7a) firebase doesnt respond in time
 
+
 # 02: Users can selects the Mode
 - The user can choose between Standard, Programmer, and Dictation mode
 ## Use Case ID: 1
@@ -48,8 +49,6 @@
 ### Alternative Flow
 2a) the ui and design stage will influence the order of these steps
 
----
-
 ## Use Case ID: 2
 ### Use Case
 - user starts a typing challenge in normal mode
@@ -68,8 +67,6 @@
 6. the users stats from the challenge will be uploaded to the firebase db
 ### Alternative Flow
 2a) the dashboard will be designed in stage 2
-
----
 
 ## Use Case ID: 5
 ### Use Case
@@ -109,11 +106,14 @@ to pull up more stats on page just for stats
 ### Alternative Flow
 2a) the dashboard will be designed in stage 2
 
+
 # 04: User shares their typing test results
 - The User can share there challenge results with other users
 
+
 # 05: User can view leaderboards
 - The User can access a leaderboard with other users for an assigned challenge 
+
 
 # 06: Administrator can create and manage groups
 - The administrator can create groups and invite or delete users from a group
@@ -135,8 +135,6 @@ to pull up more stats on page just for stats
 7. the admin clicks on the user they want to add and presses add
 ### Alternative Flow
 
----
-
 ## Use Case ID: 7
 ### Use Case
 - admin creates a new group
@@ -148,8 +146,6 @@ to pull up more stats on page just for stats
 2. from the manage groups page, the admin will be able to add a new group
 3. the admin will first give the group a name, then press submit
 ### Alternative Flow
-
----
 
 ## Use Case ID: 8
 ### Use Case
@@ -183,6 +179,7 @@ to pull up more stats on page just for stats
 5. the admin will click the submit button and the task will be sent to the group
 ### Alternative Flow
 
+
 # 08: Users can take assigned tests
 - 
 ## Use Case ID: 9
@@ -200,6 +197,7 @@ to pull up more stats on page just for stats
 4. user completes the challenge
 5. admin is notified that a user in their group has completed the challenge
 ### Alternative Flow
+
 
 # 09: Super-Administrator can create and manage Administrators
 - A super Admin can make a standard user an Admin User
@@ -219,8 +217,6 @@ permissions
 5. after the super admin presses submit, the user that was assigned to be an admin will be notified
 ### Alternative Flow
 
----
-
 ## Use Case ID: 11
 ### Use Case
 - super admin removes an admins permissions
@@ -236,6 +232,7 @@ permissions
 4. after select the user and press remove, the super admin will be given an extra popup to make sure that the super admin chose the correct admin
 5. after the super admin presses submit, the admin that was removed will be notified
 ### Alternative Flow
+
 
 # 10: Super-Administrator can promote am admin to super-admin
 - A super Admin can make a standard user an Admin User
@@ -254,8 +251,6 @@ permissions
 4. the super admin types the user's unique id and presses submit
 5. the user will be added to the the domain
 ### Alternative Flow
-
----
 
 ## Use Case ID: 13
 ### Use Case
