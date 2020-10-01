@@ -23,7 +23,7 @@
   - The standard user should easily be able to see the play and pause button
   - To adjust the speed of dictation mode, there should be a method to easily slow it down such as by dragging a slider to the left and vice versa or pressing on a speed button
   -  Standard users should clearly be able to identify themselves on the leaderboard and gauge their standing relative to others, assuming it is available
-  - Users should be able to see clearly what each number represents e.g. There should be a title with the units
+  - Users should be able to see clearly what each number represents (e.g. There should be a title with the units)
 
 - Could Have
   - Standard users would be able to view the different languages available for typing and easily select one via a drop down menu or by entering one in
@@ -115,13 +115,11 @@
   - Changing the name should take no more than an insignificant delay
 
 - Should Have
-  - It should take no more than an insignificant delay to create and delete user groups
-  - It should take no more than an insignificant delay to add and remove users from a user group
-  - It should take no more than an insignificant delay to change the name of the user group
-  - The standard user's report should be up to date within 5 seconds of the standard user's progress and should always be available (?)
+  - It should take administrative users no more than an insignificant delay to create and delete user groups, to add and remove users from a user group, and to to change the name of the user group
+  - The standard user's report should be up to date within 5 seconds of the standard user's progress and should always be available (?) to the administrative user
 
 - Could Have
-  - The group reports should be up to date within 5 seconds (?) of the standard user's progress and should always be available
+  - The group reports should be up to date within 5 seconds (?) of the standard user's progress and should always be available to the administrative user
 
 # Supportability
 
