@@ -1,6 +1,49 @@
+[[_TOC_]]
+
+# 00: User creates an account
+- The user must create an account before they are able to login.
+
+| ID: | 00.1 |
+| ------: | ------ |
+| **Use Case** | The first Super-Admin account is created for a new School |
+| **Primary Actors** | Super-Admin user |
+| | Firebase API |
+| **Preconditions** | None |
+| **Basic Flow** | The user: |
+| 1. | Opens the software |
+| 2. | Selects "Create Account" |
+| 3. | Enters a valid email address into the email field. |
+| 4. | Enters the same complex password into the password and verify password fields. |
+| 5. | Clicks "Create." A success message indicating that the account has been created is displayed. |
+| 6. | Selects the Profile menu option. |
+| 7. | Under the School section, selects the option to create a new School. |
+| 8. | For the new school, enters: name, mailing address, phone number. |
+| 9. | Optionally enters an email domain that can be used to automatically verify users against. |
+| 10. | Clicks "Create School." A success message is displayed indicating that the school has been created, and the user has been added as a Super Administrator |
+
+| ID: | 00.2 |
+| ------: | ------ |
+| **Use Case** | A Super-Admin account is created for an existing school |
+| **Primary Actors** | Existing Super-Admin user ("ESA") |
+| | New Super-Admin user ("NSE") |
+| | Firebase API |
+| **Preconditions** | - The School has already been created |
+| | - NSE already has the software installed on their device |
+| **Basic Flow** | |
+| 1. | ESA opens the software, and selects User Management |
+| 2. | ESA chooses option to create new User |
+| 3. | ESA enters the NSE's email address |
+| 4. | ESA selects the option for "Super-Admin" user. A warning message is displayed indicating that this user will have full privileges. |
+| 5. | ESA dismisses the warning by clicking "Continue" |
+| 6. | ESA clicks the "Create User" button to invite NSE to the school |
+| 7. | NSE receives an email inviting them to create an account within the School, and clicks the "Create Account" link in the email. |
+| 8. | The software opens on NSE's device. NSE enters a complex password in the password and verify password fields, and clicks "Create Account" |
+| 9. | A success message is displayed, indicating that NSE's account has been created and they have joined the school as a Super-Admin |
+
+
 # 01: Users can Login
 - The User can login through the firebase API
-### Use Case ID: 0
+## Use Case ID: 0
 ### Use Case
 - User logs in
 ### Primary Actor(s)
