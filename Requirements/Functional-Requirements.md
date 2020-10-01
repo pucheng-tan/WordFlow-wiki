@@ -103,3 +103,4 @@
 24. When managing Schools:
     1. They could be able to remove Admin or Standard users from a School.
     2. They could be able to remove their own account from a School.
+25. Super-Admins can create custom typing challenge content.
