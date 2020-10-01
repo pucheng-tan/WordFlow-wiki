@@ -1,5 +1,7 @@
 [[_TOC_]]
 
+For the non-functional requirements, an insignificant delay is quantified as being less than or equal to 500 miliseconds.
+
 # Usability
 
 ## APIs
@@ -16,38 +18,39 @@
    - The typing test must have clear direction on how the standard user is to start the typing test whether it involves the use of a start button or instead starts automatically when the user starts typing
    - In order to understand progress, users must be able to differentiate between an indicator that they are on the letter and an indicator that they have made a mistake
    - There must be a conspicuous button on quitting the test if the standard user wishes to
-   - Users must be able to understand the units of the metrics, and how they were calculated
+   - Users must be able to understand the feedback (e.g. wpm, accuracy), and how they were calculated
 
 - Should Have
-  - If audio mode is selected, it should be loud enough to hear and clear enough to understand
-  - The standard user should easily be able to see the play and pause button
+  - If dictation mode is selected, it should be loud enough to hear and clear enough to understand
+  - The standard user should easily be able to play and pause
   - To adjust the speed of dictation mode, there should be a method to easily slow it down such as by dragging a slider to the left and vice versa or pressing on a speed button
   -  Standard users should clearly be able to identify themselves on the leaderboard and gauge their standing relative to others, assuming it is available
-  - Users should clearly be able to see what each number represents (e.g. there should be a title with the units)
+  - Users should clearly be able to see what each number represents on the leaderboard (e.g. there should be a title with the units)
 
 - Could Have
-  - Standard users would be able to view the different languages available for typing and easily select one via a drop down menu or by entering one in
   - There would be documentation on understanding their weak letter combinations
+  - Standard users would be able to view the different languages available for typing and easily select one via a drop down menu or by entering one in
   - There would be documentation on typing foreign languages when the characters have accents or umlauts
 
 ## Administrative User
 
 - Must Have
-   - Administrator users must be provided with some level of documentation (e.g. creating and deleting Classrooms)
+   - Administrator users must be provided with some level of documentation on what and how they can work with Classrooms (e.g. creating and deleting Classrooms) as well as what typing challenges are and how to assign them
 
 - Should Have
-  - Administrative users should easily be able to view and understand the information provided in the report for a Classroom
+  - Administrative users should easily be able to view and understand the information provided in the report for a specific user in the Classroom and in the report for the Classroom itself
+  - Administrative users should easily be able to change the visibility of the leaderboard for a Classroom
 
 ## Super-Administrative User
 
 - Must Have
-  - There must be documentation for the super-administrative user (e.g. on how to create each user of a different type and how to manage Schools and invite Schools)
+  - There must be documentation for the super-administrative user on managing Schools (e.g. on how to create each user of a different type and how to manage Schools and invite Schools)
 
 - Should Have
-  - There should be documentation for the super-administrative user on assigning and unassigning with Classrooms and the effects
+  - There should be documentation for the super-administrative user on assigning and unassigning with Classrooms to administrative users and the effects of doing so
 
 - Could Have
-  - There would be documentation on removing when dealing with Schools and the effects
+  - There would be documentation on removing users from Schools and the effects of doing so
 
 # Reliability
 
@@ -78,9 +81,9 @@
   - If a new Classroom is created, it must be created
   - If the Classroom is deleted, the Classroom must be deleted and it should not appear or be accessible for the administrative user and members of the deleted Classroom
   - If a user is added to a Classroom, the user should appear in the Classroom and vice versa
+  - When the due date passes for the typing challenge, the administrative user should know that users assigned will no longer be able to get credit for it
 
 - Should Have
-  - When the due date passes for the typing challenge, the administrative user should know that users assigned will no longer be able to get credit for it
   - If a Classroom report is implemented, if a standard user is added to the Classroom, the administrative user should be able to see their progress whilst in the Classroom and if a standard user is deleted from the Classroom, the administrative user should not see their progress going forward
 
 ## Super-Administrative User
@@ -90,10 +93,10 @@
   - When a super-administrative user sends an invite to a School, it must be sent out
 
 - Should Have
-  - When the super-administrative user assigns and unassigns, it must be added and removed to the specified Classroom
+  - When the super-administrative user assigns and unassigns administrative users, the administrative user must be granted access or denied access to the specified Classroom
 
 - Could Have
-  - When a super-administrative user decides to remove from a School, it would be removed
+  - When a super-administrative user decides to remove users from a School, the user would be removed
 
 # Performance
 
@@ -101,20 +104,20 @@
 
 - Must Have
 
-  - API must respond within a certain amount of time
+  - The API must respond within a certain amount of time
 
 ## Standard User
 
 - Must Have
-  - When the standard user switches to a different mode, the typing tool must not make the user wait too long (might want to discuss exact time, maybe 5 seconds?)
-  - As soon as the standard user starts the test, the timer being synchronously with the standard user
+  - When the standard user switches to a different mode, the typing tool must take only an insignificant delay
+  - As soon as the standard user starts the test, the timer starts synchronously with the standard user
   - As the standard user types, the display must move synchronously with the standard user's keystrokes including if they hit the backspace button
   - If the standard user makes a typing error, the display must highlight the error almost immediately after it occurred
 
 - Should Have
   - If dictation mode is selected, the audio should start playing as soon as the standard user starts
   - The buttons for dictation mode should take no more than an insignificant delay to respond to the standard user
-  - If the standard user gets a score that improves their place on the leaderboard, the change will immediately be visible (maybe take no more than 5 seconds to appear)
+  - If the standard user gets a score that improves their place on the leaderboard, the change will take no more than an insignificant delay to be visible
 
 - Could Have
   - If the standard user is in numbers mode, it should also detect the numbers synchronously
@@ -125,7 +128,7 @@
   - It should take administrative users no more than an insignificant delay to create and delete Classrooms and to add and remove users from a Classroom
 
 - Should Have
-  - The Classroom's report should be up to date within 5 seconds of the standard user's progress and should always be available (?) to the administrative user
+  - The Classroom's report should be up to date within 5 seconds of the standard user's progress and should always be available to the administrative user
 
 ## Super-Administrative User
 
