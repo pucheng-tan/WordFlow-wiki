@@ -1,13 +1,27 @@
-## Standard User
-- Must Haves
-   - Choose between a "programmer" mode to type code, "standard" to type words in English from written text, or "dictation" to type English words given in though audio
-   - Choose different programming languages in the programmer mode: Python, Java, PHP, HTML, C
-   - Progress displayed highlighted on the screen
-   - Errors should be clearly visible(The word is highlighted Red instead of Green)
-   - Time visible on the screen in the form of a stopwatch
+[[_TOC_]]
+# Standard User
+The functionality of the standard user is also available to the Admin user and the Super-Admin user.
+## Must Haves
+1. User must be able to take a typing challenge. The typing challenge will consist of content that they will have to type, and a space for the user to enter the content.
+   1. They must be able to see their typing progress highlighted to indicate their position in the challenge (unless taking a challenge in Dictation mode)
+   2. They must be able to see typing errors they have made highlighted in the challenge in a different colour (unless taking a challenge in Dictation mode). 
+   3. They must be able to see the time elapsed since they began the challenge.
+   4. They must be able to Quit the challenge at any time.
+2. User must be able to select from different modes when taking a typing challenge.
+   1. Content must be available in a "Standard" mode, consisting of English words, spaces, and punctuation.
+   2. Content must be available in a "Programmer" mode, where the user types code, including special characters.
+      1. The following languages will be available in programmer mode: Python, Java, PHP, HTML, C
+   3. Content must be available in "Dictation" mode, where audio is played back over the devices speakers, and the user types words separated by spaces (no punctuation).
+      1. The user should be able to adjust the playback speed of the audio content.
+      2. The user should be able to pause and play the audio content.
+      3. The user should be able to replay the audio content.
+3. The system must recognize when the user completes the challenge, and display feedback to the user.
+   1. The total time must be displayed
+   2. The average WPM must be displayed
+   3. The accuracy must be displayed as a percentage
+   4. If the user has placed on the leaderboard, 
    - Show information like a: total time, b: average wpm, c: accuracy, d: leaderboard(Can be toggled by Admin) upon completing the typing challenge
    - The leaderboard will show a name, speed, time, and the type of challenge completed (max number of entries?)
-   - Ability to complete basic typing challenges without an internet connection available
    - Ability to quit the typing test (e.g. they want to start a new one, or don't want to do it anymore)
 
 
@@ -25,7 +39,7 @@
    - Multiple languages support
 
 
-## Administrator Users
+# Administrator Users
 - Must Haves
    - Create a new standard user
    - Edit the name of a standard user
