@@ -19,11 +19,11 @@
    - Users must be able to understand the units of the metrics, and how they were calculated
 
 - Should Have
-  - If audio mode is selected, it must be loud enough to hear and clear enough to understand
+  - If audio mode is selected, it should be loud enough to hear and clear enough to understand
   - The standard user should easily be able to see the play and pause button
   - To adjust the speed of dictation mode, there should be a method to easily slow it down such as by dragging a slider to the left and vice versa or pressing on a speed button
   -  Standard users should clearly be able to identify themselves on the leaderboard and gauge their standing relative to others, assuming it is available
-  - Users should be able to see clearly what each number represents (e.g. there should be a title with the units)
+  - Users should clearly be able to see what each number represents (e.g. there should be a title with the units)
 
 - Could Have
   - Standard users would be able to view the different languages available for typing and easily select one via a drop down menu or by entering one in
@@ -39,14 +39,18 @@
 - Should Have
   - Administrative users should easily be able to view and understand the information provided in the report for a standard user
   - Administrative users should be able to make the leaderboard visible by the check of a box or something as simple
+  - Administrative users could bring up a Classroom report, in which case, the information would be formatted to be readable and understandable
 
-- Could Have
-  - Administrative users could bring up a group report, in which case, the typing test would format the information to be readable and understandable
-
-## Super-Administrative Users
+## Super-Administrative User
 
 - Must Have
-  - There must be documentation (e.g. on how to create each user of a different type and how to manage Schools and invite Schools)
+  - There must be documentation for the super-administrative user (e.g. on how to create each user of a different type and how to manage Schools and invite Schools)
+
+- Should Have
+  - There should be documentation for the super-administrative user on assigning and unassigning with Classrooms and the effects
+
+- Could Have
+  - There would be documentation on removing when dealing with Schools and the effects
 
 # Reliability
 
@@ -54,8 +58,8 @@
 
 - Must Have
 
-  - API should always be available
-  - API should consistently give what asked for (e.g. ask for random words, receive random words)
+  - The API must always be available
+  - The API must consistently give what asked for (e.g. ask for random words, receive random words)
 
 ## Standard User
 
@@ -74,26 +78,25 @@
 ## Administrative User
 
 - Must Have
-  - If an administrative user creates a new standard user, it must be created
-  - If an administrative user changes the name of the standard user, the name must be changed both for the administrative user and the standard user
-  - If an administrative user deletes a standard user, the standard user must be deleted and must no longer be able to access their account
-  - If an administrative user views a standard's user typing history, it must be the most recent history and accurately depict the standard user's history
+  - If a new Classroom is created, it must be created
+  - If the Classroom is deleted, the Classroom must be deleted and it should not appear or be accessible for the administrative user and members of the deleted Classroom
+  - If a user is added to a Classroom, the user should appear in the Classroom and vice versa
 
 - Should Have
-  - If a new user group is created, it should be created
-  - If the user group's name is edited, the name should be changed both the administrative user and the user group
-  - If the user group is deleted, the user group should be deleted and it should not appear or be accessible for the administrative user and members of the user group
-  - If a user is added to a group, the user should appear in the group
-  - If a user is removed from a group, the user no should no longer appear in the group
+  - When the due date passes for the typing challenge, the administrative user should know that users assigned will no longer be able to get credit for it
+  - If a Classroom report is implemented, if a standard user is added to the Classroom, the administrative user should be able to see their progress whilst in the Classroom and if a standard user is deleted from the Classroom, the administrative user should not see their progress going forward
 
-- Could Have
-  - If a group progress report is implemented, if a standard user is added to the group, the administrative user would be able to see their progress whilst in the group
-  - If a group progress report is implemented, if a standard user is deleted from the group, the administrative user will not see their progress going forward
+## Super-Administrative User
 
-## Super-Administrative Users
 - Must Have
   - When a super-administrative user creates a user, it should always be of the type specified
   - When a super-administrative user sends an invite to a School, it must be sent out
+
+- Should Have
+  - When the super-administrative user assigns and unassigns, it must be added and removed to the specified Classroom
+
+- Could Have
+  - When a super-administrative user decides to remove from a School, it would be removed
 
 # Performance
 
@@ -122,20 +125,22 @@
 ## Administrative User
 
 - Must Have
-  - It should take no more than an insignificant delay for a user to be created or deleted
-  - Changing the name should take no more than an insignificant delay
+  - It should take administrative users no more than an insignificant delay to create and delete Classrooms and to add and remove users from a Classroom
 
-- Should Have
-  - It should take administrative users no more than an insignificant delay to create and delete user groups, to add and remove users from a user group, and to to change the name of the user group
-  - The standard user's report should be up to date within 5 seconds of the standard user's progress and should always be available (?) to the administrative user
-
-- Could Have
-  - The group reports should be up to date within 5 seconds (?) of the standard user's progress and should always be available to the administrative user
+-Should Have
+  - The Classroom's report should be up to date within 5 seconds of the standard user's progress and should always be available (?) to the administrative user
 
 ## Super-Administrative User
+
 - Must Have
   - Creating users must take no more than an insignificant delay to appear to the super-administrative user
   - Invites sent out by the super-administrative user must be sent out promptly
+
+- Should Have
+  - Assigning and unassigning to Classroom should not take too long for super-administrative users to see the changes
+
+- Could Have
+  - Removing from Schools should not take too long for super-administrative users to see the changes
 
 # Supportability
 
