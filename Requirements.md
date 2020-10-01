@@ -22,7 +22,6 @@ The application is designed for desktop environments and created in the Python p
 
 # Scenarios and Use Cases
 [Scenarios and Use Cases](/Requirements/Use-Case-Scenarios)
-<< Supporting Descriptions for each
 
 # Diagrams
 ## Use Case Diagram
