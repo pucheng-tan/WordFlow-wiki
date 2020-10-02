@@ -66,7 +66,7 @@ For the non-functional requirements, an insignificant delay is quantified as bei
 
 - Must Have
   - The typing tool must be available 24/7
-  - As long as the standarduser is connected to WiFi, they must be able to use the typing tool
+  - As long as the standard user is connected to WiFi, they must be able to use the typing tool
   - The typing tool must correctly generate text segments for the mode selected by the standard user (e.g. if "programmer" mode is selected, they consistently receive code to type and in the language they choose)
   - If the system crashes on the user, the standard user's history must be saved
   - If the standard user makes a typing error, the display must accurately detect and depict the error
