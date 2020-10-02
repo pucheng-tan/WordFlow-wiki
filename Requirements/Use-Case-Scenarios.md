@@ -73,7 +73,7 @@
 | 7. | Firebase authentication responds |
 
 
-# 02: Users can selects the Mode
+# 02: Users can select the Mode
 - The user can choose between Standard, Programmer, and Dictation mode
 
 | ID: | 02.1 |
@@ -146,7 +146,7 @@
 |  | The user the admin wants to add to the group must exist and be in the domain |
 | **Basic Flow** |  |
 | 1. | Once the admin logs in, they will be directed to the main dashboard. |
-| 2. | When a user gets to the main dashboard, if they have admin persmissions, a manage groups page will be present |
+| 2. | When a user gets to the main dashboard, if they have admin permissions, a manage groups page will be present |
 | 3. | Admin clicks on manage groups page |
 | 4. | Admin selects the group the want to manage |
 | 5. | Admin clicks add new member |
