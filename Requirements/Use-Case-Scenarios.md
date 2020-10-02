@@ -8,17 +8,17 @@
 | **Use Case** | The first Super-Admin account is created for a new School |
 | **Primary Actors** | Super-Admin user |
 | | Firebase API |
-| **Preconditions** | None |
-| **Basic Flow** | The user: |
+| **Preconditions** |  |
+| **Basic Flow** |  |
 | 1. | Opens the software |
 | 2. | Selects "Create Account" |
-| 3. | Enters a valid email address into the email field. |
-| 4. | Enters the same complex password into the password and verify password fields. |
-| 5. | Clicks "Create." A success message indicating that the account has been created is displayed. |
-| 6. | Selects the Profile menu option. |
-| 7. | Under the School section, selects the option to create a new School. |
-| 8. | For the new school, enters: name, mailing address, phone number. |
-| 9. | Optionally enters an email domain that can be used to automatically verify users against. |
+| 3. | Enters a valid email address into the email field |
+| 4. | Enters the same complex password into the password and verify password fields |
+| 5. | Clicks "Create." A success message indicating that the account has been created is displayed |
+| 6. | Selects the Profile menu option |
+| 7. | Under the School section, selects the option to create a new School |
+| 8. | For the new school, enters: name, mailing address, phone number |
+| 9. | Optionally enters an email domain that can be used to automatically verify users against |
 | 10. | Clicks "Create School." A success message is displayed indicating that the school has been created, and the user has been added as a Super Administrator |
 
 | ID: | 00.2 |
@@ -27,8 +27,8 @@
 | **Primary Actors** | Existing Super-Admin user ("ESA") |
 | | New Super-Admin user ("NSE") |
 | | Firebase API |
-| **Preconditions** | - The School has already been created |
-| | - NSE already has the software installed on their device |
+| **Preconditions** | The School has already been created |
+| | NSE already has the software installed on their device |
 | **Basic Flow** | |
 | 1. | ESA opens the software, and selects User Management |
 | 2. | ESA chooses option to create new User |
