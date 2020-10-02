@@ -231,10 +231,10 @@
 | ------: | ------ |
 | **Use Case** | Super admin creates a new admin |
 | **Primary Actors** | Super admin |
-| **Preconditions** | The user that the super admin wants to give admin persmissions to exists |
+| **Preconditions** | The user that the super admin wants to give admin permissions to exists |
 | **Basic Flow** |  |
 | 1. | Somewhere on the dashboard, the super admin will have a special tab or menu that is only given to users with super admin permissions |
-| 2. | If the super admins clicks it, a list of users that the super admin had previously assigned to be admin will be shown |
+| 2. | If the super admin clicks it, a list of users that the super admin had previously assigned to be admin will be shown |
 | 3. | The super admin will be able to click on the add new button |
 | 4. | After pressing the add new button, the super admin can type the unique identifier of the user they want to assign admin permissions |
 | 5. | After the super admin presses submit, the user that was assigned to be an admin will be notified|
@@ -247,7 +247,7 @@
 | **Preconditions** | The admin that the super admin wants to demote exists |
 | **Basic Flow** |  |
 | 1. | Somewhere on the dashboard, the super admin will have a special tab or menu that is only given to users with super admin permissions |
-| 2. | If the super admins clicks it, a list of users that the super admin had previously assigned to be admin will be shown |
+| 2. | If the super admin clicks it, a list of users that the super admin had previously assigned to be admin will be shown |
 | 3. | The super admin selects the admin that they want to remove |
 | 4. | After select the user and press remove, the super admin will be given an extra popup to make sure that the super admin chose the correct admin |
 | 5. | After the super admin presses submit, the admin that was removed will be notified |
