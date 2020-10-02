@@ -104,11 +104,11 @@
 
 | ID: | 02.3 |
 | ------: | ------ |
-| **Use Case** | user begins an audio to text test (name TBD) |
+| **Use Case** | user starts a typing challenge in dictation mode |
 | **Primary Actors** | every type of user |
 | **Preconditions** | user is logged in and authenticated |
 | **Basic Flow** |  |
-| 1. | from the dashboard, the user will click on the audio to text tab |
+| 1. | from the dashboard, the user will click on the dictation tab |
 | 2. | this will lead to a new page where the user can adjust the speed of the audio |
 | 3. | after adjusted the audio to text test, the user can press the start button |
 | 4. | one-by-one, words will begin being read out loud, and the user has to type the words before the next one pops up |
@@ -168,7 +168,7 @@
 | 5. | if the admin clicks yes, the group will be deleted |
 
 
-# 05: Administrator can assign typing challenges and look at the results
+# 05: Administrator can assign typing challenges
 - admins can use these challenges to gage their group's performance and improvement
 
 | ID: | 05.1 |
@@ -244,7 +244,7 @@
 | 5. | after the super admin presses submit, the admin that was removed will be notified |
 
 
-# 9: Super-Administrator can promote am admin to super-admin
+# 09: Super-Administrator can promote am admin to super-admin
 - A super Admin can make a standard user an Admin User
 
 | ID: | 09.1 |
