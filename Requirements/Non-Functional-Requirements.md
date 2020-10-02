@@ -1,5 +1,6 @@
 [[_TOC_]]
 
+# Terminology
 For the non-functional requirements, an insignificant delay is quantified as being less than or equal to 500 miliseconds.
 
 # Usability
@@ -8,7 +9,7 @@ For the non-functional requirements, an insignificant delay is quantified as bei
 
 - Must Have
 
-  - Must have documentation on what API does and how to use the functions it provides
+  - Must have documentation on what the API does and how to use the functions it provides
 
 ## Standard User
 
@@ -44,13 +45,13 @@ For the non-functional requirements, an insignificant delay is quantified as bei
 ## Super-Administrative User
 
 - Must Have
-  - There must be documentation for the super-administrative user on managing Schools (e.g. on how to create each user of a different type and how to manage Schools and invite Schools)
+  - There must be documentation for the super-administrative user on the users (e.g. the different types of users and how to create them) and managing Schools (e.g. creating Schools and inviting users to Schools)
 
 - Should Have
-  - There should be documentation for the super-administrative user on assigning and unassigning with Classrooms to administrative users and the effects of doing so
+  - There should be documentation for the super-administrative user on assigning and unassigning Classrooms to administrative users and the effects of doing so
 
 - Could Have
-  - There would be documentation on removing users from Schools and the effects of doing so
+  - There would be documentation for the super-administrative user on removing users from Schools and the effects of doing so as well as creating custom typing challenge content
 
 # Reliability
 
@@ -65,9 +66,9 @@ For the non-functional requirements, an insignificant delay is quantified as bei
 
 - Must Have
   - The typing tool must be available 24/7
-  - As long as the user is connected to WiFi, they must be able to use the typing tool
-  - The typing tool must correctly generate text segments for the mode selected (e.g. if "programmer" mode is selected, they consistently receive code to type and in the language they choose)
-  - If the system crashes on the user, the user's history must be saved
+  - As long as the standarduser is connected to WiFi, they must be able to use the typing tool
+  - The typing tool must correctly generate text segments for the mode selected by the standard user (e.g. if "programmer" mode is selected, they consistently receive code to type and in the language they choose)
+  - If the system crashes on the user, the standard user's history must be saved
   - If the standard user makes a typing error, the display must accurately detect and depict the error
   - The standard's user metrics must be reported accurately, specifically, it will use the standard method of calculating metrics such as wpm and accuracy
   - The standard user's data must be securely protected
@@ -97,6 +98,7 @@ For the non-functional requirements, an insignificant delay is quantified as bei
 
 - Could Have
   - When a super-administrative user decides to remove users from a School, the user would be removed
+  - When a super-administrative user creates custom content, it should show up in the typing challenges for the standard users
 
 # Performance
 
@@ -137,10 +139,10 @@ For the non-functional requirements, an insignificant delay is quantified as bei
   - Invites sent out by the super-administrative user must be sent out promptly
 
 - Should Have
-  - Assigning and unassigning to Classroom should not take too long for super-administrative users to see the changes
+  - Assigning and unassigning administrative users to Classrooms should not take too long for super-administrative users to see the changes
 
 - Could Have
-  - Removing from Schools should not take too long for super-administrative users to see the changes
+  - Removing from Schools would not take too long for super-administrative users to see the changes
 
 # Supportability
 
