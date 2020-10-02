@@ -17,7 +17,7 @@
    1. Content must be available in a "Standard" mode, consisting of English words, spaces, and punctuation.
    2. Content must be available in a "Programmer" mode, where the user types code, including special characters.
       1. The following languages will be available in programmer mode: Python, Java, PHP, HTML, C
-   3. Content must be available in "Dictation" mode, where audio is played back over the devices speakers, and the user types words separated by spaces (no punctuation).
+   3. Content must be available in "Dictation" mode, where audio is played back over the device's speakers, and the user types words separated by spaces (no punctuation).
 3. The system must recognize when the user completes the challenge, and display feedback to the user.
    1. The total time must be displayed
    2. The average WPM must be displayed
