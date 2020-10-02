@@ -89,7 +89,7 @@
 | 3. | Next the user will be able to select the programming language and the duration of the challenge (the challenge's options are TBD) |
 | 4. | Once the user is ready, they press the start button |
 | 5. | The challenge will begin with the duration and programming language of the users choice |
-| 6. | The users stats from the challenge will be uploaded to the firebase db |
+| 6. | The user's stats from the challenge will be uploaded to the firebase db |
 
 
 | ID: | 02.2 |
@@ -105,7 +105,7 @@
 | 3. | User will be able to adjust the typing challenge (TBD), and the duration of the typing challenge |
 | 4. | Once the user is ready, they press the start button |
 | 5. | The challenge will begin with adjustments the user made in step 3 |
-| 6. | The users stats from the challenge will be uploaded to the firebase db |
+| 6. | The user's stats from the challenge will be uploaded to the firebase db |
 
 
 | ID: | 02.3 |
@@ -132,7 +132,7 @@
 | **Preconditions** |  |
 | **Basic Flow** |  |
 | 1. | After logging in, the user will be displayed a dashboard |
-| 2. | Somewhere on the dashboard (TBD) the users stats will be displayed, with a button to pull up more stats on page just for stats |
+| 2. | Somewhere on the dashboard (TBD) the user's stats will be displayed, with a button to pull up more stats on the page just for stats |
 
 
 # 04: Administrator can create and manage groups
@@ -140,7 +140,7 @@
 
 | ID: | 04.1 |
 | ------: | ------ |
-| **Use Case** | Admin adds user to their group |
+| **Use Case** | Admin adds a user to their group |
 | **Primary Actors** | Admin user (super admin in the same domain) |
 | **Preconditions** | Admin has control of the group |
 |  | The user the admin wants to add to the group must exist and be in the domain |
@@ -181,7 +181,7 @@
 
 | ID: | 05.1 |
 | ------: | ------ |
-| **Use Case** | Admin assigns typing challenges to group |
+| **Use Case** | Admin assigns typing challenges to a group |
 | **Primary Actors** | Admin user |
 | **Preconditions** | The admin is assigning a typing challenge to a group that they created or were given permissions to |
 | **Basic Flow** |  |
@@ -202,8 +202,8 @@
 | **Preconditions** |  |
 | **Basic Flow** |  |
 | 1. | From the dashboard, admin clicks on the groups tab |
-| 2. | When the admin selects the group that they manage, a list of the members will appear, and next to the list, the groups stats will show |
-| 3. | The admin can then click on group report to see a report of the groups stats, or click on a single user to view there stats |
+| 2. | When the admin selects the group that they manage, a list of the members will appear, and next to the list, the group's stats will show |
+| 3. | The admin can then click on group report to see a report of the group's stats, or click on a single user to view there stats |
 
 
 # 07: Users can take assigned tests
@@ -216,7 +216,7 @@
 | **Preconditions** | User has been invited to group A and has accepted the invite |
 |  | Admin has sent out a task for group A |
 | **Basic Flow** |  |
-| 1. | From main dashboard, user clicks on groups pop down menu |
+| 1. | From the main dashboard, user clicks on groups pop down menu |
 | 2. | User clicks on group A |
 | 3. | Under challenges, user clicks on the challenge to be completed |
 | 4. | User completes the challenge |
@@ -242,7 +242,7 @@
 
 | ID: | 08.2 |
 | ------: | ------ |
-| **Use Case** | Super admin removes an admins permissions |
+| **Use Case** | Super admin removes an admin's permissions |
 | **Primary Actors** | Super admin |
 | **Preconditions** | The admin that the super admin wants to demote exists |
 | **Basic Flow** |  |
