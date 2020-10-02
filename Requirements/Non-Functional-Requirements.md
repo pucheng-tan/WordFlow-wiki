@@ -1,7 +1,7 @@
 [[_TOC_]]
 
 # Terminology
-For the non-functional requirements, an insignificant delay is quantified as being less than or equal to 500 miliseconds.
+For the non-functional requirements, an insignificant delay is quantified as being less than or equal to 500 milliseconds.
 
 # Usability
 
