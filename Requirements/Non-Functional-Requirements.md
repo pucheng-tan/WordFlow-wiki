@@ -59,7 +59,7 @@ For the non-functional requirements, an insignificant delay is quantified as bei
 - Must Have
 
   - The API must always be available
-  - The API must consistently give what asked for (e.g. ask for random words, receive random words)
+  - The API must consistently give what was asked for (e.g. ask for random words, receive random words)
 
 ## Standard User
 
