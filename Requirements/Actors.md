@@ -41,6 +41,3 @@ A description of important tasks that an actor is able to complete is followed b
 - manages user authentication, 
 - manages user permissions and profiles
 - stores users' typing data
-
-## Other APIs possibly!
-//TODO: decide on the format for our tests (this will narrow down our choice in text fetching APIs)
