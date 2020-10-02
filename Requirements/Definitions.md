@@ -10,5 +10,5 @@ A user is given a segment of text to type, either by being shown the characters 
 
 ## Accuracy
 - The ratio of correct characters typed vs the total number of characters in the challenge:
-- Given t = total characters in challenge, and c = total number of correct characters typed
+- Given t = total characters in the challenge, and c = total number of correct characters typed
    - accuracy = c / t
