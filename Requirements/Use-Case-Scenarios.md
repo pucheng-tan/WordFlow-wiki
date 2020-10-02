@@ -43,7 +43,8 @@
 | ID: | 00.3 |
 | ------: | ------ |
 | **Use Case** | Standard user creates an account for the first time |
-| **Primary Actors** | Standard user, firebase |
+| **Primary Actors** | Standard user |
+|  | firebase |
 | **Preconditions** |  |
 | **Basic Flow** |  |
 | 1. | User chooses a username and password |
@@ -59,7 +60,8 @@
 | ID: | 01.1 |
 | ------: | ------ |
 | **Use Case** | User logs in |
-| **Primary Actors** | Every type of user (Standard, Admin, Super-Admin), Firebase (authentication) |
+| **Primary Actors** | Every type of user (Standard, Admin, Super-Admin)|
+|   | Firebase (authentication) |
 | **Preconditions** | User has a user account |
 | **Basic Flow** |  |
 | 1. | User starts software and arrives at login screen |
@@ -76,9 +78,11 @@
 
 | ID: | 02.1 |
 | ------: | ------ |
-| **Use Case** | user starts a typing challenge in programmer mode |
-| **Primary Actors** | every type of user, firebase |
-| **Preconditions** | user is logged in and authenticated, user has internet connection |
+| **Use Case** | User starts a typing challenge in programmer mode |
+| **Primary Actors** | Every type of user|
+|  | Firebase |
+| **Preconditions** | User is logged in and authenticated |
+|  | User has internet connection |
 | **Basic Flow** |  |
 | 1. | After the user has logged in, a dashboard will be displayed |
 | 2. | The user clicks on the programming tab |
@@ -91,8 +95,10 @@
 | ID: | 02.2 |
 | ------: | ------ |
 | **Use Case** | User starts a typing challenge in normal mode |
-| **Primary Actors** | Any type of user, firebase |
-| **Preconditions** | User is logged in and authenticated, user has an internet connection |
+| **Primary Actors** | Any type of user |
+|  | Firebase |
+| **Preconditions** | User is logged in and authenticated |
+|  | User has an internet connection |
 | **Basic Flow** |  |
 | 1. | After the user has logged in, a dashboard will be displayed |
 | 2. | User clicks on normal typing mode |
@@ -121,7 +127,8 @@
 | ID: | 03.1 |
 | ------: | ------ |
 | **Use Case** | User checks their typing stats |
-| **Primary Actors** | Every type of user, firebase |
+| **Primary Actors** | Every type of user |
+|  | Firebase |
 | **Preconditions** |  |
 | **Basic Flow** |  |
 | 1. | After logging in, the user will be displayed a dashboard |
@@ -135,7 +142,8 @@
 | ------: | ------ |
 | **Use Case** | Admin adds user to their group |
 | **Primary Actors** | Admin user (super admin in the same domain) |
-| **Preconditions** | Admin has control of the group, the user the admin wants to add to the group must exist and be in the domain |
+| **Preconditions** | Admin has control of the group |
+|  | The user the admin wants to add to the group must exist and be in the domain |
 | **Basic Flow** |  |
 | 1. | Once the admin logs in, they will be directed to the main dashboard. |
 | 2. | When a user gets to the main dashboard, if they have admin persmissions, a manage groups page will be present |
@@ -205,7 +213,8 @@
 | ------: | ------ |
 | **Use Case** | User attempts a certain group's assigned typing challenge |
 | **Primary Actors** | User of a certain group (ex: group A) |
-| **Preconditions** | User has been invited to group A and has accepted the invite, admin has sent out a task for group A |
+| **Preconditions** | User has been invited to group A and has accepted the invite |
+|  | Admin has sent out a task for group A |
 | **Basic Flow** |  |
 | 1. | From main dashboard, user clicks on groups pop down menu |
 | 2. | User clicks on group A |
