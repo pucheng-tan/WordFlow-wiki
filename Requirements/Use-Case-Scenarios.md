@@ -50,7 +50,7 @@
 | 1. | User chooses a username and password |
 | 2. | User types in email |
 | 3. | User presses submit |
-| 4. | Firebase reponds |
+| 4. | Firebase responds |
 | 4. | If the email is not taken, the account will be created |
 
 
