@@ -249,7 +249,7 @@
 | 1. | Somewhere on the dashboard, the super admin will have a special tab or menu that is only given to users with super admin permissions |
 | 2. | If the super admin clicks it, a list of users that the super admin had previously assigned to be admin will be shown |
 | 3. | The super admin selects the admin that they want to remove |
-| 4. | After select the user and press remove, the super admin will be given an extra popup to make sure that the super admin chose the correct admin |
+| 4. | After selecting the user and press remove, the super admin will be given an extra popup to make sure that the super admin chose the correct admin |
 | 5. | After the super admin presses submit, the admin that was removed will be notified |
 
 
@@ -266,7 +266,7 @@
 | 2. | After clicking on the special tab, there will be a place to manage their domain |
 | 3. | The super admin presses 'add new user' |
 | 4. | The super admin types the user's unique id and presses submit |
-| 5. | The user will be added to the the domain |
+| 5. | The user will be added to the domain |
 
 
 | ID: | 09.2 |
