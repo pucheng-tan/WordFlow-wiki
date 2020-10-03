@@ -47,15 +47,14 @@
 |  | firebase |
 | **Preconditions** |  |
 | **Basic Flow** |  |
-| 1. | User chooses a username and password |
-| 2. | User types in email |
+| 1. | User enters an email into the email field and the same complex password into the password and verify password fields |
 | 3. | User presses submit |
 | 4. | Firebase responds |
-| 4. | If the email is not taken, the account will be created |
+| 5. | If the email is not taken, the account will be created. A success message is displayed to the user. |
 
 
-# 01: Users can Login
-- The User can login through the firebase API
+# 01: User logs in
+- The User logs in through the Firebase API
 
 | ID: | 01.1 |
 | ------: | ------ |
@@ -65,153 +64,169 @@
 | **Preconditions** | User has a user account |
 | **Basic Flow** |  |
 | 1. | User starts software and arrives at login screen |
-| 2. | User click on username input box |
-| 3. | User enters in username |
+| 2. | User click on email input box |
+| 3. | User enters in email |
 | 4. | User clicks on password box |
-| 5. | User enters in password |
+| 5. | User enters in the correct password |
 | 6. | User presses enter |
 | 7. | Firebase authentication responds |
+| 8. | The user is redirected to a dashboard screen. |
 
 
-# 02: Users can select the Mode
-- The user can choose between Standard, Programmer, and Dictation mode
+# 02: User selects the Challenge Mode
+- The user can choose between Standard, Programmer, and Dictation mode for a typing challenge
 
 | ID: | 02.1 |
 | ------: | ------ |
-| **Use Case** | User starts a typing challenge in programmer mode |
+| **Use Case** | User takes a typing challenge |
 | **Primary Actors** | Every type of user|
 |  | Firebase |
 | **Preconditions** | User is logged in and authenticated |
 |  | User has internet connection |
 | **Basic Flow** |  |
 | 1. | After the user has logged in, a dashboard will be displayed |
-| 2. | The user clicks on the programming tab |
-| 3. | Next the user will be able to select the programming language and the duration of the challenge (the challenge's options are TBD) |
-| 4. | Once the user is ready, they press the start button |
-| 5. | The challenge will begin with the duration and programming language of the users choice |
-| 6. | The user's stats from the challenge will be uploaded to the firebase db |
+| 2. | The user clicks on the Programming option |
+| 3. | The user selects a programming language, Java, from a list of available options |
+| 4. | The user clicks a start button to begin the challenge |
+| 5. | Text content in the Java programming language is displayed to the user |
+| 6. | When the user begins typing, a timer begins tracking time |
+| 7. | The user types the text content of the challenge. Each correct character is highlighted. Each word disappears from the user's text input once it is typed completely. |
+
+| 9. | Once the user types the last word, the typing challenge is over and the timer will stop counting |
+| 10. | The challenge statistics: WPM, accuracy, and total time are displayed to the user, and saved in the Firebase database with the user's unique identifier |
+| **Alternate Flows** |  |
+| 2a. | The user clicks on the Standard option |
+| 3a. | omitted |
+| 5a. | Text content is displayed to the user, composed of English words, spaces, and punctuation. |
+| 7b. | The user enters an incorrect character. It is highlighted in a colour distinct from the correct characters |
+| 7b1. | The user backspaces to remove the incorrect character and re-enter it, or the user enters a space to move onto the next word |
 
 
 | ID: | 02.2 |
 | ------: | ------ |
-| **Use Case** | User starts a typing challenge in normal mode |
-| **Primary Actors** | Any type of user |
-|  | Firebase |
-| **Preconditions** | User is logged in and authenticated |
-|  | User has an internet connection |
-| **Basic Flow** |  |
-| 1. | After the user has logged in, a dashboard will be displayed |
-| 2. | User clicks on normal typing mode |
-| 3. | User will be able to adjust the typing challenge (TBD), and the duration of the typing challenge |
-| 4. | Once the user is ready, they press the start button |
-| 5. | The challenge will begin with adjustments the user made in step 3 |
-| 6. | The user's stats from the challenge will be uploaded to the firebase db |
-
-
-| ID: | 02.3 |
-| ------: | ------ |
-| **Use Case** | User starts a typing challenge in dictation mode |
+| **Use Case** | User takes a typing challenge in dictation mode |
 | **Primary Actors** | Every type of user |
 | **Preconditions** | User is logged in and authenticated |
 | **Basic Flow** |  |
-| 1. | From the dashboard, the user will click on the dictation tab |
-| 2. | This will lead to a new page where the user can adjust the speed of the audio |
-| 3. | After adjusted the audio to text test, the user can press the start button |
-| 4. | One-by-one, words will begin being read out loud, and the user has to type the words before the next one pops up |
-| 5. | After the test is done, the user will be notified of there typing stats |
+| 1. | From the dashboard, the user will click on the Dictation option |
+| 2. | An audio speed option is displayed to the user. The user changes the speed to 0.75x |
+| 3. | The user clicks the start button to begin the text. A timer is displayed, counting the time elapsed since starting the challenge. |
+| 4. | Audio content is played back to the user, consisting of English words |
+| 5. | The user types each word, separated by spaces. The word disappears from their text input once it is typed correctly or the user has moved to the next word by typing a space. |
+| 6. | The user completes the challenge by entering all of the words of the challenge. The timer stops counting. |
+| 7. | The challenge statistics: WPM, accuracy, and total time are displayed to the user, and saved in the Firebase database with the user's unique identifier |
+| **Alternate Flows** |  |
+| 5a. | The user types a word incorrectly. The incorrect character(s) are highlighted on their text input. |
+| 5a1. | The user backspaces to reenter the content, or enters a space to move onto the next word. |
+| 6b. | The user is unable to complete the challenge before the audio content has completed playing. |
+| 6b1. | The user clicks a button to replay the audio content from where their first incomplete word. |
 
 
-# 03: User can view their typing test results
-- The user can see all of their information from prior test and other metrics like wpm etc...
+# 03: User views their typing history
+- The user views a record of challenges that they have previously taken.
 
 | ID: | 03.1 |
 | ------: | ------ |
-| **Use Case** | User checks their typing stats |
+| **Use Case** | User views their typing history |
 | **Primary Actors** | Every type of user |
 |  | Firebase |
-| **Preconditions** |  |
+| **Preconditions** | The user is logged in |
 | **Basic Flow** |  |
-| 1. | After logging in, the user will be displayed a dashboard |
-| 2. | Somewhere on the dashboard (TBD) the user's stats will be displayed, with a button to pull up more stats on the page just for stats |
+| 1. | From the dashboard, the user selects the History option |
+| 2. | A list of previously completed typing challenges is displayed, from newest to oldest. For each challenge, the total time, WPM, accuracy, and challenge mode is displayed |
+| 3. | The user selects the option to view their progress report |
+| 4. | A chart is displayed, with a date range beginning from their first typing challenge and ending with their more recent challenge, graphing their WPM on each challenge on one axis and the date range on the other. |
+| 5. | The user changes an option from WPM to accuracy- the WPM axis changes to accuracy, and their accuracy is graphed instead of their WPM |
+| 6. | The user adjusts the beginning date and end date of the date range. The data and labels on the chart adjusts accordingly. |
 
 
-# 04: Administrator can create and manage groups
-- The administrator can create groups and invite or delete users from a group
+# 04: Administrator manages Classrooms
+- The administrator can create Classrooms and assign or remove users from a Classroom
 
 | ID: | 04.1 |
 | ------: | ------ |
-| **Use Case** | Admin adds a user to their group |
-| **Primary Actors** | Admin user (super admin in the same domain) |
-| **Preconditions** | Admin has control of the group |
-|  | The user the admin wants to add to the group must exist and be in the domain |
+| **Use Case** | Admin adds a user to their Classroom |
+| **Primary Actors** | Admin user |
+| **Preconditions** | Admin has control of the Classroom |
+| | User is previously assigned to the management of Admin by a Super-Admin |
+| | Admin is logged in |
 | **Basic Flow** |  |
-| 1. | Once the admin logs in, they will be directed to the main dashboard. |
-| 2. | When a user gets to the main dashboard, if they have admin permissions, a manage groups page will be present |
-| 3. | Admin clicks on manage groups page |
-| 4. | Admin selects the group the want to manage |
-| 5. | Admin clicks add new member |
-| 6. | A list of users in the domain will appear |
-| 7. | The admin clicks on the user they want to add and presses add |
+| 1. | The Admin selects Manage Classrooms from the dashboard. |
+| 2. | Admin selects the Classroom the want to manage |
+| 3. | Admin clicks add new member |
+| 4. | A list of users the Admin manages is displayed |
+| 5. | The admin clicks on the user they want to add and presses add |
+| 6. | A success message is displayed indicating that the user has been added to the Classroom |
 
 | ID: | 04.2 |
 | ------: | ------ |
-| **Use Case** | Admin creates a new group |
+| **Use Case** | Admin creates a new Classroom |
 | **Primary Actors** | Admin user |
 | **Preconditions** |  |
+| | Admin is logged in |
 | **Basic Flow** |  |
-| 1. | From the dashboard, the admin will click on the manage groups tab |
-| 2. | From the manage groups page, the admin will be able to add a new group |
-| 3. | The admin will first give the group a name, then press submit |
+| 1. | The Admin selects Manage Classrooms from the dashboard. |
+| 2. | The Admin clicks the "New Classroom" button. |
+| 3. | The Admin enters a name for the Classroom and clicks the Submit button. |
+| 4. | A success message is displayed, indicating that the Classroom has been created. |
 
 | ID: | 04.3 |
 | ------: | ------ |
-| **Use Case** | Admin deletes a group |
+| **Use Case** | Admin deletes a Classroom |
 | **Primary Actors** | Admin user |
 | **Preconditions** |  |
+| | Admin is logged in, and is in the Manage Classrooms view |
+| | The Classroom to be deleted already exists |
 | **Basic Flow** |  |
-| 1. | From the dashboard, the admin will click on the manage groups tab |
-| 2. | From the manage groups page, the admin will be able to see each of their groups |
-| 3. | User selects the delete button on the group they wish to delete |
-| 4. | Admin will be given a popup menu to double-check if the admin wants to delete the group |
-| 5. | If the admin clicks yes, the group will be deleted |
+| 1. | The Admin clicks the delete button on the Classroom they want to delete. |
+| 2. | A message is displayed, confirming that the Admin wishes to delete the Classroom. |
+| 3. | The Admin clicks the confirm button. |
+| 4. | A success message is displayed, indicating that the Classroom has been deleted. The Classroom is removed from the database. |
+| 5. | The Classroom is no longer visible on the list of Classrooms. |
 
 
-# 05: Administrator can assign typing challenges
-- admins can use these challenges to gage their group's performance and improvement
+# 05: Admin assigns typing challenges
+- Admins can assign typing challenges to users under their management to be completed by them.
 
 | ID: | 05.1 |
 | ------: | ------ |
-| **Use Case** | Admin assigns typing challenges to a group |
+| **Use Case** | Admin assigns a typing challenge to a Classroom |
 | **Primary Actors** | Admin user |
-| **Preconditions** | The admin is assigning a typing challenge to a group that they created or were given permissions to |
+| **Preconditions** | The Admin has management of the Classroom |
+| | Admin is logged in and in the Manage Classrooms view |
 | **Basic Flow** |  |
-| 1. | From the dashboard, the admin will click on the manage groups tab |
-| 2. | Next, admin clicks on the group they want to manage |
-| 3. | The admin will be able to pick a typing challenge, and edit the typing challenge with options such as duration and difficulty |
-| 4. | The admin clicks a date/time which the typing challenge is to be completed by |
-| 5. | The admin will click the submit button and the task will be sent to the group |
+| 1. | The Admin clicks a Classroom from the list. A view is displayed showing the name of the Classroom, the users, a Reports button, a list of challenges previously assigned to the Classroom, and an option to Assign Typing Challenges |
+| 2. | The Admin selects the option to Assign Typing Challenges. |
+| 3. | The Admin selects the challenge mode as Programming and the language as C. |
+| 4. | The Admin selects the due date as January 14, 2021, at 11:59 pm. |
+| 5. | The Admin clicks the submit button to assign the challenge to the classroom. |
+| 6. | The Classroom view is displayed to the admin. The challenge that was assigned is now at the top of the list of challenges assigned to the classroom. |
 
 
-# 06: Admins can view a group report
-- the group report will show statistics pulled from the assigned typing challenges 
+# 06: Admin views a Classroom Report
+- The Classroom Report will show the Classroom's average WPM and accuracy over time, and a comparison of the Classroom's users' average WPM and accuracy in a chosen date range.
 
 | ID: | 06.1 |
 | ------: | ------ |
-| **Use Case** | Admin views a group report |
+| **Use Case** | Admin views a Classroom report |
 | **Primary Actors** | Admin user |
-| **Preconditions** |  |
+| **Preconditions** | The Admin has management of the Classroom |
+ | Admin is logged in and in the Manage Classrooms view |
 | **Basic Flow** |  |
-| 1. | From the dashboard, admin clicks on the groups tab |
-| 2. | When the admin selects the group that they manage, a list of the members will appear, and next to the list, the group's stats will show |
-| 3. | The admin can then click on group report to see a report of the group's stats, or click on a single user to view there stats |
+| 1. | The Admin clicks a Classroom from the list. A view is displayed showing the name of the Classroom, the users, a Reports button, a list of challenges previously assigned to the Classroom, and an option to Assign Typing Challenges |
+| 2. | The Admin selects the Report option. |
+| 3. | A chart is displayed, showing the average WPM of the Classroom on one axis and dates on the other axis. The date range begins on the day the Classroom was created, and ends on the current day. |
+| 4. | The Admin changes the "WPM" option to "Accuracy". The data adjusts to show Accuracy data instead of WPM. |
+| 5. | The Admin changes the date range to begin one week prior to the current date. The data adjusts according to the data range. |
+| 6. | The Admin changes the "Classroom Average" option to "Comparative". The chart shows a bar for each student, representing their average accuracy within the given date range. The option to change the data from Accuracy to WPM is still available. |
 
 
-# 07: Users can take assigned tests
-- the user can take tests that an admin assigned for the user's group
+# 07: User takes an assigned typing challenge.
+- the user can take typing challenges assigned to their Classroom or to the user specifically.
 
 | ID: | 07.1 |
 | ------: | ------ |
-| **Use Case** | User attempts a certain group's assigned typing challenge |
+| **Use Case** | User takes a typing challenge assigned to their Classroom |
 | **Primary Actors** | User of a certain group (ex: group A) |
 | **Preconditions** | User has been invited to group A and has accepted the invite |
 |  | Admin has sent out a task for group A |
