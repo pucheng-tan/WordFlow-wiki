@@ -3,6 +3,10 @@
 # Terminology
 For the non-functional requirements, an insignificant delay is quantified as being less than or equal to 500 milliseconds.
 
+"All of the time", "always", or "24/7" refers to an availability of 99%
+
+Project Python Version: Python versions greater than 3, but less than 3.7
+
 # Usability
 
 ## APIs
@@ -15,7 +19,7 @@ For the non-functional requirements, an insignificant delay is quantified as bei
 
 - Must Have
   - Standard users must be able to access some level of documentation (e.g. explaining the different modes of the typing test)
-  - There must be an easy method for standard users to change the mode of the typing test (e.g. from "standard" mode to "programmer" mode)
+  - There must be an easy method for standard users to choose the mode of the typing test (e.g. from "standard" mode to "programmer" mode)
    - The typing test must have clear direction on how the standard user is to start the typing test whether it involves the use of a start button or instead starts automatically when the user starts typing
    - In order to understand progress, users must be able to differentiate between an indicator that they are on the letter and an indicator that they have made a mistake
    - There must be a conspicuous button on quitting the test if the standard user wishes to
@@ -49,6 +53,7 @@ For the non-functional requirements, an insignificant delay is quantified as bei
 
 - Should Have
   - There should be documentation for the super-administrative user on assigning and unassigning Classrooms to administrative users and the effects of doing so
+  - There should be a warning displayed when a Super-Admin user attempts to elevate another user in their School to the Super-Admin level.
 
 - Could Have
   - There would be documentation for the super-administrative user on removing users from Schools and the effects of doing so as well as creating custom typing challenge content
@@ -65,13 +70,12 @@ For the non-functional requirements, an insignificant delay is quantified as bei
 ## Standard User
 
 - Must Have
-  - The typing tool must be available 24/7
-  - As long as the standard user is connected to WiFi, they must be able to use the typing tool
+  - The user must always be able to use the typing tool when they have a WiFi connection.
   - The typing tool must correctly generate text segments for the mode selected by the standard user (e.g. if "programmer" mode is selected, they consistently receive code to type and in the language they choose)
-  - If the system crashes on the user, the standard user's history must be saved
+  - If the system crashes on the user, the standard user's existing history or profile must not be corrupted.
   - If the standard user makes a typing error, the display must accurately detect and depict the error
-  - The standard's user metrics must be reported accurately, specifically, it will use the standard method of calculating metrics such as wpm and accuracy
-  - The standard user's data must be securely protected
+  - The standard user's metrics must be reported accurately, specifically; it will use the standard method of calculating metrics such as wpm and accuracy
+  - The standard user's data must be securely protected from unauthorized access.
 
 - Should Have
   - The various buttons for dictation mode (e.g. play and pause) should consistently perform the function assigned for the standard user
@@ -82,7 +86,7 @@ For the non-functional requirements, an insignificant delay is quantified as bei
   - If a new Classroom is created, it must be created
   - If the Classroom is deleted, the Classroom must be deleted and it should not appear or be accessible for the administrative user and members of the deleted Classroom
   - If a user is added to a Classroom, the user should appear in the Classroom and vice versa
-  - When the due date passes for the typing challenge, the administrative user should know that users assigned will no longer be able to get credit for it
+  - When the due date passes for the typing challenge, the administrative user should know that users assigned will no longer be able to take the typing challenge
 
 - Should Have
   - If a Classroom report is implemented, if a standard user is added to the Classroom, the administrative user should be able to see their progress whilst in the Classroom and if a standard user is deleted from the Classroom, the administrative user should not see their progress going forward
@@ -106,13 +110,13 @@ For the non-functional requirements, an insignificant delay is quantified as bei
 
 - Must Have
 
-  - The API must respond within a certain amount of time
+  - The API must respond within an insignificant delay.
 
 ## Standard User
 
 - Must Have
-  - When the standard user switches to a different mode, the typing tool must take only an insignificant delay
-  - As soon as the standard user starts the test, the timer starts synchronously with the standard user
+  - When the standard user takes a new challenge in a different mode, the typing tool must take only an insignificant delay
+  - As soon as the standard user starts typing the challenge, the timer starts synchronously with the standard user
   - As the standard user types, the display must move synchronously with the standard user's keystrokes including if they hit the backspace button
   - If the standard user makes a typing error, the display must highlight the error almost immediately after it occurred
 
@@ -130,7 +134,7 @@ For the non-functional requirements, an insignificant delay is quantified as bei
   - It should take administrative users no more than an insignificant delay to create and delete Classrooms and to add and remove users from a Classroom
 
 - Should Have
-  - The Classroom's report should be up to date within 5 seconds of the standard user's progress and should always be available to the administrative user
+  - The Classroom's report should be up to date within 5 seconds of the standard user's progress when the administrative user opens the report and should always be available to the administrative user
 
 ## Super-Administrative User
 
@@ -142,7 +146,7 @@ For the non-functional requirements, an insignificant delay is quantified as bei
   - Assigning and unassigning administrative users to Classrooms should not take too long for super-administrative users to see the changes
 
 - Could Have
-  - Removing from Schools would not take too long for super-administrative users to see the changes
+  - Removing users from Schools would not take too long for super-administrative users to see the changes
 
 # Supportability
 
@@ -150,13 +154,13 @@ For the non-functional requirements, an insignificant delay is quantified as bei
 
 - Must Have
 
-   - Must be able to use the API on different versions of Python
+   - Must be able to use the API on Project Python Versions.
 
 ## System/Domain
 
 - Must Have
 
-  - The code should be transferable between different versions of Python as long as it is greater than 3 and less than 3.7, due to Google Firebase only working with versions less than 3.7 and on any operating system
+  - The code should be transferable between Project Python Versions, due to Google Firebase only working with versions less than 3.7 and on any operating system supported by such versions of Python.
   - Functions and classes should be commented
     - Description of all parameters
     - Description of the purpose of the function/class
