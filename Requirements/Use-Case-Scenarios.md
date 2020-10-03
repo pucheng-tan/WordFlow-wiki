@@ -8,7 +8,7 @@
 | **Use Case** | The first Super-Admin account is created for a new School |
 | **Primary Actors** | Super-Admin user |
 | | Firebase API |
-| **Preconditions** |  |
+| **Preconditions** | None |
 | **Basic Flow** |  |
 | 1. | Opens the software |
 | 2. | Selects "Create Account" |
@@ -19,7 +19,7 @@
 | 7. | Under the School section, selects the option to create a new School |
 | 8. | For the new school, enters: name, mailing address, phone number |
 | 9. | Optionally enters an email domain that can be used to automatically verify users against |
-| 10. | Clicks "Create School." A success message is displayed indicating that the school has been created, and the user has been added as a Super Administrator |
+| 10. | Clicks "Create School." A success message is displayed indicating that the school has been created, and the user has been added as a Super-Admin |
 
 | ID: | 00.2 |
 | ------: | ------ |
@@ -44,13 +44,13 @@
 | ------: | ------ |
 | **Use Case** | Standard user creates an account for the first time |
 | **Primary Actors** | Standard user |
-|  | firebase |
+|  | Firebase |
 | **Preconditions** |  |
 | **Basic Flow** |  |
 | 1. | User enters an email into the email field and the same complex password into the password and verify password fields |
-| 3. | User presses submit |
-| 4. | Firebase responds |
-| 5. | If the email is not taken, the account will be created. A success message is displayed to the user. |
+| 2. | User presses submit |
+| 3. | Firebase responds |
+| 4. | If the email is not taken, the account will be created. The user receives an email to verify their account, and is automatically logged in. |
 
 
 # 01: User logs in
@@ -59,7 +59,7 @@
 | ID: | 01.1 |
 | ------: | ------ |
 | **Use Case** | User logs in |
-| **Primary Actors** | Every type of user (Standard, Admin, Super-Admin)|
+| **Primary Actors** | Any type of user (Standard, Admin, Super-Admin)|
 |   | Firebase (authentication) |
 | **Preconditions** | User has a user account |
 | **Basic Flow** |  |
@@ -79,7 +79,7 @@
 | ID: | 02.1 |
 | ------: | ------ |
 | **Use Case** | User takes a typing challenge |
-| **Primary Actors** | Every type of user|
+| **Primary Actors** | Any type of user|
 |  | Firebase |
 | **Preconditions** | User is logged in and authenticated |
 |  | User has internet connection |
@@ -91,9 +91,8 @@
 | 5. | Text content in the Java programming language is displayed to the user |
 | 6. | When the user begins typing, a timer begins tracking time |
 | 7. | The user types the text content of the challenge. Each correct character is highlighted. Each word disappears from the user's text input once it is typed completely. |
-
-| 9. | Once the user types the last word, the typing challenge is over and the timer will stop counting |
-| 10. | The challenge statistics: WPM, accuracy, and total time are displayed to the user, and saved in the Firebase database with the user's unique identifier |
+| 8. | Once the user types the last word, the typing challenge is over and the timer will stop counting |
+| 9. | The challenge statistics: WPM, accuracy, and total time are displayed to the user, and saved in the Firebase database with the user's unique identifier |
 | **Alternate Flows** |  |
 | 2a. | The user clicks on the Standard option |
 | 3a. | omitted |
@@ -105,7 +104,7 @@
 | ID: | 02.2 |
 | ------: | ------ |
 | **Use Case** | User takes a typing challenge in dictation mode |
-| **Primary Actors** | Every type of user |
+| **Primary Actors** | Any type of user |
 | **Preconditions** | User is logged in and authenticated |
 | **Basic Flow** |  |
 | 1. | From the dashboard, the user will click on the Dictation option |
@@ -128,7 +127,7 @@
 | ID: | 03.1 |
 | ------: | ------ |
 | **Use Case** | User views their typing history |
-| **Primary Actors** | Every type of user |
+| **Primary Actors** | Any type of user |
 |  | Firebase |
 | **Preconditions** | The user is logged in |
 | **Basic Flow** |  |
@@ -140,8 +139,8 @@
 | 6. | The user adjusts the beginning date and end date of the date range. The data and labels on the chart adjusts accordingly. |
 
 
-# 04: Administrator manages Classrooms
-- The administrator can create Classrooms and assign or remove users from a Classroom
+# 04: Admin manages Classrooms
+- The Admin can create Classrooms and assign or remove users from a Classroom
 
 | ID: | 04.1 |
 | ------: | ------ |
@@ -155,15 +154,14 @@
 | 2. | Admin selects the Classroom the want to manage |
 | 3. | Admin clicks add new member |
 | 4. | A list of users the Admin manages is displayed |
-| 5. | The admin clicks on the user they want to add and presses add |
+| 5. | The Admin clicks on the user they want to add and presses add |
 | 6. | A success message is displayed indicating that the user has been added to the Classroom |
 
 | ID: | 04.2 |
 | ------: | ------ |
 | **Use Case** | Admin creates a new Classroom |
 | **Primary Actors** | Admin user |
-| **Preconditions** |  |
-| | Admin is logged in |
+| **Preconditions** | Admin is logged in |
 | **Basic Flow** |  |
 | 1. | The Admin selects Manage Classrooms from the dashboard. |
 | 2. | The Admin clicks the "New Classroom" button. |
@@ -174,8 +172,7 @@
 | ------: | ------ |
 | **Use Case** | Admin deletes a Classroom |
 | **Primary Actors** | Admin user |
-| **Preconditions** |  |
-| | Admin is logged in, and is in the Manage Classrooms view |
+| **Preconditions** | Admin is logged in, and is in the Manage Classrooms view |
 | | The Classroom to be deleted already exists |
 | **Basic Flow** |  |
 | 1. | The Admin clicks the delete button on the Classroom they want to delete. |
@@ -200,7 +197,7 @@
 | 3. | The Admin selects the challenge mode as Programming and the language as C. |
 | 4. | The Admin selects the due date as January 14, 2021, at 11:59 pm. |
 | 5. | The Admin clicks the submit button to assign the challenge to the classroom. |
-| 6. | The Classroom view is displayed to the admin. The challenge that was assigned is now at the top of the list of challenges assigned to the classroom. |
+| 6. | The Classroom view is displayed to the Admin. The challenge that was assigned is now at the top of the list of challenges assigned to the classroom. |
 
 
 # 06: Admin views a Classroom Report
@@ -211,7 +208,7 @@
 | **Use Case** | Admin views a Classroom report |
 | **Primary Actors** | Admin user |
 | **Preconditions** | The Admin has management of the Classroom |
- | Admin is logged in and in the Manage Classrooms view |
+| | Admin is logged in and in the Manage Classrooms view |
 | **Basic Flow** |  |
 | 1. | The Admin clicks a Classroom from the list. A view is displayed showing the name of the Classroom, the users, a Reports button, a list of challenges previously assigned to the Classroom, and an option to Assign Typing Challenges |
 | 2. | The Admin selects the Report option. |
@@ -227,99 +224,70 @@
 | ID: | 07.1 |
 | ------: | ------ |
 | **Use Case** | User takes a typing challenge assigned to their Classroom |
-| **Primary Actors** | User of a certain group (ex: group A) |
-| **Preconditions** | User has been invited to group A and has accepted the invite |
-|  | Admin has sent out a task for group A |
+| **Primary Actors** | User |
+| **Preconditions** | User is part of the Classroom "Room 203" |
+|  | Admin has assigned a typing challenge to the Classroom "Room 203" |
+|  | User is logged in |
 | **Basic Flow** |  |
-| 1. | From the main dashboard, user clicks on groups pop down menu |
-| 2. | User clicks on group A |
-| 3. | Under challenges, user clicks on the challenge to be completed |
+| 1. | From the main dashboard, Assigned Challenges has a number 1 indicating that there is 1 incomplete Challenges assigned to the user. |
+| 2. | The user clicks Assigned Challenges, and a list of the Challenges is displayed. For each challenge, the challenge mode, assign date, due date, and a button to take the challenge is displayed. |
+| 3. | The user clicks the button to take the assigned challenge. |
 | 4. | User completes the challenge |
-| 5. | Admin is notified that a user in their group has completed the challenge |
+| 5. | When viewing the list of assigned challenges, there is no number, indicating that all assigned challenges are complete. When the user expands the list, the challenge is still displayed with an indication that it is complete. |
+| 6. | Admin is able to view that the user has completed the challenge, including their WPM, accuracy, and total time. |
 
 
 
-# 08: Super-Administrator can create and manage Administrators
-- A super Admin can make a standard user an Admin User
+# 08: Super-Admin can create and manage Admins
+- A Super-Admin can make a standard user an Admin User
 
 | ID: | 08.1 |
 | ------: | ------ |
-| **Use Case** | Super admin creates a new admin |
-| **Primary Actors** | Super admin |
-| **Preconditions** | The user that the super admin wants to give admin permissions to exists |
+| **Use Case** | Super-Admin makes a Standard User into an Admin User |
+| **Primary Actors** | Super-Admin User |
+| | New Admin User (NAU) |
+| **Preconditions** | New Admin User exists in the Super-Admin's School as a Standard User |
+|  | Super-Admin is logged in |
 | **Basic Flow** |  |
-| 1. | Somewhere on the dashboard, the super admin will have a special tab or menu that is only given to users with super admin permissions |
-| 2. | If the super admin clicks it, a list of users that the super admin had previously assigned to be admin will be shown |
-| 3. | The super admin will be able to click on the add new button |
-| 4. | After pressing the add new button, the super admin can type the unique identifier of the user they want to assign admin permissions |
-| 5. | After the super admin presses submit, the user that was assigned to be an admin will be notified|
+| 1. | From the dashboard, the Super-Admin selects the Manage Users option. A list of users in the Super-Admin's school is displayed. |
+| 2. | The Super-Admin starts typing the NAU's display name or email address to filter the list. |
+| 3. | The Super-Admin clicks the desired user. |
+| 4. | The Super-Admin selects the option to change the NAU's privilege level, and selects "Admin" |
+| 5. | The Super-Admin clicks Submit. A prompt is displayed, asking if the Super-Admin would like to change the user to Admin user. |
+| 6. | After clicking confirm, a success message is displayed indicating that the NAU's privilege level has been changed. |
+| 7. | An email is sent to the NAU informing them of their change in privilege level. |
+| **Basic Flow** |  |
+| 4a. | The Super-Admin selects the option to change the NAU's privilege level, and selects "Super-Admin" |
+| 5a. | The Super-Admin clicks Submit. A prompt is displayed, asking if the Super-Admin would like to change the user to Super-Admin user. There is a warning that once this change has been made, it cannot be undone. |
 
 
 | ID: | 08.2 |
 | ------: | ------ |
-| **Use Case** | Super admin removes an admin's permissions |
-| **Primary Actors** | Super admin |
-| **Preconditions** | The admin that the super admin wants to demote exists |
+| **Use Case** | Super-Admin changes an Admin user into a Standard User |
+| **Primary Actors** | Super-Admin |
+| | Old Admin User (OAU) |
+| **Preconditions** | The OAU exists as an Admin User in the Super-Admin User's School |
+|  | Super-Admin is logged in |
 | **Basic Flow** |  |
-| 1. | Somewhere on the dashboard, the super admin will have a special tab or menu that is only given to users with super admin permissions |
-| 2. | If the super admin clicks it, a list of users that the super admin had previously assigned to be admin will be shown |
-| 3. | The super admin selects the admin that they want to remove |
-| 4. | After selecting the user and press remove, the super admin will be given an extra popup to make sure that the super admin chose the correct admin |
-| 5. | After the super admin presses submit, the admin that was removed will be notified |
-
-
-# 09: Super-Administrator can promote am admin to super-admin
-- A super Admin can make a standard user an Admin User
-
-| ID: | 09.1 |
-| ------: | ------ |
-| **Use Case** | Super admin adds a user to their domain |
-| **Primary Actors** | Super admin |
-| **Preconditions** | The user that the super admin wants to add must exist |
-| **Basic Flow** |  |
-| 1. | Somewhere on the dashboard, the super admin will have a special tab or menu that is only given to users with super admin permissions |
-| 2. | After clicking on the special tab, there will be a place to manage their domain |
-| 3. | The super admin presses 'add new user' |
-| 4. | The super admin types the user's unique id and presses submit |
-| 5. | The user will be added to the domain |
+| 1. | From the dashboard, the Super-Admin selects the Manage Users option. A list of users in the Super-Admin's school is displayed. |
+| 2. | The Super-Admin User types "Admin" into the search box, and the users are filtered to Admin users. |
+| 3. | The Super-Admin selects the OAU. |
+| 4. | The Super-Admin selects the option to change the OAU's privilege level, and selects "Standard" |
+| 5. | The Super-Admin clicks Submit. A prompt is displayed, asking if the Super-Admin would like to change the OAU to Standard user. |
+| 6. | After clicking confirm, a success message is displayed indicating that the OAU's privilege level has been changed. |
 
 
 | ID: | 09.2 |
 | ------: | ------ |
-| **Use Case** | The super admin removes a user from their domain |
-| **Primary Actors** | Super admin |
-| **Preconditions** | The user that the super admin wants to add must exist |
+| **Use Case** | The Super-Admin removes a user from their School |
+| **Primary Actors** | Super-Admin |
+| **Preconditions** | The User that the Super-Admin wants to remove must be in the Super-Admin's School |
+|  | Super-Admin is logged in |
+|  | The User is not a Super-Admin |
 | **Basic Flow** |  |
-| 1. | Somewhere on the dashboard, the super admin will have a special tab or menu that is only given to users with super admin permissions |
-| 2. | After clicking on the special tab, there will be a place to manage their domain, with a list of users in the domain |
-| 3. | The user clicks on the user they want to delete and presses delete |
-| 4. | The super admin will get an extra popup assuring that they chose the correct user |
-| 5. | If the super admin presses yes, the user will be deleted from the domain |
-
-
-
-
-
-
-
-
-
-
-//Keap this here to copy and paste
-
-| ID: | 04.1 |
-| ------: | ------ |
-| **Use Case** |  |
-| **Primary Actors** |  |
-| **Preconditions** |  |
-| **Basic Flow** |  |
-| 1. |  |
-| 2. |  |
-| 3. |  |
-| 4. |  |
-| 5. |  |
-| 6. |  |
-| 7. |  |
-| 8. |  |
-| 9. |  |
-| 10. |  |
+| 1. | From the dashboard, the Super-Admin selects the Manage Users option. A list of users in the Super-Admin's School is displayed. |
+| 2. | The Super-Admin User types the User's email into the search box, and the users are filtered. |
+| 3. | The Super-Admin User selects the User. A view is displayed with the User's display name, email address, date added to School, privilege level, Admin management (any Admins who manage the user), and Classroom membership. There are options to change the privilege level, Admin management, and Classroom membership. An option is available to remove the User from the School. |
+| 4. | The Super-Admin User selects the option to remove the User from the School. A prompt is displayed, warning the Super-Admin User that this action cannot be undone, and once the user has been removed, the Super-Admin will not be able to manage the User unless they are invited to the School again. |
+| 5. | The Super-Admin User confirms to remove the User from the School. A success message is displayed. |
+| 6. | The Super-Admin is redirected to the User Management view. The removed User is no longer on the list. |
