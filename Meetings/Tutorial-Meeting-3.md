@@ -19,7 +19,9 @@ Date: 2020/10/06
 ## Agenda
 - (5 min) Overview of the package management system, how to use it
 - talking about Milestone 2
-   - going over design storyboards, domain models, system architecture, interactive diagrams, and persistent storage details
+   - talking about architecture
+   - design storyboards
+   - domain models and interactive system diagrams
    - assigning action items for Thursday and beyond
 
 ## Meeting Notes
