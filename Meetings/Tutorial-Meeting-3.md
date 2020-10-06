@@ -34,7 +34,7 @@ Continued to discuss agenda after TA left.
 - talking about Milestone 2
   - talking about architecture
     - Leaning towards pipe and filter, object oriented, blackboard architectural style   
-    - System and architecture and domain model should be done together
+    - System architecture details and domain model should be done together
   - design storyboards
     - already have some existing ones, could edit, might want to start from scratch
   - domain models and interactive system diagrams
@@ -49,7 +49,7 @@ Other:
 ## Outcomes
 Next Chair: Sarah Chen
 
-Next Secretary: Abdul Salwau
+Next Secretary: Abdul Salawu
 
 ## Action Items
 1. Design Storyboards- Everyone maybe take a look, see if anything want to add, edit, etc.
