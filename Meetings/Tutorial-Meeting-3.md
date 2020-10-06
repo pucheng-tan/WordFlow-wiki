@@ -17,6 +17,10 @@ Date: 2020/10/06
 * Kawser Nafi
 
 ## Agenda
+- (5 min) Overview of the package management system, how to use it
+- talking about Milestone 2
+   - going over design storyboards, domain models, system architecture, interactive diagrams, and persistent storage details
+   - assigning action items for Thursday and beyond
 
 ## Meeting Notes
 
