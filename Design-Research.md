@@ -28,3 +28,10 @@ Connectors:
 Constraints:
    1. If the user signs in as a standard user, the management function will be restricted.
    2. If the user doesn't have an internet connection, he can enter the game as a guest but he can only play the game with local text files, and the management, API and storage function will be restricted.
+
+Plan No. 2
+
+![Architecture_Idea_1](uploads/ad8c9c40ccfa550e778204427361f574/Architecture_Idea_1.jpg)
+
+Description:
+- The plan incorporates the styles of pipes and filters, OOP, repositories/blackboard, and event-based. (Will update)
