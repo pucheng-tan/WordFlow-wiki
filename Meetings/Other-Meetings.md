@@ -137,9 +137,9 @@ Date: 2020/10/07
 ## Agenda
 1. Go over everything done thus far.
 2. Finalize various things.
-  1. How the components for Milestone 2: Design will be grouped together.
-  2. The choice of architectural style.
-  3. Who will be working on each component.
+   1. How the components for Milestone 2: Design will be grouped together.
+   2. The choice of architectural style.
+   3. Who will be working on each component.
 3. Decide what to have done by next Tuesday's meeting.
 
 ## Meeting Notes
