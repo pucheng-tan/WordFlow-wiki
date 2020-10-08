@@ -144,9 +144,23 @@ Date: 2020/10/07
 
 ## Meeting Notes
 
+-We chose a mixture of blackboard architecture (databases and test state), with object-oriented to handle users, and pipeline to connect everything
+-We will use blackboard architecture during a test (keap track of state)
+
+
+
 ## Outcomes
 
 ## Action Items
 1. Make a page in the Wiki for each component of Milestone 2: Design.
+
+-storyboarding -Tara
+-domain modeling -revise what we have
+-paragraph description of our architecture
+
+Puchang - component diagrams - possibly finding GUI library
+-how we are gonna handle progress
+
+-sequence diagrams
 
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
