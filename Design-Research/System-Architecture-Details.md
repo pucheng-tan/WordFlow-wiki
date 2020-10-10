@@ -12,6 +12,12 @@ from the Milestone 2: Design document.
 
 - paragraph for pipes and filters style
 
+Using pipes and filters, we can create a general flow through different sections of our software. Starting at the authentication, we can collect the user's ID which would give us information on the user type. This info will be piped to the main menu, where we can choose which data to display based on the user's group. Next, as the user goes through the UI, data will be selected and sent through each stage. When the user starts a test, the test will need to be provided with text. This data can be provided through a pipeline, and the test can be seen as a filter that manipulates and displays data. We chose to use pipelines and filters to create a simple flow through our software that connects each piece of UI. The pipes and filters architecture also works well with python, making it a simple and easy choice.
+
+Here is a diagram outlining the simple flow through our program using pipes and filters. Credit goes to Pucheng Tan.
+
+![draft.svg](uploads/6fc2b551bd084990f24b9476fc54d4d0/draft.svg)
+
 - paragraph for OOP style
 
 For our system architecture style, one of the styles chosen was the object-oriented style. The reason for this is that our typing tool involves various real world entities. The object model then allowed us to clarify these entities into different objects, such as the different types of users, Classrooms, and Schools. Using these as components in a system, the connectors then are their operations with each other through function and procedure calls. This made sense with our requirements because there is a clear determination on what objects the user interface should interact with and there are requirements that could naturally be stated as a problem of agents interacting. For example, from an administrative user interface, administrative users should be able to add and remove students from Classrooms, so it is clear they should interact with the objects of standard users and Classrooms.
