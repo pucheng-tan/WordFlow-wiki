@@ -2,13 +2,16 @@ This is a page for:
 
 ● System Architecture Details
 
-○ Long-form written description of your selected system architecture, which  includes clear,precise, and complete descriptions of ​each piece​ of your system
+○ Long-form written description of your selected system architecture, which  includes clear, precise, and complete descriptions of ​each piece​ of your system
 
-from the Milestone 2: Design document.
+from Milestone 2: Design document.
 
 # System Architecture Details
+(Each of these paragraphs are rough drafts, feel free to edit them)
 
 - intro paragraph
+
+Our software will involve the presence of three different architectural styles. The first architecture style we will use is the blackboard architecture style. We will use this style during typing challenge runtime, and for interacting with a central database. The second architecture style we will use is the object-oriented style. We can use this style for creating different types of users with similar functionality. The third and final architecture style we will use is pipelines and filters. This style is known to work notoriously well with python, and we can make use of it by joining together the different sections of our user interface.
 
 - paragraph for pipes and filters style
 
