@@ -30,5 +30,7 @@ To manage the typing challenges, a blackboard style was chosen. It made sense to
 For using and manipulating a database, we will follow a blackboard architecture style again. Using blackboard/repository architecture, the database itself represents the blackboard/current state, with independent individual users interacting, sending data to, and requesting data. The interactions between the users and the blackboard take place through API calls to the Firebase SDK. We chose blackboard style architecture for saving data in a database because it allowed us to have many different interactions asynchronously between a central database and the different users.
 
 Here is an example diagram:
+![IMG_7A0D8A1B128B-1](uploads/9e59a0f0b1c18a593a058afc764f178e/IMG_7A0D8A1B128B-1.jpeg)
+
 
 - paragraph for why we didn't choose layered, interpreter, and event-base style here (?)
