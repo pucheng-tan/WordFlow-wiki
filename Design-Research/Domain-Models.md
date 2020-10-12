@@ -1,1 +1,5 @@
-This is a page for Milestone 2: Domain Models.
+This is a page for Milestone 2:
+
+● Domain Models
+
+○ UML class diagram(s)
