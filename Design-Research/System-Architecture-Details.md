@@ -4,6 +4,14 @@ This is a page for:
 
 ○ Long-form written description of your selected system architecture, which  includes clear, precise, and complete descriptions of ​each piece​ of your system
 
+○ UML component diagram(s) ensuring:
+
+■ Identification of all major components
+
+■ Packages and nested components included (if necessary)
+
+■ Associations between components outlined
+
 from Milestone 2: Design document.
 
 # System Architecture Details
