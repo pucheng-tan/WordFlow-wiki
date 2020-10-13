@@ -8,7 +8,7 @@ Date: 2020/10/06
 ### Group 2
 * Cameron Mcleod- Chair
 * Sarah Chen- Secretary
-* Abdul Salwau
+* Abdul Salawu
 * Yuta Ogawa
 * Tara Epp
 * Pucheng Tan
