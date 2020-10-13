@@ -23,30 +23,30 @@ Date: 2020/10/13
 3. Discuss components and what to get done by Thursday
 
 ## Meeting Notes
-- Not sure how to visualize dictation mode?, need ideas
-- Domain model classes better to be separate to avoid clutter.
-- Need sequence diagrams for main use cases so @least 8
+* Not sure how to visualize dictation mode?, need ideas
+* Domain model classes better to be separate to avoid clutter.
+* Need sequence diagrams for main use cases so @least 8
 
 Components
-- Person?
-- Check notes I guess...
+* Person?
+* Check notes I guess...
 
 Packages
-- Users
-- API (Authentication)
-- API (Database retrieval)
+* Users
+* API (Authentication)
+* API (Database retrieval)
 
 
 ## Outcomes
 
 ## Action Items
-Domain Diagram - Abdul
-Sequence Diagrams - Sarah & Abdul
-GUI Libraries - Pucheng
-Component Diagrams - Pucheng and Cameron
-Storyboarding - Tara
-Persistent storage details - Tara & Yuta
-Add more descriptions System architecture details - Cameron
+* Domain Diagram - Abdul
+* Sequence Diagrams - Sarah & Abdul
+* GUI Libraries - Pucheng
+* Component Diagrams - Pucheng and Cameron
+* Storyboarding - Tara
+* Persistent storage details - Tara & Yuta
+* Add more descriptions System architecture details - Cameron
 
 
 ## Next Meeting
