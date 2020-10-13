@@ -25,9 +25,6 @@ Date: 2020/10/13
 ## Meeting Notes
 
 ## Outcomes
-Next Chair: Sarah Chen
-
-Next Secretary: Abdul Salawu
 
 ## Action Items
 
