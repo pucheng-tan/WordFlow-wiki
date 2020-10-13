@@ -18,7 +18,7 @@ Date: 2020/10/13
 
 ## Agenda
 
-1. Go over status of each component (5 min)
+1. Go over status of each component of Milestone 2 (5 min)
 2. Discuss what to get done for Thursday
 3. Assign Interaction Diagrams if ready to do at end of meeting
 
