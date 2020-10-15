@@ -31,4 +31,8 @@ ID: 05.1
 | Use Case | User takes a typing challenge assigned to their Classroom |
 | Sequence Diagram | ![Use_Case_7.svg](uploads/c65ab31876a039ec4b8482f9ebd40383/Use_Case_7.svg) |
 
+Alternative sequence diagram
+
+![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case_7_1.svg)
+
 ## 08: Super-Admin can create and manage Admins
