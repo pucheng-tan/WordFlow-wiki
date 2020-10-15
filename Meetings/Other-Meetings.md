@@ -170,7 +170,12 @@ Time: 4:00p.m. via Discord
 Date: 2020/10/15
 
 ## Agenda
-1. 
+1. Review Domain models and vote for the final decision
+2. Review system Architecture design
+3. Review UML component diagrams
+4. Review data structure
+4. Go over the rest deliverables of milestone2 (sequence diagrams and so on)
+5. Assign work for the weekend
 
 ## Meeting Notes
 
