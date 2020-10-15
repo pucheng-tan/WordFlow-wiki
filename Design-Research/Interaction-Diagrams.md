@@ -7,4 +7,4 @@ This is a page for:
 ## 05: Admin assigns typing challenges
 ID: 05.1
 
-![Untitled_Diagram.svg](uploads/7edb90836e95d25371922d7192038266/Untitled_Diagram.svg)
+![Untitled_Diagram.svg](uploads/f47dd738ef4385d47ed99a238f51340f/Untitled_Diagram.svg)
