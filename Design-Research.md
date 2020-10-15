@@ -42,3 +42,8 @@ Plan No. 3:
 Description:
 - The plan incorporates the styles of pipes and filters, OOP, repositories/blackboard, and event-based.
 - At each step, different styles are used. The functions of logging in and going to different menus and logging out follow a pipes and filters style while interacting with objects such as users, Classrooms and Schools in an OOP style. These objects then take typing challenges that draw from data managed in a Blackboard style and the typing challenges also serve as agents to announce a user's typing challenge progress and other statistics to a broadcast medium which will then announce that information to its agents, which could be the administrative users in an event-based style.
+
+# Potential UML component diagrams:
+
+Plan No.1:
+![Securities_Trading.vpd.svg](uploads/f334bd1b2aee645980e5e6911bac0830/Securities_Trading.vpd.svg)
