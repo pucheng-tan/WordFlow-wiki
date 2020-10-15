@@ -158,9 +158,32 @@ Date: 2020/10/07
 -domain modeling -revise what we have
 -paragraph description of our architecture
 
-Puchang - component diagrams - possibly finding GUI library
+Pucheng - component diagrams - possibly finding GUI library
 -how we are gonna handle progress
 
 -sequence diagrams
+
+## **Meeting 7**
+
+Time: 4:00p.m. via Discord
+
+Date: 2020/10/15
+
+## Agenda
+1. 
+
+## Meeting Notes
+
+-
+
+
+
+## Outcomes
+
+## Action Items
+1. 
+
+-
+
 
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
