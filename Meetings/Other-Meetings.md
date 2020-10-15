@@ -177,18 +177,25 @@ Date: 2020/10/15
 4. Go over the rest deliverables of milestone2 (sequence diagrams and so on)
 5. Assign work for the weekend
 
-## Meeting Notes
-
--
-
-
-
-## Outcomes
+## Meeting Notes & Outcomes
+- Use Layered architecture to separate GUI, Logic, Data Interface, and Data
+   - Connect with pipes and filters?
+   - Use blackboard conceptualization for typing challenge
+- component diagram will have to be updated to follow domain model
+- Admins will no longer manage individual users (classrooms only), no adding users, no removing users
+- Should users be able to play as a guest or outside of a school structure? This could be a Could Have. Current structure does not allow for it
 
 ## Action Items
-1. 
+1. Complete Domain Model (Tara, Cameron when done with System Architecture)
+2. Complete Component Diagram (Pucheng)
+3. System Architecture (Cameron)
+4. Interaction Diagrams (Sarah, Abdul)
+5. Persistent Storage Details (Tara will make diagram from test JSON content)
+6. Review work for clarity (Yuta will see if things make sense)
+7. Create list of modules organized by system layer (Cameron)
+8. The calculation for WPM should be clarified (Tara? Anyone really)
 
--
+- A "good" draft should be done of all items by Saturday night/Sunday noon to leave time for review and polishing
 
 
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
