@@ -8,6 +8,11 @@ This is a page for:
 
 ## 01: User logs in
 
+| ID | 01.1 |
+| ------ | ------ |
+| Use Case | User logs in |
+| Sequence Diagram | cell |
+
 ## 02: User selects the Challenge Mode
 
 ## 03 User views their typing history
@@ -15,9 +20,13 @@ This is a page for:
 ## 04: Admin manages Classrooms
 
 ## 05: Admin assigns typing challenges
-ID: 05.1
 
-![Untitled_Diagram.svg](uploads/f47dd738ef4385d47ed99a238f51340f/Untitled_Diagram.svg)
+| ID | 05.1 |
+| ------ | ------ |
+| Use Case | User logs in |
+| Sequence Diagram | cell |
+
+Version 1: ![Untitled_Diagram.svg](uploads/f47dd738ef4385d47ed99a238f51340f/Untitled_Diagram.svg)
 
 ## 06: Admin views a Classroom Report
 | ID | 06.1 |
@@ -31,8 +40,21 @@ ID: 05.1
 | Use Case | User takes a typing challenge assigned to their Classroom |
 | Sequence Diagram | ![Use_Case_7.svg](uploads/c65ab31876a039ec4b8482f9ebd40383/Use_Case_7.svg) |
 
-Alternative sequence diagram
-
-![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case_7_1.svg)
+Version 2: ![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case_7_1.svg)
 
 ## 08: Super-Admin can create and manage Admins
+
+| ID | 08.1 |
+| ------ | ------ |
+| Use Case | Super-Admin makes a Standard User into an Admin User |
+| Sequence Diagram | cell |
+
+| ID | 08.2 |
+| ------ | ------ |
+| Use Case | Super-Admin changes an Admin user into a Standard User |
+| Sequence Diagram | cell |
+
+| ID | 09.2 |
+| ------ | ------ |
+| Use Case | The Super-Admin removes a user from their School |
+| Sequence Diagram | cell |
