@@ -6,6 +6,11 @@ This is a page for:
 
 ## 00: User creates an account
 
+| ID | 00.1 |
+| ------ | ------ |
+| Use Case | The first Super-Admin account is created for a new School |
+| Sequence Diagram | cell |
+
 ## 01: User logs in
 
 | ID | 01.1 |
@@ -14,6 +19,17 @@ This is a page for:
 | Sequence Diagram | cell |
 
 ## 02: User selects the Challenge Mode
+
+| ID | 02.1 |
+| ------ | ------ |
+| Use Case | User logs in |
+| Sequence Diagram | cell |
+
+
+| ID | 02.2 |
+| ------ | ------ |
+| Use Case | User logs in |
+| Sequence Diagram | cell |
 
 ## 03 User views their typing history
 
