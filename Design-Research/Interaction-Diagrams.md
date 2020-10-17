@@ -47,12 +47,12 @@ Version 2: ![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case
 | ID | 08.1 |
 | ------ | ------ |
 | Use Case | Super-Admin makes a Standard User into an Admin User |
-| Sequence Diagram | cell |
+| Sequence Diagram | ![Use_Case_08.1.svg](uploads/05462aed4f58a5739056a3d6496573ae/Use_Case_08.1.svg) |
 
 | ID | 08.2 |
 | ------ | ------ |
 | Use Case | Super-Admin changes an Admin user into a Standard User |
-| Sequence Diagram | cell |
+| Sequence Diagram | ![Use_Case_08.2.svg](uploads/1e429d5c49c59356fcf6fafe62c94ed3/Use_Case_08.2.svg) |
 
 | ID | 09.2 |
 | ------ | ------ |
