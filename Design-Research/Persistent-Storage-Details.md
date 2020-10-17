@@ -16,5 +16,11 @@ It is expected that as the project progresses that modifications could be made t
 - the ChallengeContent mode is referenced in multiple documents as a number- in implementation this may change to a string, or a mapping could be made either in the document database or in the application code.
 
 # Entity Relationship Diagram
-A legend and descriptions are provided. Note that documents with "AutoID" as their name represent dynamically created documents that will have an ID generated for them. With the exception of Modes, all documents will be created through user activity.
+A legend and descriptions are provided. Note that documents with "AutoID" as their name represent dynamically created documents that will have an ID generated for them. With the exception of Modes and the ChallengeContent documents, all documents will be created through user activity.
 ![Persistent_Storage_Details.svg](uploads/65e2557cbd59a817c3f833b7acc1eb19/Persistent_Storage_Details.svg)
+
+# Populating Challenge Content
+
+# Local Storage
+Schools that have been successfully signed into with the application will be stored locally to auto-populate the sign-in form. 
+//TODO: But in what form??? Text file?
