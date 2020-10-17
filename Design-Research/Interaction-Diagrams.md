@@ -9,7 +9,12 @@ This is a page for:
 | ID | 00.1 |
 | ------ | ------ |
 | Use Case | The first Super-Admin account is created for a new School |
-| Sequence Diagram | cell |
+| Sequence Diagram | ![Use_Case_00.1.svg](uploads/c4ddb94c7fe1bd5cf985ba23ff6e3b73/Use_Case_00.1.svg) |
+
+| ID | 00.2 |
+| ------ | ------ |
+| Use Case | A new User creates an Account |
+| Sequence Diagram | ![Use_Case_00.2.svg](uploads/3da999112e74e8b01bb2c0e549a393f8/Use_Case_00.2.svg) |
 
 ## 01: User logs in
 
