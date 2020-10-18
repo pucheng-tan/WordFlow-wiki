@@ -46,7 +46,7 @@ This is a page for:
 
 ## 03 User views their typing history
 
-| ID | 02.3 |
+| ID | 03.1 |
 | ------ | ------ |
 | Use Case | User views their Report |
 | Precondition | User is Logged in and in the Main menu |
@@ -54,6 +54,31 @@ This is a page for:
 
 
 ## 04: Admin manages Classrooms
+
+| ID | 04.1 |
+| ------ | ------ |
+| Use Case | Admin Creates a new Classroom |
+| Precondition | Admin is Logged in and in the Main menu |
+| Sequence Diagram | T_T |
+
+| ID | 04.2 |
+| ------ | ------ |
+| Use Case | Admin Deletes a Classroom |
+| Precondition | Admin is Logged in and in the Main menu |
+| Sequence Diagram | T_T |
+
+| ID | 04.3 |
+| ------ | ------ |
+| Use Case | Admin adds a User to a Classroom |
+| Precondition | Admin is Logged in and in the Main menu |
+| Sequence Diagram | T_T |
+
+| ID | 04.4 |
+| ------ | ------ |
+| Use Case | Admin Removes a User from a Classroom |
+| Precondition | Admin is Logged in and in the Main menu |
+| Sequence Diagram | T_T |
+
 
 ## 05: Admin assigns typing challenges
 
