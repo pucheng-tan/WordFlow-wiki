@@ -95,7 +95,7 @@ This is a page for:
 | Use Case | Admin views a Classroom report |
 | Preconditions | The Admin has management of the Classroom |
 | | Admin logged in and in the Manage Classrooms view |
-| Sequence Diagram | ![Use_Case_06.1.svg](uploads/0b8b90c404162cf84219fabc2ab454cf/Use_Case_06.1.svg) |
+| Sequence Diagram | ![Use_Case_06.1.svg](uploads/54ce9552b00b87888d780f0ce720518d/Use_Case_06.1.svg) |
 
 ## 07: User takes an assigned typing challenge.
 | ID | 07.1 |
@@ -111,17 +111,17 @@ This is a page for:
 | ID | 08.1 |
 | ------ | ------ |
 | Use Case | Super-Admin makes a Standard User into an Admin User |
-| Sequence Diagram | ![Use_Case_08.1.svg](uploads/05462aed4f58a5739056a3d6496573ae/Use_Case_08.1.svg) |
+| Sequence Diagram | ![Use_Case_08.1.svg](uploads/2c06a9911020979ecfc90fcb4e25bf98/Use_Case_08.1.svg) |
 
 | ID | 08.2 |
 | ------ | ------ |
 | Use Case | Super-Admin changes an Admin user into a Standard User |
-| Sequence Diagram | ![Use_Case_08.2.svg](uploads/1e429d5c49c59356fcf6fafe62c94ed3/Use_Case_08.2.svg) |
+| Sequence Diagram | ![Use_Case_08.2.svg](uploads/ddabdd82525903b39432da22de0aa632/Use_Case_08.2.svg) |
 
 | ID | 09.2 |
 | ------ | ------ |
 | Use Case | The Super-Admin removes a user from their School |
-| Sequence Diagram | ![Use_Case_09.2.svg](uploads/7d0f6732189949a4aaeb04790af2e19b/Use_Case_09.2.svg) |
+| Sequence Diagram | ![Use_Case_09.2.svg](uploads/b9a6a5e9099105787d1afb494d4ef480/Use_Case_09.2.svg) |
 
 Other:
 
@@ -148,3 +148,15 @@ Version 1: ![Use_Case_7.svg](uploads/c65ab31876a039ec4b8482f9ebd40383/Use_Case_7
 Version 2: ![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case_7_1.svg)
 
 Version 3: ![Use_Case_07.1.svg](uploads/85ddc0407b9a24780ff2f2ed1198d358/Use_Case_07.1.svg)
+
+Use Case 08.1
+
+Version 1: ![Use_Case_08.1.svg](uploads/05462aed4f58a5739056a3d6496573ae/Use_Case_08.1.svg)
+
+Use Case 08.2
+
+Version 1: ![Use_Case_08.2.svg](uploads/1e429d5c49c59356fcf6fafe62c94ed3/Use_Case_08.2.svg)
+
+Use Case 09.2:
+
+Version 1: ![Use_Case_09.2.svg](uploads/7d0f6732189949a4aaeb04790af2e19b/Use_Case_09.2.svg)
