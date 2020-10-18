@@ -85,33 +85,26 @@ This is a page for:
 | ID | 05.1 |
 | ------ | ------ |
 | Use Case | User logs in |
-| Sequence Diagram |  |
-
-Version 1: ![Untitled_Diagram.svg](uploads/f47dd738ef4385d47ed99a238f51340f/Untitled_Diagram.svg)
-
-Version 2: ![Use_Case_05.1.svg](uploads/c7b0f617a136f0e821ce9257d971950a/Use_Case_05.1.svg)
-
-Version 3: ![Use_Case_05.1.svg](uploads/10a12fc6c2a8079afbda5d157b2f2b75/Use_Case_05.1.svg)
-
-Version 3 Notes: I wasn't sure whether or not to return the ClassroomManagement component or ClassroomList. I also left out calls to the database.
+| Preconditions | The Admin has management of the Classroom |
+| | Admin logged in and in the Manage Classrooms view |
+| Sequence Diagram | ![Use_Case_05.1.svg](uploads/a0c5d1e2b22274e3dadab02555bf4e9b/Use_Case_05.1.svg)  |
 
 ## 06: Admin views a Classroom Report
 | ID | 06.1 |
 | ------ | ------ |
 | Use Case | Admin views a Classroom report |
-| Sequence Diagram | ![Use_Case_06.1.svg](uploads/87819c5775896f83a532529b061409fa/Use_Case_06.1.svg) |
-
-Version 1: ![Use_Case_6.svg](uploads/8c7e84eaa80ea8ddb37afd2db3eef932/Use_Case_6.svg)
+| Preconditions | The Admin has management of the Classroom |
+| | Admin logged in and in the Manage Classrooms view |
+| Sequence Diagram | ![Use_Case_06.1.svg](uploads/0b8b90c404162cf84219fabc2ab454cf/Use_Case_06.1.svg) |
 
 ## 07: User takes an assigned typing challenge.
 | ID | 07.1 |
 | ------ | ------ |
 | Use Case | User takes a typing challenge assigned to their Classroom |
-| Sequence Diagram |![Use_Case_07.1.svg](uploads/85ddc0407b9a24780ff2f2ed1198d358/Use_Case_07.1.svg) |
-
-Version 1: ![Use_Case_7.svg](uploads/c65ab31876a039ec4b8482f9ebd40383/Use_Case_7.svg)
-
-Version 2: ![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case_7_1.svg)
+| Preconditions | User is part of the Classroom "Room 203" |
+| | Admin has assigned a typing challenge to the Classroom "Room 203" |
+| | User is logged in |
+| Sequence Diagram | ![Use_Case_07.1.svg](uploads/150145d5dfd0c40c7488bab8156c9a21/Use_Case_07.1.svg) |
 
 ## 08: Super-Admin can create and manage Admins
 
@@ -129,3 +122,29 @@ Version 2: ![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case
 | ------ | ------ |
 | Use Case | The Super-Admin removes a user from their School |
 | Sequence Diagram | ![Use_Case_09.2.svg](uploads/7d0f6732189949a4aaeb04790af2e19b/Use_Case_09.2.svg) |
+
+Other:
+
+Use Case 05.1
+
+Version 1: ![Untitled_Diagram.svg](uploads/f47dd738ef4385d47ed99a238f51340f/Untitled_Diagram.svg)
+
+Version 2: ![Use_Case_05.1.svg](uploads/c7b0f617a136f0e821ce9257d971950a/Use_Case_05.1.svg)
+
+Version 3: ![Use_Case_05.1.svg](uploads/10a12fc6c2a8079afbda5d157b2f2b75/Use_Case_05.1.svg)
+
+Version 3 Notes: I wasn't sure whether or not to return the ClassroomManagement component or ClassroomList. I also left out calls to the database.
+
+Use Case 06.1
+
+Version 1: ![Use_Case_6.svg](uploads/8c7e84eaa80ea8ddb37afd2db3eef932/Use_Case_6.svg)
+
+Version 2: ![Use_Case_06.1.svg](uploads/87819c5775896f83a532529b061409fa/Use_Case_06.1.svg)
+
+Use Case 07.1
+
+Version 1: ![Use_Case_7.svg](uploads/c65ab31876a039ec4b8482f9ebd40383/Use_Case_7.svg)
+
+Version 2: ![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case_7_1.svg)
+
+Version 3: ![Use_Case_07.1.svg](uploads/85ddc0407b9a24780ff2f2ed1198d358/Use_Case_07.1.svg)
