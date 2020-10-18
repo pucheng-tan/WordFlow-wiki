@@ -59,25 +59,25 @@ This is a page for:
 | ------ | ------ |
 | Use Case | Admin Creates a new Classroom |
 | Precondition | Admin is Logged in and in the Main menu |
-| Sequence Diagram | T_T |
+| Sequence Diagram | ![Use_Case_04.1.svg](uploads/de2e8879765ea7901d69ca3859f96c87/Use_Case_04.1.svg) |
 
 | ID | 04.2 |
 | ------ | ------ |
 | Use Case | Admin Deletes a Classroom |
 | Precondition | Admin is Logged in and in the Main menu |
-| Sequence Diagram | T_T |
+| Sequence Diagram | ![Use_Case_04.2.svg](uploads/0d5833a60ed9bbf638d4309432391e24/Use_Case_04.2.svg) |
 
 | ID | 04.3 |
 | ------ | ------ |
 | Use Case | Admin adds a User to a Classroom |
 | Precondition | Admin is Logged in and in the Main menu |
-| Sequence Diagram | T_T |
+| Sequence Diagram | ![Use_Case_04.3.svg](uploads/f466edd26073a94a8f6b8bb8093f939b/Use_Case_04.3.svg) |
 
 | ID | 04.4 |
 | ------ | ------ |
 | Use Case | Admin Removes a User from a Classroom |
 | Precondition | Admin is Logged in and in the Main menu |
-| Sequence Diagram | T_T |
+| Sequence Diagram | ![Use_Case_04.4.svg](uploads/d2f2c3abf7f8d2567c56fbb5fd9e5080/Use_Case_04.4.svg) |
 
 
 ## 05: Admin assigns typing challenges
