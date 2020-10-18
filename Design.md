@@ -24,28 +24,28 @@ The application is designed for desktop environments and created in the Python p
 
 Below are our storyboards which outline the ways in which users can interact with Word Flow's functionality.
 
-[Design Storyboards](/Requirements/Design-Storyboards)
+[Design Storyboards](/Design/Design-Storyboards)
 
 ## Domain Models
 
 Below are class diagrams.
 
-[Domain Models](/Requirements/Domain-Models)
+[Domain Models](/Design/Domain-Models)
 
 ## System Architecture Details
 
 Below is an explanation of the architectures we chose and why we chose them. You will also find Component Diagrams.
 
-[System Architecture Details](/Requirements/System-Architecture-Details)
+[System Architecture Details](/Design/System-Architecture-Details)
 
 ## Interaction Diagrams
 
 Below are interaction diagrams.
 
-[Interaction Diagrams](/Requirements/Interaction-Diagrams)
+[Interaction Diagrams](/Design/Interaction-Diagrams)
 
 ## Persistent Storage Details
 
 Below are persistent Storage Details.
 
-[Persistent Storage Details](/Requirements/Persistent-Storage-Details)
+[Persistent Storage Details](/Design/Persistent-Storage-Details)
