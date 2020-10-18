@@ -85,9 +85,15 @@ This is a page for:
 | ID | 05.1 |
 | ------ | ------ |
 | Use Case | User logs in |
-| Sequence Diagram | ![Use_Case_05.1.svg](uploads/c7b0f617a136f0e821ce9257d971950a/Use_Case_05.1.svg) |
+| Sequence Diagram |  |
 
 Version 1: ![Untitled_Diagram.svg](uploads/f47dd738ef4385d47ed99a238f51340f/Untitled_Diagram.svg)
+
+Version 2: ![Use_Case_05.1.svg](uploads/c7b0f617a136f0e821ce9257d971950a/Use_Case_05.1.svg)
+
+Version 3: ![Use_Case_05.1.svg](uploads/10a12fc6c2a8079afbda5d157b2f2b75/Use_Case_05.1.svg)
+
+Version 3 Notes: I wasn't sure whether or not to return the ClassroomManagement component or ClassroomList. I also left out calls to the database.
 
 ## 06: Admin views a Classroom Report
 | ID | 06.1 |
