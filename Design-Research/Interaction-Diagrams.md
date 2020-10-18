@@ -118,4 +118,4 @@ Version 2: ![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case
 | ID | 09.2 |
 | ------ | ------ |
 | Use Case | The Super-Admin removes a user from their School |
-| Sequence Diagram | cell |
+| Sequence Diagram | ![Use_Case_09.2.svg](uploads/7d0f6732189949a4aaeb04790af2e19b/Use_Case_09.2.svg) |
