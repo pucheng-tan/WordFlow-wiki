@@ -140,7 +140,7 @@ OR?
 | Preconditions | User is part of the Classroom "Room 203" |
 | | Admin has assigned a typing challenge to the Classroom "Room 203" |
 | | User is logged in |
-| Sequence Diagram | ![Use_Case_07.1.svg](uploads/51d4fa14eeabba4753cae8eed0fb59eb/Use_Case_07.1.svg) |
+| Sequence Diagram | ![Use_Case_07.1.svg](uploads/42af4dedf56898cf9592942b82843182/Use_Case_07.1.svg) |
 
 ## 08: Super-Admin can create and manage Admins
 
