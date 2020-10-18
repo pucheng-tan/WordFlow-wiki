@@ -42,6 +42,8 @@ Below is an explanation of the architectures we chose and why we chose them. You
 
 Below are UML component diagram
 
+[UML Component Diagram](/Design/UML Component Diagram)
+
 ## Interaction Diagrams
 
 Below are interaction diagrams.
