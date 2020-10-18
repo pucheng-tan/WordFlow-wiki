@@ -15,11 +15,8 @@ This is a page for:
 from Milestone 2: Design document.
 
 # System Architecture Details
-(Each of these paragraphs are rough drafts, feel free to edit them)
 
-- intro paragraph
-
-Our software will involve the presence of three different architectural styles. The first architecture style we will use is the blackboard architecture style. We will use this style during typing challenge runtime, and for interacting with a central database. The second architecture style we will use is the object-oriented style. We can use this style for creating different types of users with similar functionality. The third and final architecture style we will use is pipelines and filters. This style is known to work notoriously well with python, and we can make use of it by joining together the different sections of our user interface.
+Our software will involve the presence of three different architectural styles. The first architecture style we will use is the layered architecture style. This style will be used throughout our system, with other architecture styles only used for certain components. The second architecture style we will use is the blackboard architecture style. We will use this style during typing challenge runtime, and for interacting with a central database. The last architecture style we will use is pipelines and filters. This style is known to work notoriously well with python, and we can make use of it by joining together the different sections of our user interface, and by joining together different architecture layers.
 
 IMPORTANT NOTE: We have split up the different architectures we will be using into primary and secondary architectures. The primary architecture we will use is used throughout our system and is crucial when looking at the big picture of our system. The secondary architectures that we will use are only used in certain modules and interactions in smaller portions throughout our system. They are all connected through the primary architecture.
 
@@ -61,7 +58,7 @@ During the runtime of typing challenges, we will use blackboard style architectu
 
 ### Blackboard Architecture - users interacting with a central database
 
-The exception mention earlier where we will also make use of the blackboard architecture style is in using and manipulating a database. Using blackboard/repository architecture, the database itself represents the blackboard/current state, with independent individual users interacting, sending data to, and requesting data. The interactions between the users and the blackboard take place through API calls to the Firebase SDK. We chose blackboard style architecture for saving data in a database because it allowed us to have many different interactions asynchronously between a central database and the different users.
+The exception mention earlier where we will also make use of the blackboard architecture style is in using and manipulating a database. Using blackboard/repository architecture, the database itself represents the blackboard/current state, with independent individual users interacting, sending data to, and requesting data. The interactions between the users and the blackboard take place through API calls to the Firebase SDK. We chose blackboard style architecture for saving data in a database because it allowed us to have many different interactions asynchronously between a central database and the different users. The interactions within this architecture will take place between the data level and the database level of our layered architecture.
 
 Here is an example diagram:
 ![IMG_7A0D8A1B128B-1](uploads/9e59a0f0b1c18a593a058afc764f178e/IMG_7A0D8A1B128B-1.jpeg)
@@ -69,6 +66,8 @@ Here is an example diagram:
 ### Pipes and Filters
 
 Using pipes and filters, we can create a general flow through the different layers and sections of our software. It is important to note that the use of pipes and filters in our system can also just be seen as the interactions taking place between the layers of our system, and the interactions between the modules within those layers. This means that the use of pipes and filters in our system is really us just looking at our design from another point of view. We put pipes and filters architecture at the bottom because it is not absolutely necessary when trying to understand our system.
+
+One use for pipes and filters will be joining together different parts of our user interface. The user can step through multiple panels, with each panel being a filter that selects and moves data to the next through a pipeline.
 
 Starting at the authentication, we can collect a user JSON file from the database which contains the user's permission key which would give us information on the user type. This info will be piped to the main menu, where we can choose which data to display based on the user's group. Next, as the user goes through the UI, data will be selected and sent through each stage. When the user starts a Typing Challenge, the Typing Challenge will need to be provided with text content. This data can be provided through a pipeline, and the Typing Challenge can be seen as a filter that manipulates and displays data. We chose to use pipelines and filters to create a simple flow through our software that connects each piece of UI. The pipes and filters architecture also works well with python, making it a simple and easy choice.
 
