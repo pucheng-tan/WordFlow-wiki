@@ -87,7 +87,7 @@ This is a page for:
 | Use Case | User logs in |
 | Preconditions | The Admin has management of the Classroom |
 | | Admin logged in and in the Manage Classrooms view |
-| Sequence Diagram | ![Use_Case_05.1.svg](uploads/a0c5d1e2b22274e3dadab02555bf4e9b/Use_Case_05.1.svg)  |
+| Sequence Diagram | ![Use_Case_05.1.svg](uploads/c9f24b54ac305d0c76b1ace254ded20c/Use_Case_05.1.svg) |
 
 ## 06: Admin views a Classroom Report
 | ID | 06.1 |
@@ -95,7 +95,7 @@ This is a page for:
 | Use Case | Admin views a Classroom report |
 | Preconditions | The Admin has management of the Classroom |
 | | Admin logged in and in the Manage Classrooms view |
-| Sequence Diagram | ![Use_Case_06.1.svg](uploads/54ce9552b00b87888d780f0ce720518d/Use_Case_06.1.svg) |
+| Sequence Diagram | ![Use_Case_06.1.svg](uploads/2e05b1f22f43dd99add8866c7de467cb/Use_Case_06.1.svg) |
 
 ## 07: User takes an assigned typing challenge.
 | ID | 07.1 |
@@ -104,7 +104,7 @@ This is a page for:
 | Preconditions | User is part of the Classroom "Room 203" |
 | | Admin has assigned a typing challenge to the Classroom "Room 203" |
 | | User is logged in |
-| Sequence Diagram | ![Use_Case_07.1.svg](uploads/150145d5dfd0c40c7488bab8156c9a21/Use_Case_07.1.svg) |
+| Sequence Diagram | ![Use_Case_07.1.svg](uploads/51d4fa14eeabba4753cae8eed0fb59eb/Use_Case_07.1.svg) |
 
 ## 08: Super-Admin can create and manage Admins
 
@@ -135,11 +135,15 @@ Version 3: ![Use_Case_05.1.svg](uploads/10a12fc6c2a8079afbda5d157b2f2b75/Use_Cas
 
 Version 3 Notes: I wasn't sure whether or not to return the ClassroomManagement component or ClassroomList. I also left out calls to the database.
 
+Version 4: ![Use_Case_05.1.svg](uploads/a0c5d1e2b22274e3dadab02555bf4e9b/Use_Case_05.1.svg)
+
 Use Case 06.1
 
 Version 1: ![Use_Case_6.svg](uploads/8c7e84eaa80ea8ddb37afd2db3eef932/Use_Case_6.svg)
 
 Version 2: ![Use_Case_06.1.svg](uploads/87819c5775896f83a532529b061409fa/Use_Case_06.1.svg)
+
+Version 3: ![Use_Case_06.1.svg](uploads/54ce9552b00b87888d780f0ce720518d/Use_Case_06.1.svg)
 
 Use Case 07.1
 
@@ -148,6 +152,8 @@ Version 1: ![Use_Case_7.svg](uploads/c65ab31876a039ec4b8482f9ebd40383/Use_Case_7
 Version 2: ![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case_7_1.svg)
 
 Version 3: ![Use_Case_07.1.svg](uploads/85ddc0407b9a24780ff2f2ed1198d358/Use_Case_07.1.svg)
+
+Version 4: ![Use_Case_07.1.svg](uploads/150145d5dfd0c40c7488bab8156c9a21/Use_Case_07.1.svg)
 
 Use Case 08.1
 
