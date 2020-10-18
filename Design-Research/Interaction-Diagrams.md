@@ -39,6 +39,14 @@ Notes that should probably be removed later:
 | Use Case | The first Super-Admin account is created for a new School |
 | Sequence Diagram | ![Use_Case_00.1v2.svg](uploads/79dfe268684189b2290abb47a6604c04/Use_Case_00.1v2.svg) |
 
+
+OR?
+
+| ID | 00.1 |
+| ------ | ------ |
+| Use Case | The first Super-Admin account is created for a new School |
+| Sequence Diagram | ![Case_00.1v2.svg](uploads/ce26a5faade7360f94fa895ff98cba02/Case_00.1v2.svg) |
+
 | ID | 00.2 |
 | ------ | ------ |
 | Use Case | A new User creates an Account |
