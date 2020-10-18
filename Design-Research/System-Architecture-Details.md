@@ -48,7 +48,6 @@ Here are some simple diagrams to help visualize our use of this architecture:
 
 ![File_001__1_](uploads/3a3b81b6bfc894c8461694e80e1d5f1c/File_001__1_.png)
 
-![layered](uploads/fc7143db35e0d91ee8f971c459c00341/layered.svg)
 
 ## Secondary Architectures
 
