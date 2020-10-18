@@ -87,7 +87,7 @@ This is a page for:
 | Use Case | User logs in |
 | Preconditions | The Admin has management of the Classroom |
 | | Admin logged in and in the Manage Classrooms view |
-| Sequence Diagram | ![Use_Case_05.1.svg](uploads/c9f24b54ac305d0c76b1ace254ded20c/Use_Case_05.1.svg) |
+| Sequence Diagram | ![Use_Case_05.1.svg](uploads/1b3ab722a0d63d93bbcb1e9e980936e9/Use_Case_05.1.svg) |
 
 ## 06: Admin views a Classroom Report
 | ID | 06.1 |
@@ -111,16 +111,22 @@ This is a page for:
 | ID | 08.1 |
 | ------ | ------ |
 | Use Case | Super-Admin makes a Standard User into an Admin User |
+| Preconditions | New Admin User exists in the Super-Admin's School as a Standard User |
+| | Super-Admin is logged in |
 | Sequence Diagram | ![Use_Case_08.1.svg](uploads/2c06a9911020979ecfc90fcb4e25bf98/Use_Case_08.1.svg) |
 
 | ID | 08.2 |
 | ------ | ------ |
 | Use Case | Super-Admin changes an Admin user into a Standard User |
+| Preconditions | The Old Admin User exists as an Admin User in the Super-Admin User's School |
 | Sequence Diagram | ![Use_Case_08.2.svg](uploads/ddabdd82525903b39432da22de0aa632/Use_Case_08.2.svg) |
 
 | ID | 09.2 |
 | ------ | ------ |
 | Use Case | The Super-Admin removes a user from their School |
+| Preconditions | The Users that the Super-Admin wants to remove must be in the Super-Admin's School |
+| | Super-Admin is logged in |
+| | The User is not a Super-Admin | 
 | Sequence Diagram | ![Use_Case_09.2.svg](uploads/b9a6a5e9099105787d1afb494d4ef480/Use_Case_09.2.svg) |
 
 Other:
