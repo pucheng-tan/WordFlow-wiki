@@ -47,7 +47,7 @@ Using a layered architecture approach, each layer is only allowed to communicate
 
 ![File_001](uploads/115c32f326676548b77ddf39580432d7/File_001.png)
 
-![File_001](uploads/bb532070bcac875bdbf6b3bb338526ec/File_001.png)
+![File_001__1_](uploads/3a3b81b6bfc894c8461694e80e1d5f1c/File_001__1_.png)
 
 ## Secondary Architectures
 
