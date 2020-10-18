@@ -28,20 +28,30 @@ This is a page for:
 | ID | 02.1 |
 | ------ | ------ |
 | Use Case | User starts a Standard Challenge |
+| Precondition | User is Logged In |
 | Sequence Diagram | ![Use_Case_02.1.svg](uploads/d02932e9a5c5f5047ff3d4be9f4d6817/Use_Case_02.1.svg) |
 
 | ID | 02.2 |
 | ------ | ------ |
 | Use Case | User starts a Programmer Challenge |
+| Precondition | User is Logged In |
 | Sequence Diagram | ![Use_Case_02.2.svg](uploads/395c95831e78ecd8fbfe0e206a401fe1/Use_Case_02.2.svg) |
 
 | ID | 02.3 |
 | ------ | ------ |
 | Use Case | User starts a Dictation Challenge |
+| Precondition | User is Logged In |
 | Sequence Diagram | ![Use_Case_02.3.svg](uploads/8c5a5f6b50a07ab4a8daed09bed8cc68/Use_Case_02.3.svg) |
 
 
 ## 03 User views their typing history
+
+| ID | 02.3 |
+| ------ | ------ |
+| Use Case | User views their Report |
+| Precondition | User is Logged In |
+| Sequence Diagram | Hope ur having a nice day :) |
+
 
 ## 04: Admin manages Classrooms
 
