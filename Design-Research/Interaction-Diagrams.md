@@ -85,7 +85,7 @@ This is a page for:
 | ID | 05.1 |
 | ------ | ------ |
 | Use Case | User logs in |
-| Sequence Diagram | cell |
+| Sequence Diagram | ![Use_Case_05.1.svg](uploads/c7b0f617a136f0e821ce9257d971950a/Use_Case_05.1.svg) |
 
 Version 1: ![Untitled_Diagram.svg](uploads/f47dd738ef4385d47ed99a238f51340f/Untitled_Diagram.svg)
 
