@@ -77,7 +77,7 @@ OR?
 | ------ | ------ |
 | Use Case | User starts a Dictation Challenge |
 | Precondition | User is Logged in and in the Main menu |
-| Sequence Diagram | ![Use_Case_02.3.svg](uploads/8c5a5f6b50a07ab4a8daed09bed8cc68/Use_Case_02.3.svg) |
+| Sequence Diagram | ![Use_Case_02.3.svg](uploads/e0529b521887b49ae1d27555a773431d/Use_Case_02.3.svg) |
 
 
 ## 03 User views their typing history
