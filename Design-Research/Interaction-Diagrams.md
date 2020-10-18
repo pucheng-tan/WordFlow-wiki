@@ -99,7 +99,9 @@ Version 1: ![Untitled_Diagram.svg](uploads/f47dd738ef4385d47ed99a238f51340f/Unti
 | ID | 07.1 |
 | ------ | ------ |
 | Use Case | User takes a typing challenge assigned to their Classroom |
-| Sequence Diagram | ![Use_Case_7.svg](uploads/c65ab31876a039ec4b8482f9ebd40383/Use_Case_7.svg) |
+| Sequence Diagram |![Use_Case_07.1.svg](uploads/85ddc0407b9a24780ff2f2ed1198d358/Use_Case_07.1.svg) |
+
+Version 1: ![Use_Case_7.svg](uploads/c65ab31876a039ec4b8482f9ebd40383/Use_Case_7.svg)
 
 Version 2: ![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case_7_1.svg)
 
