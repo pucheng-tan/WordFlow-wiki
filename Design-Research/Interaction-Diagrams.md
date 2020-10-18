@@ -93,7 +93,9 @@ Version 1: ![Untitled_Diagram.svg](uploads/f47dd738ef4385d47ed99a238f51340f/Unti
 | ID | 06.1 |
 | ------ | ------ |
 | Use Case | Admin views a Classroom report |
-| Sequence Diagram | ![Use_Case_6.svg](uploads/8c7e84eaa80ea8ddb37afd2db3eef932/Use_Case_6.svg) | 
+| Sequence Diagram | ![Use_Case_06.1.svg](uploads/87819c5775896f83a532529b061409fa/Use_Case_06.1.svg) |
+
+Version 1: ![Use_Case_6.svg](uploads/8c7e84eaa80ea8ddb37afd2db3eef932/Use_Case_6.svg)
 
 ## 07: User takes an assigned typing challenge.
 | ID | 07.1 |
