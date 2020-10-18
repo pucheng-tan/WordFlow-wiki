@@ -45,9 +45,13 @@ The last layer (layer 4) is composed of the database we will use to store user d
 
 Using a layered architecture approach, each layer is only allowed to communicate with the layers above and below it. This means that layers 1 and 2 know nothing about the database, and layer 3 knows nothing about the UI. If we were to change our API, in practice we would not need to change the top two layers. This is a huge plus of the layered architecture approach.
 
+Here are some simple diagrams to help visualize our use of this architecture:
+
 ![File_001](uploads/115c32f326676548b77ddf39580432d7/File_001.png)
 
 ![File_001__1_](uploads/3a3b81b6bfc894c8461694e80e1d5f1c/File_001__1_.png)
+
+![layered](uploads/fc7143db35e0d91ee8f971c459c00341/layered.svg)
 
 ## Secondary Architectures
 
@@ -62,15 +66,24 @@ The exception mention earlier where we will also make use of the blackboard arch
 Here is an example diagram:
 ![IMG_7A0D8A1B128B-1](uploads/9e59a0f0b1c18a593a058afc764f178e/IMG_7A0D8A1B128B-1.jpeg)
 
-- paragraph for pipes and filters style
+### Pipes and Filters
 
-Using pipes and filters, we can create a general flow through different sections of our software. Starting at the authentication, we can collect the user's ID which would give us information on the user type. This info will be piped to the main menu, where we can choose which data to display based on the user's group. Next, as the user goes through the UI, data will be selected and sent through each stage. When the user starts a Typing Challenge, the Typing Challenge will need to be provided with text content. This data can be provided through a pipeline, and the Typing Challenge can be seen as a filter that manipulates and displays data. We chose to use pipelines and filters to create a simple flow through our software that connects each piece of UI. The pipes and filters architecture also works well with python, making it a simple and easy choice.
+Using pipes and filters, we can create a general flow through the different layers and sections of our software. It is important to note that the use of pipes and filters in our system can also just be seen as the interactions taking place between the layers of our system, and the interactions between the modules within those layers. This means that the use of pipes and filters in our system is really us just looking at our design from another point of view. We put pipes and filters architecture at the bottom because it is not absolutely necessary when trying to understand our system.
+
+Starting at the authentication, we can collect a user JSON file from the database which contains the user's permission key which would give us information on the user type. This info will be piped to the main menu, where we can choose which data to display based on the user's group. Next, as the user goes through the UI, data will be selected and sent through each stage. When the user starts a Typing Challenge, the Typing Challenge will need to be provided with text content. This data can be provided through a pipeline, and the Typing Challenge can be seen as a filter that manipulates and displays data. We chose to use pipelines and filters to create a simple flow through our software that connects each piece of UI. The pipes and filters architecture also works well with python, making it a simple and easy choice.
 
 Here is a diagram outlining the simple flow through our program using pipes and filters. Credit goes to Pucheng Tan.
 
 ![draft.svg](uploads/6fc2b551bd084990f24b9476fc54d4d0/draft.svg)
 
 
-- paragraph for OOP style
+### Object-Oriented Programming
 
 <del> For our system architecture style, one of the styles chosen was the object-oriented style. The reason for this is that our typing tool involves various real world entities. The object model then allowed us to clarify these entities into different objects, such as the different types of users, Classrooms, and Schools. Using these as components in a system, the connectors then are their operations with each other through function and procedure calls. This made sense with our requirements because there is a clear determination on what objects the user interface should interact with and there are requirements that could naturally be stated as a problem of agents interacting. For example, from an administrative user interface, administrative users should be able to add and remove students from Classrooms, so it is clear they should interact with the objects of standard users and Classrooms.
+
+Note: We decided to remove our use of object-oriented programming due to complications within our chosen tech stack. However, this architecture can still be used to conceptualize the relationship between each user group.
+
+Here is a conceptual diagram outlining that relationship. 
+Note: This is purely conceptual and we will not be implementing this in such a way.
+
+![Domain_Model__1___1_.svg](uploads/146ed56d2922617f37cf4bf6395b4935/Domain_Model__1___1_.svg)
