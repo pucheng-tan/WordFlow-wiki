@@ -45,6 +45,10 @@ The last layer (layer 4) is composed of the database we will use to store user d
 
 Using a layered architecture approach, each layer is only allowed to communicate with the layers above and below it. This means that layers 1 and 2 know nothing about the database, and layer 3 knows nothing about the UI. If we were to change our API, in practice we would not need to change the top two layers. This is a huge plus of the layered architecture approach.
 
+![File_001](uploads/115c32f326676548b77ddf39580432d7/File_001.png)
+
+![File_001](uploads/bb532070bcac875bdbf6b3bb338526ec/File_001.png)
+
 ## Secondary Architectures
 
 ### Blackboard Architecture - at typing challenge runtime
