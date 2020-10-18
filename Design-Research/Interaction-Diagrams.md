@@ -21,7 +21,7 @@ This is a page for:
 | ID | 01.1 |
 | ------ | ------ |
 | Use Case | User logs in |
-| Sequence Diagram | cell |
+| Sequence Diagram | ![Use_Case_01.1.svg](uploads/c72e3cddff453048bc336e4b174f1df1/Use_Case_01.1.svg) |
 
 ## 02: User selects the Challenge Mode
 
