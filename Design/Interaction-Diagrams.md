@@ -53,7 +53,7 @@ Notes that should probably be left:
 | ------ | ------ |
 | Use Case | User views their Report |
 | Precondition | User is Logged in and in the Main menu |
-| Sequence Diagram | ![Use_Case_03.1.svg](uploads/d04f799b494be88cd31788bfd0815cce/Use_Case_03.1.svg) |
+| Sequence Diagram | ![Use_Case_03.1.svg](uploads/9d64d3b405eb1ab6ed1233ae28e0418b/Use_Case_03.1.svg) |
 
 
 ## 04: Admin manages Classrooms
