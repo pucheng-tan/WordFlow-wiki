@@ -37,19 +37,19 @@ OR?
 | ------ | ------ |
 | Use Case | User starts a Standard Challenge |
 | Precondition | User is Logged in and in the Main menu |
-| Sequence Diagram | ![Use_Case_02.1.svg](uploads/d02932e9a5c5f5047ff3d4be9f4d6817/Use_Case_02.1.svg) |
+| Sequence Diagram | ![Use_Case_02.1v2.svg](uploads/f9e633dd5e4a445f123573316d09227f/Use_Case_02.1v2.svg) |
 
 | ID | 02.2 |
 | ------ | ------ |
 | Use Case | User starts a Programmer Challenge |
 | Precondition | User is Logged in and in the Main menu |
-| Sequence Diagram | ![Use_Case_02.2.svg](uploads/395c95831e78ecd8fbfe0e206a401fe1/Use_Case_02.2.svg) |
+| Sequence Diagram | ![Use_Case_02.2.svg](uploads/bae39c1e4948f91c9a94f12774fe65c5/Use_Case_02.2.svg) |
 
 | ID | 02.3 |
 | ------ | ------ |
 | Use Case | User starts a Dictation Challenge |
 | Precondition | User is Logged in and in the Main menu |
-| Sequence Diagram | ![Use_Case_02.3.svg](uploads/55335319571e9b5372298c7f6b549398/Use_Case_02.3.svg) |
+| Sequence Diagram | ![Use_Case_02.3.svg](uploads/ac4ca029d9a35a80e73f0843229bc77b/Use_Case_02.3.svg) |
 
 
 ## 03 User views their typing history
