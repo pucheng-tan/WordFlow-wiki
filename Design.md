@@ -3,9 +3,9 @@
 # Design
 This document outlines the design of the features, requirements, and use cases as listed in Milestone 1 (Requirements).
 
-## Updated Project Description
+# Updated Project Description
 
-#### What is Word Flow?
+### What is Word Flow?
 
 Word Flow is an application to train users to type faster and with greater accuracy. The focus is on unique uses not covered by other typing tools- special characters used by programming languages, and typing from audio content. Word flow is designed to be used within classrooms and schools, and thus includes a hierarchical user management structure, based on a School with Classrooms. This software can be deployed to a School System, and the School can be in charge of inviting and managing their own students.
 
@@ -19,37 +19,31 @@ The typing challenges will range from standard English words, to specific progra
 
 The application is designed for desktop environments and created in the Python programming language. It utilizes the Firebase API for user authentication and database management. Users can access their account information from different computers. Text content is stored in an external database. Audio content for dictation mode is generated from database text via text-to-speech.
 
-## Storyboards
+# Storyboards
 
 Below are our storyboards which outline the ways in which users can interact with Word Flow's functionality.
 
 [Design Storyboards](/Design/Design-Storyboards)
 
-## Domain Models
+# System Architecture Details
 
-Below is the domain model.
-
-[Domain Models](/Design/Domain-Models)
-
-## System Architecture Details
-
-Below is an explanation of the architectures we chose and why we chose them.
+Below is the domain model and an explanation of the architectures we chose and why we chose them.
 
 [System Architecture Details](/Design/System-Architecture-Details)
 
-## UML Component Diagram
+# UML Component Diagram
 
 Below are UML component diagram
 
 [UML Component Diagram](/Design/UML Component Diagram)
 
-## Interaction Diagrams
+# Interaction Diagrams
 
 Below are interaction diagrams.
 
 [Interaction Diagrams](/Design/Interaction-Diagrams)
 
-## Persistent Storage Details
+# Persistent Storage Details
 
 Below are persistent Storage Details.
 
