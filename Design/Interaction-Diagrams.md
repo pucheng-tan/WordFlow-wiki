@@ -9,20 +9,14 @@ Notes that should probably be left:
 | ID | 00.1 |
 | ------ | ------ |
 | Use Case | The first Super-Admin account is created for a new School |
-| Sequence Diagram | ![Use_Case_00.1v2.svg](uploads/79dfe268684189b2290abb47a6604c04/Use_Case_00.1v2.svg) |
-
-
-OR?
-
-| ID | 00.1 |
-| ------ | ------ |
-| Use Case | The first Super-Admin account is created for a new School |
-| Sequence Diagram | ![Case_00.1v2.svg](uploads/ce26a5faade7360f94fa895ff98cba02/Case_00.1v2.svg) |
+| Precondition | Program is launched and on logIn page |
+| Sequence Diagram | ![Use_Case_00.1.svg](uploads/94583daea8bc0e02121c016e47fb903e/Use_Case_00.1.svg) |
 
 | ID | 00.2 |
 | ------ | ------ |
 | Use Case | A new User creates an Account |
-| Sequence Diagram | ![Use_Case_00.2.svg](uploads/8de5b73ddfc526421e6d6101ba0fc9ba/Use_Case_00.2.svg) |
+| Precondition | Program is launched and on logIn page |
+| Sequence Diagram | ![Use_Case_00.2.svg](uploads/17159c7688f46b495e006277c834ea7a/Use_Case_00.2.svg) |
 
 ## 01: User logs in
 
