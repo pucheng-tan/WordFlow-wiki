@@ -1,3 +1,3 @@
 # UML component diagram
 
-![UML_Component_Diagram](uploads/da3137147ce49c845e30586dedb1182c/UML_Component_Diagram.jpg)
+![UML_Component_Diagram.vpd__1_](uploads/aa5b10384b0d3c4849a546503c878d9f/UML_Component_Diagram.vpd__1_.jpg)
