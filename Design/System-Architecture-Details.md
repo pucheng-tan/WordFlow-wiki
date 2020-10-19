@@ -30,8 +30,7 @@ Here are some simple diagrams to help visualize our use of this architecture:
 
 ![File_001](uploads/115c32f326676548b77ddf39580432d7/File_001.png)
 
-![File_001__1_](uploads/3a3b81b6bfc894c8461694e80e1d5f1c/File_001__1_.png)
-
+![File_001__21_](uploads/1bbb66d3bd381f4f3e1cd3b2ca72a0df/File_001__21_.png)
 
 ## Secondary Architectures
 
@@ -44,7 +43,8 @@ During the runtime of typing challenges, we will use blackboard style architectu
 The exception mention earlier where we will also make use of the blackboard architecture style is in using and manipulating a database. Using blackboard/repository architecture, the database itself represents the blackboard/current state, with independent individual users interacting, sending data to, and requesting data. The interactions between the users and the blackboard take place through API calls to the Firebase SDK. We chose blackboard style architecture for saving data in a database because it allowed us to have many different interactions asynchronously between a central database and the different users. The interactions within this architecture will take place between the data level and the database level of our layered architecture.
 
 Here is an example diagram:
-![IMG_7A0D8A1B128B-1](uploads/9e59a0f0b1c18a593a058afc764f178e/IMG_7A0D8A1B128B-1.jpeg)
+
+![File_001](uploads/fa6799624d385b4bfdd2ca28d6d00a5b/File_001.png)
 
 ### Pipes and Filters
 
