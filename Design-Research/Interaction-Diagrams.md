@@ -118,7 +118,7 @@ OR?
 
 ## 05: Admin assigns typing challenges and 06: Admin views a Classroom Report
 
-Use Case 05.1 and Use Case 06.1 begin with the Admin selecting the Classroom as depicted below before branching off into use case 05.1 or use case 06.1:
+Use cases 05.1 and 06.1 begin with the Admin selecting the Classroom as depicted below before branching off:
 
 | ID | 05.1 and 06.1 |
 | ------ | ------ |
@@ -150,7 +150,7 @@ Use Case 05.1 and Use Case 06.1 begin with the Admin selecting the Classroom as 
 
 ## 08: Super-Admin can create and manage Admins
 
-Use Case 08.1, Use Case 08.2, and Use Case 08.3 begin with the Super-Admin selecting User Management generating a list of Users as depicted below before branching off into Use Case 08.1, Use Case 08.2, or Use Case 08.3:
+Use cases 08.1, 08.2, and 08.3 begin with the Super-Admin selecting User Management generating a list of Users as depicted below before branching off:
 
 | ID | 08.1 and 08.2 and 08.3 |
 | ------ | ------ |
@@ -177,47 +177,3 @@ Use Case 08.1, Use Case 08.2, and Use Case 08.3 begin with the Super-Admin selec
 | | Super-Admin is logged in |
 | | The User is not a Super-Admin | 
 | Sequence Diagram | ![Use_Case_09.2.svg](uploads/6dc629b2146e6c7ba388e3874c81c043/Use_Case_09.2.svg) |
-
-Other:
-
-Use Case 05.1
-
-Version 1: ![Untitled_Diagram.svg](uploads/f47dd738ef4385d47ed99a238f51340f/Untitled_Diagram.svg)
-
-Version 2: ![Use_Case_05.1.svg](uploads/c7b0f617a136f0e821ce9257d971950a/Use_Case_05.1.svg)
-
-Version 3: ![Use_Case_05.1.svg](uploads/10a12fc6c2a8079afbda5d157b2f2b75/Use_Case_05.1.svg)
-
-Version 3 Notes: I wasn't sure whether or not to return the ClassroomManagement component or ClassroomList. I also left out calls to the database.
-
-Version 4: ![Use_Case_05.1.svg](uploads/a0c5d1e2b22274e3dadab02555bf4e9b/Use_Case_05.1.svg)
-
-Use Case 06.1
-
-Version 1: ![Use_Case_6.svg](uploads/8c7e84eaa80ea8ddb37afd2db3eef932/Use_Case_6.svg)
-
-Version 2: ![Use_Case_06.1.svg](uploads/87819c5775896f83a532529b061409fa/Use_Case_06.1.svg)
-
-Version 3: ![Use_Case_06.1.svg](uploads/54ce9552b00b87888d780f0ce720518d/Use_Case_06.1.svg)
-
-Use Case 07.1
-
-Version 1: ![Use_Case_7.svg](uploads/c65ab31876a039ec4b8482f9ebd40383/Use_Case_7.svg)
-
-Version 2: ![Use_Case_7_1.svg](uploads/4d85d88de5228b9f520b1179b6273ad1/Use_Case_7_1.svg)
-
-Version 3: ![Use_Case_07.1.svg](uploads/85ddc0407b9a24780ff2f2ed1198d358/Use_Case_07.1.svg)
-
-Version 4: ![Use_Case_07.1.svg](uploads/150145d5dfd0c40c7488bab8156c9a21/Use_Case_07.1.svg)
-
-Use Case 08.1
-
-Version 1: ![Use_Case_08.1.svg](uploads/05462aed4f58a5739056a3d6496573ae/Use_Case_08.1.svg)
-
-Use Case 08.2
-
-Version 1: ![Use_Case_08.2.svg](uploads/1e429d5c49c59356fcf6fafe62c94ed3/Use_Case_08.2.svg)
-
-Use Case 09.2:
-
-Version 1: ![Use_Case_09.2.svg](uploads/7d0f6732189949a4aaeb04790af2e19b/Use_Case_09.2.svg)
