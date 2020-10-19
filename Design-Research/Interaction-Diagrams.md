@@ -1,36 +1,8 @@
-This is a page for:
-
-● Interaction Diagrams
-
-○ UML sequence diagram(s)
-
-
-Notes for the sequence diagrams in use cases 05-08:
+# Sequence Diagrams
 
 Notes that should probably be left:
-- Often in the sequence diagrams, repeated calls can be seen going from the ActiveWindow to a Service, this is meant to represent the layers in our architecture style with the GUI taking in parameters from the User but then passing it on to the logic layer to actually do the computation.
-- Despite not being pictured in the sequence diagrams for brevity, it is assumed the logic layer would call the appropriate methods in the API service which would then make the appropriate changes in the Data.
-
-Notes that should probably be removed later:
-- I based them off of the components_domain_layer.svg image made by Tara which can be found in the Discord chat on October 15th
-- I assume that clicking on a component in the MainMenu would bring up the appropriate list in the ActiveWindow e.g. Clicking on  UserManagement brings up UserList
-- Other assumptions I make and functions in my sequence diagrams that are not in the image are:
-  - Use Case 05.1
-    - assignChallenge(Classroom, mode, duedate) in ClassroomService
-    - createAssignment(mode) in ChallengeService
-  - Use Case 06.1
-    - classroomReport(Classroom) in ClassroomService
-    - report(Classroom) in ChallengeService
-  - Use Case 07.1
-    - takeAssignment() in GUI called through clicking a button which calls getAssignments(Assignment) already in ChallengeServices and assumes getAssignments() in can get one assignment
-  - Use Case 08.1
-    - searchUsers(emailAddress or displayName) in SchoolService
-    - changePrivilege(User, privilge) in the GUI where it calls confirm() or warning() based on the privilege and then if confirmation == True, calls it through the SchoolService
-   - I also assume that changePrivilege() only returns a successMessage to the GUI
-  - Use Case 08.2
-    - getUsers(Admin) in GUI which calls getAdminUsers() in SchoolService, it's assumed this would also work with standard users and super-admin users
-  - Use Case 09.2
-    - Assumes removeUsers(user) already in SchoolService can remove one user and that it returns a successMessage as well as the new UserList to the GUI to show the user has been removed from the School
+- Often in the sequence diagrams, calls can be seen going from the ActiveWindow to a Management component to a Service. This is meant to illustrate the interaction between the different layers in our architecture style. It starts with the ActiveWindow, representing the GUI, which takes in requests and parameters from the User. The logic layer then actually does the computation to fulfill the request which uses a Service to get data from or write data to our Database when necessary.
+- However, the calls the Services would make to the Database are not pictured in the sequence diagrams for brevity. Instead, it is assumed the Services would call the appropriate methods which would then make the appropriate changes to the Database.
 
 ## 00: User creates an account
 
