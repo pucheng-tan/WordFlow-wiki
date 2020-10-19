@@ -116,22 +116,28 @@ OR?
 | Sequence Diagram | ![Use_Case_04.4.svg](uploads/d2f2c3abf7f8d2567c56fbb5fd9e5080/Use_Case_04.4.svg) |
 
 
-## 05: Admin assigns typing challenges
+## 05: Admin assigns typing challenges and 06: Admin views a Classroom Report
+
+Both use cases begin with the Admin selecting the Classroom as depicted below before branching off into use case 05 or use case 06:
+
+| ID | 05.1 and 06.1 |
+| ------ | ------ |
+| Step | Admin selects a Classroom |
+| Sequence Diagram | ![Use_Cases_5-6_Step_1.svg](uploads/a67614fccf09d49c58a3dc324f04e8b4/Use_Cases_5-6_Step_1.svg) |
 
 | ID | 05.1 |
 | ------ | ------ |
-| Use Case | User logs in |
+| Use Case | Admin assigns a typing challenge to a Classroom |
 | Preconditions | The Admin has management of the Classroom |
 | | Admin logged in and in the Manage Classrooms view |
-| Sequence Diagram | ![Use_Case_05.1.svg](uploads/1b3ab722a0d63d93bbcb1e9e980936e9/Use_Case_05.1.svg) |
+| Sequence Diagram | ![Use_Case_05.1.svg](uploads/75996b2aa9b09424c1e1a6fa763f52f7/Use_Case_05.1.svg) |
 
-## 06: Admin views a Classroom Report
 | ID | 06.1 |
 | ------ | ------ |
 | Use Case | Admin views a Classroom report |
 | Preconditions | The Admin has management of the Classroom |
 | | Admin logged in and in the Manage Classrooms view |
-| Sequence Diagram | ![Use_Case_06.1.svg](uploads/2e05b1f22f43dd99add8866c7de467cb/Use_Case_06.1.svg) |
+| Sequence Diagram | ![Use_Case_06.1.svg](uploads/aa9fdd65ca6af2622327dfb4f14e06f8/Use_Case_06.1.svg) |
 
 ## 07: User takes an assigned typing challenge.
 | ID | 07.1 |
