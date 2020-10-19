@@ -130,7 +130,7 @@ Both use cases begin with the Admin selecting the Classroom as depicted below be
 | Use Case | Admin assigns a typing challenge to a Classroom |
 | Preconditions | The Admin has management of the Classroom |
 | | Admin logged in and in the Manage Classrooms view |
-| Sequence Diagram | ![Use_Case_05.1.svg](uploads/75996b2aa9b09424c1e1a6fa763f52f7/Use_Case_05.1.svg) |
+| Sequence Diagram | ![Use_Case_05.1.svg](uploads/b236ba4dbc3ec53e1ff59d012f011063/Use_Case_05.1.svg) |
 
 | ID | 06.1 |
 | ------ | ------ |
@@ -146,7 +146,7 @@ Both use cases begin with the Admin selecting the Classroom as depicted below be
 | Preconditions | User is part of the Classroom "Room 203" |
 | | Admin has assigned a typing challenge to the Classroom "Room 203" |
 | | User is logged in |
-| Sequence Diagram | ![Use_Case_07.1.svg](uploads/42af4dedf56898cf9592942b82843182/Use_Case_07.1.svg) |
+| Sequence Diagram | ![Use_Case_07.1.svg](uploads/669d01a10cfa11f5ee80ce726a2950b6/Use_Case_07.1.svg) |
 
 ## 08: Super-Admin can create and manage Admins
 
