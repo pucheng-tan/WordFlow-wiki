@@ -29,7 +29,7 @@ Below are our storyboards which outline the ways in which users can interact wit
 
 Below is the domain model and an explanation of the architectures we chose and why we chose them.
 
-[System Architecture Details and Domain Model](/Design/System-Architecture-Details)
+[System Architecture Details and Domain Model](/Design/System-Architecture-Details-and-Domain-Model)
 
 # Interaction Diagrams
 
