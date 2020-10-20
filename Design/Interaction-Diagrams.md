@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # Sequence Diagrams
 
 Notes that should probably be left:
