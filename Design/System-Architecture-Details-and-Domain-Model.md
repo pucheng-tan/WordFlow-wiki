@@ -36,7 +36,7 @@ Here are some simple diagrams to help visualize our use of this architecture:
 ### Domain Model
 The domain model shows the relationships between different modules and their respective layers. Coloured arrows are used to help differentiate where the arrow is pointing from in areas with overlapping, but the colour of the arrow has no other significance.
 
-![Domain_Model_2.svg](uploads/7d5a9d42f1804854d225f9c4c72d30cc/Domain_Model_2.svg)
+![Domain_Model_2.svg](uploads/5da388401acdc0640d286c4b5fcc9ea3/Domain_Model_2.svg)
 
 ## Secondary Architectures
 
