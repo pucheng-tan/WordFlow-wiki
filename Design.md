@@ -25,17 +25,11 @@ Below are our storyboards which outline the ways in which users can interact wit
 
 [Design Storyboards](/Design/Design-Storyboards)
 
-# System Architecture Details
+# System Architecture Details and Domain Model
 
 Below is the domain model and an explanation of the architectures we chose and why we chose them.
 
-[System Architecture Details](/Design/System-Architecture-Details)
-
-# UML Component Diagram
-
-Below are UML component diagram
-
-[UML Component Diagram](/Design/UML Component Diagram)
+[System Architecture Details and Domain Model](/Design/System-Architecture-Details)
 
 # Interaction Diagrams
 
