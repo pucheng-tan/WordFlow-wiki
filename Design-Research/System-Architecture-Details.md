@@ -72,7 +72,7 @@ Starting at the authentication, we can collect a user JSON file from the databas
 
 Here is a diagram outlining the simple flow through our program using pipes and filters. Credit goes to Pucheng Tan.
 
-![draft.svg](uploads/6fc2b551bd084990f24b9476fc54d4d0/draft.svg)
+![pipe_and_filter.svg](uploads/b31d0493814b43f612fe5913eedb4ca1/pipe_and_filter.svg)
 
 
 ### Object-Oriented Programming
