@@ -1,3 +1,4 @@
+[[_TOC_]]
 # System Architecture Details
 
 Our software will involve the presence of three different architectural styles. The first architecture style we will use is the layered architecture style. This style will be used throughout our system, with other architecture styles only used for certain components. The second architecture style we will use is the blackboard architecture style. We will use this style during typing challenge runtime, and for interacting with a central database. The last architecture style we will use is pipelines and filters. This style is known to work notoriously well with python, and we can make use of it by joining together the different sections of our user interface, and by joining together different architecture layers.
@@ -31,6 +32,11 @@ Here are some simple diagrams to help visualize our use of this architecture:
 ![File_001](uploads/115c32f326676548b77ddf39580432d7/File_001.png)
 
 ![File_001__21_](uploads/1bbb66d3bd381f4f3e1cd3b2ca72a0df/File_001__21_.png)
+
+### Domain Model
+The domain model shows the relationships between different modules and their respective layers. Coloured arrows are used to help differentiate where the arrow is pointing from in areas with overlapping, but the colour of the arrow has no other significance.
+
+![Domain_Model_2.svg](uploads/7d5a9d42f1804854d225f9c4c72d30cc/Domain_Model_2.svg)
 
 ## Secondary Architectures
 
