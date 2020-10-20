@@ -18,9 +18,9 @@ Date: 2020/10/20
 
 ## Agenda
 
-1. 
-2. 
-3. 
+1. Discuss the test strategy (Unit/ Integration/ End to end/ …)
+2. Choose a GUI library and do proof of concept (PyQt/ tkinter/ …)
+3. Discuss code convention
 
 ## Meeting Notes
 * 
@@ -31,7 +31,6 @@ Date: 2020/10/20
 ## Outcomes
 
 ## Action Items
-* 
 
 
 ## Next Meeting
