@@ -92,21 +92,21 @@ Use cases 05.1 and 06.1 begin with the Admin selecting the Classroom as depicted
 | ID | 05.1 and 06.1 |
 | ------ | ------ |
 | Step | Admin selects a Classroom |
-| Sequence Diagram | ![Use_Cases_5-6_Step_1.svg](uploads/a67614fccf09d49c58a3dc324f04e8b4/Use_Cases_5-6_Step_1.svg) |
+| Sequence Diagram | ![Step_1.svg](uploads/54ada355de86433e035d241a4d951a28/Step_1.svg) |
 
 | ID | 05.1 |
 | ------ | ------ |
 | Use Case | Admin assigns a typing challenge to a Classroom |
 | Preconditions | The Admin has management of the Classroom |
 | | Admin logged in and in the Manage Classrooms view |
-| Sequence Diagram | ![Use_Case_05.1.svg](uploads/63758cb26d744808e4d76c975441eb15/Use_Case_05.1.svg) |
+| Sequence Diagram | ![Use_Case_05.1.svg](uploads/c6c0cff84c2e9cbb13e0eca2392430c0/Use_Case_05.1.svg) |
 
 | ID | 06.1 |
 | ------ | ------ |
 | Use Case | Admin views a Classroom report |
 | Preconditions | The Admin has management of the Classroom |
 | | Admin logged in and in the Manage Classrooms view |
-| Sequence Diagram | ![Use_Case_06.1.svg](uploads/3956c41d20edfe04707849b6fa003d2c/Use_Case_06.1.svg) |
+| Sequence Diagram | ![Use_Case_06.1.svg](uploads/14faeb41538237394252df426971e67c/Use_Case_06.1.svg) |
 
 ## 07: User takes an assigned typing challenge.
 | ID | 07.1 |
@@ -115,7 +115,7 @@ Use cases 05.1 and 06.1 begin with the Admin selecting the Classroom as depicted
 | Preconditions | User is part of the Classroom "Room 203" |
 | | Admin has assigned a typing challenge to the Classroom "Room 203" |
 | | User is logged in |
-| Sequence Diagram | ![Use_Case_07.1.svg](uploads/d21940a90123cc2bf78afe9cf0a86678/Use_Case_07.1.svg) |
+| Sequence Diagram | ![Use_Case_07.1.svg](uploads/e2bb1d55bb3a21e8fbcd346f13e125a5/Use_Case_07.1.svg) |
 
 ## 08: Super-Admin can create and manage Admins
 
@@ -124,20 +124,20 @@ Use cases 08.1, 08.2, and 08.3 begin with the Super-Admin selecting User Managem
 | ID | 08.1 and 08.2 and 08.3 |
 | ------ | ------ |
 | Step | Super-Admin clicks on User Management |
-| Sequence Diagram | ![Use_Case_Step_1.svg](uploads/7ecab53a0cc95222de17818a13f05e01/Use_Case_Step_1.svg) |
+| Sequence Diagram | ![Use_Case_Step_1.svg](uploads/1299a5c12155498ee3f9dd6f5308acb1/Use_Case_Step_1.svg) |
 
 | ID | 08.1 |
 | ------ | ------ |
 | Use Case | Super-Admin makes a Standard User into an Admin User |
 | Preconditions | New Admin User exists in the Super-Admin's School as a Standard User |
 | | Super-Admin is logged in |
-| Sequence Diagram | ![Use_Case_08.1.svg](uploads/f01718078760cdf788487d0be5224ec2/Use_Case_08.1.svg) |
+| Sequence Diagram | ![Use_Case_08.1.svg](uploads/9330ddc1567ee2e514aab2e71c41efbe/Use_Case_08.1.svg) |
 
 | ID | 08.2 |
 | ------ | ------ |
 | Use Case | Super-Admin changes an Admin user into a Standard User |
 | Preconditions | The Old Admin User exists as an Admin User in the Super-Admin User's School |
-| Sequence Diagram | ![Use_Case_08.2.svg](uploads/49150995cd6c59e79eb54e8bb628fd69/Use_Case_08.2.svg) |
+| Sequence Diagram | ![Use_Case_08.2.svg](uploads/be68cb6b61960db19055ba840b3a2d00/Use_Case_08.2.svg) |
 
 | ID | 09.2 |
 | ------ | ------ |
@@ -145,4 +145,4 @@ Use cases 08.1, 08.2, and 08.3 begin with the Super-Admin selecting User Managem
 | Preconditions | The Users that the Super-Admin wants to remove must be in the Super-Admin's School |
 | | Super-Admin is logged in |
 | | The User is not a Super-Admin | 
-| Sequence Diagram | ![Use_Case_09.2.svg](uploads/6dc629b2146e6c7ba388e3874c81c043/Use_Case_09.2.svg) |
+| Sequence Diagram | ![Use_Case_09.2.svg](uploads/4f73ad1b7af9c7ca0ca4106994040160/Use_Case_09.2.svg) |
