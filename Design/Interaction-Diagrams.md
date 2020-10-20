@@ -1,6 +1,6 @@
 [[_TOC_]]
 
-# Sequence Diagrams
+## Sequence Diagrams
 
 Notes that should probably be left:
 - Often in the sequence diagrams, calls can be seen going from the ActiveWindow to a Management component to a Service. This is meant to illustrate the interaction between the different layers in our architecture style. It starts with the ActiveWindow, representing the GUI, which takes in requests and parameters from the User. The logic layer then actually does the computation to fulfill the request which uses a Service to get data from or write data to our Database when necessary.
