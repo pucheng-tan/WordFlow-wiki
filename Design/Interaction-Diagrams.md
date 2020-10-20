@@ -62,25 +62,25 @@ Notes that should probably be left:
 | ------ | ------ |
 | Use Case | Admin Creates a new Classroom |
 | Precondition | Admin is Logged in and in the Main menu |
-| Sequence Diagram | ![Use_Case_04.1.svg](uploads/de2e8879765ea7901d69ca3859f96c87/Use_Case_04.1.svg) |
+| Sequence Diagram | ![Use_Case_04.1.svg](uploads/e1e19a0a0000f4faf9f6d6e425e2e71d/Use_Case_04.1.svg) |
 
 | ID | 04.2 |
 | ------ | ------ |
 | Use Case | Admin Deletes a Classroom |
 | Precondition | Admin is Logged in and in the Main menu |
-| Sequence Diagram | ![Use_Case_04.2.svg](uploads/0d5833a60ed9bbf638d4309432391e24/Use_Case_04.2.svg) |
+| Sequence Diagram | ![Use_Case_04.2v2.svg](uploads/5b89a02774df890b5e44083e4480a8cb/Use_Case_04.2v2.svg) |
 
 | ID | 04.3 |
 | ------ | ------ |
 | Use Case | Admin adds a User to a Classroom |
 | Precondition | Admin is Logged in and in the Main menu |
-| Sequence Diagram | ![Use_Case_04.3.svg](uploads/f466edd26073a94a8f6b8bb8093f939b/Use_Case_04.3.svg) |
+| Sequence Diagram | ![Use_Case_04.3.svg](uploads/95625976a8b08314f4535c67f804e111/Use_Case_04.3.svg) |
 
 | ID | 04.4 |
 | ------ | ------ |
 | Use Case | Admin Removes a User from a Classroom |
 | Precondition | Admin is Logged in and in the Main menu |
-| Sequence Diagram | ![Use_Case_04.4.svg](uploads/d2f2c3abf7f8d2567c56fbb5fd9e5080/Use_Case_04.4.svg) |
+| Sequence Diagram | ![Use_Case_04.4v2.svg](uploads/46f6b0663f8914ea75942f8db05d0aea/Use_Case_04.4v2.svg) |
 
 
 ## 05: Admin assigns typing challenges and 06: Admin views a Classroom Report
