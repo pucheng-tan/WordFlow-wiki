@@ -60,7 +60,7 @@ One use for pipes and filters will be joining together different parts of our us
 
 Starting at the authentication, we can collect a user JSON file from the database which contains the user's privilege level key which would give us information on the user type. This info will be piped to the main menu, where we can choose which data to display based on the user's privilege. Next, as the user goes through the UI, data will be selected and sent through each stage. When the user starts a Typing Challenge, the Typing Challenge will need to be provided with text content. This data can be provided through a pipeline, and the Typing Challenge can be seen as a filter that manipulates and displays data. We chose to use pipelines and filters to create a simple flow through our software that connects each piece of UI. The pipes and filters architecture also works well with python, making it a simple and easy choice.
 
-Here is a diagram outlining the simple flow through our program using pipes and filters.
+Here is a diagram outlining one way we can make use of pipes and filters.
 
 ![pipe_and_filter.svg](uploads/7ac4929d5048a462c93a3d65e8efa17a/pipe_and_filter.svg)
 
