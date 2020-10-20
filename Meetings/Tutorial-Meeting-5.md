@@ -21,6 +21,7 @@ Date: 2020/10/20
 1. Discuss the test strategy (Unit/ Integration/ End to end/ …)
 2. Choose a GUI library and do proof of concept (PyQt/ tkinter/ …)
 3. Discuss code convention
+4. Assign some work if ready to do so
 
 ## Meeting Notes
 * 
