@@ -74,3 +74,7 @@ Here is a conceptual diagram outlining that relationship.
 Note: This is purely conceptual and we will not be implementing this in such a way.
 
 ![Domain_Model__1___1_.svg](uploads/146ed56d2922617f37cf4bf6395b4935/Domain_Model__1___1_.svg)
+
+## Component Diagram
+
+![UML_Component_Diagram.vpd__1_](uploads/76ad44b253f39f8cd7928641537509b0/UML_Component_Diagram.vpd__1_.png)
