@@ -3,8 +3,9 @@
 ## Sequence Diagrams
 
 Notes:
-- Often in the sequence diagrams, calls can be seen going from the ActiveWindow to a Management component to a Service. This is meant to illustrate the interaction between the different layers in our architecture style. It starts with the ActiveWindow, representing the GUI, which takes in requests and parameters from the User. The logic layer then actually does the computation to fulfill the request which uses a Service to get data from or write data to our Database when necessary.
+- Often in the sequence diagrams, calls can be seen going from the ActiveWindow to a Management component to a Service. This is meant to illustrate the interaction between the different layers in our architecture style. It starts with the ActiveWindow, representing the GUI, which takes in requests and parameters from the User. The logic layer requests data from the API services, performs calculations, and sends save data back to the API services. The API Services are all based on the apiService abstract module, which performs get and post HTTP requests to the Firebase API.
 - However, the calls the Services would make to the Database are not pictured in the sequence diagrams for brevity. Instead, it is assumed the Services would call the appropriate methods which would then make the appropriate changes to the Database.
+
 
 ## 00: User creates an account
 
@@ -108,6 +109,7 @@ Use cases 05.1 and 06.1 begin with the Admin selecting the Classroom as depicted
 | | Admin logged in and in the Manage Classrooms view |
 | Sequence Diagram | ![Use_Case_06.1.svg](uploads/14faeb41538237394252df426971e67c/Use_Case_06.1.svg) |
 
+Note: depending on API data load, the generateReport() method may only be called after the user specifically requests that the report be generated. Live filtering may be performed if API tests show a lower transfer amount.
 ## 07: User takes an assigned typing challenge.
 | ID | 07.1 |
 | ------ | ------ |
