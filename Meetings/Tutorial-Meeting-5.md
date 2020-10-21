@@ -24,10 +24,29 @@ Date: 2020/10/20
 4. Assign some work if ready to do so
 
 ## Meeting Notes
-* 
-* 
-* 
+### Test strategy
+- unit testing
+- make a brainstorming doc on Google Drive
+- Test driven development vs testing afterward? Bit of a combination to catch things unknown/not thought of at outset
+- tests on different levels? (on different classes or more on the feature end-to-end?)
+- "spamming buttons testing" - there's a name for it and we should do it!
+- PyTest API? unittest library? https://docs.python.org/3/library/unittest.html https://docs.pytest.org/en/stable/ https://youtu.be/byaxg00Gf9I
+- call DB for functions very specific for that, but when testing functions that are all about the computations/logic, look into mock db to lessen API hits
+ 
+### Code Convention
+- Functions:
+  - key bind
+  - camelCase names
+  - interface on method (similar to Javadoc comments /** */)
+- Variables:
+  - naming based on type? (is_complete: boolean, num_students: number, etc, esp for custom entities)
 
+### Other things
+- everyone work on brainstorming
+- everyone looking at GUI libraries
+- PoC on GUI
+- PoC on data (will have to look at querying subcollections)
+- Kawser suggests start coding during this milestone
 
 ## Outcomes
 
@@ -35,8 +54,8 @@ Date: 2020/10/20
 
 
 ## Next Meeting
-Chair: 
-Secretary: 
+Chair: Yuta
+Secretary: Abdul
 
 Time: 4:00p.m. via Discord
 
