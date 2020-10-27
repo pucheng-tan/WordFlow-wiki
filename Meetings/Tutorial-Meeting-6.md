@@ -20,7 +20,8 @@ Date: 2020/10/27
 
 1. Go over GUI library PoCs and choose a library.
 2. Go over Milestone 2 feedback.
-3. Assign action items in order to finish Milestone 3 written document.
+3. Going over current Milestone 3 research (testing, code convention, quality assurance plan, etc).
+4. Assign action items in order to finish Milestone 3 written document.
 
 ## Meeting Notes
 
