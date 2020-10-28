@@ -12,6 +12,72 @@ Goal: The features of GitLab should be leveraged to get as much out of the servi
 - Before submitting a Merge Request for programming work, the master branch should be pulled and merged into the working branch, all functionality should be tested, and any prior tests must continue to pass.
 - Before merging a branch into master, a Merge Request should be reviewed by another teammate
 
+## GitLab Guide
+All git commands should be executed in the repository folder on your computer (it will have a .git folder)
+### Switching to a new branch
+This will switch you to branch_name branch and pull the data from the repository
+- git checkout branch_name
+- git pull
+
+### Committing Changes to the branch
+Files must be staged before they are committed.
+- git status //see the files that have been changed
+- git add -A //this will stage ALL files displayed in git status, OR:
+- git add file_name.py //this will stage a single file at a time
+- git commit -m "A message saying what was done before committing" //we are being judged on commit messages. Say what you did, it is never too long.
+- git push // this will send the changes up to the repository
+
+### Merging Changes from another branch to yours
+Usually you want to merge master into your branch before merging to master, or maybe another teammate wrote some code on their branch that you need. Before merging another branch into yours, commit your branch.
+- git checkout other_branch
+- git pull // get the changes from that branch onto your computer
+- git checkout my_branch
+- git merge other_branch
+- Here is where you fix any merge conflicts. Somewhere it asks for a message but I forget where.
+- git push
+
+### Fixing Merge Conflicts
+https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
+
+Merge conflicts happen when two branches both made changes to the same part of the code. 
+Let's say that master branch has a file main.py that is made up of an import statement and the line "num = 10." Then, branch_one and branch_two are made. branch_one changes the line to "num = 1", and branch_two changes the line to "num = 2." branch_one is merged into master. When branch_two is being merged into master, they will get a merge conflict.
+
+After attempting to merge, the code on branch_two will look like:
+
+```python
+from x import y
+
+<<<<<< HEAD
+num = 1
+==========
+num = 2
+<<<<<< branch_two
+```
+
+The conflicting code from master is marked with <<<<< HEAD, and the conflicting code from your branch will say your branch name below it. You can use a search function on your editor to find the conflicts if you need to. You need to decide here what the line should be so that everyone's code works, and get rid of the <<<< HEAD and ==== stuff. Once you are done that, you can push it. If there are tests, they should be run here.
+
+### Git Ignore
+Code editors make a bunch of config files that nobody else needs. Or maybe you have log files that don't need to be shared. Any files and folders that are in the repository folder but shouldn't be committed should be put in the .gitignore. It is hard to ignore a file once it has already been committed, because now it is a tracked file, so try not to do that.
+
+1. In the project repository (folder with .git), make a text file called .gitignore. Open the file
+2. To ignore a folder, in this case __pycache__, put __pycache__/ in the file. 
+3. To add another folder, in this case .pytest_cache, add .pytest_cache on a new line.
+4. The gitignore can use a variety of different patterns. A list is here: https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+5. Save the file. When you go to commit, you will also commit the .gitignore file. Now it will ignore everyone's pycache once your .gitignore is in master!
+
+### Oh no everything is broken!
+Either:
+- stash it: for things like "x was working on the branch, I was also working on the branch doing experiments. Now I can't get x's changes!"
+  - git stash 
+    - sends your code changes away to somewhere you don't care about (but can actually be accessed with git stash apply) so now you can go back to your normal branch
+- nuclear option: when you are just done
+  - move your code somewhere else, 
+  - delete your repository, 
+  - clone it again, 
+  - make and checkout a new branch
+  - put your code back in the repository
+  - continue
+
 # Working Outside of GitLab
 Goal: Any work completed outside of the GitLab repository should be easily accessible to all team members.
 (Some work is not possible to complete directly on GitLab. All programming and Wiki contributions should be completed directly on GitLab.)
