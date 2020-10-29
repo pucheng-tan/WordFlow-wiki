@@ -170,14 +170,16 @@ Whitespace is not allowed before open paren/bracket that starts an argument list
 Trailing white space is not allowed.
 
 Place a single space on either side for assignment, comparisons, and Booleans. For arithmetic operators, use your own judgment.
+
 When passing a keyword argument to a default parameter value, do not use spaces around = . Spaces must be used though if a type annotation is present as well.
 
 | Yes: | No: |
 | ------ | ------ |
-| x = 4 | [ ] or ( ) or { } |
-| y >= 3 | user[ 1 ] or { music_record : label } |
+|[] or () or {} | [ ] or ( ) or { } |
+| user[1] or {music_record: label} | user[ 1 ] or { music_record : label } |
 | word[1: 4] | word[1 : 4] |
-| x = a/*b + c/*d | | 
+| x = 4 or y >= 3 | x=4 or y>=3 |
+| x = a/*b + c/*d | x = a /* b + c /* d | 
 | some_function(x) | some_function (x) |
 | some_function(a, b=False) | some_function(a, b = False) |
 | some_function(x, y: float = 1.0) | some_function(x, y: float=1.0) 
@@ -213,7 +215,7 @@ If a method is overwriting a method, it is acceptable to write a simply docstrin
 
 Args: The parameters should be listed by name followed by a colon and then a space.
 
-Returns: Description of the type being returned and the semantics.
+Returns: (or Yields: for generators) Description of the type being returned and the semantics.
 
 It is not necessary if:
 1. The function returns
