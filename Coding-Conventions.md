@@ -55,14 +55,32 @@ e.g    x = 1 if cond else 2
 ## 2.12 Default Argument Values
 Default arguments values are allowed so along as the default value is not mutable.
 
+| Yes: | No: |
+| ------ | ------ |
+| def function(users=None) | def function(users=[]) |
+
 ## 2.13 Properties
+Use properties where you would have used simple lightweight accessor or setter methods.
+
+Properties must be created with the @property decorator.
 
 ## 2.14 True/False Evaluations
 All “empty” values are considered False. This applies to 0, None, [], {}, and ‘ ‘.
-As a result, when making an if statement to test whether something is empty, use the “empty” value itself.
-Exceptions:
+
+As a result, when making an if statement to test whether something is empty, use the “empty” value itself for an "implicit" False.
+
+Never use == to check for False
+
+| Yes: | No: |
+| ------ | ------ |
+| if not users: | if len(users) == 0: |
+| if not flag: | if flag == False: |
+
+Warnings:
+
 If explicitly checking for a None value, use if foo is None or if foo is not None.
-If the value is known to be an integer (not the result of len()), the value may be compared against the integer 0.
+
+If the value is known to be an integer (not the result of len( )), the value may be compared against the integer 0.
 
 # 3 Python Style Rules
 
@@ -82,8 +100,9 @@ Each line is at most 80 characters long. The following exceptions are
 3. Long string module level constants containing no whitespace that would be inconvenient to split across lines such as URLs or pathnames.
 
 ### 3.2.1 Breaking apart lines
-Breaking apart a line with backslash continuation (\) can only be done for with statements requiring three or more context managers. If the with statement only two context managers and exceeds 80 characters, use a nested with statement.
-Instead, use Python’s implicit joining inside parentheses, brackets and braces and add an extra pair of parentheses around an expression if needed.
+Breaking apart a line with backslash continuation can only be done for with statements requiring three or more context managers. If the with statement only has two context managers and exceeds 80 characters, use a nested with statement.
+
+Otherwise, use Python’s implicit joining with parentheses.
 
 Yes:
 
@@ -97,7 +116,7 @@ x = (‘a string more ‘
 
 No:
 
-x = ‘a string more’
+x = ‘a string more’\
 
     ‘than 80 characters’
 
@@ -108,7 +127,8 @@ x = ‘a string more’
 \# vertheworldandnowitismine_abcdefghijk.eu
 
 ## 3.3 Parentheses
-Use parentheses for tuples and when returning tuples.
+You are allowed to use parentheses for tuples and when returning tuples, but it is not required.
+
 Do not use parentheses in return statements except for tuples or implied line continuation.
 Do not use parentheses for conditions in for loops and while loops except for tuples or implied line continuation.
 
@@ -116,42 +136,145 @@ Do not use parentheses for conditions in for loops and while loops except for tu
 To indent code, use a tab set to a width of four spaces.
 In the cases of implied line continuation, align with the opening delimiter.
 
-### 3.4.1
-If listing sequences of items one by one, the first element must not be on the same line as the opening container token and the last item must not be on the same line as the closing container token.
+Yes:
+
+x = [6, 5,
+
+     4, 3]
+
+### 3.4.1 Trailing commas in sequences of items
+If listing sequences, the first element must not be on the same line as the opening container token and the last item must not be on the same line as the closing container token.
 The last item must have a comma at the end.
 
-## 3.5 Blank Lines
-Put two blank lines between function and class definitions. Put one blank line between method definitions and the class line and the first method. Do not use a blank line after a def statement. Use your judgment when it comes to placing blank lines within functions and methods.
+Yes:
 
-def function1():
-First blank line
-Second blank line
-def function2():
+x = [
+
+    file_1,
+
+    file_2,
+
+    file_3,
+
+]
+
+## 3.5 Blank Lines
+Put two blank lines between top-level functions whether they are function or class definitions. Put one blank line between method definitions and the class line and the first method.
+
+Do not use a blank line after a def statement. Use your judgment when it comes to placing blank lines within functions and methods.
 
 ## 3.6 Whitespace
 Whitespace is not allowed inside parentheses [], brackets, () or braces {}.
 Whitespace is not allowed before a comma, semicolon, or colon. Whitespace must be placed after a comma, semicolon, or colon, unless it is the end of the line.
 Whitespace is not allowed before open paren/bracket that starts an argument list, indexing or slicing.
 Trailing white space is not allowed.
-Place a single space on either side for assignment, comparisons, and Booleans. For arithmetic operators, use your own judgement.
-When passing a keyword argument to a default parameter value, do not use spaces around = . Spaces must be used though if a type annotation is present a well.
+
+Place a single space on either side for assignment, comparisons, and Booleans. For arithmetic operators, use your own judgment.
+When passing a keyword argument to a default parameter value, do not use spaces around = . Spaces must be used though if a type annotation is present as well.
+
+| Yes: | No: |
+| ------ | ------ |
+| x = 4 | [ ] or ( ) or { } |
+| y >= 3 | user[ 1 ] or { music_record : label } |
+| word[1: 4] | word[1 : 4] |
+| x = a/*b + c/*d | | 
+| some_function(x) | some_function (x) |
+| some_function(a, b=False) | some_function(a, b = False) |
+| some_function(x, y: float = 1.0) | some_function(x, y: float=1.0) 
+
 Whitespace is not allowed to vertically align tokens.
 
+Yes:
+
+x = 1000
+
+long_name = 2
+
 ## 3.7 Shebang Line
+#! is only necessary in the .py file being executed directly.
 
 ## 3.8 Documentation
 Every function must have a docstring.
+
+The only exceptions are if all of following criteria is met:
+1. The function is not externally visible.
+2. The function is very short.
+3. What the function does is obvious.
+
+### Docstrings
 To write a docstring, use the three double-quote format.
+
 A one line summary at the top is necessary. It must end in either a period, question mark, or exclamation point.
-If writing more, a blank line must follow the one line summary, before the rest of the docstring which must be aligned at the same cursor position as the first quote of the first line.
-They should be worded in a descriptive style and not an imperative style.
-If a method is overwriting a method, it is acceptable to write a simply docstring such as “””See base class.”””. A new docstring must be written if overridden method’s behavior is substantially different or if there are additional details such as side effects.
+
+If writing more, a blank line must follow the one line summary. The rest of the docstring which must be aligned at the same cursor position as the first quote of the first line.
+The doc string should be worded in a descriptive style and not an imperative style.
+
+If a method is overwriting a method, it is acceptable to write a simply docstring such as “””See base class.”””. A new docstring must be written if overridden method’s behaviour is substantially different or if there are additional details such as side effects.
+
+Args: The parameters should be listed by name followed by a colon and then a space.
+
+Returns: Description of the type being returned and the semantics.
+
+It is not necessary if:
+1. The function returns
+2. The opening line of the docstring starts with Returns.
+3. The opening sentence is enough to describe the return value.
+
+Raises: Write all the exceptions relevant to the interface.
+
+Yes: 
+
+""" One line summary here. 
+
+Rest of docstring here.
+
+Args:
+
+    arg1: description
+    arg2: description
+
+Returns:
+
+    Description of return value.
+
+Raises:
+
+    exception 1: description
+    exception 2: description
+"""
+
+### Classes
+Classes should have a docstring in the same format as functions and methods except with Attributes replacing Args listing and describing only public attributes. The sections Returns and Raises are also removed.
+
+### Block and Inline Comments
+
+There are two cases:
+1. If the operation is complicated, place the comment before the operation.
+2. If the operation is non-obvious, place the comment on the same line.
+
+Always capitalize the first letter of a comment. Use proper punctuation, punctuation, and grammar.
+Always start a comment one space away from #.
+
+For comments on the same line as the operation, start the comment two spaces away.
+
+Never describe the code.
+
+| Yes: | No: |
+| ------ | ------ |
+| x = x + 5\s\s# Adjust the border | x = x + 5\s#adjust the border |
+|  | # Now, increment i by 1 |
 
 ## 3.9 Classes
 Do not have classes explicitly inheriting from object.
 
 ## 3.10 Strings
 Use single quotations for strings. When indicating quotations within strings use double quotes.
+
+| Yes: | No: |
+| ------ | ------ |
+| x = 'Hello' | x = "Hello" |
+| y = 'She says, "Hello."' | y = "She says, 'Hello.'" |
+
 When accumulating a string in a loop, do not use + and += operators. Instead add each substring to a list and ‘ ‘.join the list when the loop has finished.
 
 ## 3.11 Files and Sockets
