@@ -67,10 +67,13 @@ If the value is known to be an integer (not the result of len()), the value may 
 # 3 Python Style Rules
 
 ## 3.1 Semicolons
-Lines cannot end with a semicolon. Do not put two statements on one line using a semicolon.
-Not allowed:
-x = 5; 
-x = 5; y = 6;
+Lines cannot end with a semicolon.
+Do not put two statements on one line using a semicolon.
+
+| No: | 
+| ------ | 
+| x = 5; | 
+| x = 5; y = 6; |
 
 ## 3.2 Line length
 Each line is at most 80 characters long. The following exceptions are
@@ -83,15 +86,26 @@ Breaking apart a line with backslash continuation (\) can only be done for with 
 Instead, use Python’s implicit joining inside parentheses, brackets and braces and add an extra pair of parentheses around an expression if needed.
 
 Yes:
-x = (‘a string more ‘
-         ‘than 80 characters’)
-# full_URL
+
+x = (‘a string more ‘    
+
+     ‘than 80 characters’) 
+
+\# For more information visit:
+
+\# www.thisisthelongesteuropeandomainnameallovertheworldandnowitismine_abcdefghijk.eu
 
 No:
-x = ‘a string more’ \
-       ‘than 80 characters’
-# full_
-# URL
+
+x = ‘a string more’
+
+    ‘than 80 characters’
+
+\# For more information visit:
+
+\# www.thisisthelongesteuropeandomainnameallo\
+
+\# vertheworldandnowitismine_abcdefghijk.eu
 
 ## 3.3 Parentheses
 Use parentheses for tuples and when returning tuples.
