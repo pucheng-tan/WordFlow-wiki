@@ -64,15 +64,6 @@ Exceptions:
 If explicitly checking for a None value, use if foo is None or if foo is not None.
 If the value is known to be an integer (not the result of len()), the value may be compared against the integer 0.
 
-## 2.15 Deprecated Language Features
-
-## 2.16 Lexical Scoping
-## 2.17 Function and Method Decorators
-## 2.18 Threading
-## 2.19 Power Features
-## 2.20 Modern Python: Python 3 and from __future__ imports
-## 2.21 Type Annotated Code
-
 # 3 Python Style Rules
 
 ## 3.1 Semicolons
