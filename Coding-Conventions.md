@@ -4,6 +4,8 @@ Milestone 3
 //TODO: we using google style guide at link, and having it implemented using yapf? pylint?
 - a few paragraphs explaining your choice 
 - hyperlinks to official documentation / more information
+https://google.github.io/styleguide/pyguide.html#s3.4-indentation
+
 # High-level Guidelines
 //TODO
 - and some high level guidelines in your own words
@@ -11,8 +13,6 @@ Milestone 3
 * some code examples showing your conventions / styles in action
 
 //TODO
-
-https://google.github.io/styleguide/pyguide.html#s3.4-indentation
 
 # Lexical Conventions
 
