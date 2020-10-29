@@ -50,6 +50,9 @@ If the condition is false, assert an exception.
   - 
 - test code may be written before code, during code, or after code, according to the developer's choice. However, tests must be completed and passing before code is merged into the master branch. It is recommended to 
 
+### Formal Methods
+Use mathematical models to verify the correctness of accuracy and wpm in challenge results.
+
 ### Test Plan Example
 For feature "User logs in".
 
