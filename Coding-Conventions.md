@@ -1,5 +1,14 @@
 Coding Convention
 Milestone 3
+# Style Guide
+//TODO: we using google style guide at link, and having it implemented using yapf? pylint?
+# Why we chose it
+//TODO
+# High-level Guidelines
+//TODO
+# Examples
+//TODO
+
 ## 2.2 Imports
 Used to import packages and modules only, not for individual classes and functions. 
 e.g   from x import y 
