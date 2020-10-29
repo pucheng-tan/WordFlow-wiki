@@ -6,6 +6,8 @@ Milestone 3
 - hyperlinks to official documentation / more information
 https://google.github.io/styleguide/pyguide.html#s3.4-indentation
 
+YAPF
+
 # High-level Guidelines
 //TODO
 - and some high level guidelines in your own words
