@@ -1,12 +1,15 @@
 Coding Convention
 Milestone 3
-# Style Guide
+# Style Guide and why we chose it
 //TODO: we using google style guide at link, and having it implemented using yapf? pylint?
-# Why we chose it
-//TODO
+- a few paragraphs explaining your choice 
+- hyperlinks to official documentation / more information
 # High-level Guidelines
 //TODO
+- and some high level guidelines in your own words
 # Examples
+* some code examples showing your conventions / styles in action
+
 //TODO
 
 ## 2.2 Imports
