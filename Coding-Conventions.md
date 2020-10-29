@@ -12,13 +12,13 @@ Milestone 3
 
 //TODO
 
+https://google.github.io/styleguide/pyguide.html#s3.4-indentation
+
+# Lexical Conventions
+
 ## 2.2 Imports
 Used to import packages and modules only, not for individual classes and functions. 
 e.g   from x import y 
-
-## 2.3 Packages
-Modules should be imported using full pathname locations and correct package name.
-e.g from doctor.who import jodie      where jodie is in doctor/who/jodie 
 
 ## 2.4 Exceptions
 Assert should be used to ensure internal correctness not to enforce convention. Exceptions should be used with conditions.
@@ -33,9 +33,6 @@ if not port:
 ## 2.5 Global Variables
 Should be avoided but if needed should be declared at the module level by prepending an “_”. Constants should also be declared in all caps.
 e.g  MAX_HOLY_HANDGRENADE_COUNT = 3.
-
-## 2.6 Nested/Local/Inner Classes and Functions
-Do not nest a function just to hide it from users of a module. Instead, prefix its name with an “_” at the module level so that it can still be accessed by tests. 
 
 ## 2.7 Comprehensions & Generator Expressions
 Okay to use for simple cases. Try to fit in one line and avoid using multiple for loops.
@@ -53,9 +50,6 @@ e.g  for key in adict: ...
       for k, v in adict.items(): …
 Never use  dict.iter*()   unless nessesary.
 
-## 2.9 Generators
-Use “Yield” instead of “Returns” in the docstring for generator functions.
-
 ## 2.10 Lambda Functions
 They are okay to be used for one liners and their code should be less than 80 chars otherwise it is better to create a regular nested function.
 
@@ -70,11 +64,6 @@ Default arguments values are allowed so along as the default value is not mutabl
 | Yes: | No: |
 | ------ | ------ |
 | def function(users=None) | def function(users=[]) |
-
-## 2.13 Properties
-Use properties where you would have used simple lightweight accessor or setter methods.
-
-Properties must be created with the @property decorator.
 
 ## 2.14 True/False Evaluations
 All “empty” values are considered False. This applies to 0, None, [], {}, and ‘ ‘.
@@ -204,8 +193,58 @@ x = 1000
 
 long_name = 2
 
-## 3.7 Shebang Line
-#! is only necessary in the .py file being executed directly.
+## 3.10 Strings
+Use single quotations for strings. When indicating quotations within strings use double quotes.
+
+| Yes: | No: |
+| ------ | ------ |
+| x = 'Hello' | x = "Hello" |
+| y = 'She says, "Hello."' | y = "She says, 'Hello.'" |
+
+When accumulating a string in a loop, do not use + and += operators. Instead add each substring to a list and ‘ ‘.join the list when the loop has finished.
+
+## 3.11 Files and Sockets
+Explicitly close files and sockets when done with them. “With” statements are preferred for managing files.
+e.g
+with open("hello.txt") as hello_file:
+    for line in hello_file:
+        print(line)
+
+## 3.12 TODO Comments
+Used for code that is temporary, a short-term solution, or good-enough but not perfect.
+e.g
+# TODO(Abdul): Use a "*" here for string repetition.
+# TODO(Sarah) Change this to use relations.
+
+## 3.13 Imports formatting
+Imports should be on separate lines except for typing imports.
+e.g
+import os
+     import sys
+     from typing import Mapping, Sequence
+
+## 3.14 Statements
+Generally one statement per line but you are allowed to put the results of a statement in the same line.
+e.g
+if foo: bar(foo)
+
+## 3.15 Accessors
+If the accessor function is trivial it is better to use public variables. If the accessor is non trivial, function calls starting with “get_” or “set_”.
+
+## 3.16 Naming
+Function names, variable names, and file names should be descriptive; eschew abbreviation. In particular, do not use abbreviations that are ambiguous or unfamiliar to readers outside your project, and do not abbreviate by deleting letters within a word. Caps for class names. Test functions should all begin with “test_”. 
+e.g
+module_name, package_name, ClassName, method_name, ExceptionName, function_name, GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name, function_parameter_name
+
+## 3.17 Main
+If a file is meant to be used as an executable, its main functionality should be in a main() function, and your code should always check “if __name__ == '__main__'” before executing your main program, so that it is not executed when the module is imported.
+if __name__ == '__main__':
+    main()
+
+## 3.18 Function length
+Small and focused functions are prefered. If a function exceeds 40 lines consider breaking it up.
+
+# Code Documentation Convention
 
 ## 3.8 Documentation
 Every function must have a docstring.
@@ -277,65 +316,5 @@ Never describe the code.
 | ------ | ------ |
 | x = x + 5\s\s# Adjust the border | x = x + 5\s#adjust the border |
 |  | # Now, increment i by 1 |
-
-## 3.9 Classes
-Do not have classes explicitly inheriting from object.
-
-## 3.10 Strings
-Use single quotations for strings. When indicating quotations within strings use double quotes.
-
-| Yes: | No: |
-| ------ | ------ |
-| x = 'Hello' | x = "Hello" |
-| y = 'She says, "Hello."' | y = "She says, 'Hello.'" |
-
-When accumulating a string in a loop, do not use + and += operators. Instead add each substring to a list and ‘ ‘.join the list when the loop has finished.
-
-## 3.11 Files and Sockets
-Explicitly close files and sockets when done with them. “With” statements are preferred for managing files.
-e.g
-with open("hello.txt") as hello_file:
-    for line in hello_file:
-        print(line)
-
-## 3.12 TODO Comments
-Used for code that is temporary, a short-term solution, or good-enough but not perfect.
-e.g
-# TODO(Abdul): Use a "*" here for string repetition.
-# TODO(Sarah) Change this to use relations.
-
-## 3.13 Imports formatting
-Imports should be on separate lines except for typing imports.
-e.g
-import os
-     import sys
-     from typing import Mapping, Sequence
-
-## 3.14 Statements
-Generally one statement per line but you are allowed to put the results of a statement in the same line.
-e.g
-if foo: bar(foo)
-
-## 3.15 Accessors
-If the accessor function is trivial it is better to use public variables. If the accessor is non trivial, function calls starting with “get_” or “set_”.
-
-## 3.16 Naming
-Function names, variable names, and file names should be descriptive; eschew abbreviation. In particular, do not use abbreviations that are ambiguous or unfamiliar to readers outside your project, and do not abbreviate by deleting letters within a word. Caps for class names. Test functions should all begin with “test_”. 
-e.g
-module_name, package_name, ClassName, method_name, ExceptionName, function_name, GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name, function_parameter_name
-
-## 3.17 Main
-If a file is meant to be used as an executable, its main functionality should be in a main() function, and your code should always check “if __name__ == '__main__'” before executing your main program, so that it is not executed when the module is imported.
-if __name__ == '__main__':
-    main()
-
-## 3.18 Function length
-Small and focused functions are prefered. If a function exceeds 40 lines consider breaking it up.
-
-## 3.19 Type Annotations
-In methods, only annotate self. 
-
-?? 
-
 
 * Be Consistent *
