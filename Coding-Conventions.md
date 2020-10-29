@@ -52,6 +52,103 @@ Okay to use for simple cases. Each portion must fit on one line: true-expression
 e.g    x = 1 if cond else 2
     one_line = 'yes' if predicate(value) else 'no'
 
+## 2.12 Default Argument Values
+Default arguments values are allowed so along as the default value is not mutable.
+
+## 2.13 Properties
+
+## 2.14 True/False Evaluations
+All “empty” values are considered False. This applies to 0, None, [], {}, and ‘ ‘.
+As a result, when making an if statement to test whether something is empty, use the “empty” value itself.
+Exceptions:
+If explicitly checking for a None value, use if foo is None or if foo is not None.
+If the value is known to be an integer (not the result of len()), the value may be compared against the integer 0.
+
+## 2.15 Deprecated Language Features
+
+## 2.16 Lexical Scoping
+## 2.17 Function and Method Decorators
+## 2.18 Threading
+## 2.19 Power Features
+## 2.20 Modern Python: Python 3 and from __future__ imports
+## 2.21 Type Annotated Code
+
+# 3 Python Style Rules
+
+## 3.1 Semicolons
+Lines cannot end with a semicolon. Do not put two statements on one line using a semicolon.
+Not allowed:
+x = 5; 
+x = 5; y = 6;
+
+## 3.2 Line length
+Each line is at most 80 characters long. The following exceptions are
+1. Long import statements.
+2. URLs, pathnames, or long flags in comments.
+3. Long string module level constants containing no whitespace that would be inconvenient to split across lines such as URLs or pathnames.
+
+### 3.2.1 Breaking apart lines
+Breaking apart a line with backslash continuation (\) can only be done for with statements requiring three or more context managers. If the with statement only two context managers and exceeds 80 characters, use a nested with statement.
+Instead, use Python’s implicit joining inside parentheses, brackets and braces and add an extra pair of parentheses around an expression if needed.
+
+Yes:
+x = (‘a string more ‘
+         ‘than 80 characters’)
+# full_URL
+
+No:
+x = ‘a string more’ \
+       ‘than 80 characters’
+# full_
+# URL
+
+## 3.3 Parentheses
+Use parentheses for tuples and when returning tuples.
+Do not use parentheses in return statements except for tuples or implied line continuation.
+Do not use parentheses for conditions in for loops and while loops except for tuples or implied line continuation.
+
+## 3.4 Indentation
+To indent code, use a tab set to a width of four spaces.
+In the cases of implied line continuation, align with the opening delimiter.
+
+### 3.4.1
+If listing sequences of items one by one, the first element must not be on the same line as the opening container token and the last item must not be on the same line as the closing container token.
+The last item must have a comma at the end.
+
+## 3.5 Blank Lines
+Put two blank lines between function and class definitions. Put one blank line between method definitions and the class line and the first method. Do not use a blank line after a def statement. Use your judgment when it comes to placing blank lines within functions and methods.
+
+def function1():
+First blank line
+Second blank line
+def function2():
+
+## 3.6 Whitespace
+Whitespace is not allowed inside parentheses [], brackets, () or braces {}.
+Whitespace is not allowed before a comma, semicolon, or colon. Whitespace must be placed after a comma, semicolon, or colon, unless it is the end of the line.
+Whitespace is not allowed before open paren/bracket that starts an argument list, indexing or slicing.
+Trailing white space is not allowed.
+Place a single space on either side for assignment, comparisons, and Booleans. For arithmetic operators, use your own judgement.
+When passing a keyword argument to a default parameter value, do not use spaces around = . Spaces must be used though if a type annotation is present a well.
+Whitespace is not allowed to vertically align tokens.
+
+## 3.7 Shebang Line
+
+## 3.8 Documentation
+Every function must have a docstring.
+To write a docstring, use the three double-quote format.
+A one line summary at the top is necessary. It must end in either a period, question mark, or exclamation point.
+If writing more, a blank line must follow the one line summary, before the rest of the docstring which must be aligned at the same cursor position as the first quote of the first line.
+They should be worded in a descriptive style and not an imperative style.
+If a method is overwriting a method, it is acceptable to write a simply docstring such as “””See base class.”””. A new docstring must be written if overridden method’s behavior is substantially different or if there are additional details such as side effects.
+
+## 3.9 Classes
+Do not have classes explicitly inheriting from object.
+
+## 3.10 Strings
+Use single quotations for strings. When indicating quotations within strings use double quotes.
+When accumulating a string in a loop, do not use + and += operators. Instead add each substring to a list and ‘ ‘.join the list when the loop has finished.
+
 ## 3.11 Files and Sockets
 Explicitly close files and sockets when done with them. “With” statements are preferred for managing files.
 e.g
