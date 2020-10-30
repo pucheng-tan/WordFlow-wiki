@@ -14,6 +14,7 @@ We do unit testing to test each single class or component. Unit testing of a cer
 we use two strategies to do unit testing:
 
 1. black box testing:
+
 We use black box testing to test data and UI layer. Classes in the data layer contain many functions which are defined by the third-party database. We cannot see what’s code inside those methods so we’d better test the performance of them by black box testing. It’s also hard to test classes in the UI layer by generating test cases directly from the code being tested, so we choose black testing for UI layer as well.
 
 we have different strategies for different type of parameters:
