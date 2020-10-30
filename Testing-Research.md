@@ -13,7 +13,7 @@ We do unit testing to test each single class or component. Unit testing of a cer
 
 we use two strategies to do unit testing:
 
-- black box testing:
+1. black box testing:
 We use black box testing to test data and UI layer. Classes in the data layer contain many functions which are defined by the third-party database. We cannot see what’s code inside those methods so we’d better test the performance of them by black box testing. It’s also hard to test classes in the UI layer by generating test cases directly from the code being tested, so we choose black testing for UI layer as well.
 
 we have different strategies for different type of parameters:
@@ -21,7 +21,8 @@ we have different strategies for different type of parameters:
   - String parameters: non-empty strings, empty strings
   - List parameters: non-empty, empty, some entries are unqualified
 
-- white box testing
+2. white box testing:
+
 We use white box testing to test logic layer. Logic layer contains most of the logic and arithmetic operations in our whole system, which are easy to be tested by generating test cases based on the code.
 
 in white box testing, we need to force execution of 
