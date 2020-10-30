@@ -17,17 +17,17 @@ we use two strategies to do unit testing:
 We use black box testing to test data and UI layer. Classes in the data layer contain many functions which are defined by the third-party database. We cannot see what’s code inside those methods so we’d better test the performance of them by black box testing. It’s also hard to test classes in the UI layer by generating test cases directly from the code being tested, so we choose black testing for UI layer as well.
 
 we have different strategies for different type of parameters:
-Numeric parameters: zero, positive, negative, integer, floating point
-String parameters: non-empty strings, empty strings
-List parameters: non-empty, empty, some entries are unqualified
+  - Numeric parameters: zero, positive, negative, integer, floating point
+  - String parameters: non-empty strings, empty strings
+  - List parameters: non-empty, empty, some entries are unqualified
 
 - white box testing
 We use white box testing to test logic layer. Logic layer contains most of the logic and arithmetic operations in our whole system, which are easy to be tested by generating test cases based on the code.
 
 in white box testing, we need to force execution of 
-    certain lines of code
-    certain paths through the code
-    certain blocks of the code
+  - certain lines of code
+  - certain paths through the code
+  - certain blocks of the code
 
 Due to the complexity of the program, it may be impossible to attempt to test all the lines/paths/blocks.
 We plan to test paths which have the higher priority and write a comment to list the tests that has passed, tested but not passed, or have not been tested yet.
@@ -70,6 +70,7 @@ we do system test to make sure everything works well together.
 we only do system test when we have certain confidence in all unit testing and integration testing.
 
 ## Quality Assurance suggestions
+
 ### General Strategy
 - use Unit tests for individual functions and modules to verify that they work correctly
 - use Integration tests to verify that the interaction between components functions as expected
@@ -82,6 +83,21 @@ we only do system test when we have certain confidence in all unit testing and i
 
 ### Formal Methods
 Use mathematical models to verify the correctness of accuracy and wpm in challenge results.
+
+### Procedure of generating test cases
+
+1. identify the test cases
+2. determine how to set up the test cases: hard-coding, pytest, mock test and so on
+3. determine the expected result
+4. write an in-line documentation for the test which need include
+	- have test case ID in ascending order
+	- test senario
+	- test steps
+	- test input
+	- expected output
+	- actual result
+	- pass/fail	
+5. code the test
 
 ### Test Plan Example
 For feature "User logs in".
@@ -192,7 +208,9 @@ Note: this is only regarding testing, should also look at other stuff for merge 
 3. Run all of the tests on the branch.
 4. If the tests pass, accept the merge request. If the tests do not pass: Notify the previous coder. Take a moment to look for obvious problems, or instructions missing to install packages. If you fix it, document problems like missing packages in readme file, and document your fix on the merge request.
 
-## Code Convention
+some rules:
+
+merge a branch before all the unit and integration test within that branch passed
 
 
 
