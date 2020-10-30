@@ -9,6 +9,31 @@
 
 ### Unit Testing
 
+We do unit testing to test each single class or component. Unit testing of a certain class are done by the developer while writing the class.
+
+we use two strategies to do unit testing:
+
+- black box testing:
+We use black box testing to test data and UI layer. Classes in the data layer contain many functions which are defined by the third-party database. We cannot see what’s code inside those methods so we’d better test the performance of them by black box testing. It’s also hard to test classes in the UI layer by generating test cases directly from the code being tested, so we choose black testing for UI layer as well.
+
+we have different strategies for different type of parameters:
+Numeric parameters: zero, positive, negative, integer, floating point
+String parameters: non-empty strings, empty strings
+List parameters: non-empty, empty, some entries are unqualified
+
+- white box testing
+We use white box testing to test logic layer. Logic layer contains most of the logic and arithmetic operations in our whole system, which are easy to be tested by generating test cases based on the code.
+
+in white box testing, we need to force execution of 
+    certain lines of code
+    certain paths through the code
+    certain blocks of the code
+
+Due to the complexity of the program, it may be impossible to attempt to test all the lines/paths/blocks.
+We plan to test paths which have the higher priority and write a comment to list the tests that has passed, tested but not passed, or have not been tested yet.
+
+For both black box and white box testing, to solve the problem of infinite number of unit test cases, we reduce the number of testing of equivalent classes. If a class has been fully tested, them the test of a similar class could be set as lower priority.
+
 #### Handle an exception in python:
 
 try:
@@ -37,7 +62,12 @@ If the condition is false, assert an exception.
 
 ### Integration Testing
 
+we do integration testing between components or layers which interacts with each other. integration testing are done by tester after all the single components have passed the corresponding unit testing
+
 ### End-to-End Testing
+
+we do system test to make sure everything works well together.
+we only do system test when we have certain confidence in all unit testing and integration testing.
 
 ## Quality Assurance suggestions
 ### General Strategy
