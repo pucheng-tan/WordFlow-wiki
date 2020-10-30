@@ -4,6 +4,16 @@ Milestone 3
 //TODO: we using google style guide at link, and having it implemented using yapf? pylint?
 - a few paragraphs explaining your choice 
 - hyperlinks to official documentation / more information
+
+We chose the Google Style guide, because it is a very detailed guide. It includes parts for both Language Rules and Python Style Rules which each encompass numerous sections. It is unlikely then when coding that a convention will be absent reducing the chance of conflicting code. The sections also include pros and cons in addition to a final decision on the section giving us insight into why the guide chose that decision. The Style Guide was also very clear since it made sure to give exceptions and caveats as needed. Many examples for each of the sections on what to do and what not to do were given which was a helpful visual reference as well.
+
+Also, for Python Style Rules, many of the conventions such as those for brackets and whitespace are similar to the way we already currently code allowing for an easy transition in following it.
+
+However, one exception is 3.4 Indentation. Rather than 4 spaces, use a tab set to 4 spaces. This is also stated in lexical conventions.
+
+As the Google Style is an extensive document as well, not all of the sections are included such as Deprecated Language Features, Threading, and Power Features.
+
+To view the official documentation or the omitted features, visit:
 https://google.github.io/styleguide/pyguide.html#s3.4-indentation
 
 YAPF
