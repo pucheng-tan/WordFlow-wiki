@@ -17,15 +17,11 @@ As the Google Style is an extensive document as well, not all of the sections ar
 To view the official documentation, the omitted features, or further information, visit:
 https://google.github.io/styleguide/pyguide.html#s3.4-indentation
 
-YAPF
+### yapf
+Our group decided to use a linter because we liked the idea of everyone having consistent code that is easy to modify without needing to change the way we code. We decided on yapf over other linters like black because it has a feature called knobs that allows us to toggle specific style preferences like “spaces_before_comment = 4”. These preferences can be edited in a “.style.yapf” file which will be provided in our repository. yapf can be used through the command line or inside editors like pyCharm and Visual Code. The idea is for each member to run yapf on their code before making any commits. Instructions on how to use yapf are in the repository.
+
 
 //TODO
-- and some high level guidelines in your own words
-
-* some code examples showing your conventions / styles in action
-
-//TODO
-
 # High-level Guidelines
 
 ### **Be Consistent**
