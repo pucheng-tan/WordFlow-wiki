@@ -8,7 +8,7 @@ Also, for Python Style Rules, many of the conventions such as "Brackets and Whit
 
 However, one exception is 3.4 Indentation. Rather than 4 spaces, use a tab set to 4 spaces. This is also stated in lexical conventions.
 
-As the Google Style is an extensive document as well, not all of the sections are included such as Deprecated Language Features, Threading, and Power Features.
+We also have sample code and examples below for some of the sections that we are most likely to use during our project. As the Google Style is an extensive document, not all of the sections are included such as Deprecated Language Features, Threading, and Power Features.
 
 To view the official documentation, the omitted features, or further information, visit:
 https://google.github.io/styleguide/pyguide.html#s3.4-indentation
