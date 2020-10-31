@@ -13,7 +13,7 @@ We also have sample code and examples below for some of the sections that we are
 To view the official documentation, the omitted features, or further information, visit:
 https://google.github.io/styleguide/pyguide.html#s3.4-indentation
 
-### yapf
+### yapf (*yap* + *f*)
 Our group decided to use a linter because we liked the idea of everyone having consistent code that is easy to modify without needing to change the way we code. We decided on yapf over other linters like black because it supports the google convention we picked. yapf also has a feature called knobs that allows us to toggle specific style preferences like “spaces_before_comment = 4”. These preferences can be edited in a “.style.yapf” file which will be provided in our repository. yapf can be used through the command line or inside editors like pyCharm and Visual Code. The idea is for each member to run yapf on their code before making any commits. Instructions on how to use yapf are in the repository.
 
 
@@ -21,6 +21,8 @@ Our group decided to use a linter because we liked the idea of everyone having c
 # Important Guidelines
 
 ### **Be Consistent**
+Follow Zen of Python rules
+
 
 ## Lexical Conventions
 
@@ -215,7 +217,7 @@ Do not use a blank line after a def statement. Use your judgment when it comes t
 ## Whitespace
 Whitespace is not allowed inside parentheses [], brackets, () or braces {}.
 Whitespace is not allowed before a comma, semicolon, or colon. Whitespace must be placed after a comma, semicolon, or colon, unless it is the end of the line.
-Whitespace is not allowed before open paren/bracket that starts an argument list, indexing or slicing.
+Whitespace is not allowed before open parenthesis/bracket that starts an argument list, indexing or slicing.
 Trailing white space is not allowed.
 
 Place a single space on either side for assignment, comparisons, and Booleans. This includes arithmetic operators.
@@ -292,7 +294,7 @@ Generally one statement per line but you are allowed to put the results of a sta
 If the accessor function is trivial it is better to use public variables. If the accessor is non trivial, function calls starting with “get_” or “set_”.
 
 ### Naming
-Function names, variable names, and file names should be descriptive; eschew abbreviation. In particular, do not use abbreviations that are ambiguous or unfamiliar to readers outside your project, and do not abbreviate by deleting letters within a word. Caps for class names. Test functions should all begin with “test_”. 
+Function names, variable names, and file names should be descriptive and make sense; avoid abbreviation like "str_cmp". In particular, do not use abbreviations that are ambiguous or unfamiliar to readers outside your project, and do not abbreviate by deleting letters within a word. Caps for class names. Test functions should all begin with “test_”. 
 
 | Yes: |
 | ------ |
@@ -318,7 +320,7 @@ if __name__ == '__main__':
     main()
 
 ### Function length
-Small and focused functions are prefered. If a function exceeds 40 lines consider breaking it up.
+Small and focused functions are preferred. If a function exceeds 40 lines consider breaking it up.
 
 ## Code Documentation Convention
 
@@ -337,9 +339,12 @@ To write a docstring, use the three double-quote format.
 A one line summary at the top is necessary. It must end in either a period, question mark, or exclamation point.
 
 If writing more, a blank line must follow the one line summary. The rest of the docstring which must be aligned at the same cursor position as the first quote of the first line.
-The doc string should be worded in a descriptive style and not an imperative style.
+The doc string should be worded in a descriptive style and not an imperative style. For example,
+| Yes: | No: |
+| ------ | ------ |
+| Fetches line from file | Fetch lines from a file |
 
-If a method is overwriting a method, it is acceptable to write a simply docstring such as “””See base class.”””. A new docstring must be written if overridden method’s behaviour is substantially different or if there are additional details such as side effects.
+If a method is overwriting a method, it is acceptable to write a simply docstring such as “””See base class.”””. A new docstring must be written if overridden method’s behavior is substantially different or if there are additional details such as side effects.
 
 Args: The parameters should be listed by name followed by a colon and then a space.
 
