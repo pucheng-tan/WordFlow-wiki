@@ -234,6 +234,7 @@ When passing a keyword argument to a default parameter value, do not use spaces 
 | ------ | ------ |
 |[] or () or {} | [ ] or ( ) or { } |
 | user[1] or {music_record: label} | user[ 1 ] or { music_record : label } |
+| users[1] | users [1] |
 | word[1: 4] | word[1 : 4] |
 | x = 4 or y >= 3 | x=4 or y>=3 |
 | x = (a + b) * (c + d) | x = (a+b) * (c+d) | 
