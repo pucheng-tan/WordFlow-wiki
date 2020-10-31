@@ -18,7 +18,7 @@ Our group decided to use a linter because we liked the idea of everyone having c
 
 
 
-# High-level Guidelines
+# Important Guidelines
 
 ### **Be Consistent**
 
@@ -31,7 +31,7 @@ Used to import packages and modules only, not for individual classes and functio
 | ------ |
 | from x import y | 
 
-## Exceptions
+### Exceptions
 Assert should be used to ensure internal correctness not to enforce convention. Exceptions should be used with conditions.
 
 | Yes: |
@@ -49,14 +49,14 @@ if not port:
 
     return port
 
-## Global Variables
+### Global Variables
 Should be avoided but if needed should be declared at the module level by prepending an “_”. Constants should also be declared in all caps.
 
 | Yes: |
 | ------ |
 | MAX_HOLY_HANDGRENADE_COUNT = 3. |
 
-## Comprehensions & Generator Expressions
+### Comprehensions & Generator Expressions
 Okay to use for simple cases. Try to fit in one line and avoid using multiple for loops.
 
 | Yes: |
@@ -67,7 +67,7 @@ result = [{'key': value} for value in iterable
           
           if a_long_filter_expression(value)]
 
-## Default Iterators and Operators
+### Default Iterators and Operators
 Use a default iterator for types that support them instead of methods that return lists. 
 
 | Yes: | No: |
@@ -80,10 +80,10 @@ Use a default iterator for types that support them instead of methods that retur
 
 Never use  dict.iter*()   unless nessesary.
 
-## Lambda Functions
+### Lambda Functions
 They are okay to be used for one liners and their code should be less than 80 chars otherwise it is better to create a regular nested function.
 
-## Conditional Expressions
+### Conditional Expressions
 Okay to use for simple cases. Each portion must fit on one line: true-expression, if-expression, else-expression. Use a complete if statement when things get more complicated.
 
 | Yes: |
@@ -91,14 +91,14 @@ Okay to use for simple cases. Each portion must fit on one line: true-expression
 | x = 1 if cond else 2 |
 | one_line = 'yes' if predicate(value) else 'no' |
 
-## Default Argument Values
+### Default Argument Values
 Default arguments values are allowed so long as the default value is not mutable.
 
 | Yes: | No: |
 | ------ | ------ |
 | def function(users=None) | def function(users=[]) |
 
-## True/False Evaluations
+### True/False Evaluations
 All “empty” values are considered False. This applies to 0, None, [], {}, and ‘ ‘.
 
 As a result, when making an if statement to test whether something is empty, use the “empty” value itself for an "implicit" False.
@@ -125,13 +125,13 @@ Do not put two statements on one line using a semicolon.
 | x = 5; | 
 | x = 5; y = 6; |
 
-## Line length
+### Line length
 Each line is at most 80 characters long. The following exceptions are
 1. Long import statements.
 2. URLs, pathnames, or long flags in comments.
 3. Long string module level constants containing no whitespace that would be inconvenient to split across lines such as URLs or pathnames.
 
-## Breaking apart lines
+### Breaking apart lines
 Breaking apart a line with backslash continuation can only be done for with statements requiring three or more context managers. If the with statement only has two context managers and exceeds 80 characters, use a nested with statement.
 
 Otherwise, use Python’s implicit joining with parentheses.
@@ -160,13 +160,13 @@ x = ‘a string more’\
 
 \# vertheworldandnowitismine_abcdefghijk.eu
 
-## Parentheses
+### Parentheses
 You are allowed to use parentheses for tuples and when returning tuples, but it is not required.
 
 Do not use parentheses in return statements except for tuples or implied line continuation.
 Do not use parentheses for conditions in for loops and while loops except for tuples or implied line continuation.
 
-## Indentation
+### Indentation
 To indent code, use a tab set to a width of four spaces.
 In the cases of implied line continuation, align with the opening delimiter.
 
@@ -207,7 +207,7 @@ x = [
 
 ]
 
-## Blank Lines
+### Blank Lines
 Put two blank lines between top-level functions whether they are function or class definitions. Put one blank line between method definitions and the class line and the first method.
 
 Do not use a blank line after a def statement. Use your judgment when it comes to placing blank lines within functions and methods.
@@ -253,7 +253,7 @@ Use double quotations for strings. When indicating quotations within strings use
 
 When accumulating a string in a loop, do not use + and += operators. Instead add each substring to a list and ‘ ‘.join the list when the loop has finished.
 
-## Files and Sockets
+### Files and Sockets
 Explicitly close files and sockets when done with them. “With” statements are preferred for managing files.
 
 | Yes: |
@@ -264,7 +264,7 @@ with open("hello.txt") as hello_file:
 for line in hello_file:
         print(line)
 
-## TODO Comments
+### TODO Comments
 Used for code that is temporary, a short-term solution, or good-enough but not perfect.
 
 | Yes: |
@@ -272,7 +272,7 @@ Used for code that is temporary, a short-term solution, or good-enough but not p
 | # TODO(Abdul): Use a "*" here for string repetition. |
 | # TODO(Sarah) Change this to use relations. |
 
-## Imports formatting
+### Imports formatting
 Imports should be on separate lines except for typing imports.
 
 | Yes: | No: |
@@ -281,17 +281,17 @@ Imports should be on separate lines except for typing imports.
 | import sys | |
 | from typing import Mapping, Sequence | |
 
-## Statements
+### Statements
 Generally one statement per line but you are allowed to put the results of a statement in the same line.
 
 | Yes: |
 | ------ |
 | if foo: bar(foo) |
 
-## Accessors
+### Accessors
 If the accessor function is trivial it is better to use public variables. If the accessor is non trivial, function calls starting with “get_” or “set_”.
 
-## Naming
+### Naming
 Function names, variable names, and file names should be descriptive; eschew abbreviation. In particular, do not use abbreviations that are ambiguous or unfamiliar to readers outside your project, and do not abbreviate by deleting letters within a word. Caps for class names. Test functions should all begin with “test_”. 
 
 | Yes: |
@@ -307,7 +307,7 @@ Function names, variable names, and file names should be descriptive; eschew abb
 | instance_var_name |
 | function_parameter_name |
 
-## Main
+### Main
 If a file is meant to be used as an executable, its main functionality should be in a main() function, and your code should always check “if __name__ == '__main__'” before executing your main program, so that it is not executed when the module is imported.
 
 | Yes: |
@@ -317,7 +317,7 @@ if __name__ == '__main__':
     
     main()
 
-## Function length
+### Function length
 Small and focused functions are prefered. If a function exceeds 40 lines consider breaking it up.
 
 ## Code Documentation Convention
