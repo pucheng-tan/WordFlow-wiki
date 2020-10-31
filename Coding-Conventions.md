@@ -21,7 +21,10 @@ Our group decided to use a linter because we liked the idea of everyone having c
 # Important Guidelines
 
 ### **Be Consistent**
-Follow Zen of Python rules
+- Decide on a convention and stick to it
+- Make code readable
+### **Follow Zen of Python rules**
+- Simple is better than complex
 
 
 ## Lexical Conventions
@@ -169,7 +172,7 @@ Do not use parentheses in return statements except for tuples or implied line co
 Do not use parentheses for conditions in for loops and while loops except for tuples or implied line continuation.
 
 ### Indentation
-To indent code, use a tab set to a width of four spaces.
+To indent code, use a tab set to a width of four spaces which should be standard in most IDEs but if its not standard in yours change it.
 In the cases of implied line continuation, align with the opening delimiter.
 
 | Yes: |
@@ -214,7 +217,7 @@ Put two blank lines between top-level functions whether they are function or cla
 
 Do not use a blank line after a def statement. Use your judgment when it comes to placing blank lines within functions and methods.
 
-## Whitespace
+### Whitespace
 Whitespace is not allowed inside parentheses [], brackets, () or braces {}.
 Whitespace is not allowed before a comma, semicolon, or colon. Whitespace must be placed after a comma, semicolon, or colon, unless it is the end of the line.
 Whitespace is not allowed before open parenthesis/bracket that starts an argument list, indexing or slicing.
@@ -335,6 +338,8 @@ The only exceptions are if all of following criteria is met:
 
 #### Docstrings
 To write a docstring, use the three double-quote format.
+
+Describe the purpose of the code with the assumption that the reader understands python in mind.
 
 A one line summary at the top is necessary. It must end in either a period, question mark, or exclamation point.
 
