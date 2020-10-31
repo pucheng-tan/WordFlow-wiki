@@ -2,13 +2,9 @@ Coding Convention
 Milestone 3
 # Google Python Style Guide
 
-//TODO: we using google style guide at link, and having it implemented using yapf? pylint?
-- a few paragraphs explaining your choice 
-- hyperlinks to official documentation / more information
+We chose the Google Style guide, because it is a very detailed guide. It includes both Python Language and Style Rules which each encompass numerous sections. This reduces the likelihood of any ambiguity or conflict with others when coding. The sections also include pros and cons in addition to a final decision on the section giving us insight into how they came to their choice. The Style Guide was also very clear since it made sure to give exceptions and caveats when needed. The examples for each of the sections on what to do and what to avoid were very helpful as a visual reference.
 
-We chose the Google Style guide, because it is a very detailed guide. It includes parts for both Language Rules and Python Style Rules which each encompass numerous sections. It is unlikely then when coding that a convention will be absent reducing the chance of conflicting code. The sections also include pros and cons in addition to a final decision on the section giving us insight into why the guide chose that decision. The Style Guide was also very clear since it made sure to give exceptions and caveats as needed. Many examples for each of the sections on what to do and what not to do were given which was a helpful visual reference as well.
-
-Also, for Python Style Rules, many of the conventions such as those for brackets and whitespace are similar to the way we already currently code allowing for an easy transition in following it.
+Also, for Python Style Rules, many of the conventions such as "Brackets and Whitespace" are similar to the way we already currently code allowing for an easy transition in following them.
 
 However, one exception is 3.4 Indentation. Rather than 4 spaces, use a tab set to 4 spaces. This is also stated in lexical conventions.
 
@@ -18,10 +14,10 @@ To view the official documentation, the omitted features, or further information
 https://google.github.io/styleguide/pyguide.html#s3.4-indentation
 
 ### yapf
-Our group decided to use a linter because we liked the idea of everyone having consistent code that is easy to modify without needing to change the way we code. We decided on yapf over other linters like black because it has a feature called knobs that allows us to toggle specific style preferences like “spaces_before_comment = 4”. These preferences can be edited in a “.style.yapf” file which will be provided in our repository. yapf can be used through the command line or inside editors like pyCharm and Visual Code. The idea is for each member to run yapf on their code before making any commits. Instructions on how to use yapf are in the repository.
+Our group decided to use a linter because we liked the idea of everyone having consistent code that is easy to modify without needing to change the way we code. We decided on yapf over other linters like black because it supports the google convention we picked. yapf also has a feature called knobs that allows us to toggle specific style preferences like “spaces_before_comment = 4”. These preferences can be edited in a “.style.yapf” file which will be provided in our repository. yapf can be used through the command line or inside editors like pyCharm and Visual Code. The idea is for each member to run yapf on their code before making any commits. Instructions on how to use yapf are in the repository.
 
 
-//TODO
+
 # High-level Guidelines
 
 ### **Be Consistent**
