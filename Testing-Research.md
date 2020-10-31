@@ -86,6 +86,43 @@ we only do system test when we have certain confidence in all unit testing and i
 ### Formal Methods
 Use mathematical models to verify the correctness of accuracy and wpm in challenge results.
 
+### Technical Quality Attributes
+
+- Correctness
+The program should avoid the happening of bugs
+    - ensure the info displayed is correct (wpm, accuracy, ...)
+    - ensure the info displayed is up-to-date (time elapsed, user's history, ...)
+
+- Reliability
+The program should reduce the bugs per hour/ per use
+    - ensure all wrong characters in user input are highlighted and none of correct characters are highlighted
+
+    - ensure the key in virtual keyboard is highlighted when being pressed and not highlighted when no being pressed
+
+- Capability
+    - ensure all must-have requirements are met and 85% of should-have requirements are met
+
+- Maintainability
+    - ensure all could-have features could be added easily and efficiently in the future. They should be added as add-on classes to the original program. The original program does not need to be changed heavily
+    - ensure low-coupling and high cohesion
+
+- Performance
+    - ensure the program does not waste memory. Memory blocks should be allocated whenever needed and freed whenever no longer needed
+
+### User Quality Attributes
+
+- Usability
+    - try to maximize user's satisfaction 
+
+- insatiability
+    - ensure the program is easy to install
+
+- documentation
+    - ensure the documentation are sufficient, clear and concise
+
+- availability
+    - ensure the program is available at anytime. When the internet connection is lost, an off-line mode should work
+
 ### Procedure of generating test cases
 
 1. identify the test cases
