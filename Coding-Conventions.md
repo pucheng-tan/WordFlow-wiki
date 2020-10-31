@@ -14,7 +14,7 @@ However, one exception is 3.4 Indentation. Rather than 4 spaces, use a tab set t
 
 As the Google Style is an extensive document as well, not all of the sections are included such as Deprecated Language Features, Threading, and Power Features.
 
-To view the official documentation or the omitted features, visit:
+To view the official documentation, the omitted features, or further information, visit:
 https://google.github.io/styleguide/pyguide.html#s3.4-indentation
 
 YAPF
@@ -34,36 +34,58 @@ YAPF
 
 ### Imports
 Used to import packages and modules only, not for individual classes and functions. 
-e.g   from x import y 
+
+| Yes: |
+| ------ |
+| from x import y | 
 
 ## Exceptions
 Assert should be used to ensure internal correctness not to enforce convention. Exceptions should be used with conditions.
-e.g
+
+| Yes: |
+| ------ |
+
 if not port:
+
       raise ConnectionError(
+
           'Could not connect to service on port {minimum} or higher.')
+
     assert port >= minimum, (
+
         'Unexpected port {port} when minimum was {minimum}.')
+
     return port
 
 ## Global Variables
 Should be avoided but if needed should be declared at the module level by prepending an “_”. Constants should also be declared in all caps.
-e.g  MAX_HOLY_HANDGRENADE_COUNT = 3.
+
+| Yes: |
+| ------ |
+| MAX_HOLY_HANDGRENADE_COUNT = 3. |
 
 ## Comprehensions & Generator Expressions
 Okay to use for simple cases. Try to fit in one line and avoid using multiple for loops.
-e.g  result = [mapping_expr for value in iterable if filter_expr]
 
-    result = [{'key': value} for value in iterable
+| Yes: |
+| ------ |
+result = [mapping_expr for value in iterable if filter_expr]
+
+result = [{'key': value} for value in iterable
+          
           if a_long_filter_expression(value)]
 
 ## Default Iterators and Operators
 Use a default iterator for types that support them instead of methods that return lists. 
-e.g  for key in adict: ...
-      if key not in adict: ...
-      if obj in alist: ...
-      for line in afile: ...
-      for k, v in adict.items(): …
+
+| Yes: | No: |
+| ------ | ------ |
+| for key in adict: ... | for key in adict.keys(): ... |
+| if key not in adict: ... | if not adict.has_key(key): ... |
+|  if obj in alist: ... | |
+| for line in afile: ... | for line in afile.lines(): ... |
+| for k, v in adict.items(): … | for k, v in dict.iteritems(): ... |
+
 Never use  dict.iter*()   unless nessesary.
 
 ## Lambda Functions
@@ -71,11 +93,14 @@ They are okay to be used for one liners and their code should be less than 80 ch
 
 ## Conditional Expressions
 Okay to use for simple cases. Each portion must fit on one line: true-expression, if-expression, else-expression. Use a complete if statement when things get more complicated.
-e.g    x = 1 if cond else 2
-    one_line = 'yes' if predicate(value) else 'no'
+
+| Yes: |
+| ------ |
+| x = 1 if cond else 2 |
+| one_line = 'yes' if predicate(value) else 'no' |
 
 ## Default Argument Values
-Default arguments values are allowed so along as the default value is not mutable.
+Default arguments values are allowed so long as the default value is not mutable.
 
 | Yes: | No: |
 | ------ | ------ |
@@ -119,7 +144,8 @@ Breaking apart a line with backslash continuation can only be done for with stat
 
 Otherwise, use Python’s implicit joining with parentheses.
 
-Yes:
+| Yes: |
+| ------ |
 
 x = (‘a string more ‘    
 
@@ -129,7 +155,8 @@ x = (‘a string more ‘
 
 \# www.thisisthelongesteuropeandomainnameallovertheworldandnowitismine_abcdefghijk.eu
 
-No:
+| No: |
+| ------ |
 
 x = ‘a string more’\
 
@@ -151,7 +178,8 @@ Do not use parentheses for conditions in for loops and while loops except for tu
 To indent code, use a tab set to a width of four spaces.
 In the cases of implied line continuation, align with the opening delimiter.
 
-Yes:
+| Yes: |
+| ------ |
 
 x = [6, 5,
 
@@ -161,7 +189,8 @@ x = [6, 5,
 If listing sequences, the first element must not be on the same line as the opening container token and the last item must not be on the same line as the closing container token.
 The last item must have a comma at the end.
 
-Yes:
+| Yes: |
+| ------ |
 
 x = [
 
@@ -170,6 +199,19 @@ x = [
     file_2,
 
     file_3,
+
+]
+
+| No: |
+| ------ |
+
+x = [
+
+    file_1,
+
+    file_2,
+
+    file_3
 
 ]
 
@@ -184,7 +226,7 @@ Whitespace is not allowed before a comma, semicolon, or colon. Whitespace must b
 Whitespace is not allowed before open paren/bracket that starts an argument list, indexing or slicing.
 Trailing white space is not allowed.
 
-Place a single space on either side for assignment, comparisons, and Booleans. For arithmetic operators, use your own judgment.
+Place a single space on either side for assignment, comparisons, and Booleans. This includes arithmetic operators.
 
 When passing a keyword argument to a default parameter value, do not use spaces around = . Spaces must be used though if a type annotation is present as well.
 
@@ -194,14 +236,15 @@ When passing a keyword argument to a default parameter value, do not use spaces 
 | user[1] or {music_record: label} | user[ 1 ] or { music_record : label } |
 | word[1: 4] | word[1 : 4] |
 | x = 4 or y >= 3 | x=4 or y>=3 |
-| x = a/*b + c/*d | x = a /* b + c /* d | 
+| x = (a + b) * (c + d) | x = (a+b) * (c+d) | 
 | some_function(x) | some_function (x) |
 | some_function(a, b=False) | some_function(a, b = False) |
 | some_function(x, y: float = 1.0) | some_function(x, y: float=1.0) 
 
 Whitespace is not allowed to vertically align tokens.
 
-Yes:
+| Yes: |
+| ------ |
 
 x = 1000
 
@@ -219,9 +262,13 @@ When accumulating a string in a loop, do not use + and += operators. Instead add
 
 ## Files and Sockets
 Explicitly close files and sockets when done with them. “With” statements are preferred for managing files.
-e.g
+
+| Yes: |
+| ------ |
+
 with open("hello.txt") as hello_file:
-    for line in hello_file:
+    
+for line in hello_file:
         print(line)
 
 ## TODO Comments
@@ -234,27 +281,47 @@ Used for code that is temporary, a short-term solution, or good-enough but not p
 
 ## Imports formatting
 Imports should be on separate lines except for typing imports.
-e.g
-import os
-     import sys
-     from typing import Mapping, Sequence
+
+| Yes: | No: |
+| ------ | ------ |
+| import os | import os, sys |
+| import sys | |
+| from typing import Mapping, Sequence | |
 
 ## Statements
 Generally one statement per line but you are allowed to put the results of a statement in the same line.
-e.g
-if foo: bar(foo)
+
+| Yes: |
+| ------ |
+| if foo: bar(foo) |
 
 ## Accessors
 If the accessor function is trivial it is better to use public variables. If the accessor is non trivial, function calls starting with “get_” or “set_”.
 
 ## Naming
 Function names, variable names, and file names should be descriptive; eschew abbreviation. In particular, do not use abbreviations that are ambiguous or unfamiliar to readers outside your project, and do not abbreviate by deleting letters within a word. Caps for class names. Test functions should all begin with “test_”. 
-e.g
-module_name, package_name, ClassName, method_name, ExceptionName, function_name, GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name, function_parameter_name
+
+| Yes: |
+| ------ |
+| module_name |
+| package_name |
+| ClassName |
+| method_name |
+| ExceptionName |
+| function_name |
+| GLOBAL_CONSTANT_NAME |
+| global_var_name |
+| instance_var_name |
+| function_parameter_name |
 
 ## Main
 If a file is meant to be used as an executable, its main functionality should be in a main() function, and your code should always check “if __name__ == '__main__'” before executing your main program, so that it is not executed when the module is imported.
+
+| Yes: |
+| ------ |
+
 if __name__ == '__main__':
+    
     main()
 
 ## Function length
@@ -286,13 +353,14 @@ Args: The parameters should be listed by name followed by a colon and then a spa
 Returns: (or Yields: for generators) Description of the type being returned and the semantics.
 
 It is not necessary if:
-1. The function returns
+1. The function returns None.
 2. The opening line of the docstring starts with Returns.
 3. The opening sentence is enough to describe the return value.
 
 Raises: Write all the exceptions relevant to the interface.
 
-Yes: 
+| Yes: |
+| ------ | 
 
 """ One line summary here. 
 
@@ -331,5 +399,6 @@ Never describe the code.
 
 | Yes: | No: |
 | ------ | ------ |
-| x = x + 5\s\s# Adjust the border | x = x + 5\s#adjust the border |
+| x = x + 5\s\s# Adjust the border | x = x + 5# Adjust the border or x = x +5\s# Adjust the border or x = x +5\s\s #Adjust the border |
+| x = x + 5\s\s# Adjust the border | x = x + 5\s\s# adjust the border |
 |  | # Now, increment i by 1 |
