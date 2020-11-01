@@ -85,8 +85,14 @@ we only do system test when we have certain confidence in all unit testing and i
   - 
 - test code may be written before code, during code, or after code, according to the developer's choice. However, tests must be completed and passing before code is merged into the master branch. It is recommended to 
 
-### Formal Methods
+### Formal Method
+Due to the slow and complex progress of doing formal methods, we only use it in a small part of our program:
+
 Use mathematical models to verify the correctness of accuracy and wpm in challenge results. We calculate the answer on paper and then compare it with the answer that the program shows.
+
+### Inspection Method
+
+We will regularly come back to the requirements and system architecture which we set up before and check if we are following them.
 
 ### Technical Quality Attributes
 
