@@ -3,7 +3,7 @@
 
 ## Quality Assurance Strategy
 
-To start the quality assurance process, each developer will write tests before or while they are developing the feature being tested. Allowing these tests to fail in the beginning will guide the development process for these features. Ideally, as the modules feature becomes closer to finished, the tests will begin to pass, and once all the tests pass, the feature is finished.
+To start the quality assurance process, each developer will write tests before or while they are developing the feature being tested. Allowing these tests to fail in the beginning will guide the development process for these features. Ideally, as the feature becomes closer to being finished, the tests will begin to pass, and once all the tests pass, the feature is finished.
 
 We aim to create at least one test for each main feature of a module. When these tests pass, each of the main features that the module encompasses should be in working order. This means that it may be time for a merge to master.
 
