@@ -3,6 +3,21 @@
 
 ## Quality Assurance Strategy
 
+To start the quality assurance process, each developer will write tests before or while they are developing the feature being tested. Allowing these tests to fail in the beginning will guide the development process for these features. Ideally, as the modules feature becomes closer to finished, the tests will begin to pass, and once all the tests pass, the feature is finished.
+
+We aim to create at least one test for each main feature of a module. When these tests pass, each of the main features that the module encompasses should be in working order. This means that it may be time for a merge to master.
+
+### Merge Request Procedure
+
+Before merging to master, a pull request must be carried out to make sure that you are up to date with the main branch. After the pull has been carried out, run the tests again to make sure that nothing contained in the code has broken the features that are to be merged with master. At this point, a merge request can be created. When creating a merge request, make sure an explanation of what you're merging is provided. Tag another developer to look over your code in the merge request, ideally someone who can understand the feature you are working on.
+
+### Code Readability
+
+We have chosen a coding convention that gives our software great readability (refer to Coding Conventions). Whenever a developer is finished writing code, a lint will be run through the code to make sure it is readable and matches our coding convention standards. When going back into legacy code to look for bugs/make changes, readable code is a must.
+
+### Paired Programming
+
+Paired programming can be leveraged in order to write cleaner and more understandable code, with fewer bugs. Ideally, we will make use of paired programming when creating very important modules.
 
 
 ## Test Outline
@@ -13,7 +28,7 @@ We do unit testing to test each single class or component. Unit testing of a cer
 
 we use two strategies to do unit testing:
 
-1. black box testing:
+1. Black Box Testing:
 
 We use black box testing to test data and UI layer. Classes in the data layer contain many functions which are defined by the third-party database. We cannot see what’s code inside those methods so we’d better test the performance of them by black box testing. It’s also hard to test classes in the UI layer by generating test cases directly from the code being tested, so we choose black testing for UI layer as well.
 
@@ -61,7 +76,6 @@ assert x == "something"
 If the condition is false, assert an exception.
 
 
-
 ### Integration Testing
 
 we do integration testing between two or multiple components which interacts with each other. integration testing are done by tester after all the single components which are included in the integration testing, have passed the corresponding unit testing.
@@ -74,6 +88,10 @@ we do system test to make sure everything works well together.
 we only do system test when we have certain confidence in all unit testing and integration testing.
 
 ## Quality Assurance suggestions
+
+
+
+
 
 ### General Strategy
 - use Unit tests for individual functions and modules to verify that they work correctly
