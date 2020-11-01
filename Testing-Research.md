@@ -64,7 +64,9 @@ If the condition is false, assert an exception.
 
 ### Integration Testing
 
-we do integration testing between components or layers which interacts with each other. integration testing are done by tester after all the single components have passed the corresponding unit testing
+we do integration testing between two or multiple components which interacts with each other. integration testing are done by tester after all the single components which are included in the integration testing, have passed the corresponding unit testing.
+
+We do integration testing in two levels. The first level would be testing between components within a layer. The second level would be testing between two adjacent layers. We begin the second level integration testing after the first level integration testings within the two layers have all passed. 
 
 ### End-to-End Testing
 
@@ -84,44 +86,45 @@ we only do system test when we have certain confidence in all unit testing and i
 - test code may be written before code, during code, or after code, according to the developer's choice. However, tests must be completed and passing before code is merged into the master branch. It is recommended to 
 
 ### Formal Methods
-Use mathematical models to verify the correctness of accuracy and wpm in challenge results.
+Use mathematical models to verify the correctness of accuracy and wpm in challenge results. We calculate the answer on paper and then compare it with the answer that the program shows.
 
 ### Technical Quality Attributes
 
 - Correctness
 The program should avoid the happening of bugs
     - ensure the info displayed is correct (wpm, accuracy, ...)
-    - ensure the info displayed is up-to-date (time elapsed, user's history, ...)
+    - ensure the info displayed is up-to-date (time elapsed, user's history, user management ...)
 
 - Reliability
 The program should reduce the bugs per hour/ per use
-    - ensure all wrong characters in user input are highlighted and none of correct characters are highlighted
-
-    - ensure the key in virtual keyboard is highlighted when being pressed and not highlighted when no being pressed
+    - ensure there is no warning or error when the program is running
+    - ensure all wrong characters in user input are highlighted and none of correct characters is highlighted
+    - ensure the key in virtual keyboard is highlighted when being pressed and not highlighted when not being pressed
 
 - Capability
     - ensure all must-have requirements are met and 85% of should-have requirements are met
 
 - Maintainability
     - ensure all could-have features could be added easily and efficiently in the future. They should be added as add-on classes to the original program. The original program does not need to be changed heavily
-    - ensure low-coupling and high cohesion
+    - ensure low-coupling and high-cohesion
 
 - Performance
-    - ensure the program does not waste memory. Memory blocks should be allocated whenever needed and freed whenever no longer needed
+    - ensure the program does not waste memory. Memory blocks should be allocated whenever needed and freed whenever no longer needed.
+    - ensure all non-functional requirements are met
 
 ### User Quality Attributes
 
 - Usability
-    - try to maximize user's satisfaction 
+    - try to maximize user's satisfaction. After we finished the program, we can let several friends or classmates to test our program and give us rating and feedback. Then we can improve our program according to their feedbacks.
 
 - insatiability
-    - ensure the program is easy to install
+    - ensure the program is easy to install and update on either windows or mac os flatform. The installation should be completed by a single installation program without typing anything  in the terminal or any other third-party supporting software.
 
 - documentation
     - ensure the documentation are sufficient, clear and concise
 
 - availability
-    - ensure the program is available at anytime. When the internet connection is lost, an off-line mode should work
+    - ensure the program is available at anytime. When the internet connection is lost, an off-line mode should work instead. As long as the user has internet connection, the connection to the database should be good 95% of the time.
 
 ### Procedure of generating test cases
 
