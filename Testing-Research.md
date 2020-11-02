@@ -91,6 +91,8 @@ we only do system test when we have certain confidence in all unit testing and i
 
 Here is a testing plan that will encompass our software's functional requirements. These are acceptance tests.
 
+In order for us to consider our software as 'finished', each of these tests must pass.
+
 Scenario 00: User creates an account
 
 | ID: | AT 00.1 |
@@ -106,7 +108,7 @@ Scenario 00: User creates an account
 | **Expected Result** | |
 | 1. | New school is created in firebase |
 
-//TODO
+
 | ID: | AT 00.2 |
 | ------: | ------ |
 | **Use Case** | school is made with taken name |
