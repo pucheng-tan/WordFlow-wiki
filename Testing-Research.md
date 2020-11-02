@@ -87,6 +87,235 @@ We do integration testing in two levels. The first level would be testing betwee
 we do system test to make sure everything works well together.
 we only do system test when we have certain confidence in all unit testing and integration testing.
 
+### Testing Plan
+
+Here is a testing plan that will encompass our software's functional requirements. These are acceptance tests.
+
+Scenario 00: User creates an account
+
+| ID: | AT 00.1 |
+| ------: | ------ |
+| **Use Case** | First super admin account is created |
+| **Primary Actors** | super-admin user |
+| **Preconditions** | Firebase user with email "test@test.ca" and password "Pass123!" exists, the name "new school" is not taken for schools  |
+| | Connected to the internet |
+| **Procedure** |  |
+| 1. | test@test.ca logs into authentication with password Pass123! |
+| 2. | profile menu is selected from main menu, create school under the school bar is selected |
+| 3. | the name "new school" is inputed and sent to firebase |
+| **Expected Result** | |
+| 1. | New school is created in firebase |
+
+//TODO
+| ID: | AT 00.2 |
+| ------: | ------ |
+| **Use Case** | school is made with taken name |
+| **Primary Actors** | super-admin user |
+| **Preconditions** | Firebase user with email "test@test.ca" and password "Pass123!" exists, the name "new school" is not taken for schools  |
+| | Connected to the internet |
+| **Procedure** |  |
+| 1. | test@test.ca logs into authentication with password Pass123! |
+| 2. | profile menu is selected from main menu, create school under the school bar is selected |
+| 3. | the name "new school" is inputed and sent to firebase |
+| **Expected Result** | |
+| 1. | New school is created in firebase |
+
+| ID: | AT 00.3 |
+| ------: | ------ |
+| **Use Case** | Super admin is created for an existing school by an existing super admin for the school |
+| **Primary Actors** | super-admin user |
+| **Preconditions** | creator is an existing super admin for a school |
+| | Connected to the internet |
+| **Procedure** |  |
+| 1. | existing super admin chooses create new user in User management menu |
+| 2. | new super admin is selected, and the submit button is pressed |
+| 3. | a new account is created with valid credentials, and with the school of the original super admin |
+| **Expected Result** | |
+| 1. | new super admin user in firebase |
+
+| ID: | AT 00.4 |
+| ------: | ------ |
+| **Use Case** | standard user creates an account for the first time with no school |
+| **Primary Actors** | standard user |
+| **Preconditions** | test*test.ca and Pass123 do not exist for an existing user |
+| | user is connected to the internet |
+| **Procedure** |  |
+| 1. | new user gets to authentication page and enters test@test.ca and Pass123, presses submit |
+| 2. | user is admitted to the main menu page |
+| **Expected Result** | |
+| 1. | new standard user is saved in firebase, without any school |
+
+| ID: | AT 00.5 |
+| ------: | ------ |
+| **Use Case** | standard user creates an account for the first time without valid credentials |
+| **Primary Actors** | standard user |
+| **Preconditions** | test*test.ca is owned by an existing user |
+| | user is connected to the internet |
+| **Procedure** |  |
+| 1. | new user gets to authentication page and enters test@test.ca and Pass123, presses submit |
+| 2. | user is notified that email already exists |
+| **Expected Result** | |
+| 1. | new user is not saved in firebase |
+
+Scenario 01: User logs in
+
+| ID: | AT 01.1 |
+| ------: | ------ |
+| **Use Case** | user logs in to the system with correct credentials |
+| **Primary Actors** | all users |
+| **Preconditions** | test*test.ca and Pass123 already exist |
+| | user is connected to the internet |
+| **Procedure** |  |
+| 1. | new user gets to authentication page and enters test@test.ca and Pass123, presses submit |
+| 2. | user is admitted to the main menu page |
+| **Expected Result** | |
+| 1. | user with test@test.ca is connected and authenticated to firebase authentication |
+
+| ID: | AT 01.2 |
+| ------: | ------ |
+| **Use Case** | user logs in without valid credentials |
+| **Primary Actors** | standard user |
+| **Preconditions** | test*test.ca and pass123 do not match |
+| | user is connected to the internet |
+| **Procedure** |  |
+| 1. | new user gets to authentication page and enters test@test.ca and Pass123, presses submit |
+| 2. | user is notified that they entered invalid credentials |
+| **Expected Result** | |
+| 1. | no change in firebase |
+
+| ID: | AT 01.3 |
+| ------: | ------ |
+| **Use Case** | user logs in not connected to the internet |
+| **Primary Actors** | standard user |
+| **Preconditions** | user is not connected to the internet |
+| **Procedure** |  |
+| 1. | new user gets to authentication page and enters test@test.ca and Pass123, presses submit |
+| 2. | user is warned that they are not connected to the internet |
+| **Expected Result** | |
+| 1. | no change in firebase database |
+
+Scenario 02: User takes a typing challenge
+
+| ID: | AT 02.1 |
+| ------: | ------ |
+| **Use Case** | user finishes a typing challenge |
+| **Primary Actors** | standard user |
+| **Preconditions** | user logged in with test*test.ca |
+| | user is connected to the internet |
+| **Procedure** |  |
+| 1. | logged in user finishes typing challenge |
+| 2. | results are calculated and showed on users screen |
+| 3. | results from the test are sent to firebase |
+| **Expected Result** | |
+| 1. | new test results added in firebase under user test@test.ca |
+
+| ID: | AT 02.2 |
+| ------: | ------ |
+| **Use Case** | user starts a typing challenge |
+| **Primary Actors** | standard user |
+| **Preconditions** | user logged in with test@test.ca |
+| | user is connected to the internet |
+| **Procedure** |  |
+| 1. | user selects typing challenge menu and selects the type, presses start |
+| 2. | a typing challenge is requested by test@test.ca |
+| **Expected Result** | |
+| 1. | firebase sends a typing challenge to test@test.ca |
+
+Scenario 03: user views their typing history
+
+| ID: | AT 03.1 |
+| ------: | ------ |
+| **Use Case** | user views their typing history page |
+| **Primary Actors** | standard user |
+| **Preconditions** | user logged in with test@test.ca |
+| | user is connected to the internet |
+| **Procedure** |  |
+| 1. | user selects typing history page |
+| 2. | request is sent to firebase for user typing data |
+| 3. | data is displayed on typing history page through tables and graphs |
+| **Expected Result** | |
+| 1. | no change in firebase |
+
+Scenario 04: Admin manages a classroom
+
+| ID: | AT 04.1 |
+| ------: | ------ |
+| **Use Case** | admin adds an existing user to their classroom |
+| **Primary Actors** | admin |
+| **Preconditions** | test*test.ca is an existing user in the admin's school |
+| | admin is connected to the internet |
+| **Procedure** |  |
+| 1. | from the manage classrooms screen, admins clicks add new user, test@test.ca is sent |
+| 2. | user with email test@test.ca is invited to classroom |
+| **Expected Result** | |
+| 1. | in firebase, test@test.ca will be placed under the classroom under the admin's school |
+
+| ID: | AT 04.2 |
+| ------: | ------ |
+| **Use Case** | admin adds a non existing user to their classroom |
+| **Primary Actors** | admin |
+| **Preconditions** | test*test.ca does not exist in the admin's school |
+| | user is connected to the internet|
+| **Procedure** |  |
+| 1. |  from the manage classrooms screen, admins clicks add new user, test@test.ca is sent |
+| 2. | admin is notified that they entered an invalid user email |
+| **Expected Result** | |
+| 1. | no change to firebase |
+
+| ID: | AT 04.3 |
+| ------: | ------ |
+| **Use Case** | admin creates a classroom |
+| **Primary Actors** | admin |
+| **Preconditions** | user is connected to the internet|
+| | 'new classroom' is not a classroom |
+| **Procedure** |  |
+| 1. | admin selects manage classroom and types in 'new classroom' |
+| 2. | presses submit |
+| **Expected Result** | |
+| 1. | new classroom is created in the admins school |
+
+| ID: | AT 04.4 |
+| ------: | ------ |
+| **Use Case** | admin creates a classroom with a name that is already taken |
+| **Primary Actors** | admin |
+| **Preconditions** | user is connected to the internet |
+| | 'new classroom' is already a classroom in the admin's school |
+| **Procedure** |  |
+| 1. | admin selects manage classroom and types in 'new classroom' |
+| 2. | presses submit |
+| **Expected Result** | |
+| 1. | nothing is changed in firebase, admin is sent a message that the classroom exists |
+
+| ID: | AT 04.5 |
+| ------: | ------ |
+| **Use Case** | admin deletes an existing classroom |
+| **Primary Actors** | admin |
+| **Preconditions** | 'new classroom' is a classroom that the admin manages |
+| | user is connected to the internet |
+| **Procedure** |  |
+| 1. | admin goes to the classroom management page and clicks on an existing classroom |
+| 2. | clicks delete |
+| **Expected Result** | |
+| 1. | classroom is removed from firebase, students in it are not removed from school, but removed from classroom |
+| 2. | admin gets a notification saying that the classroom has been deleted |
+
+
+Scenario 05: Admin assigns typing challenge
+
+| ID: | AT 05.1 |
+| ------: | ------ |
+| **Use Case** | admin assigns typing challenge to existing classroom |
+| **Primary Actors** | admin |
+| **Preconditions** | classroom 'new classroom' exists |
+| | admin is connected to the internet |
+| **Procedure** |  |
+| 1. | admin goes to the classroom management page |
+| 2. | admin clicks on 'new classroom' selects test, presses submit |
+| **Expected Result** | |
+| 1. | in firebase, a new test will be registered under each user of the classroom with no results |
+
+
+
 ## Quality Assurance suggestions
 
 
