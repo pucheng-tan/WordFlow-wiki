@@ -320,10 +320,118 @@ In order for us to consider our software as 'finished', each of these tests must
 
 #### Scenario 06: Admin views a classroom report
 
+| ID: | AT 06.1 |
+| ------: | ------ |
+| **Use Case** | admin views a classroom report from an existing classroom |
+| **Primary Actors** | admin |
+| **Preconditions** | classroom called 'new classroom exists, and the admin manages it|
+| | admin is connected to the internet |
+| **Procedure** |  |
+| 1. | admin clicks on the classroom management page, clicks on the classroom called 'new classroom' in the classroom list |
+| 2. | admin clicks view report |
+| **Expected Result** | |
+| 1. | admin is sent a graph of dates on x axis, average class wpm on y axis |
+
+| ID: | AT 06.2 |
+| ------: | ------ |
+| **Use Case** | admin makes specific adjustments to classroom report |
+| **Primary Actors** | admin |
+| **Preconditions** | admin is connected to the internet |
+| **Procedure** |  |
+| 1. | from report page, admin selecets % accuracy instead of average wpm |
+| 2. | next, admin changes the date range |
+| **Expected Result** | |
+| 1. | no change in firebase |
+| 2. | admin collects new data from local environmnet (it was loaded when the admin clicked view report) |
+| 3. | the data is displayed on the admins screen |
+
 #### Scenario 07: User takes an assigned typing challenge
+
+| ID: | AT 07.1 |
+| ------: | ------ |
+| **Use Case** | user takes an assigned typing challenge |
+| **Primary Actors** | standard user |
+| **Preconditions** | user logged in with test@test.ca |
+| | user is connected to the internet |
+| **Procedure** |  |
+| 1. | User clicks on assigned challenge and selects a challenge to be taken |
+| 2. | request is sent to firebase for challenge data to user with email test@test.ca |
+| 3. | challenge data appears on users screen, user begins the challenge |
+| **Expected Result** | |
+| 1. | no change in firebase |
+
+| ID: | AT 07.2 |
+| ------: | ------ |
+| **Use Case** | User finishes a typing challenge |
+| **Primary Actors** | standard user |
+| **Preconditions** | user logged in with test@test.ca |
+| | user is connected to the internet |
+| **Procedure** |  |
+| 1. | user finishes an assigned typing challenge |
+| 2. | user is sent back to assigned typing challenges screen |
+| **Expected Result** | |
+| 1. | new typing challenge entry sent to firebase under user test@test.ca, under the classroom they are participating in |
 
 #### Scenario 08: Super admin can create and manage admins
 
+| ID: | AT 08.1 |
+| ------: | ------ |
+| **Use Case** | super admin attemps to create an admin from a user that doesnt exist |
+| **Primary Actors** | super admin |
+| | standard user |
+| **Preconditions** | user test@test.ca does not exist in the super admins school |
+| | super admin is connected to the internet |
+| **Procedure** |  |
+| 1. | Super admin selects new admin on the manage users screen |
+| 2. | super admin types in test@test.ca |
+| **Expected Result** | |
+| 1. | no change in firebase |
+| 2. | the admin is given prompt notifiying that the user does not exist in the school |
+
+| ID: | AT 08.2 |
+| ------: | ------ |
+| **Use Case** | super admin creates a new admin from an existing user |
+| **Primary Actors** | super admin |
+| | standard user |
+| **Preconditions** | user with test@test.ca exists |
+| | super admin is connected to the internet |
+| **Procedure** |  |
+| 1. | super admin selects new admin on the manage users screen |
+| 2. | super admin types in test@test.ca |
+| 3. | super admin presses submit |
+| **Expected Result** | |
+| 1. | admin is notified the new admin was created |
+| 2. | in firebase, a new entry is created under admins under the super admin's school |
+
+| ID: | AT 08.3 |
+| ------: | ------ |
+| **Use Case** | super admin changes an admin to an admin |
+| **Primary Actors** | super admin |
+| | admin |
+| **Preconditions** | admin with test@test.ca exists |
+| | user is connected to the internet |
+| **Procedure** |  |
+| 1. | super admin selects manage users from the dashboard |
+| 2. | super admin selects the user test@test.ca from the list of admins |
+| 3. | super admin changes level and presses submit |
+| **Expected Result** | |
+| 1. | in firebase, user test@test.ca is removed from the admin list under the super admin's school |
+| 2. | the super admin is given a prompt that notifies about the successful change |
+
+| ID: | AT 08.4 |
+| ------: | ------ |
+| **Use Case** | super admin removes a user from their school |
+| **Primary Actors** | super admin |
+| | standard user |
+| **Preconditions** | user with email test@test.ca exists |
+| | super admin is connected to the internet |
+| **Procedure** |  |
+| 1. | super admin selects manage users from the dashboard |
+| 2. | super admin selects user search and types test@test.ca |
+| 3. | super admin selects user and presses delete |
+| **Expected Result** | |
+| 1. | in firebase, user test@test.ca is removed from the user's school |
+| 2. | the super admin is given a prompt that notifies about the successful deletion |
 
 ## Quality Assurance suggestions
 
