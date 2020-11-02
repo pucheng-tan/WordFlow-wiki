@@ -1,3 +1,4 @@
+[[_TOC_]]
 # Test Plan
 
 ## Quality Assurance Strategy
