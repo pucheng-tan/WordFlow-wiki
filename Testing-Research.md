@@ -93,7 +93,7 @@ Here is a testing plan that will encompass our software's functional requirement
 
 In order for us to consider our software as 'finished', each of these tests must pass.
 
-Scenario 00: User creates an account
+#### Scenario 00: User creates an account
 
 | ID: | AT 00.1 |
 | ------: | ------ |
@@ -159,7 +159,7 @@ Scenario 00: User creates an account
 | **Expected Result** | |
 | 1. | new user is not saved in firebase |
 
-Scenario 01: User logs in
+#### Scenario 01: User logs in
 
 | ID: | AT 01.1 |
 | ------: | ------ |
@@ -196,7 +196,7 @@ Scenario 01: User logs in
 | **Expected Result** | |
 | 1. | no change in firebase database |
 
-Scenario 02: User takes a typing challenge
+#### Scenario 02: User takes a typing challenge
 
 | ID: | AT 02.1 |
 | ------: | ------ |
@@ -223,7 +223,7 @@ Scenario 02: User takes a typing challenge
 | **Expected Result** | |
 | 1. | firebase sends a typing challenge to test@test.ca |
 
-Scenario 03: user views their typing history
+#### Scenario 03: user views their typing history
 
 | ID: | AT 03.1 |
 | ------: | ------ |
@@ -238,7 +238,7 @@ Scenario 03: user views their typing history
 | **Expected Result** | |
 | 1. | no change in firebase |
 
-Scenario 04: Admin manages a classroom
+#### Scenario 04: Admin manages a classroom
 
 | ID: | AT 04.1 |
 | ------: | ------ |
@@ -302,7 +302,7 @@ Scenario 04: Admin manages a classroom
 | 2. | admin gets a notification saying that the classroom has been deleted |
 
 
-Scenario 05: Admin assigns typing challenge
+#### Scenario 05: Admin assigns typing challenge
 
 | ID: | AT 05.1 |
 | ------: | ------ |
@@ -316,6 +316,13 @@ Scenario 05: Admin assigns typing challenge
 | **Expected Result** | |
 | 1. | in firebase, a new test will be registered under each user of the classroom with no results |
 
+//TODO
+
+#### Scenario 06: Admin views a classroom report
+
+#### Scenario 07: User takes an assigned typing challenge
+
+#### Scenario 08: Super admin can create and manage admins
 
 
 ## Quality Assurance suggestions
