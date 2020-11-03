@@ -1,4 +1,3 @@
-[[_TOC_]]
 # Test Plan
 [Test Plan](/Test Plan and Code Convention/Test Plan)
 
