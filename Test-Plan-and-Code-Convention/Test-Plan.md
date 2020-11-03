@@ -200,7 +200,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | ------: | ------ |
 | **Use Case** | user logs in to the system with correct credentials |
 | **Primary Actors** | all users |
-| **Preconditions** | test*test.ca and Pass123 already exist |
+| **Preconditions** | test@test.ca and Pass123 already exist |
 | | user is connected to the internet |
 | | user was sent an invite to test@test.ca by a school 'new school' |
 | **Procedure** |  |
@@ -213,7 +213,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | ------: | ------ |
 | **Use Case** | user logs in without valid credentials |
 | **Primary Actors** | standard user |
-| **Preconditions** | test*test.ca and pass123 do not match |
+| **Preconditions** | test@test.ca and pass123 do not match |
 | | user is connected to the internet |
 | **Procedure** |  |
 | 1. | new user gets to authentication page and enters test@test.ca and Pass123, presses submit |
@@ -236,7 +236,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | ------: | ------ |
 | **Use Case** | user finishes a typing challenge |
 | **Primary Actors** | standard user |
-| **Preconditions** | user logged in with test*test.ca |
+| **Preconditions** | user logged in with test@test.ca |
 | | user is connected to the internet |
 | **Procedure** |  |
 | 1. | logged in user finishes typing challenge |
@@ -277,7 +277,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | ------: | ------ |
 | **Use Case** | admin adds an existing user to their classroom |
 | **Primary Actors** | admin |
-| **Preconditions** | test*test.ca is an existing user in the admin's school |
+| **Preconditions** | test@test.ca is an existing user in the admin's school |
 | | admin is connected to the internet |
 | **Procedure** |  |
 | 1. | from the manage classrooms screen, admins clicks add new user, test@test.ca is sent |
@@ -290,7 +290,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | ------: | ------ |
 | **Use Case** | admin adds a non existing user to their classroom |
 | **Primary Actors** | admin |
-| **Preconditions** | test*test.ca does not exist in the admin's school |
+| **Preconditions** | test@test.ca does not exist in the admin's school |
 | | user is connected to the internet|
 | **Procedure** |  |
 | 1. |  from the manage classrooms screen, admins clicks add new user, test@test.ca is sent |
