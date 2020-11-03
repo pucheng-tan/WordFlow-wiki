@@ -153,6 +153,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 3. | the name "new school" is inputed and sent to firebase |
 | **Expected Result** | |
 | 1. | new school is created in firebase |
+| 2. | super admin is notified that the school was successfully created |
 
 
 | ID: | AT 00.2 |
@@ -167,6 +168,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 3. | the name "new school" is inputed and sent to firebase |
 | **Expected Result** | |
 | 1. | New school is created in firebase |
+| 2. | super admin is notified that they have successfully created a new school |
 
 | ID: | AT 00.3 |
 | ------: | ------ |
@@ -178,6 +180,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 1. | existing super admin chooses create new user in User management menu |
 | 2. | new super admin is selected, and the submit button is pressed |
 | **Expected Result** | |
+| 2. | the new super admin is notified that they have been given super admin permissions |
 | 1. | new super admin user in firebase under the original super admin's school |
 
 
@@ -185,10 +188,11 @@ In order for us to consider our software as 'finished', each of these tests must
 | ------: | ------ |
 | **Use Case** | standard user creates an account for the first time without valid credentials |
 | **Primary Actors** | standard user |
-| **Preconditions** | test*test.ca is owned by an existing user |
+| **Preconditions** | test@test.ca is owned by an existing user |
+| | user was sent an invite to test@test.ca by a school 'new school' |
 | | user is connected to the internet |
 | **Procedure** |  |
-| 1. | new user gets to authentication page and enters test@test.ca and Pass123, presses submit |
+| 1. | new user gets to authentication page and enters test@test.ca and Pass123, 'new school' as school, presses submit |
 | **Expected Result** | |
 | 1. | new user is not saved in firebase |
 | 2. | user is notified that email already exists |
@@ -201,8 +205,9 @@ In order for us to consider our software as 'finished', each of these tests must
 | **Primary Actors** | all users |
 | **Preconditions** | test*test.ca and Pass123 already exist |
 | | user is connected to the internet |
+| | user was sent an invite to test@test.ca by a school 'new school' |
 | **Procedure** |  |
-| 1. | new user gets to authentication page and enters test@test.ca and Pass123, presses submit |
+| 1. | new user gets to authentication page and enters test@test.ca and Pass123, enters 'new school' into school presses submit |
 | **Expected Result** | |
 | 1. | user with test@test.ca is connected and authenticated to firebase authentication |
 | 2. | user is admitted to the main menu page |
@@ -243,7 +248,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 2. | results are calculated and showed on users screen |
 | 3. | results from the test are sent to firebase |
 | **Expected Result** | |
-| 1. | new test results added in firebase under user test@test.ca |
+| 1. | new test results added in firebase under user with the email test@test.ca |
 
 | ID: | AT 02.2 |
 | ------: | ------ |
@@ -253,9 +258,9 @@ In order for us to consider our software as 'finished', each of these tests must
 | | user is connected to the internet |
 | **Procedure** |  |
 | 1. | user selects typing challenge menu and selects the type, presses start |
-| 2. | a typing challenge is requested by test@test.ca |
+| 2. | a typing challenge is requested by user with the email test@test.ca |
 | **Expected Result** | |
-| 1. | firebase sends a typing challenge to test@test.ca |
+| 1. | typing challenge is displayed on the users GUI |
 
 #### Scenario 03: user views their typing history
 
@@ -269,8 +274,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 1. | user selects typing history page |
 | 2. | request is sent to firebase for user typing data |
 | **Expected Result** | |
-| 1. | no change in firebase |
-| 2. | data is displayed on typing history page through tables and graphs |
+| 2. | data is displayed on the user's typing history page through tables and graphs |
 
 #### Scenario 04: Admin manages a classroom
 
@@ -296,7 +300,6 @@ In order for us to consider our software as 'finished', each of these tests must
 | **Procedure** |  |
 | 1. |  from the manage classrooms screen, admins clicks add new user, test@test.ca is sent |
 | **Expected Result** | |
-| 1. | no change to firebase |
 | 2. | admin is notified that they entered an invalid user email |
 
 | ID: | AT 04.3 |
@@ -310,6 +313,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 2. | presses submit |
 | **Expected Result** | |
 | 1. | new classroom is created in the admins school |
+| 2. | admin is given prompt displaying "You have successfully created a new classroom" |
 
 | ID: | AT 04.4 |
 | ------: | ------ |
@@ -321,7 +325,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 1. | admin selects manage classroom and types in 'new classroom' |
 | 2. | presses submit |
 | **Expected Result** | |
-| 1. | nothing is changed in firebase, admin is sent a message that the classroom exists |
+| 1. | admin is sent a message that the already classroom exists |
 
 | ID: | AT 04.5 |
 | ------: | ------ |
@@ -350,6 +354,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 2. | admin clicks on 'new classroom' selects test, presses submit |
 | **Expected Result** | |
 | 1. | in firebase, a new test will be registered under each user of the classroom with no results |
+| 2. | each of the users in the classroom will receive a new notification about the new typing challenge from their classroom |
 
 //TODO
 
@@ -376,9 +381,8 @@ In order for us to consider our software as 'finished', each of these tests must
 | 1. | from report page, admin selecets % accuracy instead of average wpm |
 | 2. | next, admin changes the date range |
 | **Expected Result** | |
-| 1. | no change in firebase |
-| 2. | admin collects new data from local environmnet (it was loaded when the admin clicked view report) |
-| 3. | the data is displayed on the admins screen |
+| 1. | admin collects new data from local environmnet (it was loaded when the admin clicked view report) |
+| 2. | the data is displayed on the admins screen |
 
 #### Scenario 07: User takes an assigned typing challenge
 
@@ -392,8 +396,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 1. | User clicks on assigned challenge and selects a challenge to be taken |
 | 2. | request is sent to firebase for challenge data to user with email test@test.ca |
 | **Expected Result** | |
-| 1. | no change in firebase |
-| 2. | challenge data appears on users screen, user can begin the challenge |
+| 1. | challenge data appears on users screen, user can begin the challenge |
 
 
 | ID: | AT 07.2 |
@@ -421,8 +424,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 1. | Super admin selects new admin on the manage users screen |
 | 2. | super admin types in test@test.ca |
 | **Expected Result** | |
-| 1. | no change in firebase |
-| 2. | the admin is given prompt notifiying that the user does not exist in the school |
+| 1. | the admin is given prompt notifiying that the user does not exist in the school |
 
 | ID: | AT 08.2 |
 | ------: | ------ |
