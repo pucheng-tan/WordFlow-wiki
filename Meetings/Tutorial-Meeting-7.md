@@ -32,7 +32,7 @@ Date: 2020/11/3
 - 
 
 ## Next Meeting
-Chair: 
+Chair:
 Secretary: 
 
 Date: 2020/11/05
