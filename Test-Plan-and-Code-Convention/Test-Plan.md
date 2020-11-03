@@ -26,7 +26,7 @@ Paired programming can be leveraged in order to write cleaner and more understan
 #### We aim to write code with the following **Techincal Quality Attributes**:
 
 - Correctness:
-    - Should reduce the bugs per line of code through testing and eventually have less than 1 bug per 1 lines of code.
+    - Should reduce the bugs per line of code through testing and eventually have less than 1 bug per 1000 lines of code.
 
 - Reliability
     - Should reduce the bugs per hour/ per time of using
