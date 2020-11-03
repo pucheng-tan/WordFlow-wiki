@@ -180,19 +180,8 @@ In order for us to consider our software as 'finished', each of these tests must
 | **Expected Result** | |
 | 1. | new super admin user in firebase under the original super admin's school |
 
-| ID: | AT 00.4 |
-| ------: | ------ |
-| **Use Case** | standard user creates an account for the first time with no school |
-| **Primary Actors** | standard user |
-| **Preconditions** | test*test.ca and Pass123 do not exist for an existing user |
-| | user is connected to the internet |
-| **Procedure** |  |
-| 1. | new user gets to authentication page and enters test@test.ca and Pass123, presses submit |
-| **Expected Result** | |
-| 1. | new standard user is saved in firebase, without any school |
-| 2. | user is admitted to the main menu page |
 
-| ID: | AT 00.5 |
+| ID: | AT 00.4 |
 | ------: | ------ |
 | **Use Case** | standard user creates an account for the first time without valid credentials |
 | **Primary Actors** | standard user |
