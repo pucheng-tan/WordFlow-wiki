@@ -25,41 +25,37 @@ Paired programming can be leveraged in order to write cleaner and more understan
 
 #### We aim to write code with the following **Techincal Quality Attributes**:
 
-- Correctness
-The program should avoid the happening of bugs
-    - ensure the info displayed is correct (wpm, accuracy, ...)
-    - ensure the info displayed is up-to-date (time elapsed, user's history, user management ...)
+- Correctness:
+    - Should reduce the bugs per line of code through testing and eventually have less than 1 bug per 1 lines of code.
 
 - Reliability
-The program should reduce the bugs per hour/ per use
-    - ensure there is no warning or error when the program is running
-    - ensure all wrong characters in user input are highlighted and none of correct characters is highlighted
-    - ensure the key in virtual keyboard is highlighted when being pressed and not highlighted when not being pressed
+    - Should reduce the bugs per hour/ per time of using
+    - Ensure there is no warning or error pops up when the program is running.
 
 - Capability
-    - ensure all must-have requirements are met and 85% of should-have requirements are met
+    - Ensure all must-have requirements are met and 85% of should-have requirements are met.
 
 - Maintainability
-    - ensure all could-have features could be added easily and efficiently in the future. They should be added as add-on classes to the original program. The original program does not need to be changed heavily
-    - ensure low-coupling and high-cohesion
+    - Ensure all could-have features could be added easily and efficiently in the future. They should be added as add-on classes to the original architecture. The original program should not need to be changed heavily.
+    - Ensure low-coupling and high-cohesion.
 
 - Performance
-    - ensure the program does not waste memory. Memory blocks should be allocated whenever needed and freed whenever no longer needed.
-    - ensure all non-functional requirements are met
+    - Ensure the program does not waste memory. Memory blocks should be allocated whenever needed and freed whenever no longer needed.
+    - Ensure all non-functional requirements are met.
 
 #### We aim to create our system in a way that satisfies the following **User Quality Attributes**:
 
 - Usability
-    - try to maximize user's satisfaction. After we finished the program, we can let several friends or classmates to test our program and give us rating and feedback. Then we can improve our program according to their feedbacks.
+    - Try to maximize user's satisfaction. After we finished the program, we can let several friends or classmates to test our program and give us rating and feedback. Then we can improve our program according to their feedbacks.
 
 - insatiability
-    - ensure the program is easy to install and update on either windows or mac os flatform. The installation should be completed by a single installation program without typing anything  in the terminal or any other third-party supporting software.
+    - Ensure the program is easy to install and update on either windows or mac os flatform. The installation should be completed by a single installation program without typing anything in the terminal or running any other third-party supporting software.
 
 - documentation
-    - ensure the documentation are sufficient, clear and concise
+    - Ensure the documentation are sufficient, clear, and concise.
 
 - availability
-    - ensure the program is available at anytime. When the internet connection is lost, an off-line mode should work instead. As long as the user has internet connection, the connection to the database should be good 95% of the time.
+    - Ensure the program is available at any time. When the internet connection is lost, an off-line mode should work instead. As long as the user has an internet connection, the connection to the database should be good 95% of the time.
 
 #### Automatic Tests
 1. Test files should be named as "test_" + the name of the file being tested. All test functions should be named as "test_" + "short_description_of_test"
