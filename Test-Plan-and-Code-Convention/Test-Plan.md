@@ -143,22 +143,22 @@ In order for us to consider our software as 'finished', each of these tests must
 
 | ID: | AT 00.1 |
 | ------: | ------ |
-| **Use Case** | First super admin account is created |
+| **Use Case** | first super admin account is created |
 | **Primary Actors** | super-admin user |
-| **Preconditions** | Firebase user with email "test@test.ca" and password "Pass123!" exists, the name "new school" is not taken for schools  |
+| **Preconditions** | firebase user with email "test@test.ca" and password "Pass123!" exists, the name "new school" is not taken for schools  |
 | | Connected to the internet |
 | **Procedure** |  |
 | 1. | test@test.ca logs into authentication with password Pass123! |
 | 2. | profile menu is selected from main menu, create school under the school bar is selected |
 | 3. | the name "new school" is inputed and sent to firebase |
 | **Expected Result** | |
-| 1. | New school is created in firebase |
+| 1. | new school is created in firebase |
 
 
 | ID: | AT 00.2 |
 | ------: | ------ |
-| **Use Case** | school is made with taken name |
-| **Primary Actors** | super-admin user |
+| **Use Case** | School is made with an already existing name |
+| **Primary Actors** | Super-admin user |
 | **Preconditions** | Firebase user with email "test@test.ca" and password "Pass123!" exists, the name "new school" is not taken for schools  |
 | | Connected to the internet |
 | **Procedure** |  |
@@ -170,7 +170,7 @@ In order for us to consider our software as 'finished', each of these tests must
 
 | ID: | AT 00.3 |
 | ------: | ------ |
-| **Use Case** | Super admin is created for an existing school by an existing super admin for the school |
+| **Use Case** | super admin is created for an existing school by an existing super admin for the school |
 | **Primary Actors** | super-admin user |
 | **Preconditions** | creator is an existing super admin for a school |
 | | Connected to the internet |
@@ -179,7 +179,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 2. | new super admin is selected, and the submit button is pressed |
 | 3. | a new account is created with valid credentials, and with the school of the original super admin |
 | **Expected Result** | |
-| 1. | new super admin user in firebase |
+| 1. | new super admin user in firebase under the original super admin's school |
 
 | ID: | AT 00.4 |
 | ------: | ------ |
