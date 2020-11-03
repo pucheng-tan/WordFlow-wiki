@@ -9,7 +9,7 @@ To start the quality assurance process, each developer will write tests before o
 
 For testing individual modules we aim to use unit tests. These tests should verify that the modules are behaving correctly when not being influenced by other modules. Integration testing will be used to check the behavior of modules interacting with other modules. These tests are important for our system since we chose layered architecture, so we can use integration testing to check the behavior of layers interacting with other layers. Acceptance tests will be what we aim to make our system pass. They will test that our system properly follows the functional requirements that we set out to make. 
 
-We aim to create at least one test for each main feature of a module. When these tests pass, each of the main features that the module encompasses should be in working order. This means that it may be time for a merge to master.
+We aim to create at least one test for each main method of a module. When these tests pass, each of the main features that the module encompasses should be in working order. This means that it may be time for a merge to master.
 
 ### Merge Request Procedure
 
@@ -47,7 +47,7 @@ The program should reduce the bugs per hour/ per use
     - ensure the program does not waste memory. Memory blocks should be allocated whenever needed and freed whenever no longer needed.
     - ensure all non-functional requirements are met
 
-#### We aim to create our system in a way that satisfies the following User **Quality Attributes**:
+#### We aim to create our system in a way that satisfies the following **User Quality Attributes**:
 
 - Usability
     - try to maximize user's satisfaction. After we finished the program, we can let several friends or classmates to test our program and give us rating and feedback. Then we can improve our program according to their feedbacks.
@@ -85,64 +85,46 @@ Note: this is only regarding testing, should also look at other stuff for merge 
 3. Run all of the tests on the branch.
 4. If the tests pass, accept the merge request. If the tests do not pass: Notify the previous coder. Take a moment to look for obvious problems, or instructions missing to install packages. If you fix it, document problems like missing packages in readme file, and document your fix on the merge request.
 
+#### Logging Test Results
+We are using pytest to handle running tests, and it does not record passes. In order to log results, we will use:
+
+https://pypi.org/project/pytest-json-report/
+
+Running pytest to run our tests also generates a log (this is set in pytest.ini, and configured in conftest.py). A file called .report.json will be generated upon running pytest, which contains the test's logs. The log contains a success field that checks if the test was run at the root, if there were any warnings, and if everything passed.
+
 ## Test Outline
 ### Unit Testing
 
-We do unit testing to test each single class or component. Unit testing of a certain class are done by the developer while writing the class.
+We will carry out unit testing to test each module, class, or component. Unit testing of a certain class is done by the developer while writing the class.
 
-we use two strategies to do unit testing:
+We will use two strategies in order to carry out unit testing:
 
 1. Black Box Testing:
 
-We use black box testing to test data and UI layer. Classes in the data layer contain many functions which are defined by the third-party database. We cannot see what’s code inside those methods so we’d better test the performance of them by black box testing. It’s also hard to test classes in the UI layer by generating test cases directly from the code being tested, so we choose black testing for UI layer as well.
+We will use black box testing to test data and the UI layer. Classes in the data layer contain many functions which are defined by the third-party database. We cannot see the code inside those methods so we’d better test the performance of them through black box testing. It’s also hard to test modules in the UI layer by generating test cases directly from the code being tested, so we will make use of black box testing for UI layer as well.
 
-we have different strategies for different type of parameters:
+We will have different strategies for different types of parameters:
   - Numeric parameters: zero, positive, negative, integer, floating point
   - String parameters: non-empty strings, empty strings
   - List parameters: non-empty, empty, some entries are unqualified
 
-2. white box testing:
+2. White Box Testing:
 
-We use white box testing to test logic layer. Logic layer contains most of the logic and arithmetic operations in our whole system, which are easy to be tested by generating test cases based on the code.
+We will use white box testing to test the logic layer. The logic layer contains most of the logic and arithmetic operations in our whole system, which are easy to be tested by generating test cases based on the code.
 
-in white box testing, we need to force execution of 
+In white box testing, we need to force the execution of 
   - certain lines of code
   - certain paths through the code
   - certain blocks of the code
 
 Due to the complexity of the program, it may be impossible to attempt to test all the lines/paths/blocks.
-We plan to test paths which have the higher priority and write a comment to list the tests that has passed, tested but not passed, or have not been tested yet.
+We plan to test paths which have higher priority and write a comment to list the tests that have passed, tested but not passed, or have not been tested yet.
 
 For both black box and white box testing, to solve the problem of infinite number of unit test cases, we reduce the number of testing of equivalent classes. If a class has been fully tested, them the test of a similar class could be set as lower priority.
 
-#### Handle an exception in python:
-
-try:
-       (try something that can give an assertion)
-
-except (specific assertion)
-       (what to do when you see the assertion)
-except:
-       (how to handle any other assertion)
-else:
-       print("Nothing went wrong.")
-finally:
-       (always runs even when assertion occurs)
-
-#### Raise an exception in python:
-
-raise Exception("raise an exception")
-
-#### Assert statement
-
-assert x == "something"
-
-If the condition is false, assert an exception.
-
-
 ### Integration Testing
 
-we do integration testing between two or multiple components which interacts with each other. integration testing are done by tester after all the single components which are included in the integration testing, have passed the corresponding unit testing.
+We do integration testing between two or multiple components which interacts with each other. integration testing are done by tester after all the single components which are included in the integration testing, have passed the corresponding unit testing.
 
 We do integration testing in two levels. The first level would be testing between components within a layer. The second level would be testing between two adjacent layers. We begin the second level integration testing after the first level integration testings within the two layers have all passed. 
 
