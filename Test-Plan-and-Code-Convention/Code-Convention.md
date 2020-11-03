@@ -1,3 +1,4 @@
+[[_TOC_]]
 # Google Python Style Guide
 
 We chose the Google Style guide, because it is a very detailed guide. It includes both Python Language and Style Rules which each encompass numerous sections. This reduces the likelihood of any ambiguity or conflict with others when coding. The sections also include pros and cons in addition to a final decision on the section giving us insight into how they came to their choice. The Style Guide was also very clear since it made sure to give exceptions and caveats when needed. The examples for each of the sections on what to do and what to avoid were very helpful as a visual reference.
