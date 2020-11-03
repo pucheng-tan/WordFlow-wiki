@@ -120,7 +120,7 @@ If explicitly checking for a None value, use if foo is None or if foo is not Non
 
 If the value is known to be an integer (not the result of len( )), the value may be compared against the integer 0.
 
-## Semicolons
+### Semicolons
 Lines cannot end with a semicolon.
 Do not put two statements on one line using a semicolon.
 
@@ -247,7 +247,7 @@ x = 1000
 
 long_name = 2
 
-## Strings
+### Strings
 Use double quotations for strings. When indicating quotations within strings use single quotes.
 
 | Yes: | No: |
