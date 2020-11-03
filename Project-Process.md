@@ -67,6 +67,10 @@ Code editors make a bunch of config files that nobody else needs. Or maybe you h
 
 ### Oh no everything is broken!
 Either:
+- reset it: for "I liked my last commit and I want to go back to that"
+  - git reset --hard
+  - there are other options to reset to a specific commit as well
+  - if it's only a small number of files, many IDEs including VS Code and PyCharm have version control features that allow you to discard uncommitted changes on a file.
 - stash it: for things like "x was working on the branch, I was also working on the branch doing experiments. Now I can't get x's changes!"
   - git stash 
     - sends your code changes away to somewhere you don't care about (but can actually be accessed with git stash apply) so now you can go back to your normal branch
