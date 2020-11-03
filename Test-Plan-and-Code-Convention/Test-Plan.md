@@ -101,18 +101,18 @@ We will use two strategies in order to carry out unit testing:
 
 1. Black Box Testing:
 
-We will use black box testing to test data and the UI layer. Classes in the data layer contain many functions which are defined by the third-party database. We cannot see the code inside those methods so we’d better test the performance of them through black box testing. It’s also hard to test modules in the UI layer by generating test cases directly from the code being tested, so we will make use of black box testing for UI layer as well.
+We will use black-box testing to test the data and the UI layer. Classes in the data layer contain many functions which are defined by the third-party database. We cannot see the code inside those functions so we’d better test the performance of them through black-box testing. It’s also hard to test modules in the UI layer by generating test cases directly from the code being tested, so we will make use of black-box testing for the UI layer as well.
 
 We will have different strategies for different types of parameters:
-  - Numeric parameters: zero, positive, negative, integer, floating point
+  - Numeric parameters: zero, positive, negative, integer, floating-point
   - String parameters: non-empty strings, empty strings
   - List parameters: non-empty, empty, some entries are unqualified
 
 2. White Box Testing:
 
-We will use white box testing to test the logic layer. The logic layer contains most of the logic and arithmetic operations in our whole system, which are easy to be tested by generating test cases based on the code.
+We will use white-box testing to test the logic layer. The classes in the logic layer will be made up of lots of 'if' and 'while' statements. We do want to cover all the boundary situations of those 'if' and 'while' statements, so we choose white-box testing to test the logic layer.
 
-In white box testing, we need to force the execution of 
+In white-box testing, we need to force the execution of 
   - certain lines of code
   - certain paths through the code
   - certain blocks of the code
@@ -120,18 +120,18 @@ In white box testing, we need to force the execution of
 Due to the complexity of the program, it may be impossible to attempt to test all the lines/paths/blocks.
 We plan to test paths which have higher priority and write a comment to list the tests that have passed, tested but not passed, or have not been tested yet.
 
-For both black box and white box testing, to solve the problem of infinite number of unit test cases, we reduce the number of testing of equivalent classes. If a class has been fully tested, them the test of a similar class could be set as lower priority.
+For both black-box and white-box testing, to solve the problem of an infinite number of unit test cases, we reduce the number of testing of equivalent classes. If a class has been fully tested, then the test of a similar class could be set to have a lower priority.
 
 ### Integration Testing
 
-We do integration testing between two or multiple components which interacts with each other. integration testing are done by tester after all the single components which are included in the integration testing, have passed the corresponding unit testing.
+We do integration testing between two or multiple components that interacts with each other. integration testing is done by the tester after all the single components which are included in the integration testing, have passed the corresponding unit testing.
 
 We do integration testing in two levels. The first level would be testing between components within a layer. The second level would be testing between two adjacent layers. We begin the second level integration testing after the first level integration testings within the two layers have all passed. 
 
 ### End-to-End Testing
 
-we do system test to make sure everything works well together.
-we only do system test when we have certain confidence in all unit testing and integration testing.
+we do end-to-end testing to make sure everything works well together.
+we only do end-to-end testing when we have a certain confidence in all unit testing and integration testing.
 
 ## Testing Plan
 
