@@ -152,8 +152,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 2. | profile menu is selected from main menu, create school under the school bar is selected |
 | 3. | the name "new school" is inputed and sent to firebase |
 | **Expected Result** | |
-| 1. | new school is created in firebase |
-| 2. | super admin is notified that the school was successfully created |
+| 1. | super admin is notified that the school was successfully created |
 
 
 | ID: | AT 00.2 |
@@ -167,8 +166,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | 2. | profile menu is selected from main menu, create school under the school bar is selected |
 | 3. | the name "new school" is inputed and sent to firebase |
 | **Expected Result** | |
-| 1. | New school is created in firebase |
-| 2. | super admin is notified that they have successfully created a new school |
+| 1. | super admin is notified that they have successfully created a new school |
 
 | ID: | AT 00.3 |
 | ------: | ------ |
@@ -194,8 +192,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | **Procedure** |  |
 | 1. | new user gets to authentication page and enters test@test.ca and Pass123, 'new school' as school, presses submit |
 | **Expected Result** | |
-| 1. | new user is not saved in firebase |
-| 2. | user is notified that email already exists |
+| 1. | user is notified that email already exists |
 
 #### Scenario 01: User logs in
 
@@ -221,8 +218,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | **Procedure** |  |
 | 1. | new user gets to authentication page and enters test@test.ca and Pass123, presses submit |
 | **Expected Result** | |
-| 1. | no change in firebase |
-| 2. | user is notified that they entered invalid credentials |
+| 1. | user is notified that they entered invalid credentials |
 
 | ID: | AT 01.3 |
 | ------: | ------ |
@@ -232,8 +228,7 @@ In order for us to consider our software as 'finished', each of these tests must
 | **Procedure** |  |
 | 1. | new user gets to authentication page and enters test@test.ca and Pass123, presses submit |
 | **Expected Result** | |
-| 1. | no change in firebase database |
-| 2. | user is warned that they are not connected to the internet |
+| 1. | user is warned that they are not connected to the internet |
 
 #### Scenario 02: User takes a typing challenge
 
