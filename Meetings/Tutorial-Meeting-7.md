@@ -35,8 +35,9 @@ Date: 2020/11/3
 - then decide which issues are part of MVP
 
 ## Next Meeting
-Chair:
-Secretary: 
+Chair: Abdul
+
+Secretary: Cameron
 
 Date: 2020/11/05
 Time: 4:00p.m. via Discord
