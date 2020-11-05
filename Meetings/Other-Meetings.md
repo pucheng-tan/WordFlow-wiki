@@ -197,5 +197,22 @@ Date: 2020/10/15
 
 - A "good" draft should be done of all items by Saturday night/Sunday noon to leave time for review and polishing
 
+## **Meeting 8**
+
+Time: 4:00p.m. via Discord
+
+Date: 2020/11/5
+
+## Agenda
+1. Update on GUI
+2. Update on API
+3. Yuta?
+
+## Meeting Notes & Outcomes
+
+
+## Action Items
+1.
+
 
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
