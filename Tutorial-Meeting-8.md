@@ -24,14 +24,36 @@ Q. how many people have to speak for presentation?
 
 ## Outcomes
 
+Showing progress
+
+Authentication - pretty much finished - just a few bugs
+
+Feedback: all good
+
+Typing challenge
+
+feedback: Make the font bigger, colours more clear
+
+For presentation:
+
+Everyone needs to present
+
+After  Ta left
+
+Fixed git issues: git stash, git reset, git push push —force
+
+Pucheng -has an onscreen keyboard, with a few issues,
+- May need a refactor because the code is really long
+- Button presses are not appearing on the screen
+
 
 ## Action Items
 
 
 ## Next Meeting
-Chair: 
+Chair: Tara
 
-Secretary: 
+Secretary: Sarah
 
 Date: 2020/11/19
 Time: 4:00p.m. via Discord
