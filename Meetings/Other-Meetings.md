@@ -224,6 +224,23 @@ Date: 2020/11/16
 1. Demonstration of potential GUI structures
 
 ## Meeting Notes & Outcomes
+- today we went over what everyone is working on
+
+
+Sarah - working on log in screen
+      - showed a nice looking working version
+
+Cameron - working on main menu plus other windows
+        - nothing to show
+
+
+Pucheng - really busy with 332, will start on the weekend
+
+Tara - organization of issues
+     - hardcoding contexManager
+     - at log in, you instantiate a contextService, when communicating with with firebase, ask for user key from 
+
+Abdul - working with Tara
 
 ## Action Items
 1. Make a complete version of basic structure for the GUI to potentially be able to merge with master.
