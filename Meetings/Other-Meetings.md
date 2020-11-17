@@ -214,5 +214,18 @@ Date: 2020/11/5
 ## Action Items
 1.
 
+## **Meeting 9**
+
+Time: 3:15p.m.-4:15p.m. via Discord
+
+Date: 2020/11/16
+
+## Agenda
+1. Demonstration of potential GUI structures
+
+## Meeting Notes & Outcomes
+
+## Action Items
+1. Make a complete version of basic structure for the GUI to potentially be able to merge with master.
 
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
