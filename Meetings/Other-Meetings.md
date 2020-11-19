@@ -245,4 +245,16 @@ Abdul - working with Tara
 ## Action Items
 1. Make a complete version of basic structure for the GUI to potentially be able to merge with master.
 
+## **Meeting 10**
+
+Time: 4:00p.m.-:p.m. via Discord
+
+Date: 2020/11/19
+
+## Agenda
+
+## Meeting Notes & Outcomes
+
+## Action Items
+
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
