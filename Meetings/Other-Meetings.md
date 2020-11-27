@@ -247,9 +247,9 @@ Abdul - working with Tara
 
 ## **Meeting 10**
 
-Time: 4:00p.m.-:p.m. via Discord
+Time: 7:10p.m.-:p.m. via Discord
 
-Date: 2020/11/19
+Date: 2020/11/26
 
 ## Agenda
 
