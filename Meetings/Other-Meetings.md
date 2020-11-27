@@ -247,14 +247,26 @@ Abdul - working with Tara
 
 ## **Meeting 10**
 
-Time: 7:10p.m.-:p.m. via Discord
+Time: 7:10p.m.-8:10p.m. via Discord
 
 Date: 2020/11/26
 
 ## Agenda
 
+1. Assign parts of demo video and presentation to group members.
+
 ## Meeting Notes & Outcomes
 
+1. Went over the content for the different sections and script for the presentation and demo video.
+2. Took a quick look at the slides for the presentation part.
+3. Project Overview & Description- Abdul
+   Technical System Details- Sarah
+   System Architecture & Design (also updating the documents)- Cameron and Pucheng
+   Testing Overview & Report- Tara
+4. The assigned parts of the demo can be viewed on the Google Drive document.
+
 ## Action Items
+
+1. Everyone make the videos and aim to hand them in at 6:00p.m., 8:00p.m. at the latest, on Friday, November 27, so that Pucheng can put them together and we can hand it in.
 
 [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet "Title") (for anyone editing this).
