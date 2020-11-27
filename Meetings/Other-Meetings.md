@@ -260,8 +260,11 @@ Date: 2020/11/26
 1. Went over the content for the different sections and script for the presentation and demo video.
 2. Took a quick look at the slides for the presentation part.
 3. Project Overview & Description- Abdul
+
    Technical System Details- Sarah
+
    System Architecture & Design (also updating the documents)- Cameron and Pucheng
+
    Testing Overview & Report- Tara
 4. The assigned parts of the demo can be viewed on the Google Drive document.
 
