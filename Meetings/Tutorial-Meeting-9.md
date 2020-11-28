@@ -36,9 +36,9 @@ Date: 2020/11/24
 3. Start adding to script for the demo video.
 
 ## Next Meeting
-Chair:
+Next Chair: Sarah Chen
 
-Secretary:
+Next Secretary: Tara Epp
 
 Date: 2020/11/26
 Time: 4:00p.m. via Discord
