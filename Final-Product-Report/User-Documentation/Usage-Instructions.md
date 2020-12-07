@@ -6,6 +6,8 @@
 
 # Authentication
 
+## TODO: Create a school
+
 ## Signing Up
 
 Note: Unless you have been added to a school and verified your email, you will be unable to sign up.
@@ -28,6 +30,9 @@ Note: Unless you have been added to a school and verified your email, you will b
 7. If your account has been successfully created, you will get a message saying so and that you can log in to get started.
 
 ![sign_up_4](uploads/275b587c544624542fe6f516276baef4/sign_up_4.png)
+
+## TODO: Reset Password
+## TODO: Change Password
 
 # User Management
 
@@ -82,3 +87,16 @@ Note: The privilege level of super-admin users cannot be changed.
 8. To change another user's privilege, click the "Back To Users" button in the upper right corner of the window and repeat steps 1-7.
 
 ![change_privilege_7](uploads/de1c34ad61477a03d6e47853840e2a3d/change_privilege_7.png)
+
+# TODO: Classroom Management
+## TODO: View List of Classrooms
+## TODO: Add New Classroom
+
+# TODO: Typing Challenges
+- general info about click typing challenge, select challenge mode and duration, type the content from the challenge into the input box, space to advance to next word, details about duration
+- something about virtual keyboard
+## TODO: Dictation Typing Challenge
+- information specific to the dictation challenge
+## TODO: Programming Typing Challenge
+- information specific to programming challenges
+
