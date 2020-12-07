@@ -3,9 +3,15 @@
 # User Documentation
 
 ## As-Built Product Description
+Word Flow is an application to train users to type faster and with greater accuracy. The focus is on unique uses not covered by other typing tools- special characters used by programming languages, and typing from audio content. It is designed with typing classes in a school environment in mind, and thus includes a hierarchical user management structure, based on a School having Classrooms.
 
-■ Provide a long-form written description of the product as it currently stands.
-- write it here
+Main functionality includes:
+- Users can complete a variety of typing challenges and view their speed and accuracy for each challenge and a record of challenges that they have completed.
+- Super Admin users can create a School, invite users to join, and create Classrooms of users.
+
+The typing challenges will range from standard English words, to specific programming languages, and typing from audio dictation. It can check the user's input text against the challenge text, showing the user where they are in the text and if they have made any errors, and how long they have spent on the challenge. Once complete, they will see their speed and accuracy for the challenge.
+
+The application is designed for desktop environments and created in the Python programming language. It utilizes the Firebase API for user and database management so that users can access their account information from different devices. Text content is stored in the same database. Audio content for dictation mode is generated via text-to-speech on the text content stored in the database. 
 
 ## [Usage Instructions](Final-Product-Report/User-Documentation/Usage-Instructions)
 
@@ -58,7 +64,7 @@ The system architecture originally proposed is very close to the project as impl
 * [pyttsx3 2.90](https://pypi.org/project/pyttsx3/)
 * [yapf 0.30.0](https://pypi.org/project/yapf/)
 
-### [Firebase](https://firebase.google.com/)
+### Firebase
 * Authentication: The API endpoint for authentication is [Google Identity Toolkit v1](https://cloud.google.com/identity-platform/docs/use-rest-api)
 * Database: [Google Cloud Firestore](https://firebase.google.com/docs/firestore) is used as the document database.
 
