@@ -2,12 +2,17 @@ This is a page for updated sequence diagrams.
 
 ## 08: Super-Admin can create and manage Admins
 
-Use cases 08.1, 08.2, and 08.3 begin with the Super-Admin selecting User Management generating a list of Users as depicted below before branching off:
+Use cases 08.1, 08.2, and 08.3 begin with the Super-Admin selecting User Management generating a list of Users and then selected the desired user as depicted in the two sequence diagrams below before branching off:
 
 | ID | 08.1 and 08.2 and 08.3 |
 | ------ | ------ |
 | Step | Super-Admin clicks on User Management |
-| Sequence Diagram | ![Use_Case_Step_1.svg](uploads/734542d092d89d95e4abc75a16a427e1/Use_Case_Step_1.svg) |
+| Sequence Diagram | ![share_use_case_8.svg](uploads/d3cfcc81090d929e772866a93794dd2e/share_use_case_8.svg) |
+
+| ID | 08.1 and 08.2 and 08.3 |
+| ------ | ------ |
+| Step | Super-Admin clicks on a tab, clicks on a user, and clicks View User |
+| Sequence | Diagram![view_user_8.svg](uploads/796e75014c623e9b3cff59cb40f9f61d/view_user_8.svg) |
 
 | ID | 08.1 |
 | ------ | ------ |
