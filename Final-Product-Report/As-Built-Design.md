@@ -12,6 +12,7 @@ components for important changes based on the final product, including:
 -We mainly followed the storyboards when building the GUI, little changes are needed here
 
 ● UML class diagram(s)
+![Domain_Model_2.0.svg](uploads/419284d5477070d81d12290643b98366/Domain_Model_2.0.svg)
 
 ● UML component diagram(s)
 
