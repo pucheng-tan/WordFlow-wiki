@@ -10,6 +10,35 @@
 ## [Usage Instructions](Final-Product-Report/User-Documentation/Usage-Instructions)
 
 ## As-Built Requirements
+[Functional Requirements](Requirements/Functional-Requirements) are referenced by their number, formatted like so: **additions**, _deletions_ and **_changes_**
+### Standard Users
+- _F0.3 (view other users in the same classroom)_
+- _F0.4 (see display names of admins/super-admins at school)_
+- **_F1.3 "able to see the time elapsed since they began the challenge" --> "time remaining"_**
+- _F4.3 (log out of account)_
+- _F5 (audio controls on dictation challenge)_
+- **"When using the dictation challenge mode: the next word should be played back when a space character is inputted"**
+- _F6.1 (change display name)_
+- _F7.3 (view a report of accuracy/wpm over time)_
+- _F8 (view assignments)_
+- _F9 (view leaderboard)_
+- _F10-13 (all "could haves" for standard users)_
+- **"Users must be able to view a help module to describe how to use the program"**
+- **"Users should be able to see a virtual keyboard when completing a typing challenge that shows the keyboard layout and which keys they are pressing"**
+
+### Admin Users
+- **_F15 (management of classrooms, as far as creating and changing membership, was changed to super-admin scope)_**
+- _F15.2-4 (classroom functionality is incomplete)_
+- _F16 (assigning challenges)_
+- _F17 (reports)_
+- _F18 (classroom functionality is incomplete)_
+- _F19 (showing/hiding leaderboard)_
+
+### Super-Admin Users
+- _F23.1 (users are no longer managed on an individual basis, but on a classroom level)_
+- _F23.2 (classroom functionality is incomplete)_
+- _F24 (user management functionality is incomplete)_
+- _F25 (creating custom typing challenge content is not implemented)_
 
 ■ Tell us about any differences between the system specified in your Milestone 1 document and your final project: additions, changes, and deletions.
 - write it here
