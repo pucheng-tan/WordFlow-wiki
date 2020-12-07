@@ -1,58 +1,12 @@
-## Group Members
+# Group Members
 
 - Cameron Mcleod - cvm791@mail.usask.ca
 - Abdul Salawu - aas171@mail.usask.ca
 - Pucheng Tan - put178@mail.usask.ca
 - Sarah Chen - sbc806@mail.usask.ca
 - Tara Epp - tme017@mail.usask.ca
-- Yuta Ogawa - y.ogawa_sils@ruri.waseda.jp
 
-## Project Description
-
-This is a typing tool that helps users improve their typing speed. The target users are any computer users that wish to improve their speed. We want to make tests that fit different types of users, including programmers, professional typists, TBD. The user is given text to type, and metrics are recorded and displayed at the end of the test. We hope to develop different types of metrics that can help users track their improvement! 
-
-### Must Have
-
-1. GUI interface
-2. Gets text from a 3rd party API (text excerpt), displays to user
-3. Record key presses from the user and compare to the given text
-4. Calculate the user's accuracy (%) and speed (wpm: 5 characters/word including spaces, punctuation), present to the user
-5. Display a timer (elapsed time)
-6. Record data calculated by user's accuracy and speed locally on the device
-
-
-### Should have
-
-1. Different typing settings available:
-a. Programmer mode with more brackets, special characters.
-b. Select text source (such as novels, song lyrics)
-c. Change length of text excerpt
-2. Locally stored leaderboard with name entered after completing the test
-3. Give user a specific amount of time to type as much content as possible
-4. Highlight the text excerpt according to the user's typing progress
-5. A share button which can automatically generate a screenshot of the player's score
-6. Play background music
-
-
-### Could Have
-
-1. User selects specific characters to focus on. ($ for PHP, etc)
-2. User creates a user account that can be accessed from multiple devices
-3. Change keyboard layout: like from QWERTY to Dvorak
-a. Display virtual keyboard on screen, keys being pressed
-b. If in mode of specific key rows, character set would change
-4. Typing from audio (ie: learn new language, or stenographers)
-5. Track user strengths and weaknesses (between certain letters/combinations)
-6. Challenge users based on their weaknesses.
-a. On their weak letter combinations
-7. GUI enhancement: display as a 2D chasing game, with you "running" from the police by typing faster than them
-a. Police speed is your previous speed
-b. Manually set police speed
-c. Start slow, go faster
-8. Change user language from English to a different language
-
-
-# Technology(s)
-
-1. Python
-2. API(s) to source text (TBD)
+# [Milestone 1: Requirements](Requirements)
+# [Milestone 2: Design](Design)
+# [Milestone 3: Test Plan and Code Convention](Test-Plan-and-Code-Convention)
+# [Milestone 4: Final Project](Final-Product-Report/Final-Product-Report)
