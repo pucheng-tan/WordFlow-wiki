@@ -6,7 +6,7 @@ components for important changes based on the final product, including:
 ● Design Storyboards
 
 
-[Design Storyboards](/Final-Product-Report/Design/Design-Storyboards)
+[Design Storyboards](/Final-Product-Report/As-Built-Design/Design-Storyboards)
 
 -We mainly followed the storyboards when building the GUI, little changes are needed here
 
