@@ -7,11 +7,16 @@ Use cases 08.1, 08.2, and 08.3 begin with the Super-Admin selecting User Managem
 | ID | 08.1 and 08.2 and 08.3 |
 | ------ | ------ |
 | Step | Super-Admin clicks on User Management |
+| Differences | 1. The user interacts with GUI instead of ActiveWindow. This is because when a user clicks the User Management button, the button is part of the main menu which is part of the GUI. The user doesn't actually click on the ActiveWindow to get to a new ActiveWindow.|
+| Differences | 2. To get the users of a given privilege level, the UserManagementWindow actually communicates with SchoolManagement instead of UserManagement. This is because getting all the users of a given privilege level at a School involves the entire School while UserManagement deals more with individual user tasks. As a result, UserService also becomes SchoolService. |
 | Sequence Diagram | ![share_use_case_8.svg](uploads/d3cfcc81090d929e772866a93794dd2e/share_use_case_8.svg) |
 
 | ID | 08.1 and 08.2 and 08.3 |
 | ------ | ------ |
 | Step | Super-Admin clicks on a tab, clicks on a user, and clicks View User |
+| Differences | 1. To get users of a certain privilege, rather than searching, the super-admin can select one of the tabs to get them all. This was done as it was more convenient to make three different tabs for users than having to search for them. |
+| Differences | 2. It is the same logic for selecting users. It is easier to have the user select one than searching by display name or email. |
+| Differences | 3. Instead of displaying the user directly on the UserManagement window, it was easier to open to a new window. That way, none of the widgets on the UserManagement window need to be cleared. It also allowed for consistency with the UserManagement storyboards. |
 | Sequence Diagram | ![view_user_8.svg](uploads/796e75014c623e9b3cff59cb40f9f61d/view_user_8.svg) |
 
 | ID | 08.1 |
@@ -19,6 +24,8 @@ Use cases 08.1, 08.2, and 08.3 begin with the Super-Admin selecting User Managem
 | Use Case | Super-Admin makes a Standard User into an Admin User |
 | Preconditions | New Admin User exists in the Super-Admin's School as a Standard User |
 | | Super-Admin is logged in |
+| Differences | 1. Super-admin users get a confirmation box as well, because it flowed more consistently to have only a warning for changing a user's privilege level to super-admin and asking for confirmation to change the privilege for all privilege levels. |
+| Differences| 2. Updating the profile actually didn't need the display name but the user id. |
 | Sequence Diagram | ![use_case_08.1.svg](uploads/9ebb7d2f7e2a13e5031150234028f94f/use_case_08.1.svg) |
 
 | ID | 08.2 |
