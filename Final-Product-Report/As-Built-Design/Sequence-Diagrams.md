@@ -25,4 +25,4 @@ Use cases 08.1, 08.2, and 08.3 begin with the Super-Admin selecting User Managem
 | ------ | ------ |
 | Use Case | Super-Admin changes an Admin user into a Standard User |
 | Preconditions | The Old Admin User exists as an Admin User in the Super-Admin User's School |
-| Sequence Diagram | ![use_case_08.2.svg](uploads/d4e66769d9da659f1828447d912ed46b/use_case_08.2.svg) |
+| Sequence Diagram | ![use_case_08.2.svg](uploads/583f1eb56952ef395233ce904e44f548/use_case_08.2.svg) |
