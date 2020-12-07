@@ -19,6 +19,8 @@ components for important changes based on the final product, including:
 
 ● UML component diagram(s)
 
+![UML_Component_Diagram.vpd__1_](uploads/76ad44b253f39f8cd7928641537509b0/UML_Component_Diagram.vpd__1_.png)
+
 ● UML sequence diagram(s)
 
 ● Persistent Storage Details
