@@ -21,6 +21,8 @@ components for important changes based on the final product, including:
 
 ![UML_Component_Diagram.vpd__5_](uploads/94818d5e58c46fd8bc3a1f0852cd084f/UML_Component_Diagram.vpd__5_.png)
 
+-TODO: add in component for text to speech library
+
 ● UML sequence diagram(s)
 
 [Sequence diagrams](/Design/Interaction-Diagrams)
