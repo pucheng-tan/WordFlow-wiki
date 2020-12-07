@@ -8,6 +8,7 @@ components for important changes based on the final product, including:
 
 [Design Storyboards](/Design/Design-Storyboards)
 -So far no changes to design storyboards
+-We mainly followed the storyboards when building the GUI, little changes are needed here
 
 ● UML class diagram(s)
 
