@@ -15,7 +15,7 @@ components for important changes based on the final product, including:
 
 #### Note: The diagram is quite large, so click on it to get a better view.
 
-![Domain_Model_2.0.svg](uploads/419284d5477070d81d12290643b98366/Domain_Model_2.0.svg)
+![Domain_Model_2.0__1_.svg](uploads/a63ad55cbd98d21574bd006629980530/Domain_Model_2.0__1_.svg)
 
 ● UML component diagram(s)
 
