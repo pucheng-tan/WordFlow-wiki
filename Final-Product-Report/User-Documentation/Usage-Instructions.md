@@ -31,9 +31,6 @@ Note: Unless you have been added to a school and verified your email, you will b
 
 ![sign_up_4](uploads/275b587c544624542fe6f516276baef4/sign_up_4.png)
 
-## TODO: Reset Password
-## TODO: Change Password
-
 # User Management
 
 ## Adding a new user
@@ -88,6 +85,8 @@ Note: The privilege level of super-admin users cannot be changed.
 
 ![change_privilege_7](uploads/de1c34ad61477a03d6e47853840e2a3d/change_privilege_7.png)
 
+## TODO: Sending an Invitation Email Again
+
 # TODO: Classroom Management
 ## TODO: View List of Classrooms
 ## TODO: Add New Classroom
@@ -100,3 +99,11 @@ Note: The privilege level of super-admin users cannot be changed.
 ## TODO: Programming Typing Challenge
 - information specific to programming challenges
 
+# TODO: My Profile
+## TODO: Change First Name
+## TODO: Change Last Name
+## TODO: Reset Password
+## TODO: Change Password
+
+# TODO: Help
+## TODO: Getting User Documentation
