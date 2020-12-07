@@ -35,4 +35,8 @@ Differences:
 
 There is no search bar. This is due to time constraints. Instead of being able to search for a specific user, the admin or super-admin will have to click on tab with the privilege level of the desired user and scroll to find them.
 
+Also, rather than having an actions column, the user will need to be selected in the table. This is because it wasn't possible to put working buttons in the table and it was quicker to put it outside.
+
+There's no button to remove a user, because the functionality for removing a user wasn't implemented, although the remove user button does appear in the window displayed when the view user button is clicked.
+
 ![updated_user_management_window](uploads/c2d4db65dfeeeef88412a63322abd321/updated_user_management_window.png)
