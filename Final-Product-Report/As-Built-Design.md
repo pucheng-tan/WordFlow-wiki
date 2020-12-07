@@ -6,8 +6,7 @@ components for important changes based on the final product, including:
 ● Design Storyboards
 
 
-[Design Storyboards](/Design/Design-Storyboards)
--So far no changes to design storyboards
+[Design Storyboards](/Final-Product-Report/Design/Design-Storyboards)
 
 -We mainly followed the storyboards when building the GUI, little changes are needed here
 
@@ -25,7 +24,7 @@ components for important changes based on the final product, including:
 
 ● UML sequence diagram(s)
 
-[Sequence diagrams](/Design/Interaction-Diagrams)
+[Sequence diagrams](/Final-Product-Report/As-Built-Design/Interaction-Diagrams)
 
 ● Persistent Storage Details
 
