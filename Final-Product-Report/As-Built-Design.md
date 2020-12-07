@@ -19,4 +19,8 @@ components for important changes based on the final product, including:
 
 ● Persistent Storage Details
 
+[Persistent Storage Details](/Design/Persistent-Storage-Details)
+
+-Not many changes, maybe add index number to each of the typing challenge documents
+
 ■ Provide written content outlining the differences between your original Milestone 2 deliverables and these new diagrams. What changed? Why?
