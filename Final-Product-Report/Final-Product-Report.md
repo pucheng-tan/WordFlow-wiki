@@ -10,7 +10,7 @@ User Documentation
 
 ■ How do we use your product? Include screenshots, sample walkthroughs, etc.
 
-[Docs](doc/readme.md)
+[Docs](group2/README.md)
 
 ○ As-Built Requirements
 
