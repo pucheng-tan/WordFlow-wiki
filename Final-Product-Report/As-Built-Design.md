@@ -23,6 +23,8 @@ components for important changes based on the final product, including:
 
 ● UML sequence diagram(s)
 
+[Sequence diagrams](/Design/Interaction-Diagrams)
+
 ● Persistent Storage Details
 
 [Persistent Storage Details](/Design/Persistent-Storage-Details)
