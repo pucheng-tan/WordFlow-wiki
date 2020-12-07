@@ -10,7 +10,9 @@ User Documentation
 
 ■ How do we use your product? Include screenshots, sample walkthroughs, etc.
 
-[Docs](group2/README.md)
+For directions on how to launch our application on Mac and Windows systems, please refer to the following link.
+
+link readme here
 
 ○ As-Built Requirements
 
