@@ -23,7 +23,6 @@
 - _F8 (view assignments)_
 - _F9 (view leaderboard)_
 - _F10-13 (all "could haves" for standard users)_
-- **"Users must be able to view a help module to describe how to use the program"**
 - **"Users should be able to see a virtual keyboard when completing a typing challenge that shows the keyboard layout and which keys they are pressing"**
 
 ### Admin Users
@@ -40,8 +39,14 @@
 - _F24 (user management functionality is incomplete)_
 - _F25 (creating custom typing challenge content is not implemented)_
 
-■ Tell us about any differences between the system specified in your Milestone 1 document and your final project: additions, changes, and deletions.
-- write it here
+### Other changes
+- [wpm](Requirements/Definitions#words-per-minute-wpm) was changed from a calculation based on keystrokes to actual _words_ per minute
+- as accuracy was based on that definition of wpm, its definition has also changed.
+- there is no longer a requirement for a "quit" button- the user simply navigates to another page
+- there are references in the [Non-Functional Requirements](Requirements/Non-Functional-Requirements) to features that are removed in the functiona requirements above
+- the Firebase library that was originally used, forcing a maximum Python version of < 3.7 is no longer used by the project.
+
+The system architecture originally proposed is very close to the project as implemented (the layered architecture, with blackboard for typing challenges, and pipes/filters for the rest). Although, the pipes and filters in the project as built are dependent on what types of objects are passed to them (eg: The classroom dict cannot be passed through a user function without consequences) and so should be considered a modified pipe-and-filter design. 
 
 # Programmer Documentation
 ## Compilation Instructions
