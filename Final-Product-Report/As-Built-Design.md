@@ -19,7 +19,7 @@ components for important changes based on the final product, including:
 
 ● UML component diagram(s)
 
-[UML_Component_Diagram.vpd](uploads/bf9fca98e6ba7672256fdfc31183e356/UML_Component_Diagram.vpd)
+![UML_Component_Diagram.vpd__5_](uploads/94818d5e58c46fd8bc3a1f0852cd084f/UML_Component_Diagram.vpd__5_.png)
 
 ● UML sequence diagram(s)
 
