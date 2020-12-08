@@ -8,6 +8,8 @@
 
 ## TODO: Create a school
 
+## TODO: Log In
+
 ## Signing Up
 
 Note: Unless you have been added to a school and verified your email, you will be unable to sign up.
