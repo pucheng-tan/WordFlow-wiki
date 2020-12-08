@@ -7,7 +7,7 @@
 
 #### Note: The diagram is quite large, so click on it to get a better view.
 
-![Domain_Model_2.0__1_.svg](uploads/a63ad55cbd98d21574bd006629980530/Domain_Model_2.0__1_.svg)
+![Domain_Model_2.0.svg](uploads/eaf6276ce0dbf1917c6a35ef23ee31bf/Domain_Model_2.0.svg)
 
 Differences: 
 
