@@ -4,6 +4,12 @@
 | 2 pm - 3:20 pm | Tara: Pilot, Abdul: Navigator |
 | 3:30 pm - 5:30 pm | Abdul: Pilot, Tara: Navigator |
 
+| Nov 10 | Cameron and Abdul |
+| ------: | ------ |
+| Goals | Start putting together the typing game, Go over the structure of our GUI and make changes |
+| 1:10 pm - 1:55 pm | Cameron: Pilot, Abdul: Navigator |
+| 1:55 pm - 2:40 pm | Abdul: Pilot, Cameron: Navigator |
+
 | Nov 22 | Tara and Sarah|
 | ------: | ------ |
 | Goals | Write tests for getting the challenge content. Add in the ability to use the domain name as the school ID |
