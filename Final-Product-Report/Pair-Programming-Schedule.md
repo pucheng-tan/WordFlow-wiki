@@ -50,3 +50,9 @@
 | 4:45pm - 5:47pm| Abdul: Pilot, Sarah: Navigator |
 | 5:47pm - 6:26pm | Sarah: Pilot, Abdul: Navigator |
 | 6:26pm - 7:18pm | Abdul: Pilot, Sarah: Navigator |
+
+| Dec 5 | Pucheng and Sarah |
+| ------ | ------ |
+| Goals | Make a basic my profile window and make a help window for each of the different levels of users |
+|  8:13p.m.-8:56p.m. | Sarah: Pilot, Pucheng: Navigator |
+| 8:56p.m.-10:05p.m. | Pucheng: Pilot, Sarah: Navigator |
