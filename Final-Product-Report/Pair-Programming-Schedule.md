@@ -18,6 +18,12 @@
 | 2:00 pm - 2:30 pm | Cameron: Pilot, Pucheng: Navigator |
 | 2:30 pm - 3:00 pm | Pucheng: Pilot, Cameron: Navigator |
 
+| Nov 17 | Cameron and Sarah |
+| ------: | ------ |
+| Goals | Get the GUI structure fully set up, if so, merge request into master |
+| 4:27 pm - 5:04 pm | Sarah: Pilot, Cameron: Navigator |
+| 5:04 pm - 5:33 pm | Cameron: Pilot, Sarah: Navigator |
+
 | Nov 19 | Abdul and Pucheng|
 | ------: | ------ |
 | Goals | Fix bugs with virtual keyboard and refractor the file for better readability. |
