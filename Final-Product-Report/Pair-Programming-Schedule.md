@@ -50,4 +50,3 @@
 | 4:45pm - 5:47pm| Abdul: Pilot, Sarah: Navigator |
 | 5:47pm - 6:26pm | Sarah: Pilot, Abdul: Navigator |
 | 6:26pm - 7:18pm | Abdul: Pilot, Sarah: Navigator |
-
