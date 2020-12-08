@@ -18,9 +18,9 @@ components for important changes based on the final product, including:
 
 ● UML component diagram(s)
 
-![UML_Component_Diagram.vpd__5_](uploads/94818d5e58c46fd8bc3a1f0852cd084f/UML_Component_Diagram.vpd__5_.png)
+![UML_Component_Diagram](uploads/2a216e2e4aa48f74f4c12d077faaf47c/UML_Component_Diagram.png)
 
--TODO: add in component for text to speech library
+#### Added a new section for a dictation challenge. The notable change here is that the text to speech library component connects with the challenge content component and user input component. This is because the text to speech library needs the typing challenge challenge to read it out, but it also needs to know the user input, because it only reads out a new word on a space.
 
 ● UML sequence diagram(s)
 
