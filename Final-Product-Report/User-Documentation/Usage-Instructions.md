@@ -156,7 +156,16 @@ Note: Make sure your volume is on!
 1. As words are typed into the text box, they will be highlighted red if they are incorrect, and blue if they are correct. Every time space is pressed, the text to speech will read out another word.
 
 ## Programming Typing Challenge
-- information specific to programming challenges
+
+![programming_challenge_dropdown](uploads/881c89cc2e3aafa68646b98702fbd973/programming_challenge_dropdown.png)
+
+1. Before starting a Programming challenge, remember to select the language at the dropdown on the 'Choose a Challenge' window.
+
+![Screenshot_2020-12-07_193901](uploads/5776bf44a6a8ef8fb698f0e62875e50a/Screenshot_2020-12-07_193901.png)
+
+1. Starting the Programming challenge, the challenge will be displayed in the text box, and it will be the language chosen on the 'Choose a Challenge' window.
+
+NOTE: When taking a programming challenge, the test does not need returns or tabs to be inputted. When you get to the end of a line, just press space and the test will automatically skip to the first word on the next line.
 
 # TODO: My Profile
 ## TODO: Change First Name
