@@ -2,9 +2,17 @@
 # Are there things that didn't get done? Any features that are incomplete?
 A list of incomplete tasks and their details can be found on the [development board](https://git.cs.usask.ca/CMPT370-01-2020/group2/-/boards) but are summarized here.
 
-## Logging in and Creating Schools
+## Logging In
 
-Both have issues of poor error messages. For example, if a user enters in an incorrect school id or incorrect password, it will not tell the user that, it will just fail to open up into the welcome window or fail to create the school.
+Logging in has issues of poor error messages. For example, if a user enters in an incorrect school id or incorrect password, it will not tell the user that, it will just fail to open up into the welcome window.
+
+## Creating Schools
+
+Creating a School could also use error messages. For example, if a user enters a bad email address, it will not tell the user that, it will just fail to create the school and incorrectly tell the user that the school has been created.
+
+## Signing Up
+
+The problem is once a user has set up their account, if they try to set up their account again, it will successfully go through. For example, if a user verified their email then signed up with the school id of the school that they were added to with password 123456, and then did so again, only changing the password to 1234567, instead of saying "You have already signed up!", the user will get a message saying their account has been successfully created and their password will have changed to be 1234567.
 
 ## School Management
 School management was not implemented. In order to make a new school, the user must create one through the authentication screen.
