@@ -1,7 +1,3 @@
-○ Usage Instructions
-
-     ■ How do we use your product? Include screenshots, sample walkthroughs, etc.
-
 [[_TOC_]]
 
 # Authentication
@@ -257,5 +253,3 @@ NOTE: When taking a programming challenge, the test does not need returns or tab
 
 ![change_password_3](uploads/14a725b5f9beb35ec5efdb8a09d76abb/change_password_3.png)
 
-# TODO: Help
-## TODO: Getting User Documentation
