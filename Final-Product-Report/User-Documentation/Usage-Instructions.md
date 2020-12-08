@@ -9,11 +9,11 @@
 ## TODO: Create a school
 
 ## Log In
-![LogIn1](uploads/ddb1a602d4e2023aeec691ea762eab72/LogIn1.JPG)
+![LogIn2](uploads/62c14ca2b171b69e620b060eaae0971d/LogIn2.JPG)
 
-1. Enter in your valid school name in the "School" field.
-2. Enter in your email address into the "Email" field.
-3. Enter in your password into the "Password" field. 
+1. Enter in your valid school name in the "School" field eg "3p1U6xAvKic1RvXMl5nJ".
+2. Enter in your email address into the "Email" field eg "1123@gmail.com".
+3. Enter in your password into the "Password" field eg "123456". 
 4. Click "Sign In".
 
 ## Signing Up
