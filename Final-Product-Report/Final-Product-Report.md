@@ -21,6 +21,7 @@ The application is designed for desktop environments and created in the Python p
 - _F0.3 (view other users in the same classroom)_
 - _F0.4 (see display names of admins/super-admins at school)_
 - **_F1.3 "able to see the time elapsed since they began the challenge" --> "time remaining"_**
+- **_F.2.2.1 The number of languages available in programmer mode was reduced to three and include Python, C, and HTML. The rest are not available._**
 - _F4.3 (log out of account)_
 - _F5 (audio controls on dictation challenge)_
 - **"When using the dictation challenge mode: the next word should be played back when a space character is inputted"**
