@@ -2,13 +2,17 @@
 # Are there things that didn't get done? Any features that are incomplete?
 A list of incomplete tasks and their details can be found on the [development board](https://git.cs.usask.ca/CMPT370-01-2020/group2/-/boards) but are summarized here.
 
+## School Management
+School management was not implemented. In order to make a new school, the user must create one through the authentication screen.
+
 ## Classroom Management
 Classroom management has only just started- classrooms are able to be created with a name, but adding users to classrooms, and assigning admins to them is not yet implemented. Likewise, users cannot properly be removed, and classrooms cannot be deleted.
 
 ## User Management
 In the User Management window, there is an "Invite All" button. The functionality for this button has not been implemented. Instead, if the admin or super-admin wishes to send a new invitation email to multiple users, they must click "View User" for each of them and invite them from there.
 
-Once a user has been selected and viewed, the buttons at the top of "Assign New Challenge", "Reports", and "Remove" are all features that didn't get done, so clicking the buttons doesn't do anything.
+Once a user has been selected and viewed, the buttons at the top of "Assign New Challenge", "Reports", and "Remove" are all features that did not get done, so clicking those buttons does not do anything.
+The user's profile information is also complete as displaying the user's date created, last sign in, and classroom was not implemented. 
 
 ## Reports
 No reporting functionality has been implemented yet. The first step, retrieving a user's challenge history, has been completed, but amalgamation, analysis, presentation, and access to other users' history has not been implemented yet.
@@ -18,6 +22,10 @@ No leaderboard has been created, nor has the option to display the leaderboard f
 
 ## Assignments
 Assignment functionality, where admins can assign challenges to classrooms or specific users, has not been implemented.
+
+## My Profile
+
+The user's ability to change their profile information is incomplete, as they cannot change their display name. They can only change their first name and last name.
 
 ## Mock Database
 A mock database for testing purposes has been started, but is not yet usable. See branch #83.
