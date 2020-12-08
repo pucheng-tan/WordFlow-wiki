@@ -86,6 +86,20 @@ Note: The privilege level of super-admin users cannot be changed.
 ![change_privilege_7](uploads/de1c34ad61477a03d6e47853840e2a3d/change_privilege_7.png)
 
 ## TODO: Sending an Invitation Email Again
+An invitation email is automatically sent when a super-admin adds a user to a school, however maybe the recipient did not receive it or accidentally deleted it. In that case, follow the steps below to send a new one.
+
+1. If you are not already viewing a user, follow steps 1-2 of "Changing a user's privilege".
+2. Click the "Invite" button in the upper right corner.
+
+![invite_again_1](uploads/c87036f9702b2f14c821d5d235e3f204/invite_again_1.png)
+
+3. Confirm yes that you want to invite this user.
+
+![invite_again_2](uploads/f207bc87cf04844df56f25873f7dee4b/invite_again_2.png)
+
+4. You will get a message saying that the email has been sent. Click "OK".
+
+![invite_again_3](uploads/346145936a49fad88a687a5ba8ae745f/invite_again_3.png)
 
 # TODO: Classroom Management
 ## TODO: View List of Classrooms
