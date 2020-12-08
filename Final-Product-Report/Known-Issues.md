@@ -2,7 +2,7 @@
 # Are there things that didn't get done? Any features that are incomplete?
 A list of incomplete tasks and their details can be found on the [development board](https://git.cs.usask.ca/CMPT370-01-2020/group2/-/boards) but are summarized here.
 
-## Authentication and Creating Schools
+## Logging in and Creating Schools
 
 Both have issues of poor error messages. For example, if a user enters in an incorrect school id or incorrect password, it will not tell the user that, it will just fail to open up into the welcome window or fail to create the school.
 
@@ -55,4 +55,4 @@ When the text to speech library reads out text, it blocks. This means that we ch
 Instead of running the text to speech library inside a thread, we now create a new process inside the thread, and the process runs the text to speech library with the word we want it to pronounce.
 
 ## Other workarounds
-For unique identification of Schools, currently just their name is being used, instead of something more reliable like a domain name. Similarly, users don't have first/last names or display names stored, they are primarily identified with their email addresses.
+For unique identification of Schools, currently just their name is being used, instead of something more reliable like a domain name. Similarly, users don't have display names stored, they are primarily identified with their email addresses.
