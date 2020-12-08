@@ -126,12 +126,15 @@ Note: The user needs to be logged in and have privilege level of super-admin.
 
 ## Add New Classroom
 Note: The user needs to be logged in and have privilege level of super-admin.
-![clickClassManagement](uploads/9b65559ad2a9341e4f0ebb2f8a9b696b/clickClassManagement.JPG)
 
 1. Click the "Classroom Management" button on the sidebar.
-![clickAddClassroom](uploads/faf9c48f8d36224c0d0b813170ae6a3a/clickAddClassroom.JPG)
+
+![clickClassManagement](uploads/9b65559ad2a9341e4f0ebb2f8a9b696b/clickClassManagement.JPG)
 
 2. Click the "Add" button.
+
+![clickAddClassroom](uploads/faf9c48f8d36224c0d0b813170ae6a3a/clickAddClassroom.JPG)
+
 ![createNewClass](uploads/b8413945378990e90b33de65cb149636/createNewClass.JPG)
 
 3. Enter in the classroom name in the "Name" field.
@@ -141,6 +144,7 @@ Note: The user needs to be logged in and have privilege level of super-admin.
 7. Select a student from the "Members" field.
 8. Click "Submit".
 
+Note: Some features are incomplete, refer to incomplete features for more information.
 
 # Typing Challenges
 
