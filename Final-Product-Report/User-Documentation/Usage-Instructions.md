@@ -211,17 +211,25 @@ NOTE: When taking a programming challenge, the test does not need returns or tab
 # My Profile
 ## Change First/Last Name
 1. Click "My Profile" at the bottom of the main menu and select whether first name or last name from the drop down menu
+
+![WechatIMG2](uploads/76fb3ec03bc99c96266a1ce5bfb05deb/WechatIMG2.jpeg)
+![61607401856_](uploads/c4dd8c000ce87da59e0444a46cd02525/61607401856_.jpg)
+
 2. Click submit button
+
+![WechatIMG3](uploads/0db7de4f7f6a412924a09d3f814e3e7e/WechatIMG3.jpeg)
+
 3. Enter in the new information
 4. Click "OK"
+
+![WechatIMG4](uploads/e4686ba996c1434177965cd9c38c0d02/WechatIMG4.jpeg)
+
 5. Confirm the change
+
+![WechatIMG5](uploads/fe4bcef5ed8d3dcf2e2a13e3f01c84ec/WechatIMG5.jpeg)
+
 6. Refresh the page and new information is shown
 
-![WechatIMG2](uploads/2e6942142ccb0c24489e113708c7d403/WechatIMG2.jpeg)
-![61607401856_](uploads/fe30e93b13c58f3ee431bf1d6a875dd6/61607401856_.jpg)
-![WechatIMG3](uploads/efe3b7af14b2373d7fc2bf29c0cc21d5/WechatIMG3.jpeg)
-![WechatIMG4](uploads/912bc3eb7da2404456a50effa63e3e83/WechatIMG4.jpeg)
-![WechatIMG5](uploads/e1fbe675541e5b2fbe3ed7e46c111da8/WechatIMG5.jpeg)
 
 ## Reset Password
 1. Click "My Profile" at the bottom of the main menu.
