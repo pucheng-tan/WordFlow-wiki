@@ -21,7 +21,21 @@ A mock database for testing purposes has been started, but is not yet usable. Se
 Testing currently does not cover private functions, user interface, or all of the backend functionality
 
 # Anything that doesn't work as expected?
-## Virtual keyboard ????
 
-# Any workarounds you have?
+## Virtual keyboard
+The virtual keyboard will only work sometimes on windows, usually never on MAC. We think this issue has something to do with the tkinter python GUI library that we are using, specifically, detecting key presses and key releases. Because this issue only happens on some PCs, its extremely hard for us to debug, and in order to fix this issue, we would probably have to choose an new GUI library. No current workaround.
+
+## Storing Programming Challenges in the DB
+When we store programming challenges, we have to hard incode the newlines and tabs in order for them to display on the GUI. However, when we store these challenges in the DB, when the challenge content is requested when someone is doing a challenge, it displays the \n's and \t's rather then the newlines and tabs.
+
+### Workaround
+Currently, we just hardcoded the challenge content, so we are not requesting tests from the database for programming challenges.
+
+## Text-to-Speach Running Inside a Thread
+When the text to speech library reads out text, it blocks. This means that we chose to run it inside a thread so it does not block our GUI and the rest of our system. However, when running the text to speech inside a thread on mac will crash the entire system.
+
+### Workaround
+Instead of running the text to speech library inside a thread, we now create a new process inside the thread, and the process runs the text to speech library with the word we want it to pronounce.
+
+## Other workarounds
 For unique identification of Schools, currently just their name is being used, instead of something more reliable like a domain name. Similarly, users don't have first/last names or display names stored, they are primarily identified with their email addresses.
