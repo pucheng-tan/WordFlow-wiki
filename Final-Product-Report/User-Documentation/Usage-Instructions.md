@@ -108,6 +108,43 @@ An invitation email is automatically sent when a super-admin adds a user to a sc
 # TODO: Typing Challenges
 - general info about click typing challenge, select challenge mode and duration, type the content from the challenge into the input box, space to advance to next word, details about duration
 - something about virtual keyboard
+
+![starting_challenge](uploads/cde74a3beeee7c14bd5c2a691d9948a6/starting_challenge.png)
+
+Starting a typing challenge from the welcome main menu.
+
+1. Press the 'New Challenge' button to go to the 'Choose a Challenge' menu.
+
+![challenge_menu](uploads/6da2616a472fd0911f9a358502d0c328/challenge_menu.png)
+
+This is the 'Choose a Challenge' menu.
+
+1. This text box displays the duration of the typing challenge. Use the up and the down arrows to change the duration of the challenge, starting at 2 minutes, down to 1 minute, and up to 8 minutes.
+
+2. Here you can choose between a Standard typing challenge, a Programming typing challenge, and a Dictation typing challenge. If you choose a Programming typing challenge, you can select the programming language from the dropdown menu.
+
+3. Once the challenge duration and the challenge type have been selected, press the begin button. This button will take you to the typing challenge window.
+
+For this test, we will choose the Standard typing challenge and press begin.
+
+![during-challenge](uploads/b653ba4462bda4b61a2c6cdce03bbc40/during-challenge.png)
+
+1. This is the oncreen keyboard that will display any input that is typed into the answer box (4.)
+
+2. Here is a text box that will display the typing challenge, as well as the user's progress through the typing challenge. Correct words will be highlighted blue, incorrect words will be displayed red.
+
+3. Here is a timer that will start when the user types in space into the answer box (4.). It will start at the duration chosen on the 'Choose a Challenge. menu. If the test is finished before the timer finishes, the test will automatically finish, and the time taken to finish the test will be recorded.
+
+4. Here is the answer box. Before the challenge starts, this box will contain 'Press Space!'. Once the user types space in the box, everything in the box will erase, and the test will undergo. From this point on, everytime the user types a word and presses space, the current word in the answer box will be compared to the first non highlighted word in the text box (2.)
+
+![after_challenge](uploads/d61965ddb0d478df41ee5883e57fd0b9/after_challenge.png)
+
+After the timer finishes or the user finishes all the text, the user will be sent to this screen.
+
+1. These are the test results calculated after the test is finished.
+
+2. Once you are done with a test, you can press home to leave the test and go back to the welcome window.
+
 ## TODO: Dictation Typing Challenge
 - information specific to the dictation challenge
 ## TODO: Programming Typing Challenge
