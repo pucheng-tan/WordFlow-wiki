@@ -8,7 +8,13 @@
 
 ## TODO: Create a school
 
-## TODO: Log In
+## Log In
+![LogIn1](uploads/ddb1a602d4e2023aeec691ea762eab72/LogIn1.JPG)
+
+1. Enter in your valid school name in the "School" field.
+2. Enter in your email address into the "Email" field.
+3. Enter in your password into the "Password" field. 
+4. Click "Sign In".
 
 ## Signing Up
 
