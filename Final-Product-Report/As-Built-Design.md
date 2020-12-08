@@ -10,6 +10,7 @@
 ![Domain_Model_2.0__1_.svg](uploads/a63ad55cbd98d21574bd006629980530/Domain_Model_2.0__1_.svg)
 
 Differences: 
+
 The biggest change here is in the GUI layer. This layer needed a lot of changes because the GUI contained a lot of modules that we never included in the original diagram. Note: In reality, there are still 20+ modules missing from the GUI layer. There are lots of active windows that were not outlined in this diagram because it would make the diagram too big. To represent these missing modules in the GUI layer, we replaced the active windows with the 'OtherWindow' module, and we replaced the menu item that creates that active window with 'OtherMenuItem'. Replace these with the respective active window and menu item to see the missing modules.
 
 ## UML component diagram(s)
