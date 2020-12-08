@@ -105,9 +105,7 @@ An invitation email is automatically sent when a super-admin adds a user to a sc
 ## TODO: View List of Classrooms
 ## TODO: Add New Classroom
 
-# TODO: Typing Challenges
-- general info about click typing challenge, select challenge mode and duration, type the content from the challenge into the input box, space to advance to next word, details about duration
-- something about virtual keyboard
+# Typing Challenges
 
 ![starting_challenge](uploads/cde74a3beeee7c14bd5c2a691d9948a6/starting_challenge.png)
 
@@ -145,9 +143,19 @@ After the timer finishes or the user finishes all the text, the user will be sen
 
 2. Once you are done with a test, you can press home to leave the test and go back to the welcome window.
 
-## TODO: Dictation Typing Challenge
-- information specific to the dictation challenge
-## TODO: Programming Typing Challenge
+## Dictation Typing Challenge
+
+![dictation_challenge_start](uploads/88af4471645644724d3118620d272f63/dictation_challenge_start.png)
+
+Note: Make sure your volume is on!
+
+1. When a dictation challenge loads, the text box (2. from the typing challenge screen) will be all white. Press space in the answer box (4. from the typing challenge screen), and a word will sound from the text to speech. Respond back by typing the word in the answer box.
+
+![dictation_challenge_during](uploads/b00abd273f5473ba02715f8331bf7d9a/dictation_challenge_during.png)
+
+1. As words are typed into the text box, they will be highlighted red if they are incorrect, and blue if they are correct. Every time space is pressed, the text to speech will read out another word.
+
+## Programming Typing Challenge
 - information specific to programming challenges
 
 # TODO: My Profile
