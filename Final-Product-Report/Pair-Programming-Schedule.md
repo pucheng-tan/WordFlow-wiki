@@ -18,6 +18,11 @@
 | 2:00 pm - 2:30 pm | Cameron: Pilot, Pucheng: Navigator |
 | 2:30 pm - 3:00 pm | Pucheng: Pilot, Cameron: Navigator |
 
+| Nov 19 | Abdul and Pucheng|
+| ------: | ------ |
+| Goals | Fix bugs with virtual keyboard and refractor the file for better readability. |
+| 2pm - 3pm | Abdul: Pilot, Pucheng: Navigator |
+| 3pm - 4pm | Pucheng: Pilot, Abdul: Navigator |
 
 | Nov 22 | Tara and Sarah|
 | ------: | ------ |
@@ -31,4 +36,12 @@
 | Goals | Have the typing challenge use actual text content from the database, save the challenge results to the database as well, update the mock_gui to not send stuff to the database |
 | 7:10 pm - 8:20 pm | Tara: Pilot, Cameron: Navigator |
 | 8:20 pm - 9:20 pm | Cameron: Pilot, Tara: Navigator |
+
+
+| Nov 24 | Abdul and Sarah|
+| ------: | ------ |
+| Goals | Get the User Management window set up for super-admin users, and get the window set up for when a user is selected |
+| 4:45pm - 5:47pm| Abdul: Pilot, Sarah: Navigator |
+| 5:47pm - 6:26pm | Sarah: Pilot, Abdul: Navigator |
+| 6:26pm - 7:18pm | Abdul: Pilot, Sarah: Navigator |
 
