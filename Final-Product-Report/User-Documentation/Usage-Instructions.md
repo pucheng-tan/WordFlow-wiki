@@ -228,7 +228,7 @@ NOTE: When taking a programming challenge, the test does not need returns or tab
 
 ![WechatIMG5](uploads/fe4bcef5ed8d3dcf2e2a13e3f01c84ec/WechatIMG5.jpeg)
 
-6. Refresh the page and new information is shown
+6. Refresh the page by clicking the "profile" button again and the new information will be shown
 
 
 ## Reset Password
