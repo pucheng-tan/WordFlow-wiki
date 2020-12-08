@@ -31,4 +31,3 @@ Added a new section for a dictation challenge. The notable change here is that t
 
 -No changes
 
-■ Provide written content outlining the differences between your original Milestone 2 deliverables and these new diagrams. What changed? Why?
