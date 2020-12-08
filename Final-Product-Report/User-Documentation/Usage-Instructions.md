@@ -116,9 +116,31 @@ An invitation email is automatically sent when a super-admin adds a user to a sc
 
 ![invite_again_3](uploads/346145936a49fad88a687a5ba8ae745f/invite_again_3.png)
 
-# TODO: Classroom Management
-## TODO: View List of Classrooms
-## TODO: Add New Classroom
+# Classroom Management
+## View List of Classrooms
+Note: The user needs to be logged in and have privilege level of super-admin.
+
+![clickClassManagement](uploads/9b65559ad2a9341e4f0ebb2f8a9b696b/clickClassManagement.JPG)
+
+1. Click the "Classroom Management" button on the sidebar.
+
+## Add New Classroom
+Note: The user needs to be logged in and have privilege level of super-admin.
+![clickClassManagement](uploads/9b65559ad2a9341e4f0ebb2f8a9b696b/clickClassManagement.JPG)
+
+1. Click the "Classroom Management" button on the sidebar.
+![clickAddClassroom](uploads/faf9c48f8d36224c0d0b813170ae6a3a/clickAddClassroom.JPG)
+
+2. Click the "Add" button.
+![createNewClass](uploads/b8413945378990e90b33de65cb149636/createNewClass.JPG)
+
+3. Enter in the classroom name in the "Name" field.
+4. Enter in a admin's name in the "Search Admins" field.
+5. Select an admin from the "Managed By" field.
+6. Enter in a student's name in the "Search Students" field.
+7. Select a student from the "Members" field.
+8. Click "Submit".
+
 
 # Typing Challenges
 
