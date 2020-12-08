@@ -9,6 +9,43 @@ Notes:
 
 Use cases 08.1, 08.2, and 08.3 begin with the Super-Admin selecting User Management generating a list of Users and then selected the desired user as depicted in the two sequence diagrams below before branching off:
 
+## 00: User creates an account
+
+| ID | 00.1 |
+| ------ | ------ |
+| Use Case | The first Super-Admin account is created for a new School |
+| Precondition | Program is launched and on logIn page |
+| Differences | 1. Authentication Service is user service instead because each management communicates with its corresponding service |
+|  | 2. User Management also appears because in creating the school the super admin also has to be created. |
+|  | 3. Create School window is its own window instead of just being an active window. |
+| Updated Sequence Diagram | ![Use_Case_00.1_Updated_.svg](uploads/45c1de5e1a97288c4ce7beac882bd8ad/Use_Case_00.1_Updated_.svg) |
+
+| ID | 00.2 |
+| ------ | ------ |
+| Use Case | A new User creates an Account |
+| Precondition | Program is launched and on logIn page |
+| Differences | 1. The email has to be verified before the user can create there account which is a design choice |
+| Updated Sequence Diagram | ![Copy_of_Use_Case_00.2_Updated_.svg](uploads/124603b6a9dddfbe2f0fe106d2b6ef85/Copy_of_Use_Case_00.2_Updated_.svg) |
+
+## 01: User logs in
+
+| ID | 01.1 |
+| ------ | ------ |
+| Use Case | User logs in |
+| Precondition | Program is launched and on logIn page |
+| Differences | 1. Login in opens up a new GUI window instead of displaying it on the same window because they are two different types of windows. |
+| Updated Sequence Diagram | ![Copy_of_Use_Case_01.1_Updated_.svg](uploads/b14f2c0ebe82fa9f615d9be66f9d1d68/Copy_of_Use_Case_01.1_Updated_.svg) |
+
+## 03 User views their typing history
+
+| ID | 03.1 |
+| ------ | ------ |
+| Use Case | User views their Report |
+| Precondition | User is Logged in and in the Main menu |
+| Differences | 1. It does not actually communicate with user management because challenge management gets the user id from context service|
+|  | 2. There is no report generator because we did not implement that due to time constraints |
+| Updated Sequence Diagram | ![Use_Case_03.1_updated_.svg](uploads/e70f3c923d160b2f4abb21a9edee1b3a/Use_Case_03.1_updated_.svg) |
+
 | ID | 08.1 and 08.2 and 08.3 |
 | ------ | ------ |
 | Step | Super-Admin clicks on User Management |
