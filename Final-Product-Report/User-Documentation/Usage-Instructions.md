@@ -85,7 +85,7 @@ Note: The privilege level of super-admin users cannot be changed.
 
 ![change_privilege_7](uploads/de1c34ad61477a03d6e47853840e2a3d/change_privilege_7.png)
 
-## TODO: Sending an Invitation Email Again
+## Sending an Invitation Email Again
 An invitation email is automatically sent when a super-admin adds a user to a school, however maybe the recipient did not receive it or accidentally deleted it. In that case, follow the steps below to send a new one.
 
 1. If you are not already viewing a user, follow steps 1-2 of "Changing a user's privilege".
@@ -161,8 +161,31 @@ Note: Make sure your volume is on!
 # TODO: My Profile
 ## TODO: Change First Name
 ## TODO: Change Last Name
-## TODO: Reset Password
-## TODO: Change Password
+## Reset Password
+1. Click "My Profile" at the bottom of the main menu.
+2. Click " Reset Password".
+3. Confirm yes that you want to reset your password.
+
+![reset_password_1](uploads/80d2c35690335b1f88281266a65451fe/reset_password_1.png)
+
+4. You will receive a message stating that an email to reset your password has been sent.
+
+![reset_password_2](uploads/1a6dfe700c5abf4ee1cd5fa7e5f932fa/reset_password_2.png)
+
+## Change Password
+1. Do steps 1-4 of "Reset Password".
+2. Click on the link in the email.
+
+![change_password_1](uploads/6118bc7de8d08262320597545a0a492a/change_password_1.png)
+
+3. Enter your new password.
+4. Click "Save".
+
+![change_password_2](uploads/c813d6027fde9b15bc325266b2d35644/change_password_2.png)
+
+5. You will receive a message stating that you can log in with your new password.
+
+![change_password_3](uploads/14a725b5f9beb35ec5efdb8a09d76abb/change_password_3.png)
 
 # TODO: Help
 ## TODO: Getting User Documentation
