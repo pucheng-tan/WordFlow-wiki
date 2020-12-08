@@ -75,3 +75,5 @@ Libraries used for testing are under Testing Documentation and Instructions.
 ## [As-Built Design](Final-Product-Report/As-Built-Design)
 ## [Known Bugs, Incomplete Features, and Workarounds](Final-Product-Report/Known-Issues)
 
+# [Pair Programming Schedule](Final-Product-Report/Pair-Programming-Schedule)
+
