@@ -8,7 +8,7 @@ Logging in has issues of poor error messages. For example, if a user enters in a
 
 ## Creating Schools
 
-Creating a School could also use error messages. For example, if a user enters a bad email address, it will not tell the user that, it will just fail to create the school and incorrectly tell the user that the school has been created.
+Creating a School could also use better error messages. For example, if a user enters a bad email address, it will not tell the user that, it will just fail to create the school and incorrectly tell the user that the school has been created.
 
 ## Signing Up
 
