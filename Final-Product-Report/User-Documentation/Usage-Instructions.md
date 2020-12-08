@@ -6,7 +6,14 @@
 
 # Authentication
 
-## TODO: Create a school
+## Create a school
+![clickCreate](uploads/c118ce2765ac91783227cd0fa440e5fc/clickCreate.JPG) ![createSchool](uploads/de99381e95c045c8cd27b705ee5d8758/createSchool.JPG)
+
+1. Click the "Create School" link at the bottom of the log in page.
+2. Enter in your school id in the "School" field.
+3. Enter your email address in the "Email" field.
+4. Enter in your password into the "Password" and "Verify Password" fields making that sure that they are at least six characters long and that they match.
+5. Click "Create School".
 
 ## Log In
 ![LogIn2](uploads/62c14ca2b171b69e620b060eaae0971d/LogIn2.JPG)
