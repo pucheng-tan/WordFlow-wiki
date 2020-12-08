@@ -10,6 +10,15 @@
 | 1:10 pm - 1:55 pm | Cameron: Pilot, Abdul: Navigator |
 | 1:55 pm - 2:40 pm | Abdul: Pilot, Cameron: Navigator |
 
+| Nov 17 | Cameron and Pucheng |
+| ------: | ------ |
+| Goals | Finish the text highlighting feature within typing challenges. |
+| 1:00 pm - 1:30 pm | Cameron: Pilot, Pucheng: Navigator |
+| 1:30 pm - 2:00 pm | Pucheng: Pilot, Cameron: Navigator |
+| 2:00 pm - 2:30 pm | Cameron: Pilot, Pucheng: Navigator |
+| 2:30 pm - 3:00 pm | Pucheng: Pilot, Cameron: Navigator |
+
+
 | Nov 22 | Tara and Sarah|
 | ------: | ------ |
 | Goals | Write tests for getting the challenge content. Add in the ability to use the domain name as the school ID |
